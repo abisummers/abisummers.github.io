@@ -10,3 +10,7 @@ body {
 a {
   color: white;
 }
+
+li {
+  list-style-type: none;
+}
