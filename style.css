@@ -14,3 +14,9 @@ a {
 li {
   list-style-type: none;
 }
+
+img {
+  border-radius: 50%;
+  width: 15%;
+  height: auto;
+}
