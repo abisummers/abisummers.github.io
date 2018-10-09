@@ -1,5 +1,6 @@
 {
   "name": "abisummers.github.io",
+  "homepage": "https://abisummers.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
