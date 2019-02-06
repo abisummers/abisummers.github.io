@@ -11,7 +11,7 @@ class Main extends Component {
             😇
           </span>
         </h1>
-        <img src="profile-picture.jpg" alt="Me!" />
+        <img src="profile-picture.png" alt="Me!" />
         <p>
           Web Dev Teaching Assistant{" "}
           <a href="https://www.ironhack.com/en">Ironhack</a>, Paris
