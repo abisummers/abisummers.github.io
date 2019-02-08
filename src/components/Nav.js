@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { NavLink, Route, Switch } from "react-router-dom";
-import About from "./About";
-import Projects from "./Project-list";
+import { NavLink } from "react-router-dom";
 
 class Nav extends Component {
   state = {};
