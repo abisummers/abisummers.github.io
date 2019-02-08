@@ -13,7 +13,7 @@ class Projects extends Component {
             <a href="https://ironhack-sharer.herokuapp.com/">Ironhack Sharer</a>
           </li>
           <li>
-            <a href="https://abisummers.com/Project-One/">
+            <a href="https://abisummers.com/project-one/">
               Tap Tap Revolution!
             </a>
           </li>
