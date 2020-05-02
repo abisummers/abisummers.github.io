@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import Nav from "./components/Nav";
-import { Route, Switch } from "react-router-dom";
-import Projects from "./components/Project-list";
-import About from "./components/About";
 
 import Main from "./components/Main";
 
@@ -10,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <>
-        <Nav />
         <Main />
         <p>
           You can follow me on{" "}
@@ -23,11 +18,6 @@ class App extends Component {
           </a>
         </p>
 
-        <Switch>
-          <Route exact path="/" />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
-        </Switch>
       </>
     );
   }
