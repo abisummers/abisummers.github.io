@@ -1,0 +1,187 @@
+---
+const frPath = Astro.url.pathname.replace(/^\/(en|fr)/, "/fr");
+const enPath = Astro.url.pathname.replace(/^\/(fr|en)/, "/en");
+
+const locale = Astro.url.pathname.substring(1, 3);
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#f5c636" />
+    <title>Abi Summers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content={Astro.generator} />
+
+    <style is:global>
+      :root {
+        --text: black;
+        --background: #f6f3e9;
+        --contrast: #f5c636;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Inconsolata", monospace;
+        background-color: var(--background);
+        display: flex;
+        min-height: 100vh;
+      }
+
+      nav {
+        width: 20vw;
+        flex-shrink: none;
+        background-color: var(--contrast);
+      }
+
+      main {
+        padding: 0.5em;
+        padding-left: 5vw;
+        width: 75vw;
+      }
+
+      .content {
+        max-width: 80ch;
+      }
+
+      .font-riot {
+        font-family: "Protest Riot", sans-serif;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      h1 a {
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h1.aside {
+        font-size: 2em;
+        margin: 0.25em;
+      }
+
+      h1.not-aside {
+        display: none;
+      }
+
+      @media screen and (max-width: 800px) {
+        h1.aside {
+          font-size: 1.25em;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        h1.aside {
+          display: none;
+        }
+
+        h1.not-aside {
+          display: initial;
+        }
+      }
+
+      .large {
+        font-size: 2em;
+      }
+
+      footer {
+        margin-top: 2em;
+      }
+
+      article {
+        max-width: 60ch;
+      }
+
+      .languages {
+        list-style-type: none;
+        padding: 0;
+        margin: 1em;
+      }
+
+      nav a {
+        text-decoration: none;
+      }
+
+      .no-bullets {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      a {
+        color: var(--text);
+      }
+
+      .cta {
+        text-align: center;
+        text-decoration: none;
+        background-color: var(--contrast);
+        padding: 0.5em 1em;
+      }
+
+      .cta:after {
+        content: " →";
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h1 class="font-riot text-center aside">
+        <a href={"/" + locale}>Abi Summers</a>
+      </h1>
+
+      <ul class="languages">
+        <li>
+          <a href={enPath}>
+            <span role="img" aria-label=""> 🇬🇧 </span>{" "}
+            en
+          </a>
+        </li>
+        <li>
+          <a href={frPath}>
+            <span role="img" aria-label=""> 🇫🇷 </span>{" "}
+            fr
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="font-riot not-aside">
+        <a href="/">Abi Summers</a>
+      </h1>
+
+      <div class="content">
+        <slot />
+      </div>
+
+      <footer>
+        <ul class="no-bullets">
+          <li>
+            <a href="mailto:hello@abisummers.com">hello@abisummers.com</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/abisummers/">LinkedIn</a>
+          </li>
+          <li>SIREN: 843306648</li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

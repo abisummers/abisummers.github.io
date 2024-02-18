@@ -1,0 +1,43 @@
+---
+import Main from "../../layouts/main.astro";
+
+const articles: Array<{
+  id: number;
+  title: string;
+  intro: string;
+  link?: string;
+}> = [
+  {
+    id: 1,
+    title: "À propos de moi",
+    intro:
+      "Je suis guide touristique et ingénieur logiciel. Je suis passionné par le partage de mes connaissances et de mon expérience avec les autres. Je suis également mentor et coach. Je suis un fervent défenseur de la diversité et de l'inclusion dans la tech. Tout simplement, j'adore ce que je fais.",
+    link: "/about",
+  },
+];
+---
+
+<Main>
+  <h1 class="font-riot">Abi Summers</h1>
+
+  <section class="large" id="intro">
+    <ul class="no-bullets">
+      <li>guide touristique</li>
+      <li>ingénieur logiciels</li>
+      <li>mentor</li>
+    </ul>
+  </section>
+  {
+    articles.map((article) => (
+      <article>
+        <h2>{article.title}</h2>
+        <p>{article.intro}</p>
+        {article.link && (
+          <a class="cta" href={"/fr/articles" + article.link}>
+            lisez plus
+          </a>
+        )}
+      </article>
+    ))
+  }
+</Main>
