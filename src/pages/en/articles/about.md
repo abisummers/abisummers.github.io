@@ -4,4 +4,10 @@ layout: "../../../layouts/article.astro"
 
 ## About me
 
-I'm a tour guide and software engineer. I'm passionate about sharing my knowledge and experience with others. I'm also a mentor and coach. I'm a strong advocate for diversity and inclusion in tech. Simply put, I love what I do!
+Hi, I'm Abi! I've been living in Paris since 2016 and have spent a lot of time exploring the city, France and surrounding countries. I'm passionate about sharing knowledge, skills and experiences. 
+
+
+Since living in Paris, I've worked as a tour coordinator, a web development teaching assisant and a backend developer. Over this time I've been able to connect with many people and expand on my skill sets. One of the running themes is my passion for helping others grow.
+
+
+
