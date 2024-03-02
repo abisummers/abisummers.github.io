@@ -5,6 +5,8 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
   new RegExp("/" + Astro.currentLocale + "(/|$)"),
   "$1",
 );
+
+const { showLanguageSwitcher = true } = Astro.props
 ---
 
 <!doctype html>
@@ -149,7 +151,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
         >
       </h1>
 
-      <ul class="languages">
+      {showLanguageSwitcher && <ul class="languages">
         <li>
           <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
             <span role="img" aria-label=""> 🇬🇧 </span>{" "}
@@ -162,7 +164,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
             fr
           </a>
         </li>
-      </ul>
+      </ul>}
     </nav>
     <main>
       <h1 class="font-riot not-aside">
