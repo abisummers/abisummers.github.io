@@ -1,12 +1,14 @@
 ---
-const frPath = Astro.url.pathname.replace(/^\/(en|fr)/, "/fr");
-const enPath = Astro.url.pathname.replace(/^\/(fr|en)/, "/en");
+import { getRelativeLocaleUrl } from "astro:i18n";
 
-const locale = Astro.url.pathname.substring(1, 3);
+const currentPathWithoutLocale = Astro.url.pathname.replace(
+  new RegExp("/" + Astro.currentLocale + "(/|$)"),
+  "$1",
+);
 ---
 
 <!doctype html>
-<html lang={locale}>
+<html lang={Astro.currentLocale}>
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -143,18 +145,19 @@ const locale = Astro.url.pathname.substring(1, 3);
   <body>
     <nav>
       <h1 class="font-riot text-center aside">
-        <a href={"/" + locale}>Abi Summers</a>
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, "/")}>Abi Summers</a
+        >
       </h1>
 
       <ul class="languages">
         <li>
-          <a href={enPath}>
+          <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
             <span role="img" aria-label=""> 🇬🇧 </span>{" "}
             en
           </a>
         </li>
         <li>
-          <a href={frPath}>
+          <a href={getRelativeLocaleUrl("fr", currentPathWithoutLocale)}>
             <span role="img" aria-label=""> 🇫🇷 </span>{" "}
             fr
           </a>
@@ -164,7 +167,9 @@ const locale = Astro.url.pathname.substring(1, 3);
 
     <main>
       <h1 class="font-riot not-aside">
-        <a href={"/" + locale}>Abi Summers</a>
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, "/")}>
+          Abi Summers
+        </a>
       </h1>
 
       <div class="content">

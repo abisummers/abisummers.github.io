@@ -1,3 +1,44 @@
 ---
-// Exists only to redirect to the correct page
+import Main from "../layouts/main.astro";
+
+const articles: Array<{
+  id: number;
+  title: string;
+  intro: string;
+  link?: string;
+}> = [
+  {
+    id: 1,
+    title: "About me",
+    intro:
+      "Hi, I'm Abi! I'm a tour guide & backend developer based in Paris. I'm passionate about learning and sharing knowledge through giving tours and workshops.",
+    link: "/about",
+  },
+];
 ---
+
+<Main>
+  <h1 class="font-riot">Abi Summers</h1>
+
+  <section class="large" id="intro">
+    <ul class="no-bullets">
+      <li>tour guide</li>
+      <li>software engineer</li>
+      <li>mentor</li>
+      <li>slow traveller</li>
+    </ul>
+  </section>
+  {
+    articles.map((article) => (
+      <article>
+        <h2>{article.title}</h2>
+        <p>{article.intro}</p>
+        {article.link && (
+          <a class="cta" href={"/articles" + article.link}>
+            read more
+          </a>
+        )}
+      </article>
+    ))
+  }
+</Main>

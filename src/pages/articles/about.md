@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/article.astro"
+layout: "../../layouts/article.astro"
 ---
 
 ## About me
