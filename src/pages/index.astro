@@ -2,17 +2,21 @@
 import Main from "../layouts/main.astro";
 
 const articles: Array<{
-  id: number;
   title: string;
   intro: string;
   link?: string;
 }> = [
   {
-    id: 1,
     title: "About me",
     intro:
       "Hi, I'm Abi! I'm a tour guide & backend developer based in Paris. I'm passionate about learning and sharing knowledge through giving tours and workshops.",
     link: "/about",
+  },
+  {
+    title: "The Alphabet of Île-de-France",
+    intro:
+      "A project to discover a different place in Île-de-France, one letter of the alphabet at a time.",
+    link: "/alphabet-ile-de-france",
   },
 ];
 ---

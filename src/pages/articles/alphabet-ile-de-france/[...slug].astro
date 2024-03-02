@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+export async function getStaticPaths() {
+  return (await getCollection("alphabet-ile-de-france")).map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"alphabet-ile-de-france">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Main showLanguageSwitcher={false}>
+  <h2>{entry.data.title}</h2>
+  <Content />
+  <style>
+    footer {
+      font-style: italic;
+    }
+  </style>
+  <footer>
+    This article is part of the <a href="/articles/alphabet-ile-de-france"
+      >Alphabet of Île-de-France</a
+    > series. Check out the other places as well!
+  </footer>
+</Main>
