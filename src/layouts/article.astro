@@ -164,29 +164,15 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
         </li>
       </ul>
     </nav>
-
     <main>
       <h1 class="font-riot not-aside">
         <a href={getRelativeLocaleUrl(Astro.currentLocale!, "/")}>
           Abi Summers
         </a>
       </h1>
-
       <div class="content">
         <slot />
       </div>
-
-      <footer>
-        <ul class="no-bullets">
-          <li>
-            <a href="mailto:hello@abisummers.com">hello@abisummers.com</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/abisummers/">LinkedIn</a>
-          </li>
-          <li>SIREN: 843306648</li>
-        </ul>
-      </footer>
     </main>
   </body>
 </html>
