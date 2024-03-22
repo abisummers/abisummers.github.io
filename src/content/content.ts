@@ -5,7 +5,7 @@ const alphabet = defineCollection({
   schema: z.object({
     title: z.string(),
     letter: z.string(),
-  })
+  }),
 });
 
 export const collections = {
