@@ -33,6 +33,13 @@ function letterToPosition(letter: string) {
           <a href={"alphabet-ile-de-france/" + entry.slug}>
             {entry.data.title}
           </a>
+          {entry.data.date &&
+            ": " +
+              entry.data.date.toLocaleDateString("en-uk", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
         </li>
       ))
     }
