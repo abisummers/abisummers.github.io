@@ -1,0 +1,50 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+const collection = (await getCollection("alphabet-ile-de-france")).sort(
+  (a, b) => a.data.letter - b.data.letter,
+);
+
+/**
+ * Returns the alphabetical position (1-based) of an uppercase letter.
+ * @param letter uppercase alphabetical letter
+ */
+function letterToPosition(letter: string) {
+  return letter.charCodeAt(0) - "A".charCodeAt(0) + 1;
+}
+---
+
+<Main showLanguageSwitcher={false}>
+  <style>
+    .letter-list {
+      list-style-type: upper-alpha;
+    }
+  </style>
+  <h2>The Alphabet of Île-de-France</h2>
+  <p>
+    A project to discover a different place in Île-de-France, one letter of the
+    alphabet at a time.
+  </p>
+  <ol class="letter-list">
+    {
+      collection.map((entry) => (
+        <li value={letterToPosition(entry.data.letter)}>
+          <>
+            <>
+              {entry.data.date &&
+                entry.data.date.toLocaleDateString("en-uk", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                }) + ": "}
+              <a href={"alphabet-ile-de-france/" + entry.slug}>
+                {entry.data.title}
+              </a>
+            </>
+          </>
+        </li>
+      ))
+    }
+  </ol>
+</Main>
