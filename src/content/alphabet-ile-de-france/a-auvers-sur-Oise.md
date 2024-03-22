@@ -51,7 +51,6 @@ After lunch, I walked towards Château d'Auvers. I wanted to go to the exhibitio
 
 ![Château d'Auvers](../images/auvers-chateau.jpg)
 
-
 After enjoying the time in the sun, I took the bus to Cergy and then the RER back into Paris.
 
 ### Things I would do different next time
@@ -67,8 +66,8 @@ I think that for somewhere like Auvers, it's important to do some planning, beca
 - I had lunch at Palais d'Auvers which cost 15,5€ for the menu midi
 - if I had planned better, I would have go to the exhibition at the château which costs 12€
 
-
 ### Now it's your turn
+
 Are you planning on going to Auvers? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **contact@abisummers.com** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
 
 You can find additional information on the site of [Auvers](https://tourisme-auverssuroise.fr) which is also available in English
