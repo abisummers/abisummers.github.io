@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
 import Main from "../../../layouts/article.astro";
 
 export async function getStaticPaths() {
@@ -15,10 +16,29 @@ interface Props {
 }
 
 const { entry } = Astro.props;
+
+let ogImage: string | undefined;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/images/*.{jpeg,jpg}",
+);
+if (images[entry.data.image]) {
+  const { default: image } = await images[entry.data.image]();
+  const { src } = await getImage({
+    src: image,
+    format: "jpeg",
+  });
+  ogImage = "https://abisummers.com" + src;
+}
+
 const { Content } = await entry.render();
 ---
 
-<Main showLanguageSwitcher={false}>
+<Main
+  showLanguageSwitcher={false}
+  title={entry.data.title}
+  description={`A project to discover a different place in Île-de-France, one letter of the alphabet at a time. In this article, we visit ${entry.data.title}.`}
+  ogImage={ogImage}
+>
   <h2>{entry.data.title}</h2>
   <a href="/articles/alphabet-ile-de-france">← back to all articles</a>
   <p>

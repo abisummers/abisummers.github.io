@@ -6,7 +6,12 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
   "$1",
 );
 
-const { showLanguageSwitcher = true } = Astro.props
+const {
+  title,
+  description,
+  ogImage,
+  showLanguageSwitcher = true,
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -19,7 +24,9 @@ const { showLanguageSwitcher = true } = Astro.props
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#f5c636" />
-    <title>Abi Summers</title>
+    <title>{title ? title + " | Abi Summers" : "Abi Summers"}</title>
+    {description && <meta name="description" content={description} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -151,20 +158,30 @@ const { showLanguageSwitcher = true } = Astro.props
         >
       </h1>
 
-      {showLanguageSwitcher && <ul class="languages">
-        <li>
-          <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
-            <span role="img" aria-label=""> 🇬🇧 </span>{" "}
-            en
-          </a>
-        </li>
-        <li>
-          <a href={getRelativeLocaleUrl("fr", currentPathWithoutLocale)}>
-            <span role="img" aria-label=""> 🇫🇷 </span>{" "}
-            fr
-          </a>
-        </li>
-      </ul>}
+      {
+        showLanguageSwitcher && (
+          <ul class="languages">
+            <li>
+              <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
+                <span role="img" aria-label="">
+                  {" "}
+                  🇬🇧{" "}
+                </span>{" "}
+                en
+              </a>
+            </li>
+            <li>
+              <a href={getRelativeLocaleUrl("fr", currentPathWithoutLocale)}>
+                <span role="img" aria-label="">
+                  {" "}
+                  🇫🇷{" "}
+                </span>{" "}
+                fr
+              </a>
+            </li>
+          </ul>
+        )
+      }
     </nav>
     <main>
       <h1 class="font-riot not-aside">
