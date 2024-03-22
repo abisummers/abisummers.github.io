@@ -34,12 +34,29 @@ function positionToLetter(position: number) {
     }
     .letter-list li {
       border: 0.1em solid currentColor;
-      padding: 0.5em;
       text-align: center;
     }
 
     .letter-list li.unknown {
       color: gray;
+    }
+
+    .letter-list li * {
+      padding: 0.5em;
+      display: block;
+    }
+
+    .letter-list li a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .letter-list li a:hover {
+      background-color: var(--contrast);
+    }
+
+    .letter-list li .title {
+      text-decoration: underline;
     }
   </style>
   <h2>The Alphabet of Île-de-France</h2>
@@ -58,22 +75,20 @@ function positionToLetter(position: number) {
           if (!entry) {
             return (
               <li value={letter} class="unknown">
-                <h3>{letter}</h3>
-                <p>?</p>
-                <p>?</p>
+                <div>
+                  <h3>{letter}</h3>
+                  <p>?</p>
+                  <p>?</p>
+                </div>
               </li>
             );
           }
 
           return (
             <li value={letter}>
-              <a>
+              <a href={"/articles/alphabet-ile-de-france/" + entry.slug}>
                 <h3>{letter}</h3>
-                {
-                  <a href={"/articles/alphabet-ile-de-france/" + entry.slug}>
-                    {entry.data.title}
-                  </a>
-                }
+                <p class="title">{entry.data.title}</p>
                 <p>
                   {entry.data.date.toLocaleDateString("en-uk", {
                     year: "numeric",
