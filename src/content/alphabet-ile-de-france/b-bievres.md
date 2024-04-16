@@ -52,9 +52,9 @@ I didn't get to visit any of the places because they were closed when I went. I 
 
 
 ### What I spent
-- transport is included in my monthly [Navigo](https://www.iledefrance-mobilites.fr/titres-et-tarifs) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is €86,40 which covers the entire Île-de-France region)
-- for lunch I spent €6,30 at the bakery
-- I spent €4 on a soft drink at Cafe Hotel de Paris
+- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is 86,40 which covers the entire Île-de-France region)
+- for lunch I spent 6,30€ at the bakery
+- I spent 4€ on a soft drink at Cafe Hotel de Paris
 
 
 ### Now it's your turn
