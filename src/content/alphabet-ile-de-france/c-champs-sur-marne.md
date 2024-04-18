@@ -42,9 +42,9 @@ Usually, when I plan a day trip there is something that either I could have plan
 
 
 ### What I spent
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is €86,40 which covers the entire Île-de-France region)
-- for lunch, I spent €5,40 at a bakery
-- the entry into the château is €9 (or free if you're an EU resident and under 26)
+- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is 86,40€ which covers the entire Île-de-France region)
+- for lunch, I spent 5,40€ at a bakery
+- the entry into the château is 9€ (or free if you're an EU resident and under 26)
 
 ### Now it's your turn
 Are you planning on going to Champs-sur-Marne? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **contact@abisummers.com** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**

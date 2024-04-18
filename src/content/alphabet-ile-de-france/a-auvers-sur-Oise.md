@@ -62,9 +62,9 @@ I think that for somewhere like Auvers, it's important to do some planning, beca
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is €86,40 which covers the entire Île-de-France region)
-- I had lunch at Palais d'Auvers which cost €15,50 for the menu midi
-- if I had planned better, I would have go to the exhibition at the château which costs €12
+- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is 86,40€ which covers the entire Île-de-France region)
+- I had lunch at Palais d'Auvers which cost 15,50€ for the menu midi
+- if I had planned better, I would have go to the exhibition at the château which costs 12€
 
 ### Now it's your turn
 
