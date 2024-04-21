@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../layouts/article.astro";
+
+const alphabet = (await getCollection("alphabet-ile-de-france")).sort(
+  (a, b) => a.data.letter - b.data.letter,
+);
+
+const unsorted = await Astro.glob("./*.md");
+
+const articles = [
+  ...unsorted.map((article) => ({
+    title: article.frontmatter.title,
+    intro: article.frontmatter.intro,
+    url: article.url,
+  })),
+  ...alphabet.map((article) => ({
+    title: `Visiting ${article.data.title}`,
+    intro: `An account of visiting ${article.data.title} for the Alphabet of Île-de-France series`,
+    url: `./alphabet-ile-de-france/${article.slug}`,
+  })),
+];
+---
+
+<Main>
+  <h2>Articles</h2>
+  <p>Find out more about visiting the region and other tips!</p>
+  {
+    articles.map((article) => (
+      <article>
+        <h3>{article.title}</h3>
+        <p>{article.intro}</p>
+        {article.url && (
+          <a class="cta" href={article.url}>
+            read more
+          </a>
+        )}
+      </article>
+    ))
+  }
+</Main>

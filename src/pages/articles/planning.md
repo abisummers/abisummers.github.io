@@ -1,6 +1,9 @@
 ---
 layout: "../../layouts/article.astro"
+languages: ['en']
+language: 'en'
 title: How to plan a day trip
+intro: Tips on planning a day trip from someone planning many recently
 ---
 
 ## How to plan a day trip

@@ -1,17 +1,16 @@
 ---
 import Main from "../../layouts/main.astro";
 
+const about = (await Astro.glob("./articles/about.md"))[0];
+
 const articles: Array<{
-  id: number;
   title: string;
   intro: string;
   link?: string;
 }> = [
   {
-    id: 1,
-    title: "À propos de moi",
-    intro:
-      "Je suis guide touristique et développeur backend basé à Paris. Je suis passionné par l'apprentissage et le partage de connaissances en organisant des visites et des ateliers.",
+    title: about.frontmatter.title,
+    intro: about.frontmatter.intro,
     link: "/about",
   },
 ];

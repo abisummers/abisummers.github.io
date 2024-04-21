@@ -1,5 +1,9 @@
 ---
 layout: "../../layouts/article.astro"
+languages: ["en", "fr"]
+language: "en"
+title: About me
+intro: Hi, I'm Abi! I'm a tour guide & backend developer based in Paris. I'm passionate about learning and sharing knowledge through giving tours and workshops.
 ---
 
 ## About me

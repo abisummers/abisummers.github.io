@@ -1,6 +1,9 @@
 ---
 layout: "../../layouts/article.astro"
+languages: ['en']
+language: 'en'
 title: Getting around Île-de-France
+intro: Explaining different ways to get around the Île-de-France region using public transport
 ---
 
 ## Getting around Île-de-France

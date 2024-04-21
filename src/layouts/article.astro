@@ -16,6 +16,20 @@ const {
 
 const title = frontmatter?.title || titleFromProps;
 
+const availableLanguagesFor = frontmatter?.languages || ["en", "fr"];
+
+const languages = [
+  {
+    code: "en",
+    emoji: "🇬🇧",
+    url: getRelativeLocaleUrl("en", currentPathWithoutLocale),
+  },
+  {
+    code: "fr",
+    emoji: "🇫🇷",
+    url: getRelativeLocaleUrl("fr", currentPathWithoutLocale),
+  },
+].filter((lang) => availableLanguagesFor.includes(lang.code));
 ---
 
 <!doctype html>
@@ -63,6 +77,7 @@ const title = frontmatter?.title || titleFromProps;
 
       main {
         padding: 0.5em;
+        padding-bottom: 2em;
         padding-left: 5vw;
         width: 75vw;
       }
@@ -174,24 +189,16 @@ const title = frontmatter?.title || titleFromProps;
       {
         showLanguageSwitcher && (
           <ul class="languages">
-            <li>
-              <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
-                <span role="img" aria-label="">
-                  {" "}
-                  🇬🇧{" "}
-                </span>{" "}
-                en
-              </a>
-            </li>
-            <li>
-              <a href={getRelativeLocaleUrl("fr", currentPathWithoutLocale)}>
-                <span role="img" aria-label="">
-                  {" "}
-                  🇫🇷{" "}
-                </span>{" "}
-                fr
-              </a>
-            </li>
+            {languages.map((lang) => (
+              <li>
+                <a href={lang.url}>
+                  <span role="img" aria-label="">
+                    {` ${lang.emoji} `}
+                  </span>{" "}
+                  {lang.code}
+                </a>
+              </li>
+            ))}
           </ul>
         )
       }

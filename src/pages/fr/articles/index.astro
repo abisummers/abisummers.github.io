@@ -1,0 +1,30 @@
+---
+import Main from "../../../layouts/article.astro";
+
+const unsorted = await Astro.glob("./*.md");
+
+const articles = [
+  ...unsorted.map((article) => ({
+    title: article.frontmatter.title,
+    intro: article.frontmatter.intro,
+    url: article.url,
+  })),
+];
+---
+
+<Main>
+  <h2>Articles</h2>
+  {
+    articles.map((article) => (
+      <article>
+        <h3>{article.title}</h3>
+        <p>{article.intro}</p>
+        {article.url && (
+          <a class="cta" href={article.url}>
+            lisez plus
+          </a>
+        )}
+      </article>
+    ))
+  }
+</Main>
