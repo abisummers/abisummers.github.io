@@ -6,6 +6,10 @@ const alphabet = (await getCollection("alphabet-ile-de-france")).sort(
   (a, b) => a.data.letter - b.data.letter,
 );
 
+const parisGuide = (await getCollection("paris-guide")).sort(
+  (a, b) => a.data.letter - b.data.letter,
+);
+
 const unsorted = await Astro.glob("./*.md");
 
 const articles = [
@@ -17,7 +21,12 @@ const articles = [
   ...alphabet.map((article) => ({
     title: `Visiting ${article.data.title}`,
     intro: `An account of visiting ${article.data.title} for the Alphabet of Île-de-France series`,
-    url: `./alphabet-ile-de-france/${article.slug}`,
+    url: `/articles/alphabet-ile-de-france/${article.slug}`,
+  })),
+  ...parisGuide.map((article) => ({
+    title: article.data.title,
+    intro: article.data.intro,
+    url: `/articles/paris-guide/${article.slug}`,
   })),
 ];
 ---
