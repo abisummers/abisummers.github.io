@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+const collection = await getCollection("paris-guide");
+---
+
+<Main showLanguageSwitcher={false} title="Guide for paris">
+  <h2>My guide to Paris</h2>
+  <p>Here are some of my favourite things to do in the city.</p>
+  {
+    collection.map((article) => (
+      <article>
+        <h3>{article.data.title}</h3>
+        <p>{article.data.intro}</p>
+        <a class="cta" href={"/articles/paris-guide/" + article.slug}>
+          read more
+        </a>
+      </article>
+    ))
+  }
+</Main>

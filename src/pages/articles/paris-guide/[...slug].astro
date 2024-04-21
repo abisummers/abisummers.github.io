@@ -1,0 +1,60 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
+import Main from "../../../layouts/article.astro";
+
+export async function getStaticPaths() {
+  return (await getCollection("paris-guide")).map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"paris-guide">;
+}
+
+const { entry } = Astro.props;
+
+let ogImage: string | undefined;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/images/*.{jpeg,jpg}",
+);
+if (images[entry.data.image]) {
+  const { default: image } = await images[entry.data.image]();
+  const { src } = await getImage({
+    src: image,
+    format: "jpeg",
+  });
+  ogImage = "https://abisummers.com" + src;
+}
+
+const { Content } = await entry.render();
+---
+
+<Main
+  showLanguageSwitcher={false}
+  title={entry.data.title}
+  description={entry.data.intro}
+  ogImage={ogImage}
+>
+  <h2>{entry.data.title}</h2>
+  <a href="/articles/paris-guide">← back to all articles</a>
+  <style is:global>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <Content />
+  <style>
+    footer {
+      font-style: italic;
+    }
+  </style>
+  <footer>
+    This article is part of the <a href="/articles/paris-guide">Paris Guide</a> series.
+    Check out the other tips as well!
+  </footer>
+</Main>
