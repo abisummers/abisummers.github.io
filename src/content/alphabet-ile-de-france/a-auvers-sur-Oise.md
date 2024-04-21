@@ -68,6 +68,6 @@ I think that for somewhere like Auvers, it's important to do some planning, beca
 
 ### Now it's your turn
 
-Are you planning on going to Auvers? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **contact@abisummers.com** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Are you planning on going to Auvers? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
 
 You can find additional information on the site of [Auvers](https://tourisme-auverssuroise.fr) which is also available in English
