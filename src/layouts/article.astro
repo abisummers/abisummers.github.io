@@ -7,11 +7,15 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
 );
 
 const {
-  title,
+  title: titleFromProps,
   description,
   ogImage,
   showLanguageSwitcher = true,
+  frontmatter,
 } = Astro.props;
+
+const title = frontmatter?.title || titleFromProps;
+
 ---
 
 <!doctype html>

@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/article.astro"
+title: Getting around Île-de-France
 ---
 
 ## Getting around Île-de-France
