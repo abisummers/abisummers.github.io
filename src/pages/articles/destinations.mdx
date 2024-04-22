@@ -1,0 +1,86 @@
+---
+layout: "../../layouts/article.astro"
+languages: ["en"]
+language: "en"
+title: Destinations
+intro: Where to go on each train line in Île-de-France
+---
+
+import { Code } from "astro:components";
+import { getCollection } from "astro:content";
+
+export const nonArticles = [
+  {
+    title: "Saint-Germain-en-Laye",
+    transportLinks: ["RER A"],
+  },
+];
+
+export const transportLinks = [
+  ...[
+    ...(await getCollection("alphabet-ile-de-france")).map((article) => ({
+      type: "alphabet-ile-de-france",
+      transportLinks: article.data.transportLinks,
+      title: article.data.title,
+      slug: "/articles/alphabet-ile-de-france" + article.slug,
+    })),
+    ...nonArticles,
+  ].reduce(
+    (acc, article) => {
+      article.transportLinks.forEach((link) => {
+        if (!acc.has(link)) {
+          acc.set(link, { articles: [] });
+        }
+        const item = acc.get(link);
+        if (!item.articles) {
+          item.articles = [];
+        }
+        item.articles.push(article);
+      });
+      return acc;
+    },
+    new Map(
+      Object.entries({
+        "RER A": {
+          info: "RER A goes from the west of Paris to the east. It's the line that goes to Disneyland Paris and La Défense. It's also the line that goes to Saint-Germain-en-Laye.",
+        },
+        "Transilien V": {},
+      }),
+    ),
+  ),
+]
+  .filter(([line, { articles }]) => articles?.length)
+  .sort(([a], [b]) => a.localeCompare(b));
+
+## Destinations
+
+In this guide, I'm going to talk about the different train lines in Île-de-France and where you can go on each line. This is a work in progress and I will be updating it as I go along.
+
+There are 4 different types of trains in Île-de-France:
+
+- **Métro** - the underground trains in Paris
+- **Tramway** - the trams that go around Paris
+- **RER** - the suburban trains that go to across Île-de-France, passing through Paris
+- **Transilien** - the suburban trains that go outwards from Paris to the rest of Île-de-France
+
+export function TransportLink({ line, info, articles }) {
+  return (
+    <>
+      <h2>{line}</h2>
+      <p>{info}</p>
+      <ul>
+        {articles.map((article) => (
+          <li>
+            {article.slug ? (
+              <a href={article.slug}>{article.title}</a>
+            ) : (
+              article.title
+            )}
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
+{transportLinks.map(([line, { info,articles }]) => <TransportLink line={line} info={info} articles={articles} />)}

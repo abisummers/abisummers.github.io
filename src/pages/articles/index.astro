@@ -1,12 +1,12 @@
 ---
-import { getCollection } from "astro:content";
-import Main from "../../layouts/article.astro";
+import { getCollection } from 'astro:content';
+import Main from '../../layouts/article.astro';
 
-const alphabet = (await getCollection("alphabet-ile-de-france")).sort(
-  (a, b) => a.data.letter - b.data.letter,
+const alphabet = (await getCollection('alphabet-ile-de-france')).sort(
+  (a, b) => a.data.letter - b.data.letter
 );
 
-const unsorted = await Astro.glob("./*.md");
+const unsorted = await Astro.glob('./*.{md,mdx}');
 
 const articles = [
   ...unsorted.map((article) => ({

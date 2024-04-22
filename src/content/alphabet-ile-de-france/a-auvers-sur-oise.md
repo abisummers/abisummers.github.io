@@ -3,6 +3,7 @@ title: Auvers-sur-Oise
 letter: A
 date: 2024-03-19
 image: /src/content/images/auvers-sur-Oise-sign.jpeg
+transportLinks: ["Transilien H"]
 ---
 
 ![Welcome to Auvers-sur-Oise sign](../images/auvers-sur-Oise-sign.jpeg)

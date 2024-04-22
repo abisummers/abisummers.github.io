@@ -3,6 +3,7 @@ title: Bièvres
 letter: B
 date: 2024-03-25
 image: /src/content/images/bievres-sign.jpg
+transportLinks: ["RER C", "Transilien V"]
 ---
 
 ![Welcome to Bièvres sign](../images/bievres-sign.jpg)
