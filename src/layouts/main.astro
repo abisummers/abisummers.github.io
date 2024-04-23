@@ -1,9 +1,9 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 const currentPathWithoutLocale = Astro.url.pathname.replace(
-  new RegExp("/" + Astro.currentLocale + "(/|$)"),
-  "$1",
+  new RegExp('/' + Astro.currentLocale + '(/|$)'),
+  '$1'
 );
 ---
 
@@ -36,7 +36,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
 
       body {
         margin: 0;
-        font-family: "Inconsolata", monospace;
+        font-family: 'Inconsolata', monospace;
         background-color: var(--background);
         display: flex;
         min-height: 100vh;
@@ -44,7 +44,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
 
       nav {
         width: 20vw;
-        flex-shrink: none;
+        flex-shrink: 0;
         background-color: var(--contrast);
       }
 
@@ -55,7 +55,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
       }
 
       .font-riot {
-        font-family: "Protest Riot", sans-serif;
+        font-family: 'Protest Riot', sans-serif;
       }
 
       .text-center {
@@ -133,7 +133,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
       }
 
       .cta:after {
-        content: " →";
+        content: ' →';
       }
     </style>
   </head>
@@ -142,14 +142,14 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
     <nav>
       <ul class="languages">
         <li>
-          <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
-            <span role="img" aria-label=""> 🇬🇧 </span>{" "}
+          <a href={getRelativeLocaleUrl('en', currentPathWithoutLocale)}>
+            <span role="img" aria-label=""> 🇬🇧 </span>{' '}
             en
           </a>
         </li>
         <li>
-          <a href={getRelativeLocaleUrl("fr", currentPathWithoutLocale)}>
-            <span role="img" aria-label=""> 🇫🇷 </span>{" "}
+          <a href={getRelativeLocaleUrl('fr', currentPathWithoutLocale)}>
+            <span role="img" aria-label=""> 🇫🇷 </span>{' '}
             fr
           </a>
         </li>

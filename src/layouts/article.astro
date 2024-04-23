@@ -1,9 +1,9 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 const currentPathWithoutLocale = Astro.url.pathname.replace(
-  new RegExp("/" + Astro.currentLocale + "(/|$)"),
-  "$1",
+  new RegExp('/' + Astro.currentLocale + '(/|$)'),
+  '$1'
 );
 
 const {
@@ -16,18 +16,18 @@ const {
 
 const title = frontmatter?.title || titleFromProps;
 
-const availableLanguagesFor = frontmatter?.languages || ["en", "fr"];
+const availableLanguagesFor = frontmatter?.languages || ['en', 'fr'];
 
 const languages = [
   {
-    code: "en",
-    emoji: "🇬🇧",
-    url: getRelativeLocaleUrl("en", currentPathWithoutLocale),
+    code: 'en',
+    emoji: '🇬🇧',
+    url: getRelativeLocaleUrl('en', currentPathWithoutLocale),
   },
   {
-    code: "fr",
-    emoji: "🇫🇷",
-    url: getRelativeLocaleUrl("fr", currentPathWithoutLocale),
+    code: 'fr',
+    emoji: '🇫🇷',
+    url: getRelativeLocaleUrl('fr', currentPathWithoutLocale),
   },
 ].filter((lang) => availableLanguagesFor.includes(lang.code));
 ---
@@ -42,7 +42,7 @@ const languages = [
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#f5c636" />
-    <title>{title ? title + " | Abi Summers" : "Abi Summers"}</title>
+    <title>{title ? title + ' | Abi Summers' : 'Abi Summers'}</title>
     {description && <meta name="description" content={description} />}
     {ogImage && <meta property="og:image" content={ogImage} />}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -63,7 +63,7 @@ const languages = [
 
       body {
         margin: 0;
-        font-family: "Inconsolata", monospace;
+        font-family: 'Inconsolata', monospace;
         background-color: var(--background);
         display: flex;
         min-height: 100vh;
@@ -71,7 +71,7 @@ const languages = [
 
       nav {
         width: 20vw;
-        flex-shrink: none;
+        flex-shrink: 0;
         background-color: var(--contrast);
       }
 
@@ -87,7 +87,7 @@ const languages = [
       }
 
       .font-riot {
-        font-family: "Protest Riot", sans-serif;
+        font-family: 'Protest Riot', sans-serif;
       }
 
       .text-center {
@@ -174,7 +174,7 @@ const languages = [
       }
 
       .cta:after {
-        content: " →";
+        content: ' →';
       }
     </style>
   </head>
@@ -182,7 +182,7 @@ const languages = [
   <body>
     <nav>
       <h1 class="font-riot text-center aside">
-        <a href={getRelativeLocaleUrl(Astro.currentLocale!, "/")}>Abi Summers</a
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, '/')}>Abi Summers</a
         >
       </h1>
 
@@ -194,7 +194,7 @@ const languages = [
                 <a href={lang.url}>
                   <span role="img" aria-label="">
                     {` ${lang.emoji} `}
-                  </span>{" "}
+                  </span>{' '}
                   {lang.code}
                 </a>
               </li>
@@ -205,7 +205,7 @@ const languages = [
     </nav>
     <main>
       <h1 class="font-riot not-aside">
-        <a href={getRelativeLocaleUrl(Astro.currentLocale!, "/")}>
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, '/')}>
           Abi Summers
         </a>
       </h1>
