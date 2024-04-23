@@ -43,7 +43,7 @@ const { Content } = await entry.render();
   <a href="/articles/alphabet-ile-de-france">← back to all articles</a>
   <p>
     date visited:
-    <time datetime={entry.data.date}>
+    <time datetime={entry.data.date.toISOString()}>
       {
         entry.data.date.toLocaleDateString("en-uk", {
           year: "numeric",
