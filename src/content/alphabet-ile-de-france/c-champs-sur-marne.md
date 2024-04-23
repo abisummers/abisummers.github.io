@@ -38,13 +38,13 @@ There's currently a costume exhibition on until the 19th May 2024, so you can se
 
 ![two dresses](../images/champs-outfit.jpg)
 
-### Things I would do different next time
+### Recommendations
 
-Usually, when I plan a day trip there is something that either I could have planned better (like booking tickets in advance) or something on the day that didn't turn out as I expected (like not being allowed to cycle on the route I planned). With this trip, there really isn't much for me to comment on. Getting there was straightforward, the weather was in my favour and I didn't need to buy a ticket in advance.
+- check the opening hours of the château including when they stop admission before their closing hours
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is 86,40€ which covers the entire Île-de-France region)
+- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
 - for lunch, I spent 5,40€ at a bakery
 - the entry into the château is 9€ (or free if you're an EU resident and under 26)
 

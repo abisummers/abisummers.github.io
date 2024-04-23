@@ -49,14 +49,14 @@ I didn't get to visit any of the places because they were closed when I went. I 
 - Musée de l’outil: only open on Saturdays. Throughout the town, they have different tools on display.
 - Musée français de la photographie: this museum is temporarily closed and doesn't seem to have a date of when it will reopen
 
-### Things I would do different next time
+### Recommendations
 
-- go on a weekend, because a lot of the museums are closed during the week.
-- I wouldn't take my bike, but instead take a backpack with water and snacks to follow the route "l'abbaye au bois". From what I could see, it should be a nice hike
+- visit on a weekend because a lot of the museums are closed during the week (look this up in advance for the places you want to visit)
+- take a backpack with water and snacks to follow the route "l'abbaye au bois" by foot (I would not have taken my bike if I known this)
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is 86,40€ which covers the entire Île-de-France region)
+- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
 - for lunch I spent 6,30€ at the bakery
 - I spent 4€ on a soft drink at Cafe Hotel de Paris
 

@@ -52,23 +52,22 @@ After lunch, I walked towards Château d'Auvers. I wanted to go to the exhibitio
 
 ![Château d'Auvers](../images/auvers-chateau.jpg)
 
-After enjoying the time in the sun, I took the bus to Cergy and then the RER back into Paris.
+After enjoying the time in the sun, I took the bus to Cergy and then the RER back into Paris. 
 
-### Things I would do different next time
+You can find additional information on the site of [Auvers](https://tourisme-auverssuroise.fr) which is also available in English
 
-- I would reserve a ticket in advance for any museums or exhibitions that I wanted to see. I didn't expect all the tickets to sell out for the exhibition in the château
-- deciding on what I wanted to do in advance so that I could see things in the right order rather than going back and fourth. Sometimes it's nice to see how I feel in the moment, but it's also good to have some of the details planned
+### Recommendations
 
-I think that for somewhere like Auvers, it's important to do some planning, because a lot of museums are only opened on certain days, for example the "House-Workshop of Daubigny" is only open on weekends, while the "Chambre de Van Gogh" (van gogh's bedroom) is open on wednesday to Sunday only during peak season (in 2024 that's the 6 march to 24 november).
+- reserve a ticket in advance for any museums or exhibitions that you want to see. I didn't expect all the tickets to sell out for the exhibition in the château
+- if you want to follow the painters walk, look at the route beforehand so you don't go back on yourself. Sometimes it's nice to see how I feel in the moment, but it's also good to have some of the details planned
+- check the opening hours of everything you want to see because a lot of museums are only opened on certain days, for example the "House-Workshop of Daubigny" is only open on weekends, while the "Chambre de Van Gogh" (van gogh's bedroom) is open on wednesday to Sunday only during peak season (in 2024 it's from the 6th march to 24th november).
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) so I didn't need to buy a specific ticket (the full price monthly ticket for zone 1 to 5 is 86,40€ which covers the entire Île-de-France region)
+- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
 - I had lunch at Palais d'Auvers which cost 15,50€ for the menu midi
 - if I had planned better, I would have go to the exhibition at the château which costs 12€
 
 ### Now it's your turn
 
 Are you planning on going to Auvers? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
-
-You can find additional information on the site of [Auvers](https://tourisme-auverssuroise.fr) which is also available in English
