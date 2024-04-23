@@ -1,7 +1,7 @@
 ---
 layout: "../../../layouts/article.astro"
-languages: ['en', 'fr']
-language: 'fr'
+languages: ["en", "fr"]
+language: "fr"
 title: À propos de moi
 intro: Je suis guide touristique et développeur backend basé à Paris. Je suis passionné par l'apprentissage et le partage de connaissances en organisant des visites et des ateliers.
 ---

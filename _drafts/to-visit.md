@@ -2,11 +2,10 @@
 layout: "../../layouts/article.astro"
 ---
 
-
 ## Places to visit
 
-big bus tour places:  (contains prerecorded commentary)
-Louvre-Pyramide 
+big bus tour places: (contains prerecorded commentary)
+Louvre-Pyramide
 Louvre - Pont des Arts
 Notre Dame
 Musée d'Orsay
@@ -15,23 +14,18 @@ Grand Palais
 Trocadéro
 Tour Eiffel
 
-
-Places to add: 
-Pantheon 
-montmatre 
+Places to add:
+Pantheon
+montmatre
 Bastille
-pere lachaise 
-buttes chaumont 
+pere lachaise
+buttes chaumont
 
+Types of tours:
+museum guide?
 
-Types of tours: 
-museum guide? 
-
-
-
-treasure hunt? 
+treasure hunt?
 Discover Paris in a timeline?
-
 
 See 13 quai Voltaire the narrowest house in paris at 2.5 meters
 Pont neuf for lady liberty
