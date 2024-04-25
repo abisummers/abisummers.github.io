@@ -26,15 +26,15 @@ here's a summary of the different ticket options, additional info can be found [
 
 ### Monthly
 
-It costs 86,40€ per month (it's slightly cheaper if you only need it to cover specific zones outside of zone 1). This is valid from the 1st of the month until the end of the month (regardless of when you actually purchased it). If you charge your navigo from the 20th of the month it will charge for the following month. It can be charged either from a station or via the Bonjour RATP app.
+It costs **86,40€** per month (it's slightly cheaper if you only need it to cover specific zones outside of zone 1). This is valid from the 1st of the month until the end of the month (regardless of when you actually purchased it). If you charge your navigo from the 20th of the month it will charge for the following month. It can be charged either from a station or via the Bonjour RATP app.
 
 ### Weekly
 
-There is also a weekly option which costs 30,75€ for all zones (again, it's slightly cheaper if you only need specific zones outside of zone 1). This card is valid from Monday to Sunday. If you charge your navigo from Friday, it will charge the navigo for the following week. (as far as i'm aware, there is no way to change this)
+There is also a weekly option which costs **30,75€** for all zones (again, it's slightly cheaper if you only need specific zones outside of zone 1). This card is valid from Monday to Sunday. If you charge your navigo from Friday, it will charge the navigo for the following week. (as far as i'm aware, there is no way to change this)
 
 ### ticket t+
 
-This covers all transport within zone 1, and can be used on buses & trams outside of zone 1. You can't use these tickets on the RER (unless you're only taking the RER across Paris within zone 1) or transiliens. This is mostly used by people who don't take the metro very often. It costs 2,15€ per ticket, or 17,35€ for a pack of 10.
+This covers all transport within zone 1, and can be used on buses & trams outside of zone 1. You can't use these tickets on the RER (unless you're only taking the RER across Paris within zone 1) or transiliens. This is mostly used by people who don't take the metro very often. It costs **2,15€** per ticket, or **17,35€** for a pack of 10. (this will be different during the olympics)
 
 ### day tickets
 
