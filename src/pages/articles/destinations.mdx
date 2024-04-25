@@ -14,6 +14,34 @@ export const nonArticles = [
     title: "Saint-Germain-en-Laye",
     transportLinks: ["RER A"],
   },
+  {
+    title: "Provins",
+    transportLinks: ["Transilien P"],
+  },
+  {
+    title: "Versailles",
+    transportLinks: ["Transilien N", "RER C"],
+  },
+  {
+    title: "Fontainebleau",
+    transportLinks: ["Transilien R"],
+  },
+  {
+    title: "Barbizon",
+    transportLinks: ["Transilien R"],
+  },
+  {
+    title: "Asnières-sur-Oise",
+    transportLinks: ["Transilien H"],
+  },
+  {
+    title: "Saint Cloud",
+    transportLinks: ["Transilien U", "Transilien L"],
+  },
+  {
+    title: "Rambouillet",
+    transportLinks: ["Transilien N"],
+  },
 ];
 
 export const transportLinks = [
@@ -42,12 +70,28 @@ export const transportLinks = [
     new Map(
       Object.entries({
         "RER A": {
-          info: "RER A goes from the west of Paris to the east. It's the line that goes to Disneyland Paris and La Défense. It's also the line that goes to Saint-Germain-en-Laye.",
+          info: "RER A goes from the east to the west of Paris. It's the line that goes to Disneyland Paris and La Défense. It's also the line that goes to Saint-Germain-en-Laye.",
+        },
+        "RER B": {
+          info: "RER B goes from the north to south of Paris. It connects both airports, Charles de Gaulle (CDG) and Orly to Paris.",
+        },
+        "RER C": {
+          info: "RER B connects Paris to places like Versailles. There are many different branches to this line.",
+        },
+        "RER D": {
+          info: "RER D also goes north and south of Paris",
+        },
+        "RER E": {
+          info: "RER E goes east and west passing through both gare du nord and gare saint lazare. They are currently working on extending the line",
         },
         TER: {
-          info: "TER trains go from Île-de-France to the rest of France. If you stay within the Île-de-France region, you can use your Navigo pass.",
+          info: "TER trains are the local regional trains. If you stay within the Île-de-France region, you can use your Navigo pass.",
         },
         "Transilien V": {},
+        "Transilien P": {},
+        "Transilien R": {},
+        "Transilien L": {},
+        "Transilien U": {},
       }),
     ),
   ),
@@ -61,15 +105,17 @@ export const transportLinks = [
 
 ## Destinations
 
-In this guide, I'm going to talk about the different train lines in Île-de-France and where you can go on each line. This is a work in progress and I will be updating it as I go along.
+Looking for inspiration on where to go in Île-de-France? Find some ideas here and which train lines to use to get there. Here, I'm using the most common way to reach the destination but that doesn't mean it's the only way - for example sometimes you can take a train and then a bus, or sometimes there will be works on the line.
+
+All of these places will make for a cheap day trip if you have a <a href="/articles/navigo">Navigo</a> (depending on the activities you do while there). The places that are linked as places that I have been on as part of my alphabet of Île-de-France project, meaning they have a blog post with my experience and recommendations. There really are so many places to visit in this region.
 
 There are 5 different types of trains in Île-de-France:
 
-- **Métro** - the underground trains in Paris
+- **Métro** - the underground of Paris and close suburbs
 - **Tramway** - the trams that go around Paris
 - **RER** - the suburban trains that go to across Île-de-France, passing through Paris
 - **Transilien** - the suburban trains that go outwards from Paris to the rest of Île-de-France
-- **TER** - the trains that go from Île-de-France to the rest of France
+- **TER** - the local network of trains that often connect smaller towns and cities to the larger ones. This is not exclusive to Île-de-France
 
 export function TransportLink({ line, info, articles }) {
   return (
@@ -92,3 +138,7 @@ export function TransportLink({ line, info, articles }) {
 }
 
 {transportLinks.map(([line, { info,articles }]) => <TransportLink line={line} info={info} articles={articles} />)}
+
+### Get in contact
+
+See any of your favourite places that I'm missing? Has this list inspired you to visit somewhere new? Please get in contact via email at **contact@abisummers.com** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
