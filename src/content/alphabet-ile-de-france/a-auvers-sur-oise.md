@@ -6,7 +6,8 @@ image: /src/content/images/auvers-sur-Oise-sign.jpeg
 transportLinks: ["Transilien H"]
 knownFor: ["painters"]
 notablePeople: ["Vincent van Gogh"]
-whenToVisit: [ "high season" ]
+whenToVisit: ["high season"]
+coordinates: { lat: 49.0709, lng: 2.1708 }
 ---
 
 ![Welcome to Auvers-sur-Oise sign](../images/auvers-sur-Oise-sign.jpeg)

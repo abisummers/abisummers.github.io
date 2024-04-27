@@ -1,0 +1,147 @@
+---
+export interface Point {
+  latitude: number;
+  longitude: number;
+  title: string;
+  letter: string;
+  link: string;
+}
+
+export interface Props {
+  latitude: number;
+  longitude: number;
+  zoom: number;
+  mapstyle: string;
+  accesstoken: string;
+  interactive?: "interactive" | "non-interactive";
+  containerstyle?: string;
+  points?: Array<Point>;
+}
+
+const container = "mapbox-map-" + crypto.randomUUID();
+
+const {
+  latitude,
+  longitude,
+  zoom,
+  mapstyle,
+  accesstoken,
+  interactive = "interactive",
+  containerstyle = "height: 80ch",
+  points = [],
+} = Astro.props;
+---
+
+<mapbox-map
+  data-latitude={latitude}
+  data-longitude={longitude}
+  data-zoom={zoom}
+  data-mapstyle={mapstyle}
+  data-accesstoken={accesstoken}
+  data-interactive={interactive}
+  data-container={container}
+  data-containerstyle={containerstyle}
+  data-points={JSON.stringify(points)}></mapbox-map>
+<div id={container} style={containerstyle}></div>
+<script>
+  import {
+    Map,
+    Marker,
+    Popup,
+    type IControl,
+    type MapboxOptions,
+  } from "mapbox-gl";
+  import "mapbox-gl/dist/mapbox-gl.css";
+
+  class MapboxMap extends HTMLElement {
+    constructor() {
+      super();
+
+      if (
+        !this.dataset.container ||
+        !this.dataset.latitude ||
+        !this.dataset.longitude ||
+        !this.dataset.zoom ||
+        !this.dataset.mapstyle ||
+        !this.dataset.accesstoken
+      ) {
+        throw new Error("Missing required attributes");
+      }
+
+      const options = {
+        accessToken: this.dataset.accesstoken,
+        container: this.dataset.container,
+        interactive: this.dataset.interactive === "interactive",
+        center: [
+          parseFloat(this.dataset.longitude),
+          parseFloat(this.dataset.latitude),
+        ],
+        zoom: parseFloat(this.dataset.zoom),
+        style: this.dataset.mapstyle,
+      } satisfies MapboxOptions;
+
+      const map = new Map(options);
+
+      class ResetControl implements IControl {
+        _container: HTMLDivElement;
+        _button: HTMLButtonElement;
+        _map?: Map;
+
+        constructor() {
+          this._button = document.createElement("button");
+          this._button.className = "mapboxgl-ctrl-geolocate";
+          this._button.type = "button";
+          this._button.title = "Reset";
+          this._button.innerHTML =
+            '<span class="mapboxgl-ctrl-icon" aria-hidden="true" title="Reset location"></span>';
+          this._button.addEventListener("click", this._reset);
+
+          this._container = document.createElement("div");
+          this._container.className = "mapboxgl-ctrl-group mapboxgl-ctrl";
+          this._container.appendChild(this._button);
+        }
+
+        onAdd(map: Map) {
+          this._map = map;
+          return this._container;
+        }
+
+        onRemove() {
+          this._container!.parentNode!.removeChild(this._container!);
+          this._map = undefined;
+        }
+
+        _reset = () => {
+          this._map!.setZoom(options.zoom).setCenter(options.center);
+        };
+      }
+
+      map.addControl(new ResetControl(), "top-right");
+
+      interface Point {
+        latitude: number;
+        longitude: number;
+        title: string;
+        letter: string;
+        link: string;
+      }
+
+      const points: Array<Point> = JSON.parse(this.dataset.points!);
+
+      points.forEach((point) => {
+        new Marker({
+          color: "#f5c636",
+        })
+          .setLngLat([point.longitude, point.latitude])
+          .setPopup(
+            new Popup().setHTML(
+              `${point.letter}: <a href="${point.link}" target="_blank">${point.title}</a>`,
+            ),
+          )
+          .addTo(map);
+      });
+    }
+  }
+
+  window.customElements.define("mapbox-map", MapboxMap);
+</script>

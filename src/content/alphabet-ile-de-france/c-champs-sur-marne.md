@@ -7,6 +7,7 @@ transportLinks: ["RER A"]
 knownFor: ["château", "national monument"]
 notablePeople: []
 whenToVisit: []
+coordinates: { lat: 48.8528, lng: 2.6027 }
 ---
 
 This week, I went to Champs-sur-Marne to visit the château. I came across this place while looking at the list of [national monuments](https://www.monuments-nationaux.fr) in Île-de-France.

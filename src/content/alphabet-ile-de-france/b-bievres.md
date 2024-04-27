@@ -6,7 +6,8 @@ image: /src/content/images/bievres-sign.jpg
 transportLinks: ["RER C", "Transilien V"]
 knownFor: ["literature", "nature", "museums"]
 notablePeople: ["Victor Hugo"]
-whenToVisit: [ "weekend" ]
+whenToVisit: ["weekend"]
+coordinates: { lat: 48.7545, lng: 2.2144 }
 ---
 
 ![Welcome to Bièvres sign](../images/bievres-sign.jpg)

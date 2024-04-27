@@ -7,6 +7,7 @@ transportLinks: ["RER C", "TER"]
 knownFor: ["château", "forest"]
 notablePeople: []
 whenToVisit: ["specific events"]
+coordinates: { lat: 48.5292, lng: 2.0153 }
 ---
 
 This week, I went to Dourdan, a town around 45km southwest of Paris. I wanted to visit the fortified château here which was built at the request of Philip II Augustus between 1220 and 1222. As with all châteaux, there's a complicated history with who owned it, how it was passed on and the use. You can find details of the history of the château on their [website](https://chateau.dourdan.fr/decouvrir/le-chateau-fort/) (only available in French).
