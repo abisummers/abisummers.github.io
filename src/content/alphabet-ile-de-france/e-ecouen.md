@@ -4,6 +4,9 @@ letter: E
 date: 2024-04-22
 transportLinks: ["Transilien H"]
 image: /src/content/images/ecouen-chateau.jpg
+knownFor: [ "château" ]
+notablePeople: []
+whenToVisit: []
 ---
 
 This week I went to Écouen, a town 20km north of Paris. This is a place I came across when researching this project, I had never heard of it before, so I was excited to visit. You can learn more about my research stage [here](https://abisummers.com/articles/planning).

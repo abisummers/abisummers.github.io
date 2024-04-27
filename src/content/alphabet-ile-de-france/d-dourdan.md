@@ -4,9 +4,12 @@ letter: D
 date: 2024-04-24
 image: /src/content/images/dourdan-chateau.jpg
 transportLinks: ["RER C", "TER"]
+knownFor: ["château", "forest"]
+notablePeople: []
+whenToVisit: ["specific events"]
 ---
 
-This week, I went to Dourdan, a town around 45km southwest of Paris. I wanted to visit the fortified castle here which was built at the request of Philip II Augustus between 1220 and 1222. As with all châteaux, there's a complicated history with who owned it, how it was passed on and the use. You can find details of the history of the château on their [website](https://chateau.dourdan.fr/decouvrir/le-chateau-fort/) (only available in French).
+This week, I went to Dourdan, a town around 45km southwest of Paris. I wanted to visit the fortified château here which was built at the request of Philip II Augustus between 1220 and 1222. As with all châteaux, there's a complicated history with who owned it, how it was passed on and the use. You can find details of the history of the château on their [website](https://chateau.dourdan.fr/decouvrir/le-chateau-fort/) (only available in French).
 
 ![Dourdan château](../images/dourdan-chateau.jpg)
 

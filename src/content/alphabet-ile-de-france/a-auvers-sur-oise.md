@@ -4,6 +4,9 @@ letter: A
 date: 2024-03-19
 image: /src/content/images/auvers-sur-Oise-sign.jpeg
 transportLinks: ["Transilien H"]
+knownFor: ["painters"]
+notablePeople: ["Vincent van Gogh"]
+whenToVisit: [ "high season" ]
 ---
 
 ![Welcome to Auvers-sur-Oise sign](../images/auvers-sur-Oise-sign.jpeg)
@@ -14,7 +17,7 @@ Auvers is a town around 30km away from Paris in the north west. It is known beca
 
 ### Getting there
 
-There are a few different ways of getting there depending on the part of Paris that you're traveling from, and the funny thing is, each time I checked the directions a different route was proposed and the options were different between Google Maps and [Citymapper](https://citymapper.com).
+There are a few different ways of getting there depending on the part of Paris that you're travelling from, and the funny thing is, each time I checked the directions a different route was proposed and the options were different between Google Maps and [Citymapper](https://citymapper.com).
 
 Going there, I took the [H line](https://www.transilien.com/fr/page-lignes/ligne-h) to Méry-sur-Oise and then walked the 35 minutes to Auvers. The proposed option was to take the H train to Valmondois and then change trains to another H line with a 20 minute wait. Since the weather was good, I opted for taking a direct train and walking. If I planned the timing differently, I could have taken a bus from Méry-sur-Oise but the bus was super infrequent (between every hour and every two hours)
 
@@ -52,7 +55,7 @@ After lunch, I walked towards Château d'Auvers. I wanted to go to the exhibitio
 
 ![Château d'Auvers](../images/auvers-chateau.jpg)
 
-After enjoying the time in the sun, I took the bus to Cergy and then the RER back into Paris. 
+After enjoying the time in the sun, I took the bus to Cergy and then the RER back into Paris.
 
 You can find additional information on the site of [Auvers](https://tourisme-auverssuroise.fr) which is also available in English
 

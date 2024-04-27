@@ -4,6 +4,9 @@ letter: C
 date: 2024-04-17
 image: /src/content/images/champs-chateau.jpg
 transportLinks: ["RER A"]
+knownFor: ["château", "national monument"]
+notablePeople: []
+whenToVisit: []
 ---
 
 This week, I went to Champs-sur-Marne to visit the château. I came across this place while looking at the list of [national monuments](https://www.monuments-nationaux.fr) in Île-de-France.
