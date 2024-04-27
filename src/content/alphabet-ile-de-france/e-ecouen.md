@@ -46,7 +46,7 @@ It took me almost 1h30 to visit the entire château. I loved getting to see all 
 
 After I had finished in the château, I walked back to the station following the route that google maps suggests - the first part is through the town before you join the forest.
 
-At the château, they had a poster with places to eat for lunch. Two restaurants "L'Iscoam" and "O'Done" (kebab), both of them are close to the château, and two bakeries, "Le Moulin du Château" which is close to the château and "la boulangerie de la gare" (which is called Boulangerie pâtisserie on Google Maps) which they recommend driving to get there.
+At the château, they had a poster with places to eat for lunch. Two restaurants "L'Iscoam" and "O'Doner" (kebab), both of them are close to the château, and two bakeries, "Le Moulin du Château" which is close to the château and "la boulangerie de la gare" (which is called Boulangerie pâtisserie on Google Maps) which they recommend driving to get there.
 
 ### Recommendations
 
