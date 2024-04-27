@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { getImage } from "astro:assets";
 import Main from "../../../layouts/article.astro";
+import MapboxMap from "../../../components/mapbox-map.astro";
 
 export async function getStaticPaths() {
   return (await getCollection("alphabet-ile-de-france")).map((entry) => ({
@@ -65,6 +66,24 @@ const { Content } = await entry.render();
       font-style: italic;
     }
   </style>
+  <h3>Location</h3>
+  <MapboxMap
+    latitude={48.7}
+    longitude={2.51}
+    zoom={7.74}
+    mapstyle="mapbox://styles/haroenv/clvi5zbe601bg01qu2iez1exk"
+    accesstoken="pk.eyJ1IjoiaGFyb2VudiIsImEiOiJjbHZpOGZsOHQwM3oyMmlscTJweTRleHo3In0.mU1wMXCVpQvbhkXcZvFawg"
+    interactive="interactive"
+    points={[
+      {
+        latitude: entry.data.coordinates.lat,
+        longitude: entry.data.coordinates.lng,
+        title: entry.data.title,
+        link: `/articles/alphabet-ile-de-france/${entry.slug}`,
+        letter: entry.data.letter,
+      },
+    ]}
+  />
   <footer>
     This article is part of the <a href="/articles/alphabet-ile-de-france"
       >Alphabet of Île-de-France</a
