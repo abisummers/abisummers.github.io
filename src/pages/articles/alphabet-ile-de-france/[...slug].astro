@@ -31,6 +31,11 @@ if (images[entry.data.image]) {
   ogImage = "https://abisummers.com" + src;
 }
 
+const siblings = await getCollection("alphabet-ile-de-france");
+const index = siblings.findIndex((sibling) => sibling.slug === entry.slug);
+const prev = siblings[index - 1];
+const next = siblings[index + 1];
+
 const { Content } = await entry.render();
 ---
 
@@ -61,11 +66,6 @@ const { Content } = await entry.render();
     }
   </style>
   <Content />
-  <style>
-    footer {
-      font-style: italic;
-    }
-  </style>
   <h3>Location</h3>
   <MapboxMap
     latitude={48.7}
@@ -84,9 +84,65 @@ const { Content } = await entry.render();
       },
     ]}
   />
+  <style>
+    footer p {
+      font-style: italic;
+    }
+    footer .links {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer .links a {
+      padding: 2em;
+      border: 0.1em solid currentColor;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    footer .links a:hover {
+      background-color: var(--contrast);
+    }
+    footer .links a .title {
+      text-decoration: underline;
+    }
+  </style>
   <footer>
-    This article is part of the <a href="/articles/alphabet-ile-de-france"
-      >Alphabet of Île-de-France</a
-    > series. Check out the other places as well!
+    <p>
+      This article is part of the <a href="/articles/alphabet-ile-de-france"
+        >Alphabet of Île-de-France</a
+      > series. Check out the other places as well!
+    </p>
+    <div class="links">
+      {
+        prev ? (
+          <a href={"/articles/alphabet-ile-de-france/" + prev.slug}>
+            <div>Read the previous article:</div>
+            <div class="title">{prev.data.title}</div>
+          </a>
+        ) : (
+          <a href={"/articles/alphabet-ile-de-france/"}>
+            <div>Read all:</div>
+            <div class="title">Alphabet of Île-de-France</div>
+          </a>
+        )
+      }
+      {
+        next ? (
+          <a href={"/articles/alphabet-ile-de-france/" + next.slug}>
+            <div>Read the next article:</div>
+            <div class="title">{next.data.title}</div>
+          </a>
+        ) : (
+          <a href={"/articles/alphabet-ile-de-france/"}>
+            <div>Read all:</div>
+            <div class="title">Alphabet of Île-de-France</div>
+          </a>
+        )
+      }
+    </div>
   </footer>
 </Main>
