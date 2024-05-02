@@ -104,6 +104,7 @@ function positionToLetter(position: number) {
     max="26"
     title={`progress: ${collection.length} out of 26 places visited`}
   ></progress>
+  <p><a href="#map">jump to map</a></p>
   <ol class="letter-list">
     {
       Array.from({ length: 26 }, (_, i) => positionToLetter(i)).map(
@@ -143,21 +144,35 @@ function positionToLetter(position: number) {
       )
     }
   </ol>
-  <MapboxMap
-    latitude={48.7}
-    longitude={2.51}
-    zoom={7.74}
-    mapstyle="mapbox://styles/haroenv/clvi5zbe601bg01qu2iez1exk"
-    accesstoken="pk.eyJ1IjoiaGFyb2VudiIsImEiOiJjbHZpOGZsOHQwM3oyMmlscTJweTRleHo3In0.mU1wMXCVpQvbhkXcZvFawg"
-    interactive="interactive"
-    points={collection
-      .filter((entry) => entry.data.coordinates)
-      .map((entry) => ({
-        latitude: entry.data.coordinates.lat,
-        longitude: entry.data.coordinates.lng,
-        title: entry.data.title,
-        link: `/articles/alphabet-ile-de-france/${entry.slug}`,
-        letter: entry.data.letter,
-      }))}
-  />
+  <section id="map">
+    <style>
+      .visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }
+    </style>
+    <h2 class="visually-hidden">Map</h2>
+    <MapboxMap
+      latitude={48.7}
+      longitude={2.51}
+      zoom={7.74}
+      mapstyle="mapbox://styles/haroenv/clvi5zbe601bg01qu2iez1exk"
+      accesstoken="pk.eyJ1IjoiaGFyb2VudiIsImEiOiJjbHZpOGZsOHQwM3oyMmlscTJweTRleHo3In0.mU1wMXCVpQvbhkXcZvFawg"
+      interactive="interactive"
+      points={collection
+        .filter((entry) => entry.data.coordinates)
+        .map((entry) => ({
+          latitude: entry.data.coordinates.lat,
+          longitude: entry.data.coordinates.lng,
+          title: entry.data.title,
+          link: `/articles/alphabet-ile-de-france/${entry.slug}`,
+          letter: entry.data.letter,
+        }))}
+    />
+  </section>
 </Main>
