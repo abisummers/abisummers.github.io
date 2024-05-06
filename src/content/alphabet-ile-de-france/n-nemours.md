@@ -10,11 +10,11 @@ whenToVisit: []
 coordinates: { lat: 48.2670, lng: 2.6926 }
 ---
 
-This week I went to Nemours, a town 80km south of Paris and 17km south of Fontainebleau (which is also worth visiting!). It is surrounded by the river Loing and is known for the 12th century château and the Île-de-France Prehistory museum.
+This week I went to Nemours, a town 80km south of Paris and 17km south of Fontainebleau (which is also worth visiting!). It is surrounded by the river Loing and is known for the 12th century château and the Île-de-France Museum of Prehistory.
 
 ### Getting there
 
-To get to Nemours, you need to take the Transilien R from Gare de Lyon to Nemours - Saint-Pierre which takes just over an hour. This train only runs once per hour, so I would definitely advice looking up the train hours in advance for going there and also returning, just so you have a rough idea and you don't miss the train by just a few minutes.
+To get to Nemours, you need to take the Transilien R from Gare de Lyon to Nemours - Saint-Pierre which takes just over an hour. This train only runs once per hour, so I would definitely advice looking up the train hours in advance. Do this for going there and also returning, just so you have a rough idea and you don't miss the train by just a few minutes.
 
 ### The trip
 
@@ -24,7 +24,7 @@ For this day trip I went with a friend, the hour on the train passed super fast 
 
 When walking into the centre, we passed by a store selling old furniture so we had a look inside. They has some nice looking things, but nothing practical for me to buy considering I would have to take it back on public transport.
 
-We walked around the city while chatting away. We had some questions about a small door in the courtyard of the château and why one of the towers didn't have a cone-shaped roof so we went into the tourism office to ask the questions. The person there was really friendly but didn't know the answer to the question about the small door. The tower without the cone roof was always built like that rather than it being destroyed or removed. When we left the tourism office, another person who was in there stopped to chat to us about the château and Nemours.
+We walked around the city while chatting away. We had some questions about a small door in the courtyard of the château and why one of the towers didn't have a cone-shaped roof. We went into the tourism office to ask the questions. The person there was really friendly but didn't know the answer to the question about the small door. The tower without the cone roof was always built like that rather than it being destroyed or removed. When we left the tourism office, another person who was in there stopped to chat to us about the château and Nemours.
 
 After out initial walk through the town, we went for lunch. We ended up picking a place called "Moulin de Nemours" which is right by the water. It's like a food court where they had a few different options for food - bagels, burgers, pizza and thai. We both went for the same option - a chicken burger and fries which cost 12€ each and a glass of wine which cost 4€ each. For the food, they give you a little beeper to take with you so you know when to return for your food, however ours didn't work so the guy brought the food directly to us. The place was pretty quiet which isn't that surprising for a Friday lunch when it could start raining at any moment. We were lucky with the weather, and when the sun came from behind the clouds it was really nice. I'm sure this place would have a great vibe on a warm summer afternoon
 
@@ -44,7 +44,7 @@ During the journée de patrimoine, more of the château is open to the public.
 
 ![nemours chateau](../images/nemours-chateau.jpg)
 
-We then went to sit in the library for a short while before heading to the train station. Libraries are usually really welcoming and I love the vibe of them (I also love reading, you'll almost always find me with a book in my bag). Then it was time to go back into Paris. Next time, I would like to visit the Île-de-France Prehistory Museum.
+We then went to sit in the library for a short while before heading to the train station. Libraries are usually really welcoming and I love the vibe of them. I also love reading, you'll almost always find me with a book in my bag. Then it was time to go back into Paris. Next time, I would like to visit the Île-de-France Museum of Prehistory.
 
 ### Recommendations
 
