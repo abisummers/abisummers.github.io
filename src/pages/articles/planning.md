@@ -3,7 +3,7 @@ layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: How to plan a day trip
-intro: Tips on planning a day trip from someone planning many recently
+intro: Tips on planning a day trip within Île-de-France as part of my alphabet project
 ---
 
 ## How to plan a day trip
