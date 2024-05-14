@@ -2,7 +2,7 @@
 title: Rueil-Malmaison
 letter: R
 date: 2024-05-13
-image: /src/content/images/rueil-summer-pavilion.jpg
+image: /src/content/images/rueil-chateau.jpeg
 transportLinks: ["RER A"]
 knownFor: ["Napoléon"]
 notablePeople: ["Napoléon"]
@@ -35,6 +35,8 @@ When at the château, I bought my entry ticket which cost 6,5€ and the audio g
 At the entrance to the château, you have an option to leave your bags and to pick up a guide. I really like the guide, it shows the layout of the château, but also has a timeline with the dates of key events which span from the Ancien Régime up to the Restauration. (I still get the dates of events mixed up, so I liked having the dates written down)
 
 I started with the château, which has three floors, the ground floor and the first floor are how the château would have been used (with some small changes) by Joséphine and Napoléon and the second floor contains a collection about the exile of Napoléon to the island Saint Helene. A lot of the decorations in the rooms were inspired by Egypt.
+
+![the inside of the château](../images/rueil-chateau.jpeg)
 
 The ground floor is mostly living spaces, such as the dining room, music room, library and board room. The first floor contains the bedrooms of Joséphine and Napoléon. The audio guide explains the different rooms, and some of the changes that have been made since the Bonapartes lived there. On the first floor they have the original painting of "Napoléon Crossing the Alps". I have seen reference to this painting many times, but I didn't know there are four other versions (with slight differences in the colours) of this painting all with the brief of Napoléon looking calm, on a mounted fiery steed. The second floor contains a collection of items from the time Napoléon spent in Saint Helene. It's crazy to me that it took almost 20 years for his body to be returned to France.
 
