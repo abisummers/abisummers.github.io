@@ -1,0 +1,86 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
+import Main from "../../../layouts/article.astro";
+
+export async function getStaticPaths() {
+  return (await getCollection("monthly-review")).map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"monthly-review">;
+}
+
+const { entry } = Astro.props;
+
+let ogImage: string | undefined;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/images/*.{jpeg,jpg}",
+);
+if (images[entry.data.image]) {
+  const { default: image } = await images[entry.data.image]();
+  const { src } = await getImage({
+    src: image,
+    format: "jpeg",
+  });
+  ogImage = "https://abisummers.com" + src;
+}
+
+const { Content } = await entry.render();
+---
+
+<Main
+  showLanguageSwitcher={false}
+  title={entry.data.title}
+  description={`A monthly wrap up including places I've visited, events I've attended and books I've read.`}
+  ogImage={ogImage}
+>
+  <h2>{entry.data.title}</h2>
+
+  <style is:global>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <Content />
+  <style>
+    footer p {
+      font-style: italic;
+    }
+    footer .links {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.5em;
+    }
+
+    footer .links a {
+      padding: 2em;
+      border: 0.1em solid currentColor;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    footer .links a:hover {
+      background-color: var(--contrast);
+    }
+    footer .links a .title {
+      text-decoration: underline;
+    }
+  </style>
+  <footer>
+    <p>
+      This article is part of my <a href="/articles/monthly-review"
+        >Monthly review</a
+      > series, where at the end of each month I take some time to reflect on what
+      has happened during the month.
+    </p>
+  </footer>
+</Main>

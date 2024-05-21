@@ -1,0 +1,87 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+const collection = await getCollection("monthly-review");
+---
+
+<Main showLanguageSwitcher={false} title="Monthly review">
+  <style>
+    .letter-list {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .letter-list li {
+      border: 0.1em solid currentColor;
+      text-align: center;
+    }
+
+    .letter-list li.unknown {
+      color: gray;
+    }
+
+    .letter-list li * {
+      padding: 0.5em;
+      display: block;
+    }
+
+    .letter-list li a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .letter-list li a:hover {
+      background-color: var(--contrast);
+    }
+
+    .letter-list li .title {
+      text-decoration: underline;
+    }
+    progress {
+      width: 100%;
+      border: 0.1em solid currentColor;
+      background: transparent;
+    }
+    progress::-webkit-progress-bar {
+      background: transparent;
+    }
+    progress::-webkit-progress-value {
+      background: currentColor;
+    }
+  </style>
+  <h2>Monthly Reviews</h2>
+  <p>
+    I wanted to have a place to reflect on the month that has passed. I don't
+    about you, but I find that each month goes so fast and it's sometimes hard
+    to remember the details of what has actually happened.
+  </p>
+  <p>
+    I want to take the time each month to summaries the cool things I've seen,
+    projects that I've worked on and anything else that has happened in the
+    month.
+  </p>
+  <p>
+    It's also going to be a good way for me to remind myself of the things I set
+    out to do at the start of the month, to see if I've achieived them or to see
+    if my priorities have changed. Sometimes life gets busy and that's ok.
+  </p>
+  <p>I want to have something to look back on in the years to come.</p>
+  <p><b>The first article will be live at the end of May</b></p>
+
+  <!-- <div>
+    {
+      collection.map((article) => {
+        if (article) {
+          return <li value={article.data.title}>
+            <a href={"/articles/monthly-review/" + article.slug}> 
+                {article.data.title}
+                </a>
+            </li>;
+        }
+      })
+    }
+  </div> -->
+</Main>
