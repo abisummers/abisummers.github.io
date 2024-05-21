@@ -38,6 +38,8 @@ The steps inside the Donjon between are narrow, steep and uneven in height so th
 
 The Donjon is also described as a château (or fortified castle), but was actually more of a secondary residence of the local lord (seigneur de Montfort). Its goal was to look imposing to the local townspeople and visitors, while being a handy meeting room for occasions. After eight centuries of not being used for its intended purpose anymore in 1880 the tower was inscribed in the national monument register, and a water reservoir was added, and later a second reservoir was created. Now this function is no longer used, and the reservoir is a projection room.
 
+![View of the Donjon](../images/houdan-donjon.jpg)
+
 After visiting the Donjon, we went to look at the church, which is currently undergoing some renovations, but still has interesting frescoes to see if you peer behind the shutters.
 
 We stopped by a cafe to get a drink (mostly so I could go to the toilet before the hour long train) before heading back to the train station. We sat on the terrance, I had a glass of wine, and my partner had a beer. The guy who served us was really nice and was grateful when we took the glasses back inside when we paid.
