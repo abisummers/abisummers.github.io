@@ -48,7 +48,7 @@ They also have exhibitions here, which don't seem to be that known. I recently w
 
 ## Other subscriptions
 
-There are a number of other subscriptions to other museums in Paris such as Amis de Louvre which gives access to the Louvre and reduced entry to other museums including Institut du monde arabe. This subscription costs 80€ full price (with some reductions if you're under 30). Personally, I don't think I need another subscription because I don't have the time to visit museums all of the time. Depending on the type of museums you like, depends on the best subscription for you. 
+There are a number of other subscriptions to other museums in Paris such as Amis de Louvre which gives access to the Louvre and reduced entry to other museums including Institut du monde arabe. This subscription costs 80€ full price (with some reductions if you're under 30). Personally, I don't think I need another subscription because I don't have the time to visit museums all of the time. Depending on the type of museums you like, depends on the best subscription for you.
 
 I also love that most museums are free if you're under 26. I went to a lot of museums when I was an au pair because they were free. I think it's great that culture is accessible.
 
