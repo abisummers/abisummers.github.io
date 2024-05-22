@@ -54,6 +54,6 @@ Personally, I like to have a variety of different day trips. If I'm doing the da
 
 ### What's next?
 
-Got any places you want to visit in Île-de-France? Do you do something different when planning a day trip? If so, I'd love to hear how you plan a day trip and where you're going next! You can reach me via email at **contact@abisummers.com** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Got any places you want to visit in Île-de-France? Do you do something different when planning a day trip? If so, I'd love to hear how you plan a day trip and where you're going next! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
 
 You can find a full list of my _Alphabet of Île-de-France_ project [here](https://abisummers.com/articles/alphabet-ile-de-france/)!
