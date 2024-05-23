@@ -8,7 +8,7 @@ intro: Exploring the different parks, gardens and green areas in Le Marais
 
 ## Le Marais
 
-Le Marais has a lot of history and is an interesting area to visit - historically it hasn't always been a rich area to live in. There is a lot of small independent stores (I saw a place that makes glasses which all looks super cool) with art galleries, museums and hidden parks. These parks are the ideal place to sit on a bench, watch the world go by and to think about Paris. At the time of writing this, May 2024, spring in Paris is here and I love taking my journal to a park to sit with my own thought. Le Marais has something for everyone.
+Le Marais has a lot of history and is an interesting area to visit - historically it hasn't always been a desirable place to live in. Now there are a lot of small independent stores (I saw a place that makes glasses which all looks super cool) with art galleries, museums and hidden parks. These parks are the ideal place to sit on a bench, watch the world go by and to take a pause. At the time of writing this, May 2024, spring in Paris is here and I love taking my journal to a park to sit with my own thought.
 
 In this article, I'm going to talk about some of the parks and try to summaries their history like who they're named after or who owned the park before. Most parks have opening hours, so if you're planning on going in an early morning or evening, it's better to check the opening hours in advance.
 
@@ -20,21 +20,23 @@ This is a pretty small french garden which is fairly hidden - it doesn't even sh
 
 It's named after The name of this garden pays tribute to Lazare Rachline (1905-1968), resistant, industrialist, journalist and co-founder, with Bernard Lecache, of the Licra (International League against Racism and Anti-Semitism).
 
-Right next to the Institut suédois (Swedish institute) that hosts various cultural events.
+Right next to the park, there is the Institut suédois (Swedish institute) that hosts various cultural events.
 
 ### Square Georges-Cain
 
-This square is on the former garden of the hotel Le Peletier de Saint-Fargeau. It presents, in the open air, a selection of archaeological collections and monumental sculptures preserved at the Carnavalet-Histoire Museum in Paris. To admire: L'Ile-de-France (1925), a bronze statue of Maillol (1861-1944), on the central floor; the pediment of the clock pavilion of the former Tuileries Palace (burned during the Commune in 1871); and a Neolithic polisher, witness to the polished stone industry.
+This square is on the former garden of the hotel Le Peletier de Saint-Fargeau, located behind the musée Carnavalet. It has a bronze statue in the centre and at the edges has some archaeological pieces from the history of Paris dating from the Renaissance.
 
-The square is distinguished by the presence of a remarkable tree, a fig tree, Ficus carica, century-old and that of an iron tree, Parrotia persica, an essence native to the Caucasus so called because of the hardness of its wood. They have lots of cute birds around this park.
+![Square Georges-Cain](./images/square-georges-cain.jpg)
+
+The square also has some notable tree including a fig tree (Ficus carica) which is over 6 meters high. When I was here, there were lots of small cute birds flying around.
 
 Named after Georges Cain (1856-1919) a painter, writer and the first curator of the Carnavalet - Histoire de Paris Museum. Carnavalet is a great museum in Le Marais, entry to the permanent collection is free.
 
 ### Square Léopold-Achille
 
-Just next to Square Georges-Cain, bordering the hotel Le Pelletier in Saint-Fargeau. Some of the trees are unusual for France, a Siberian elm and a false holly from Japan (or Osmanthus) introduced in France in 1856 whose pungent leaves are very fragrant
+This park is just next to Square Georges-Cain, it had lots of benches and a play area for children. Some of the trees are unusual for France, a Siberian elm and a false holly from Japan (or Osmanthus) introduced in France in 1856 whose pungent leaves are very fragrant
 
-This square pays tribute to a former municipal councillor of the 3rd arrondissement, who was also deputy mayor.
+This square pays tribute to a former municipal councillor of the 3rd arrondissement, who was also the deputy mayor.
 
 ### Jardin Berthe Weill
 
@@ -54,7 +56,7 @@ The Place des Vosges is also known to have be the resident of several wellknown 
 
 This is a park I go to fairly often, because it's the meeting place of Serve the City, a charity that does food distributions a few times a week starting from this park. If you have any questions about volunteering with them, then feel free to contact me (contact details are at the bottom of this page).
 
-Close by, there's a cafe called "The Caféothèque of Paris" which is nice with a great atmosphere. It gets pretty busy, so it's not always possible to get a table. Their cakes always look good too - but I'm not sure if I've ever tried one.
+Close by, there's a cafe called "The Caféothèque of Paris" which is nice with a great atmosphere. It gets pretty busy, so it's not always possible to get a table. Their cakes always look good too.
 
 The park is named after Albert-Schweitzer (1875-1965), a missionary doctor, philosopher, musician and musicologist. In 1913, he founded the hospital in Lambaréné, Gabon, and received the Nobel Peace Prize in 1952.
 
