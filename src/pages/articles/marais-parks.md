@@ -16,7 +16,7 @@ In this article, I'm going to talk about some of the parks and try to summaries 
 
 This is a pretty small french garden which is fairly hidden - it doesn't even show as a green area on google maps. They have a benches that you can sit on, and some beautiful flowers. It used to be part of the Hôtel Donon.
 
-<!-- ![jardin-lazare-rachline](./images/jardin-lazare-rachline.jpg) -->
+![jardin-lazare-rachline](./images/jardin-lazare-rachline.jpg)
 
 It's named after The name of this garden pays tribute to Lazare Rachline (1905-1968), resistant, industrialist, journalist and co-founder, with Bernard Lecache, of the Licra (International League against Racism and Anti-Semitism).
 
