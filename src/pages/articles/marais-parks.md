@@ -54,7 +54,7 @@ The Place des Vosges is also known to have be the resident of several wellknown 
 
 ### Square Albert-Schweitzer
 
-This is a park I go to fairly often, because it's the meeting place of Serve the City, a charity that does food distributions a few times a week starting from this park. If you have any questions about volunteering with them, then feel free to contact me (contact details are at the bottom of this page).
+This is a park I go to fairly often, because it's the meeting place of Serve the City, a charity that does food distributions a few times a week starting from this park. You can find more about my experience [here](https://abisummers.com/articles/volunteering)
 
 Close by, there's a cafe called "The Caféothèque of Paris" which is nice with a great atmosphere. It gets pretty busy, so it's not always possible to get a table. Their cakes always look good too.
 
