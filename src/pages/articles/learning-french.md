@@ -18,19 +18,19 @@ I'm going to be honest, it took me an embarrassingly long time to learn French t
 
 Here's a summary of my journey with learning French, things that didn't work for me and more importantly what did work for me.
 
-### Secondary School
+### Secondary school
 
 I had two years of French class at school, which was taught in English. As a class, we were not very motivated to learn the language, and personally I didn't see a future of me needing French (life is unpredictable). What was meant to be a third year of class, turned into European Studies, but honestly I can remember nothing about it.
 
 If I could go back in time, I would have put a lot more effort into French and into other subject, but here we are. 6 years after my French classes when I moved to Paris, I could remember essentially nothing other than introducing myself by name and counting to ten.
 
-### Classes via la Mairie
+### In person classes via la Mairie
 
 After au pairing, I did a web dev bootcamp in 2018 and then started working as a teaching assistant (TA) on the same course. The bootcamp was taught in English, but most of the students were French speaking. When I was a TA, there were students who didn't speak French, so I continued to speak in English so they would understand. Not speaking French can be a very isolating feeling.
 
 I knew I wanted to improve my French, so I did some French classes via la Mairie (town hall). These classes were really cheap and I liked the classes a lot. However, where I was working moved to the other side of Paris so I was having to leave work in order to make it on time. After a while, I decided that it was too much and I stopped attending class. With being a TA, it meant that sometimes I would put on workshops after class for students or for potential students. I ran a _code me if you can_ workshop where we created a basic HTML page, and another workshop where we created a basic ping pong game.
 
-### Classes with Alliance Francaise
+### Classes with Alliance Francaise (online & in person)
 
 As a birthday gift in 2018, I got a week long course Alliance Francaise which was good but I was placed in a level that was too high for me. It definitely gave me a push I needed in terms of motivation and being back in a class room.
 
@@ -38,7 +38,7 @@ I also did online classes with them for almost a year in total starting in 2020.
 
 When working in France, money goes towards _mon compte formation_ which is essentially credits that can be used for various courses - French classes, learning to drive and a whole bunch of other stuff. They recently changed the rules, where you now have to pay 100€ towards the cost of course. You have to pay attention to what courses you're picking because some of them are really bad deals, and are expensive just because people have "free" money to use. The search feature on the website sucks, so it takes quite a lot of time to compare different options.
 
-### Classes with Campus Langues
+### In person classes with Campus Langues
 
 in 2022 I did 4 months of in person French classes at Campus Langues in preparation for taking the B1 exam (which I passed in the December!).
 
@@ -51,7 +51,7 @@ The two downsides for me were:
 
 This was the cheapest in person class I could find - I knew I was motivated to get past the mental block that I had but I just needed extra guidance. However, because it was the cheapest, there were definitely people there because they needed to attend French classes in order to validate their visas for example. And I know that the A1 and A2 classes that were held at the same time as mine, had more students in per class.
 
-### Lingoda
+### Online classes with Lingoda
 
 In January 2023, I switched companies and started speaking some French at work. All the code was in English, and the people I worked with all spoke English so I could speak English if I needed to, but a lot of meetings were in French. I knew I needed to do something outside of work to improve my level.
 
@@ -67,6 +67,10 @@ I enjoyed the sprint a lot, and have since purchased credits twice more. I like 
 
 I feel like during this period I improved a lot because of how much I was actually speaking French. Speaking French was the thing that I struggled with a lot
 
+### Online private classes with 7Speaking
+
+At my previous company they offered private French or English lessons to those who wanted it. I had 30 hours of 1on1 lessons that needed to be taken within one year. This was my first time having private lessons, which was tough at first - there is no avoiding any questions. I enjoyed these lessons because I got specific feedback to me like the mistakes I often (like with prepositions) and it was a great opportunity for me to ask any specific questions that I had about the French language. These lessons were usually speaking focused with some grammar related to lesson topic.
+
 ### Apps
 
 I'm not really big on apps, I already spend enough time on my phone and I enjoy spending time away from screens. However there are two that stand out to me the most
@@ -75,8 +79,7 @@ For vocab and conjugation, I found the app _Lingvist_ to be best. I tried Duolin
 
 With Lingvist, I think there's a lot of useful vocab - I used it for over a year straight without missing a day. I'm a creature of habit, and I know if I stop doing something, it's often hard for me to pick it up again. I am sure this is the reason why my vocab is good. You can pick the speed at which the sentences are spoken at. Ten minutes per day does a lot over a year
 
-And I loved listening to Radio France while commuting. They have a show call _le talk_ which I loved (I haven't listened to it for a while). It covers topics that are going on in France and globally, the bring in experts on the subject to discuss it in detail.
-
+And I loved listening to Radio France while commuting. They have a show call _le talk_ which I loved (I haven't listened to it for a while, since the new host took over). It covers topics that are going on in France and globally, the bring in experts on the subject to discuss it in detail. I didn't listen to every episode, only to the subjects that were interesting to me.
 
 ### What I tried that didn't work
 
@@ -96,19 +99,19 @@ I identified that speaking French was the most important element for me, so I kn
 
 Speaking with non native speakers. Ok, sure they also make mistakes but for me, it did a lot for my confidence speaking with people at a similar level. I found they were less quick to judge me for mistakes and that speaking at a slower pace gave me time to think.
 
-Investing money into learning French. French classes helped me massively, and I know I'm more likely to use something that I have paid for and I really benefited from the guidance.
+Investing money into learning French. French classes helped me massively, and I know I'm more likely to use something that I have paid for and I really benefited from the guidance. I found both online and in person classes to work for me and offer different things. Online classes worked better while working remotely because I could do them directly after work, but I also like the community feel of in person classes and the change of scenery.
 
 But honestly, for me, the hardest part was finding the confidence to just _start_. It's normal to make mistakes at the start, but putting off speaking just meant that future me had the same insecurities. Once I got over my fear of making a mistake, it became easier. After doing something once, the second, third, forth time etc becomes a lot less scary.
 
 I used to be embarrassed about my accent, but now I embrace it. Learning a language is hard, and my accent shows that it's not my native language - plus I find that French people are more understanding to my mistakes because of it.
 
-Integrating French into my daily life. This can be things like watching French movies or TV, following French content on social media or even changing your phone language into French. I never watch reality TV in English, but watching it in French is fun and I feel like I'm taking something away from it - new expressions, vocab and improving my understanding.
+Consistency by integrating French into my daily life. This can be things like watching French movies or TV, following French content on social media or even changing your phone language into French. I never watch reality TV in English, but watching it in French is fun and I feel like I'm taking something away from it - new expressions, vocab and improving my understanding.
 
 ### Next steps
 
-I'm still not _fluent_ in French, but I can get by in pretty much every situation. I might have to look up words in advance, but I know I can express myself even if it means explaining the word I'm looking for. I engage with French every day in some form, some days more than others. 
+I'm still not _fluent_ in French, but I can get by in pretty much every situation. I might have to look up words in advance, but I know I can express myself even if it means explaining the word I'm looking for. I engage with French every day in some form, some days more than others.
 
-Despite that, I'm still continuing to invest in my French. I have just bought more credits on Lingoda so that I can keep practising. I think learning French is always going to be something that I want to work on.
+Despite that, I'm still continuing to invest in my French. At the time of writing this (end of May 2024), I have just bought more credits on Lingoda so that I can keep practising. I think learning French is always going to be something that I want to work on.
 
 ### What's your experience?
 
