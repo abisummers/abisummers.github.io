@@ -1,8 +1,8 @@
 ---
-// import { getCollection } from "astro:content";
+import { getCollection } from "astro:content";
 import Main from "../../../layouts/article.astro";
 
-// const collection = await getCollection("monthly-review");
+const monthlyReviewCollection = await getCollection("monthly-review");
 ---
 
 <Main showLanguageSwitcher={false} title="Monthly review">
@@ -71,9 +71,9 @@ import Main from "../../../layouts/article.astro";
   <p>I want to have something to look back on in the years to come.</p>
   <p><b>The first article will be live at the end of May</b></p>
 
-  <!-- <div>
+  <div>
     {
-      collection.map((article) => {
+      monthlyReviewCollection.filter(monthlyArticle => !monthlyArticle.data.draft).map((article) => {
         if (article) {
           return <li value={article.data.title}>
             <a href={"/articles/monthly-review/" + article.slug}> 
@@ -83,5 +83,5 @@ import Main from "../../../layouts/article.astro";
         }
       })
     }
-  </div> -->
+  </div>
 </Main>
