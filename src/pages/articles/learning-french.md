@@ -26,15 +26,15 @@ If I could go back in time, I would have put a lot more effort into French and i
 
 ### Classes via la Mairie
 
-After au pairing, I did a web dev bootcamp and then started working as a teaching assistant on the same course. The bootcamp was taught in English, but most of the students were French speaking. When I was a TA, there were students who didn't speak French, so I continued to speak in English so they would understand.
+After au pairing, I did a web dev bootcamp in 2018 and then started working as a teaching assistant (TA) on the same course. The bootcamp was taught in English, but most of the students were French speaking. When I was a TA, there were students who didn't speak French, so I continued to speak in English so they would understand. Not speaking French can be a very isolating feeling.
 
-I knew I wanted to improve my French, so I did some French classes at la Mairie (via the town hall). These classes were some of the cheapest that I could find and I like them a lot. However, where I was working moved to the other side of Paris so I was having to leave work in order to make it on time. After a while, I decided that it was too much and I stopped attending class.
+I knew I wanted to improve my French, so I did some French classes via la Mairie (town hall). These classes were really cheap and I liked the classes a lot. However, where I was working moved to the other side of Paris so I was having to leave work in order to make it on time. After a while, I decided that it was too much and I stopped attending class. With being a TA, it meant that sometimes I would put on workshops after class for students or for potential students. I ran a _code me if you can_ workshop where we created a basic HTML page, and another workshop where we created a basic ping pong game.
 
 ### Classes with Alliance Francaise
 
-As a birthday gift, I got a week long course Alliance Francaise which was good but I was placed in a level that was too high for me.
+As a birthday gift in 2018, I got a week long course Alliance Francaise which was good but I was placed in a level that was too high for me. It definitely gave me a push I needed in terms of motivation and being back in a class room.
 
-I also did online classes with them for almost a year in total. Every tuesday and Thursday during term times, I had a two hour french class after work. I booked them through _mon compte formation_ which was amazing because French lessons are _expensive_ which is why I put it off for so long. The online classes worked well for me, because it was during Covid and I was working from home.
+I also did online classes with them for almost a year in total starting in 2020. Every tuesday and Thursday during term times, I had a two hour french class after work. I booked them through _mon compte formation_ which was amazing because French lessons are _expensive_ which is why I put it off for so long. The online classes worked well for me, because it was during Covid and I was working from home.
 
 When working in France, money goes towards _mon compte formation_ which is essentially credits that can be used for various courses - French classes, learning to drive and a whole bunch of other stuff. They recently changed the rules, where you now have to pay 100€ towards the cost of course. You have to pay attention to what courses you're picking because some of them are really bad deals, and are expensive just because people have "free" money to use. The search feature on the website sucks, so it takes quite a lot of time to compare different options.
 
@@ -46,10 +46,10 @@ I had a great experience. The class was pretty small, I think we were 12 people 
 
 The two downsides for me were:
 
-- the French classes I had were at 2pm-4pm each day, so right in the middle of the afternoon (which is probably why the class was small), but I would have preferred a morning class
+- the French classes I had were at 2-4pm each day, so right in the middle of the afternoon (which is probably why the class was small), but I would have preferred a morning class
 - the class had quite a variety of people in terms of levels, and not everyone was motivated. Because of the variety of level, parts were a little slow for me - I was there because I wanted to learn French, but some people were there because they _had_ to be there. At this point, I had a good understanding of French, I just lacked the confidence to speak it
 
-This was the cheapest in person class I could find - I knew I was motivated to get past the mental block that I had. However, because it was the cheapest, there were definitely people there because they needed to attend French classes in order to validate their visas for example. And I know that the A1 and A2 classes that were held at the same time as mine, had more students in per class.
+This was the cheapest in person class I could find - I knew I was motivated to get past the mental block that I had but I just needed extra guidance. However, because it was the cheapest, there were definitely people there because they needed to attend French classes in order to validate their visas for example. And I know that the A1 and A2 classes that were held at the same time as mine, had more students in per class.
 
 ### Lingoda
 
@@ -57,13 +57,13 @@ In January 2023, I switched companies and started speaking some French at work. 
 
 In April 2023 I started the [Lingoda Sprint](https://sprint.lingoda.com/6DMb2R) (referral link). One of the big selling points is that if you complete the sprint, you get either money back, or credit added to your account.
 
-Over two months, I did 15 lessons a month. It was intense, it's a lesson pretty much every other day on top of full time work, but I'm so pleased I did it. They have a super sprint which is 30 lessons per month - which is one every day. You can't do multiple on the same day if you want to get the reward at the end.
+Over two months, I did 15 lessons per month. It was intense, it's a lesson pretty much every other day on top of full time work, but I'm so pleased I did it. They have a super sprint which is 30 lessons per month - which is one every day. There are rules to the sprint like you can't do multiple on the same day if you want to get the reward at the end.
 
 I was on holiday while doing the sprint, so I ended up standing at the side of a road in the middle of a field to do the classes from my phone - the wifi in the house we were staying in was not good enough for me to connect. I wanted to complete the sprint in order to get the reward.
 
 I opted for the money back because I didn't want to burn myself out. You had a certain amount of time to use the credit within, after this period you still had the credits but you needed to buy more in order to have an active subscription.
 
-I enjoyed the sprint a lot, and have since purchased credits twice more. I like that I can pick any time of day (seriously I could do a class at 2am or 11pm if I wanted to), the class sizes are small (max five people) and that there are lots of different teachers. The classes are interactive - there isn't really an option to just sit back and listen because the teacher will call on you to answer a question.
+I enjoyed the sprint a lot, and have since purchased credits twice more. I like that I can pick any time of day (seriously I could do a class at 2am or 11pm if I wanted to), the class sizes are small (max five people) and that there are lots of different teachers. The classes are interactive - there isn't really an option to just sit back and listen because the teacher will call on you to answer a question. I would usually book the lesson a day in advance so I could be sure that I could make it.
 
 I feel like during this period I improved a lot because of how much I was actually speaking French. Speaking French was the thing that I struggled with a lot
 
@@ -92,13 +92,13 @@ Speaking was the most important part for me, but I didn't put myself in situatio
 
 ### What actually worked for me
 
-I identified that speaking French was the most important element for me, so I new where to focus my energy. I very rarely need to write something in French - and when I do I always have the time to look things up.
+I identified that speaking French was the most important element for me, so I knew where to focus my energy. I very rarely need to write something in French - and when I do I always have the time to look things up.
 
 Speaking with non native speakers. Ok, sure they also make mistakes but for me, it did a lot for my confidence speaking with people at a similar level. I found they were less quick to judge me for mistakes and that speaking at a slower pace gave me time to think.
 
-Investing money into learning French. French classes helped me massively, and I know I'm more likely to use something that I have paid for.
+Investing money into learning French. French classes helped me massively, and I know I'm more likely to use something that I have paid for and I really benefited from the guidance.
 
-But honestly, for me, the hardest part was finding the confidence to just _start_. It's normal to make mistakes at the start, but putting off speaking just meant that future me had the same insecurities.
+But honestly, for me, the hardest part was finding the confidence to just _start_. It's normal to make mistakes at the start, but putting off speaking just meant that future me had the same insecurities. Once I got over my fear of making a mistake, it became easier. After doing something once, the second, third, forth time etc becomes a lot less scary.
 
 I used to be embarrassed about my accent, but now I embrace it. Learning a language is hard, and my accent shows that it's not my native language - plus I find that French people are more understanding to my mistakes because of it.
 
@@ -106,10 +106,10 @@ Integrating French into my daily life. This can be things like watching French m
 
 ### Next steps
 
-I'm still not _fluent_ in French, but I can get by in pretty much every situation. I might have to look up words in advance, but I know I can express myself even if it means explaining the word I'm looking for.
+I'm still not _fluent_ in French, but I can get by in pretty much every situation. I might have to look up words in advance, but I know I can express myself even if it means explaining the word I'm looking for. I engage with French every day in some form, some days more than others. 
 
 Despite that, I'm still continuing to invest in my French. I have just bought more credits on Lingoda so that I can keep practising. I think learning French is always going to be something that I want to work on.
 
 ### What's your experience?
 
-What's your experience with learning a foreign language? What are your best tips and tricks? I'd love to talk about learning languages with you! You can contact me via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+What's your experience with learning a foreign language? What are your best tips and tricks? I'd love to talk about learning languages with you! You can get in touch via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
