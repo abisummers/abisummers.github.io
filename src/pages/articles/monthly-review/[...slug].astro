@@ -5,10 +5,12 @@ import { getImage } from "astro:assets";
 import Main from "../../../layouts/article.astro";
 
 export async function getStaticPaths() {
-  return (await getCollection("monthly-review")).map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
-  }));
+  return (await getCollection("monthly-review"))
+    .map((entry) => ({
+      params: { slug: entry.slug },
+      props: { entry },
+    }))
+    .filter((entry) => !entry.props.entry.data.draft);
 }
 
 interface Props {
@@ -84,7 +86,8 @@ const { Content } = await entry.render();
     </p>
     <p>
       Some of the links in this article may be referral or affilate links. Rest
-      assured, I will only link products that I actually use and recommend. All reviews are based on my experiences.
+      assured, I will only link products that I actually use and recommend. All
+      reviews are based on my experiences.
     </p>
   </footer>
 </Main>
