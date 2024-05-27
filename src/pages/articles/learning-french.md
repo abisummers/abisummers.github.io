@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Learning French
 intro: My experience with learning French and how I actually became confident enough to speak
+publishedDate: 2024-05-26
 ---
 
 ## Moving to France
@@ -116,3 +117,9 @@ Despite that, I'm still continuing to invest in my French. At the time of writin
 ### What's your experience?
 
 What's your experience with learning a foreign language? What are your best tips and tricks? I'd love to talk about learning languages with you! You can get in touch via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+
+---
+
+published date: 26th May 2024
+
+read more articles [here](https://abisummers.com/articles/)

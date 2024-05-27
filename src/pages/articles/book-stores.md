@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Book stores
 intro: My favourite places to buy English books in Paris
+publishedDate: 2024-04-23
 ---
 
 ## English book stores in Paris
@@ -59,3 +60,9 @@ I was an au pair for my first two years in Paris, so I spent a lot of time in Bo
 ## Your suggestions?
 
 If you know of any other English book stores, then I'd love to hear about them! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+
+---
+
+published date: 23rd April 2024
+
+read more articles [here](https://abisummers.com/articles/)

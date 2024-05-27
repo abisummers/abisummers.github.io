@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Getting around Île-de-France
 intro: Explaining different ways to get around the Île-de-France region using public transport
+publishedDate: 2024-04-16
 ---
 
 ## Getting around Île-de-France
@@ -53,3 +54,9 @@ They are also launching a Passe Paris 2024, more info about that can be found [h
 **This article is to be used as a guide only**. Refer to [Île-de-France mobility](https://www.iledefrance-mobilites.fr) for the latest info regarding pricing, and ticketing options. All pricing mentioned in this article is for a regular adult ticket unless otherwise specified.
 
 If you have any questions, or notice anything that's outdated, you can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+
+---
+
+published date: 16th April 2024
+
+read more articles [here](https://abisummers.com/articles/)

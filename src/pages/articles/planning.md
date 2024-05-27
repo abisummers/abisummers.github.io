@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: How to plan a day trip
 intro: Tips on planning a day trip within Île-de-France as part of my alphabet project
+publishedDate: 2024-04-21
 ---
 
 ## How to plan a day trip
@@ -57,3 +58,9 @@ Personally, I like to have a variety of different day trips. If I'm doing the da
 Got any places you want to visit in Île-de-France? Do you do something different when planning a day trip? If so, I'd love to hear how you plan a day trip and where you're going next! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
 
 You can find a full list of my _Alphabet of Île-de-France_ project [here](https://abisummers.com/articles/alphabet-ile-de-france/)!
+
+---
+
+published date: 21st April 2024
+
+read more articles [here](https://abisummers.com/articles/)

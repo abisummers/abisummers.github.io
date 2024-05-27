@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Volunteering in Paris
 intro: My experience with English speaking volunteering in Paris with Serve the City
+publishedDate: 2024-05-23
 ---
 
 ## Volunteering in Paris
@@ -45,3 +46,9 @@ The workshops have different themes, but I enjoyed the Curious Question the most
 ### Get in contact
 
 Have you volunteered in Paris? What was your experience? I'd love to know your experience, or any other organisations that I should volunteer with. You can get in contact via instagram at **[@abisummers](https://www.instagram.com/abisummers/)** or email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
+
+---
+
+published date: 23rd May 2024
+
+read more articles [here](https://abisummers.com/articles/)

@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Parks in Le Marais
 intro: Exploring the different parks, gardens and green areas in Le Marais
+publishedDate: 2024-05-22
 ---
 
 ## Le Marais
@@ -79,3 +80,9 @@ The park is named after Albert-Schweitzer (1875-1965), a missionary doctor, phil
 ### Get in contact
 
 Do you have a favourite park in Le Marais? What do you look for in a park (access to drinking water, toilets, being able to sit on the grass)? Get in contact via instagram at **[@abisummers](https://www.instagram.com/abisummers/)** or email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
+
+---
+
+published date: 22nd May 2024
+
+read more articles [here](https://abisummers.com/articles/)

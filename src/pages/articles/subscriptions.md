@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Subscriptions to museums
 intro: The different subscription cards I have for museums in Paris and France. Are they worth it?
+publishedDate: 2024-05-17
 ---
 
 ## Museum cards
@@ -55,3 +56,9 @@ I also love that most museums are free if you're under 26. I went to a lot of mu
 ## Get in contact
 
 Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+
+---
+
+published date: 17th May 2024
+
+read more articles [here](https://abisummers.com/articles/)
