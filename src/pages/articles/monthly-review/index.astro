@@ -73,15 +73,19 @@ const monthlyReviewCollection = await getCollection("monthly-review");
 
   <div>
     {
-      monthlyReviewCollection.filter(monthlyArticle => !monthlyArticle.data.draft).map((article) => {
-        if (article) {
-          return <li value={article.data.title}>
-            <a href={"/articles/monthly-review/" + article.slug}> 
-                {article.data.title}
+      monthlyReviewCollection
+        .filter((monthlyArticle) => !monthlyArticle.data.draft)
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a href={"/articles/monthly-review/" + article.slug}>
+                  {article.data.title}
                 </a>
-            </li>;
-        }
-      })
+              </li>
+            );
+          }
+        })
     }
   </div>
 </Main>
