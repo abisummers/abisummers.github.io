@@ -2,54 +2,30 @@
 import { getCollection } from "astro:content";
 import Main from "../../../layouts/article.astro";
 
-const museumCommection = await getCollection("museums");
+const museumCollection = await getCollection("museums");
+
+function currentExhibitions() {
+  return (
+    museumCollection.filter((museum) => {
+      return new Date(museum.data.endDate) >= new Date();
+    }) || []
+  );
+}
+
+function pastExhibitions() {
+  return (
+    museumCollection.filter((museum) => {
+      return new Date(museum.data.endDate) <= new Date();
+    }) || []
+  );
+}
 ---
 
 <Main showLanguageSwitcher={false} title="museums">
   <style>
-    .letter-list {
-      list-style-type: none;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1em;
-    }
-    .letter-list li {
-      border: 0.1em solid currentColor;
-      text-align: center;
-    }
-
-    .letter-list li.unknown {
-      color: gray;
-    }
-
-    .letter-list li * {
-      padding: 0.5em;
-      display: block;
-    }
-
-    .letter-list li a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .letter-list li a:hover {
-      background-color: var(--contrast);
-    }
-
-    .letter-list li .title {
-      text-decoration: underline;
-    }
-    progress {
-      width: 100%;
-      border: 0.1em solid currentColor;
-      background: transparent;
-    }
-    progress::-webkit-progress-bar {
-      background: transparent;
-    }
-    progress::-webkit-progress-value {
-      background: currentColor;
+    .date {
+      font-style: italic;
+      font-size: 0.8em;
     }
   </style>
   <h2>Museums in Paris</h2>
@@ -73,8 +49,9 @@ const museumCommection = await getCollection("museums");
     > if you want to share your experiences or any exhibitions that you would recommend!
   </p>
   <div>
+    <h3>Exhibitions that are currently active</h3>
     {
-      museumCommection.map((article) => {
+      currentExhibitions().map((article) => {
         if (article) {
           return (
             <li value={article.data.museumName}>
@@ -82,10 +59,59 @@ const museumCommection = await getCollection("museums");
                 {article.data.museumName}
               </a>
               : {article.data.intro}
+              <p class="date">
+                Exhibition date:{" "}
+                {article.data.Startdate.toLocaleDateString("en-uk", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}{" "}
+                to{" "}
+                {article.data.endDate.toLocaleDateString("en-uk", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}{" "}
+              </p>
             </li>
           );
         }
       })
     }
   </div>
+  {
+    pastExhibitions().length ? (
+      <div>
+        <h3>Exhibitions that have passed</h3>
+        {pastExhibitions().map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.museumName}>
+                <a href={"/articles/museums/" + article.slug}>
+                  {article.data.museumName}
+                </a>
+                : {article.data.intro}
+                <p class="date">
+                  Exhibition date:{" "}
+                  {article.data.Startdate.toLocaleDateString("en-uk", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}{" "}
+                  to{" "}
+                  {article.data.endDate.toLocaleDateString("en-uk", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}{" "}
+                </p>
+              </li>
+            );
+          }
+        })}
+      </div>
+    ) : (
+      ""
+    )
+  }
 </Main>
