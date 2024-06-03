@@ -1,0 +1,91 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+const museumCommection = await getCollection("museums");
+---
+
+<Main showLanguageSwitcher={false} title="museums">
+  <style>
+    .letter-list {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .letter-list li {
+      border: 0.1em solid currentColor;
+      text-align: center;
+    }
+
+    .letter-list li.unknown {
+      color: gray;
+    }
+
+    .letter-list li * {
+      padding: 0.5em;
+      display: block;
+    }
+
+    .letter-list li a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .letter-list li a:hover {
+      background-color: var(--contrast);
+    }
+
+    .letter-list li .title {
+      text-decoration: underline;
+    }
+    progress {
+      width: 100%;
+      border: 0.1em solid currentColor;
+      background: transparent;
+    }
+    progress::-webkit-progress-bar {
+      background: transparent;
+    }
+    progress::-webkit-progress-value {
+      background: currentColor;
+    }
+  </style>
+  <h2>Museums in Paris</h2>
+  <p>
+    I love spending time inside museums. I love learning about history,
+    exploring art and reflecting on what I see and how it makes me feel.
+  </p>
+  <p>
+    I'm not very good with words, but I'm hoping that by writing an article, it
+    will help me reflect on any takeaways that I have and will encourage me to
+    research things in more depth.
+  </p>
+  <p>
+    I would love to exchange any thoughts about the exhibitions, because even if
+    two people look at the same piece of art, the takeaways can be different.
+    It's one of the many things I love about exhanging thoughts.
+  </p>
+  <p>
+    You can reach me via instagram at <strong
+      ><a href="https://www.instagram.com/abisummers/">@abisummers</a></strong
+    > if you want to share your experiences or any exhibitions that you would recommend!
+  </p>
+  <div>
+    {
+      museumCommection.map((article) => {
+        if (article) {
+          return (
+            <li value={article.data.museumName}>
+              <a href={"/articles/museums/" + article.slug}>
+                {article.data.museumName}
+              </a>
+              : {article.data.intro}
+            </li>
+          );
+        }
+      })
+    }
+  </div>
+</Main>
