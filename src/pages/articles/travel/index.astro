@@ -1,0 +1,48 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+const travelCollection = await getCollection("travel");
+---
+
+<Main showLanguageSwitcher={false} title="Travel">
+  <style>
+    .date {
+      font-style: italic;
+      font-size: 0.8em;
+    }
+  </style>
+  <h2>Travel</h2>
+  <p>Here you can find all my articles related to travel.</p>
+  <p>
+    I love travelling, I love getting to visit new places, try new food and
+    talking to people that I cross paths with.
+  </p>
+  <p>
+    Travelling isn't always easy, all sorts of things can go wrong like
+    cancelled trains (it's happened to me multiple times) but there's always a
+    story to share and something to take away from the trip.
+  </p>
+  <p>
+    If you want to talk all things travel and to exchange experiences then you
+    can reach me on instagram <strong
+      ><a href="https://www.instagram.com/abisummers/">@abisummers</a></strong
+    >!
+  </p>
+  <div>
+    {
+      travelCollection.map((article) => {
+        if (article) {
+          return (
+            <li value={article.data.title}>
+              <a href={"/articles/travel/" + article.slug}>
+                {article.data.title}
+              </a>
+              : {article.data.intro}
+            </li>
+          );
+        }
+      })
+    }
+  </div>
+</Main>
