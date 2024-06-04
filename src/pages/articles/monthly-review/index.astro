@@ -6,7 +6,7 @@ const monthlyReviewCollection = await getCollection("monthly-review");
 
 function orderByDate() {
   return monthlyReviewCollection.sort(
-    (a, b) => new Date(b.data.publishedDate) - new Date(a.data.publishedDate),
+    (a, b) => new Date(b.data.publishedDate).valueOf() - new Date(a.data.publishedDate).valueOf(),
   );
 }
 ---
