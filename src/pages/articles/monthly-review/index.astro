@@ -3,55 +3,15 @@ import { getCollection } from "astro:content";
 import Main from "../../../layouts/article.astro";
 
 const monthlyReviewCollection = await getCollection("monthly-review");
+
+function orderByDate() {
+  return monthlyReviewCollection.sort(
+    (a, b) => new Date(b.data.publishedDate) - new Date(a.data.publishedDate),
+  );
+}
 ---
 
 <Main showLanguageSwitcher={false} title="Monthly review">
-  <style>
-    .letter-list {
-      list-style-type: none;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1em;
-    }
-    .letter-list li {
-      border: 0.1em solid currentColor;
-      text-align: center;
-    }
-
-    .letter-list li.unknown {
-      color: gray;
-    }
-
-    .letter-list li * {
-      padding: 0.5em;
-      display: block;
-    }
-
-    .letter-list li a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .letter-list li a:hover {
-      background-color: var(--contrast);
-    }
-
-    .letter-list li .title {
-      text-decoration: underline;
-    }
-    progress {
-      width: 100%;
-      border: 0.1em solid currentColor;
-      background: transparent;
-    }
-    progress::-webkit-progress-bar {
-      background: transparent;
-    }
-    progress::-webkit-progress-value {
-      background: currentColor;
-    }
-  </style>
   <h2>Monthly Reviews</h2>
   <p>
     I wanted to have a place to reflect on the month that has passed. I don't
@@ -72,7 +32,7 @@ const monthlyReviewCollection = await getCollection("monthly-review");
 
   <div>
     {
-      monthlyReviewCollection
+      orderByDate()
         .filter((monthlyArticle) => !monthlyArticle.data.draft)
         .map((article) => {
           if (article) {
