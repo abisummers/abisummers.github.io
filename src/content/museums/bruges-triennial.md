@@ -136,7 +136,8 @@ I like the idea behind this piece, but I couldn't stop thinking about how _big_ 
 #### Mariana Castillo Deball – Firesong for the bees, a tree of clay (3)
 
 > “New residents for the Sebrechts Park.”
-> ![firesong for the bees](./images/triennial-firesong.jpeg)
+
+![firesong for the bees](./images/triennial-firesong.jpeg)
 
 This installation contains unique ceramic beehives which refers to the historical bee-keeping in Europe. Hives were built from straw, clay and fired ceramics and were all unique. We are now used to the standard beehive that was introduced in the 19th century. Atop the installation there are three typical simplex hives which actually house bees. The bees are cared for by local beekeepers.
 
