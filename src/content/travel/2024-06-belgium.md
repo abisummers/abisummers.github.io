@@ -2,7 +2,8 @@
 title: Belgium - June 2024
 intro: A week in Belgium including a stop in Saint Quentin, seeing family and the Bruges Triennial
 type: summary
-publishedDate: 2024-06-18
+tags: ["Belgium", "blog"]
+publishedDate: 2024-06-19
 ---
 
 ### Belgium: June 2024
