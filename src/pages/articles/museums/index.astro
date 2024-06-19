@@ -51,46 +51,16 @@ function pastExhibitions() {
   <div>
     <h3>Exhibitions that are currently active</h3>
     {
-      currentExhibitions().map((article) => {
-        if (article) {
-          return (
-            <li value={article.data.museumName}>
-              <a href={"/articles/museums/" + article.slug}>
-                {article.data.museumName}
-              </a>
-              : {article.data.exhibitionName}
-              <p class="date">
-                Exhibition date:{" "}
-                {article.data.Startdate.toLocaleDateString("en-uk", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}{" "}
-                to{" "}
-                {article.data.endDate.toLocaleDateString("en-uk", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}{" "}
-              </p>
-            </li>
-          );
-        }
-      })
-    }
-  </div>
-  {
-    pastExhibitions().length ? (
-      <div>
-        <h3>Exhibitions that have passed</h3>
-        {pastExhibitions().map((article) => {
+      currentExhibitions()
+        .filter((exhibition) => exhibition.data.country === "FR")
+        .map((article) => {
           if (article) {
             return (
               <li value={article.data.museumName}>
                 <a href={"/articles/museums/" + article.slug}>
                   {article.data.museumName}
                 </a>
-                : {article.data.intro}
+                : {article.data.exhibitionName}
                 <p class="date">
                   Exhibition date:{" "}
                   {article.data.Startdate.toLocaleDateString("en-uk", {
@@ -108,10 +78,82 @@ function pastExhibitions() {
               </li>
             );
           }
-        })}
+        })
+    }
+  </div>
+  {
+    pastExhibitions().length ? (
+      <div>
+        <h3>Exhibitions that have passed</h3>
+        {pastExhibitions()
+          .filter((exhibition) => exhibition.data.country === "FR")
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.museumName}>
+                  <a href={"/articles/museums/" + article.slug}>
+                    {article.data.museumName}
+                  </a>
+                  : {article.data.intro}
+                  <p class="date">
+                    Exhibition date:{" "}
+                    {article.data.Startdate.toLocaleDateString("en-uk", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}{" "}
+                    to{" "}
+                    {article.data.endDate.toLocaleDateString("en-uk", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}{" "}
+                  </p>
+                </li>
+              );
+            }
+          })}
       </div>
     ) : (
       ""
+    )
+  }
+  <br />
+  <br />
+  <br />
+  {
+    (
+      <div>
+        <h3>Exhibitions outside of France</h3>
+        {museumCollection
+          .filter((exhibition) => exhibition.data.country !== "FR")
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.museumName}>
+                  <a href={"/articles/museums/" + article.slug}>
+                    {article.data.museumName}
+                  </a>
+                  : {article.data.intro}
+                  <p class="date">
+                    Exhibition date:{" "}
+                    {article.data.Startdate.toLocaleDateString("en-uk", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}{" "}
+                    to{" "}
+                    {article.data.endDate.toLocaleDateString("en-uk", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}{" "}
+                  </p>
+                </li>
+              );
+            }
+          })}
+      </div>
     )
   }
 </Main>

@@ -6,6 +6,7 @@ Startdate: 2024-03-19
 endDate: 2024-06-23
 dateVisited: 2024-05-15
 ticketCost: 0
+country: FR
 ---
 
 ### La France sous leur yeux at the BNF François-Mitterrand
