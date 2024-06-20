@@ -36,7 +36,8 @@ function pastExhibitions() {
   <p>
     I'm not very good with words, but I'm hoping that by writing an article, it
     will help me reflect on any takeaways that I have and will encourage me to
-    research things in more depth.
+    research things in more depth. I'm also hoping that with practice, I will be
+    able to express my thoughts more freely
   </p>
   <p>
     I would love to exchange any thoughts about the exhibitions, because even if
@@ -47,6 +48,12 @@ function pastExhibitions() {
     You can reach me via instagram at <strong
       ><a href="https://www.instagram.com/abisummers/">@abisummers</a></strong
     > if you want to share your experiences or any exhibitions that you would recommend!
+  </p>
+  <p>
+    These articles are broken down into two categories, exhibitions that are
+    still active and ones that have ended. I know that sometimes when I'm
+    looking for exhibitions I want to know which ones are active and which ones
+    are going to be ending soon
   </p>
   <div>
     <h3>Exhibitions that are currently active</h3>
@@ -125,6 +132,13 @@ function pastExhibitions() {
     (
       <div>
         <h3>Exhibitions outside of France</h3>
+        <p>
+          This blog collection is mostly about thoughts on Paris museums (because that's
+          where I live), but I also want to write about museums that I
+          visit when travelling. Since this is still a new collection, it makes
+          sense for me to keep it all on one page with a small break between the
+          two different types - this will probably change as my blog evolves
+        </p>
         {museumCollection
           .filter((exhibition) => exhibition.data.country !== "FR")
           .map((article) => {
