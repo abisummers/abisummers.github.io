@@ -6,7 +6,7 @@ tags: ["Belgium", "blog"]
 publishedDate: 2024-06-19
 ---
 
-### Belgium: June 2024
+> date: 6th - 14th June 
 
 I come to Belgium fairly often because my partner is Belgian with all of his family still living here. Often trips are just for a weekend, but this time we were visiting for a week - and I'm not working!
 
@@ -30,9 +30,11 @@ Another day of travelling by train meant I read a solid chunk in my 700 page boo
 
 ### Brussels
 
-The time in Brussels was pretty short this time. We had a family party on the Saturday which involved a walk around Brussels with a picnic for lunch.
+After arriving in midi station, I took public transport to get to my mother-in-laws apartment. I find that in brussels there are so many ways of getting around the city with various combinations of metros, trams and buses. I usually look to see what is going to be fasted because I don't like waiting 15 minutes if I've just missed a tram.
 
-On the Saturday evening, I took the train to Bruges, which is where I was spending the rest of the week. I arrived at my father-in-laws house alone because my partner had an event and his dad wasn't home. It was my first time being here alone which was a pretty weird feeling. I had a chilled evening with a glass of wine, crackers and cheese and reading my book.
+The time in Brussels was pretty short this time. We had a family party on the Saturday which involved a walk around Brussels with some fun facts about the places we were passing through followed by a picnic for lunch.
+
+On the Saturday evening, I took the train to Bruges, which is where I was spending the rest of the week. I wanted to take the bus to get to central station but the bus stopped early because of a manifestation so I walked to nord station and only just made my train. The train after was in like 3O minutes but I didn't want to wait (and was rather grumpy because I really thought I was going to _just_ miss the train). I arrived at my father-in-laws house alone because my partner had an event and his dad wasn't home. It was my first time being here alone which was a pretty weird feeling. I had a chilled evening with a glass of wine, crackers and cheese and reading my book.
 
 ### Bruges
 
@@ -48,8 +50,10 @@ They also had some pieces from the Rebel Garden exhibition which is spread acros
 
 I went into two different book stores to look for a book written by a Belgian author. When travelling, I like to buy a book from a local author (or set in the area) because it's nice to have a souvenir and to discover new authors. In one of the stores I asked if they had any books in English or in French by Belgian authors. They had a couple of books but they didn't seem overly interesting to me. The person in the book store pointed out some Dutch books that were translated rather than from Belgian authors. It seems the market of Belgian Dutch being translated isn't so popular. I ended up buying a book called _la plage d'ostende_ by by Jacqueline Harpman, a Belgian writer who writes in French. I haven't yet started this book.
 
+While walking around Bruges, I always think about how many photos I will appear in as part of the background. There are people taking photos all over the city - it's a really cute city especially when the sun is out.
+
 ### Home time
 
 After a week in Belgium, it was time to go home - this time the easy route. I took the train from Bruges to Brussels which took about an hour, had almost an hour in midi station before the eurostar back to Paris.
 
-I love travelling, but I also love the feeling of getting home and sleeping in my own bed again. My partner had a long journey home - head winds made it much harder to cycle, but he did it!
+I love travelling, but I also love the feeling of getting home and sleeping in my own bed again. My partner had a long journey home - head winds made it much harder to cycle the 360km, but he did it!
