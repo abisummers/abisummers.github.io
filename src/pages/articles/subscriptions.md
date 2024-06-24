@@ -2,18 +2,18 @@
 layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
-title: Subscriptions to museums
-intro: The different subscription cards I have for museums in Paris and France. Are they worth it?
+title: Museum passes
+intro: I have three different museum passes. Are they worth it? Here I track what I have seen and how much I've saved.
 publishedDate: 2024-05-17
 ---
 
 ## Museum cards
 
-I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it.
+I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it. You can read my articles about exhibitions I've seen [here](https://abisummers.com/articles/museums/).
 
 ## National Monument
 
-I have the duo [national monument card](https://www.monuments-nationaux.fr) which has over 80 monuments inside France. I opted for the duo card, because it's often a place I go to with a friend, so this allows me to get another person in for free. I subscribed for the year, starting from the 25th April 2024. The solo subscription costs 45€ and the duo costs 70€.
+I have the duo [national monument card](https://www.monuments-nationaux.fr) which has over 80 monuments inside France. I opted for the duo card, because it's often a place I go to with a friend, so this allows me to get another person in for free. I subscribed for the year, starting from the 25th April 2024. The solo subscription costs 45€ and the duo costs **70€**.
 
 Has it been worth it?
 
@@ -26,20 +26,21 @@ Despite not saving money yet (I'm pretty sure I will before the year is over), I
 
 ## Paris museum card
 
-Since the 18th February 2024 I have had the solo card to the [Paris Museums](https://www.billetterie-parismusees.paris.fr/content) which cost 40€. I opted for the solo card for the museums, because often I go to museums alone so that I can go at my own pace.
+Since the 18th February 2024 I have had the solo card to the [Paris Museums](https://www.billetterie-parismusees.paris.fr/content) which cost **40€**. I opted for the solo card for the museums, because often I go to museums alone so that I can go at my own pace. This is my second time having this card however my previous hard was the under 26 which was cheaper.
 
-Has it been worth it?
+These are the exhibitions that I've been to:
 
 - La Régence à Paris at Musée Carnavalet (ticket price 13€)
-- Présences arabes at Musée d'Art Moderne de Paris (ticket price 12€)
+- Présences arabes at the Musée d'Art Moderne (MaM) (ticket price 12€)
+- Jean Hélion at the MaM (ticket price 15€)
 
-Total saved so far: **25€**
+Total saved so far: **40€** so I'm now even with the initial purchase cost.
 
-Carnavalet is a great museum about the history of Paris and I find their exhibitions to be good too. This is my second time with this subscription, so I do think it's worth it
+Both the Carnavalet and the MaM have a free permanent collection.
 
 ## BNF (Bibliothèque Nationale de France)
 
-I bought the year subscription to the [BNF](https://www.bnf.fr/fr) which costs 24€ because I was looking for a place to work from - the city libraries are great but I find they often have weird opening hours, and don't always have power sockets that are accessible (I do sometimes work from the city libraries). BNF have different locations in Paris, but I would say the two mains ones are Francois-Mitterrand and Richelieu.
+I bought the year subscription to the [BNF](https://www.bnf.fr/fr) which costs **24€** because I was looking for a place to work from - the city libraries are great but I find they often have weird opening hours, and don't always have power sockets that are accessible (I do sometimes work from the city libraries). BNF have different locations in Paris, but I would say the two mains ones are Francois-Mitterrand and Richelieu.
 
 It's free to work from Richelieu, but finding a place is hard. The oval room is really beautiful but it's almost always full. I usually work at Francois-Mitterrand, I've always been able to find a space, the tables are big, all have power sockets at the wifi works. Entry to work here costs 5€ per day, or free entry after 5pm. You can see how long the security line is on the app Affluences as well as how busy each of the rooms are. I'm actually writing this article from Francois-Mitterrand.
 
@@ -55,7 +56,7 @@ I also love that most museums are free if you're under 26. I went to a lot of mu
 
 ## Get in contact
 
-Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
 
 ---
 
