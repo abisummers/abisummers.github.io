@@ -53,7 +53,12 @@ function pastExhibitions() {
     These articles are broken down into two categories, exhibitions that are
     still active and ones that have ended. I know that sometimes when I'm
     looking for exhibitions I want to know which ones are active and which ones
-    are going to be ending soon
+    are going to be ending soon.
+  </p>
+  <p>
+    Since I visit a lot of museums I have three different subscription cards.
+    You can find more details about them <a
+      href="https://abisummers.com/articles/subscriptions/">here</a>
   </p>
   <div>
     <h3>Exhibitions that are currently active</h3>
@@ -101,7 +106,7 @@ function pastExhibitions() {
                   <a href={"/articles/museums/" + article.slug}>
                     {article.data.museumName}
                   </a>
-                  : {article.data.intro}
+                  : {article.data.exhibitionName}
                   <p class="date">
                     Exhibition date:{" "}
                     {article.data.Startdate.toLocaleDateString("en-uk", {
@@ -133,11 +138,12 @@ function pastExhibitions() {
       <div>
         <h3>Exhibitions outside of France</h3>
         <p>
-          This blog collection is mostly about thoughts on Paris museums (because that's
-          where I live), but I also want to write about museums that I
-          visit when travelling. Since this is still a new collection, it makes
-          sense for me to keep it all on one page with a small break between the
-          two different types - this will probably change as my blog evolves
+          This blog collection is mostly about thoughts on Paris museums
+          (because that's where I live), but I also want to write about museums
+          that I visit when travelling. Since this is still a new collection, it
+          makes sense for me to keep it all on one page with a small break
+          between the two different types - this will probably change as my blog
+          evolves
         </p>
         {museumCollection
           .filter((exhibition) => exhibition.data.country !== "FR")
@@ -148,7 +154,7 @@ function pastExhibitions() {
                   <a href={"/articles/museums/" + article.slug}>
                     {article.data.museumName}
                   </a>
-                  : {article.data.intro}
+                  : {article.data.exhibitionName}
                   <p class="date">
                     Exhibition date:{" "}
                     {article.data.Startdate.toLocaleDateString("en-uk", {
