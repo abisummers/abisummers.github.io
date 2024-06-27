@@ -9,7 +9,7 @@ publishedDate: 2024-05-17
 
 ## Museum cards
 
-I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it. You can read my articles about exhibitions I've seen [here](https://abisummers.com/articles/museums/).
+I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it. Sometimes I like to write an article after visiting so that I really take the time to think about it, you them here [here](https://abisummers.com/articles/museums/).
 
 ## National Monument
 
@@ -17,8 +17,8 @@ I have the duo [national monument card](https://www.monuments-nationaux.fr) whic
 
 Has it been worth it?
 
-- arc de triomphe with a friend (ticket price per ticket: 16€)
-- Maison des Jardies à Sèvres as part of my [day trip to Ville d'Avray](http://abisummers.com/articles/alphabet-ile-de-france/v-ville-d-avray/) (the guided tour of the house was sooooo good) (ticket price 7€)
+- arc de triomphe with a friend: 16€ per person
+- Maison des Jardies à Sèvres as part of my [day trip to Ville d'Avray](http://abisummers.com/articles/alphabet-ile-de-france/v-ville-d-avray/): 7€, including the guided tour.
 
 total saved so far: **39€**
 
@@ -28,15 +28,16 @@ Despite not saving money yet (I'm pretty sure I will before the year is over), I
 
 Since the 18th February 2024 I have had the solo card to the [Paris Museums](https://www.billetterie-parismusees.paris.fr/content) which cost **40€**. I opted for the solo card for the museums, because often I go to museums alone so that I can go at my own pace. This is my second time having this card however my previous hard was the under 26 which was cheaper.
 
-These are the exhibitions that I've been to:
+These are the exhibitions that I've been to and what their full price ticket costs: 
 
-- La Régence à Paris at Musée Carnavalet (ticket price 13€)
-- Présences arabes at the Musée d'Art Moderne (MaM) (ticket price 12€)
-- Jean Hélion at the MaM (ticket price 15€)
+- La Régence à Paris at Musée Carnavalet: 13€
+- Présences arabes at the Musée d'Art Moderne (MaM): 12€
+- [Jean Hélion at the MaM](https://abisummers.com/articles/museums/mam-jean-helion/): 15€.
+- Théodore Rousseau at the Petit Palais: 12€
 
-Total saved so far: **40€** so I'm now even with the initial purchase cost.
+Total saved so far: **52€** so I've now made my money back (and there's still more to see!).
 
-Both the Carnavalet and the MaM have a free permanent collection.
+All of these museums have a free permanent collection.
 
 ## BNF (Bibliothèque Nationale de France)
 
@@ -52,7 +53,7 @@ They also have exhibitions here, which don't seem to be that known. I recently w
 
 There are a number of other subscriptions to other museums in Paris such as Amis de Louvre which gives access to the Louvre and reduced entry to other museums including Institut du monde arabe. This subscription costs 80€ full price (with some reductions if you're under 30). Personally, I don't think I need another subscription because I don't have the time to visit museums all of the time. Depending on the type of museums you like, depends on the best subscription for you.
 
-I also love that most museums are free if you're under 26. I went to a lot of museums when I was an au pair because they were free. I think it's great that culture is accessible.
+I also love that most museums are free if you're under 26, and some have free permanent collections like the MaM. I went to a lot of museums when I was an au pair because they were free and I think it's great that culture is accessible.
 
 ## Get in contact
 
