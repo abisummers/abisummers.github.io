@@ -25,6 +25,8 @@ It took me an hour to see everything in the exhibition, so it's fairly small com
 
 The exhibition talks through some of his failures as well as his successes and the process behind some of his pieces. He worked outdoors as close to nature as possible before finishing the pieces in his studio - which could sometimes take years, and sometimes were never finished. It's unfortunate that capitalism requires us all to make money fast, so we don't have the option to spend two years working on a piece of art and doing things that feel good for us (that's my feelings anyway.
 
+![chestnut trees](./images/theodore-rousseau-chestnut.jpeg)
+
 I really liked this exhibition, I like that a lot of the paintings has some additional context to go with it, everything was translated into English apart from the quotes on the walls. As someone who doesn't know a lot about specific periods of art, it's sometimes hard for me to understand the painting without the context so I'm always grateful when it's included. I didn't grow up going to museums, so appreciating art and finding my style is something that I'm working on. I don't often think about art in terms of evolution, on different trends through history but Rousseau aspired to paint the landscape for what it is, not just the backdrop, something which made him stand out at the time.
 
 There was quite a lot of variety in his work, all with the theme of landscape and nature. Most were paintings but there were also some drawings. While I was there, there was someone sat drawing one of the pieces on display which I love to see. A lot of the paintings had an emotional connection behind, like trying to preserve the memory of a forest before all of the changes happen.
@@ -32,6 +34,8 @@ There was quite a lot of variety in his work, all with the theme of landscape an
 There was one [painting](https://co.pinterest.com/pin/519602875762981572/) on display _la descente des vaches dans le haut-jura_ which has unfortunately been badly damaged due to chemical processing. I'm grateful that so many pieces of art have been preserved. A close friend of mine, often tells me about the restoration process because that's what he's studying - it's super interesting to learn about it. There were two things that stood out to me, one being the size of the painting and the second being the red colour that has taken over.
 
 Rousseau, originally from Paris, settled in Barbizon in 1847, a small town in Forêt de Fontainebleau. A 'colony' of artists later formed there, and it was made more accessible when the Paris - Melun train line opened. In the exhibition there's a section dedicated to other artists who lived in Barbizon at the same time. Barbizon is actually one of the places I had in mind for my Île-de-France project, but instead I went to [Bièvres](https://abisummers.com/articles/alphabet-ile-de-france/b-bievres/).
+
+![Théodore Rousseau](./images/theodore-rousseau-sculpture.jpeg)
 
 At the end of the exhibition, there's a timeline with some information about the forest of Fontainebleau. I have been to Fontainebleau a few times before, but I've never thought about how important of a place it was for artists at the time and environmentally.
 
