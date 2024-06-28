@@ -1,6 +1,6 @@
 ---
 museumName: Petit Palais
-exhibitionName: Theodore Rousseau
+exhibitionName: Théodore Rousseau
 intro: Visiting the Théodore Rousseau - 'La Voix de la forêt' exhibition
 Startdate: 2024-03-05
 endDate: 2024-07-07

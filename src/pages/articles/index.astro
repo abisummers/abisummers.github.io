@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Main from "../../layouts/article.astro";
+import latinize from 'latinize'
 
 const alphabet = await getCollection("alphabet-ile-de-france");
 
@@ -8,7 +9,7 @@ const museums = (await getCollection("museums")).map((m) => {
   return {
     title: `${m.data.museumName}: ${m.data.exhibitionName}`,
     intro: m.data.intro,
-    url: `./museums/${m.data.museumName.toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}`,
+    url: latinize(`./museums/${m.data.museumName.replace(/\s+/g, "-").toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}`),
   };
 });
 
@@ -33,8 +34,8 @@ const articles = [
   <h2>Articles</h2>
   <p>
     Here you can find all of my articles related to visiting places within
-    Île-de-France (planning a day trip, places to visit etc) along with some of
-    my favourite things to do in Paris.
+    Île-de-France (planning a day trip, museums, tip etc) along with some of my
+    favourite things to do in Paris.
   </p>
   {
     articles.map((article) => (
