@@ -2,7 +2,7 @@
 title: Yerres
 letter: Y
 date: 2024-07-07
-image: /src/content/images/yerres-cycle.jpeg
+image: /src/content/images/yerres-cycle.jpg
 transportLinks: ["RER D"]
 knownFor: []
 notablePeople: ["Caillebotte"]
@@ -20,7 +20,7 @@ Getting there from Paris is pretty straightforward, you can take the RER D to th
 
 Rather than taking the RER D, I cycled to Yerres with my partner because it was the easiest way for us to get there. The cycle from where we live is (mostly) nice plus the weather was good. There wasn't a designated bike parking nearby (or not that we could see), but we left out bikes just opposite Cafe Gustave in the corner of the courtyard where they were out of the way.
 
-![cycling into Yerres](../images/yerres-cycle.jpeg)
+![cycling into Yerres](../images/yerres-cycle.jpg)
 
 ### The trip
 
@@ -36,7 +36,7 @@ The house is split over three floors. On the downstairs, you have the dinning ro
 
 The second floor has the bedrooms, in each of the bedrooms there's information about different members of the family. The bedroom of Caillebotte's parents is decorated in the style of Napoleon Ier. They had a room that displayed videos including ones about the owners of the house and a film about Caillebotte - I didn't watch all of the videos because they're long. There was also a _périssoire_ (a traditional french boat) next to a larger print of one of his famous paintings, _Périssoires sur l'Yerres_.
 
-![bedroom](../images/yerres-bedroom.jpeg)
+![bedroom](../images/yerres-bedroom.jpg)
 
 And the third floor was the atelier of Caillebotte. It was interesting to see the space where he would have worked.
 
@@ -50,7 +50,7 @@ Before starting on the final exhibition we went for a walk around the park. We w
 
 At the end of the park, there's a garden that's ran by volunteers. They grow different fruits and vegetables along with flowers, almost all of them with the name of the plant written next to it. There were volunteers working in the garden that were able to answer any questions. At the front, they had a small basket with some things that you were allowed to take from.
 
-![garden](../images/yerres-garden.jpeg)
+![garden](../images/yerres-garden.jpg)
 
 And then we went to the final exhibition, _Présences_, held in the _A La Ferme Ornée_. This exhibition displays 140 photographs from the collection of Gilman and Gonzalez-Falla. We spent about 30 minutes visiting the exhibition.
 
