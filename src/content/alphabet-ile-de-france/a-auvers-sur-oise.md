@@ -2,7 +2,7 @@
 title: Auvers-sur-Oise
 letter: A
 date: 2024-03-19
-image: /src/content/images/auvers-sur-Oise-sign.jpeg
+image: /src/content/images/auvers-sur-oise-sign.jpg
 transportLinks: ["Transilien H"]
 knownFor: ["painters"]
 notablePeople: ["Vincent van Gogh"]
@@ -10,7 +10,7 @@ whenToVisit: ["high season"]
 coordinates: { lat: 49.0709, lng: 2.1708 }
 ---
 
-![Welcome to Auvers-sur-Oise sign](../images/auvers-sur-Oise-sign.jpeg)
+![Welcome to Auvers-sur-Oise sign](../images/auvers-sur-oise-sign.jpg)
 
 This week, I went to Auvers-sur-Oise as a solo day trip. This was my second time here, the first time was back in 2020.
 
@@ -44,7 +44,7 @@ There are also some other walks that you can follow that cover some of the main 
 - Daubigny path: (Botin, Musée Daubigny, Atelier Daubigny, Buste Daubigny, Léonide Bourges) which takes around 45 minutes
 - illustres path: Daubigny, Boggio, Gachet which also takes around 45 minutes
 
-![Vincent Van Gogh wheatfield with crows painting](../images/vincent-van-gogh-champ.jpeg)
+![Vincent Van Gogh wheatfield with crows painting](../images/auvers-vincent-van-gogh-champ.jpg)
 
 After visiting the tomb of van Gogh and the inspiration for the wheatfield painting, I walked back towards the main town. It's really interesting to see the inspiration behind some of the paintings.
 
