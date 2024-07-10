@@ -29,7 +29,7 @@ They offer tea & coffee at the entrance which is a nice treat after book shoppin
 
 This is probably the most known English book store in Paris. There is often a queue to get into the shop - people start queueing before the store opens. They do this to ensure that people in the store have enough space to look at the books.
 
-They also host events (often they're free!) which they share both on their website and facebook page.
+They also host events which are usually free. They share the details on their website, instagram and facebook page of upcoming events. I've been to two events (Shelia Heti and Michael Donkor), the first was on the ground floor and the second was held upstairs. In summer, if the weather permits they also host events outside. At the end of the event, you're able to buy a copy of the book & get it signed by the author. If you're planning on attending, I'd suggest arriving 30 minutes before so you can be sure to get a seat - otherwise they have space where you can stand (you can't always see the stage which personally isn't a big deal for me). If you want to attend the event but are unable to attend they share the audio on their podcast too.
 
 They have a website where you can order books either for delivery or for a store pickup - if I'm after a specific book then I usually order it online and pick it up in store. If you have ordered a book online, you do not need to queue, you can show your email to person on the door and they will let you in.
 
