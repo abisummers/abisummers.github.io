@@ -6,7 +6,7 @@ tags: ["Belgium", "blog"]
 publishedDate: 2024-06-19
 ---
 
-> date: 6th - 14th June 
+> date: 6th - 14th June
 
 I come to Belgium fairly often because my partner is Belgian with all of his family still living here. Often trips are just for a weekend, but this time we were visiting for a week - and I'm not working!
 

@@ -28,7 +28,7 @@ Despite not saving money yet (I'm pretty sure I will before the year is over), I
 
 Since the 18th February 2024 I have had the solo card to the [Paris Museums](https://www.billetterie-parismusees.paris.fr/content) which cost **40€**. I opted for the solo card for the museums, because often I go to museums alone so that I can go at my own pace. This is my second time having this card however my previous hard was the under 26 which was cheaper.
 
-These are the exhibitions that I've been to and what their full price ticket costs: 
+These are the exhibitions that I've been to and what their full price ticket costs:
 
 - La Régence à Paris at Musée Carnavalet: 13€
 - Présences arabes at the Musée d'Art Moderne (MaM): 12€

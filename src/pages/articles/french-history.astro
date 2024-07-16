@@ -1,0 +1,194 @@
+---
+import Article from "../../layouts/article.astro";
+
+export const people = [
+  "Charlemagne",
+  "Louis X",
+  "Jeanne d’Arc",
+  "Clovis",
+  "Henri IV",
+  "Napoléon Bonaparte",
+  "Louis-Napoléon Bonaparte (Napoléon III)",
+  "Molière",
+  "Rousseau",
+  "Voltaire",
+  "Diderot",
+  "Louis XIII",
+  "Louis XIV",
+  "Louis XV",
+  "Louis XVI",
+  "Marie Antoinette",
+  "Maximilien Robespierre",
+  "Victor Hugo",
+  "Jules Ferry",
+  "Charles de Gaulle",
+  "Simone Veil",
+  "Marie Curie",
+  "Léon Gambetta",
+  "Josephine Baker",
+  "Dalida",
+  "Edith Piaf",
+  "Emile Zola",
+  "Brigitte Bardot",
+  "Alexandre Dumas",
+  "Jean Moulin",
+  "André Malraux",
+];
+
+export const events = [
+  "grotte de Lascaux",
+  "la guerre des 100 ans",
+  "l’édit de Nantes",
+  "Ancien régime",
+  "Règne de Louis XIV",
+  "Déclaration des Droits de l’Homme et du Citoyen",
+  "empire colonial",
+  "Les philosophes des Lumières",
+  "La Révolution française",
+  "1er République",
+  "2ème République",
+  "3ème République",
+  "4ème République",
+  "5ème République",
+  "La Première Guerre mondiale",
+  "bataille de Verdun",
+  "La Seconde Guerre mondiale",
+  "Le régime de Vichy",
+  "Décolonisation française",
+  "Mai 68",
+  "Traité de Rome",
+  "Loi Veil",
+];
+
+export const fastResponses = [
+  "La liberté",
+  "L’égalité",
+  "La fraternité",
+  "Laïcité",
+  "Droits et des devoirs",
+  "Démocratie",
+  "Les principales institutions de l’État",
+  "3 types de collectivités",
+  "La commune",
+  "Le département",
+  "La région",
+  "L’outre-mer",
+  "Symboles de la France",
+  "Fleuves",
+  "Chaînes de montagnes",
+  "Marianne",
+  "1er mai",
+  "8 mai",
+  "11 novembre",
+  "Pays frontaliers",
+  "Plats typiques français",
+  "Grand événement sportif français",
+  "Président actuel et précédent en ordre",
+  "Quelques ministres actuels",
+  "Pouvoir exécutif",
+  "Pouvoir législatif",
+  "Pouvoir judiciaire",
+  "Parlement",
+  "L’assemblée nationale",
+  "Sénat",
+  "Cohabitation",
+];
+---
+
+<Article
+  frontmatter={{
+    title: "French history",
+    languages: ["en"],
+    language: "en",
+    intro: "intro: Preparing for the French nationality interview",
+    publishedDate: new Date("2024-07-16").toISOString(),
+  }}
+>
+  <section>
+    <h3>Context</h3>
+    <p>
+      This really is a tool for me to use, but feel free to use it too! I&#39;m
+      in the process of applying for French nationality, which is honestly just
+      a lot of waiting (which makes me anxious). I know I should be using this
+      time to brush up on my French history, knowing that I could be asked about
+      any of these people/events in the interview. In interviews, I often freeze
+      so it&#39;s important that I prepare in advance to minmise this risk.
+    </p>
+    <p>
+      I&#39;m not good at deciding what to work on, so I&#39;m simplifying the
+      decision - there will be a random person, event and fast response
+      generated each time the page is refreshed. The goal is to spent time each
+      day researching or revising based on the generated responses.
+    </p>
+    <p>
+      This is based on the <em>livret du citoyen</em> and interview questions that
+      I have seen. This will not cover everything, but it&#39;s a place to start
+      and I will continue adding to the lists. It&#39;s important to note that there
+      will always be person questions such as why you want to become French and your
+      life in France.
+    </p>
+  </section>
+  <button class="cta" type="button" id="button-generate">generate new</button>
+  <section>
+    <h3>person:</h3>
+    <p>People who are important in French history. Things to consider:</p>
+    <ul>
+      <li>why are they important?</li>
+      <li>what time period are they from?</li>
+      <li>what are they most known for?</li>
+    </ul>
+    <strong>
+      <output id="output-people">
+        {people[Math.floor(Math.random() * people.length)]}
+      </output>
+    </strong>
+    <hr />
+  </section>
+  <section>
+    <h3>event:</h3>
+    <p>Events to know in details:</p>
+    <ul>
+      <li>what year(s) did the event occur in?</li>
+      <li>what triggered the event?</li>
+      <li>what known people were involved in the event?</li>
+    </ul>
+    <strong>
+      <output id="output-events">
+        {events[Math.floor(Math.random() * events.length)]}
+      </output>
+    </strong>
+    <hr />
+  </section>
+  <section>
+    <h3>fast responses:</h3>
+    <p>
+      Questions/themes that require simplier answers, often a definition or
+      knowing the stat.
+    </p>
+    <p>Things to consider:</p>
+    <ul>
+      <li>how does this tie into other important events?</li>
+    </ul>
+    <strong>
+      <output id="output-fast-responses">
+        {fastResponses[Math.floor(Math.random() * fastResponses.length)]}
+      </output>
+    </strong>
+  </section>
+
+  <script define:vars={{ people, events, fastResponses }}>
+    const outputPeople = document.getElementById("output-people");
+    const outputEvents = document.getElementById("output-events");
+    const outputFastResponses = document.getElementById(
+      "output-fast-responses",
+    );
+    document.getElementById("button-generate").addEventListener("click", () => {
+      outputPeople.innerText =
+        people[Math.floor(Math.random() * people.length)];
+      outputEvents.innerText =
+        events[Math.floor(Math.random() * events.length)];
+      outputFastResponses.innerText =
+        fastResponses[Math.floor(Math.random() * fastResponses.length)];
+    });
+  </script>
+</Article>
