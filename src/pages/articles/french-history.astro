@@ -93,17 +93,17 @@ export const fastResponses = [
   "Sénat",
   "Cohabitation",
 ];
+
+export const frontmatter = {
+  title: "French history",
+  languages: ["en"],
+  language: "en",
+  intro: "Preparing for the French nationality interview",
+  publishedDate: new Date("2024-07-16").toISOString(),
+};
 ---
 
-<Article
-  frontmatter={{
-    title: "French history",
-    languages: ["en"],
-    language: "en",
-    intro: "intro: Preparing for the French nationality interview",
-    publishedDate: new Date("2024-07-16").toISOString(),
-  }}
->
+<Article frontmatter={frontmatter}>
   <section>
     <h3>Context</h3>
     <p>

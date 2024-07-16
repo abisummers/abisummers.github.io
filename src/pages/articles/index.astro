@@ -14,7 +14,7 @@ const museums = (await getCollection("museums")).map((m) => {
   };
 });
 
-const unsorted = await Astro.glob("./*.{md,mdx}");
+const unsorted = await Astro.glob("./*.{md,mdx,astro}");
 
 const articles = [
   ...unsorted.map((article) => ({
