@@ -3,7 +3,7 @@ layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Libraries in Paris
-intro: a change in work place, my thoughts on working from different libraries across Paris.
+intro: a change in work place, visiting different libraries around Paris
 publishedDate: 2024-07-15
 ---
 
@@ -11,15 +11,13 @@ publishedDate: 2024-07-15
 
 Since a lot of my job involves researching, I like to work from libraries. I feel like I'm more motivated if I'm not working from home every day of the week, especially if friends join me at a library. Co-working spaces can be nice, but I feel like they're not worth the money for me because I don't drink hot drinks (I prefer just drinking water, boring I know) and libraries are free.
 
-I feel like most people will just go to whatever is closest to where they live, but I enjoy getting to see different parts of Paris and the change helps keep me motivated. I have been to some of the other libraries a while ago but I'm not including them in this article, I will however continue to add as I work from more places.
+I feel like most people will just go to whatever is closest to where they live, but I enjoy getting to see different parts of Paris and the change helps keep me motivated and different libraries have different benefits. I'm only including libraries that I've been to recently but I will keep updating this article as I visit new places.
 
 ### City libraries
 
 There are the places that are ran by the city and are free to access even without a library card. There are 57 libraries in Paris, with multiple per arrondissements.
 
-I've been to two recently, Which mean (if I've calculated it correctly), I've been to around 3.5% of them.
-
-Most of these libraries are closed on mondays, and they have different opening hours depending on the time of year (like a modified schedule for summer).
+Most of these libraries are closed on sundays and mondays, and they have different opening hours depending on the time of year (like a modified schedule for summer).
 
 #### Bibliothèque Assia Djebar (20eme)
 
@@ -36,6 +34,14 @@ At the time of writing this article (July 2024), the library is closed for works
 This is a big library, over multiple levels with a spiral stair case in the centre (there is also a lift). Some of the work spaces have a nice view over Jardin des Plantes which is cool (especially in spring and summer when there's lots of greens). Not all of the work spaces have plug sockets nearby.
 
 They have a large selection of books, including books in English.
+
+#### Médiathèque de la Canopée (1er)
+
+This library is super central - just above Les Halles, located at level 0 of Westfield-Forum des Halles. I've walked past this place countless times (often outside of their opening hours) and I had no idea that it was here. When entering, it feel a little sad and run down, the toilets have a lot of graffiti but the library is nice. They have a few different places to sit including but the windows so you can watch out over les halles or tables surrounded by books.
+
+They had a chill out zone at the back, with some bean bags to sit on and a creative room for kids.
+
+They had books in English and in Spanish (and maybe some other languages). I had a quick look at the selection before going to meet a friend. The book that stood out to me was _trainspotting_ because it's partially written in Scots so I imagine it's hard for a lot of non native English speakers to understand. I've just started reading this book (my own copy), and it's taking me a while to read it - and I lived in Scotland until I was 8 (living in Scotland doesn't mean you speak Scots but it does make understanding the Scottish accent easier).
 
 ### Other libraries
 
