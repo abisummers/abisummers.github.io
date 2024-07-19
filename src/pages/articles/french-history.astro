@@ -105,28 +105,72 @@ export const frontmatter = {
 
 <Article frontmatter={frontmatter}>
   <section>
-    <h3>Context</h3>
+    <h3>French nationality preparation</h3>
     <p>
-      This really is a tool for me to use, but feel free to use it too! I&#39;m
-      in the process of applying for French nationality, which is honestly just
-      a lot of waiting (which makes me anxious). I know I should be using this
-      time to brush up on my French history, knowing that I could be asked about
-      any of these people/events in the interview. In interviews, I often freeze
-      so it&#39;s important that I prepare in advance to minmise this risk.
+      Are you applying for French nationality and strugle with deciding where to
+      start with learning French history? Or maybe you're just curious about
+      some of the key people and events? Then maybe this can help you!
     </p>
     <p>
-      I&#39;m not good at deciding what to work on, so I&#39;m simplifying the
-      decision - there will be a random person, event and fast response
-      generated each time the page is refreshed. The goal is to spent time each
-      day researching or revising based on the generated responses.
+      I'm in the process of applying for French nationality, which is honestly
+      just a lot of waiting. During this time I should be brushing up on French
+      history rather than leaving it until the last minute. However, I often
+      struggle with where to <em>start</em>, I know there are lots of things
+      that I
+      <em>could</em> be reading up on but I'm not able to narrow it down. In interviews
+      I often freeze so it's important that I take the time to prepare, so I don't
+      doubt what I know.
     </p>
     <p>
-      This is based on the <em>livret du citoyen</em> and interview questions that
-      I have seen. This will not cover everything, but it&#39;s a place to start
-      and I will continue adding to the lists. It&#39;s important to note that there
-      will always be person questions such as why you want to become French and your
-      life in France.
+      I created this to remove the decision making so that I can focus on
+      reading, revising and thinking of responses to questions instead of
+      wondering what to focus on. Each time you click the button a random
+      person, event and fast response will be generated.
     </p>
+    <p>
+      I've set myself some initial guidelines but feel free to use it however
+      you want:
+    </p>
+    <ul>
+      <li>
+        after generating the three items, I should write down what I already
+        know (I'm tracking each combination on Notion)
+      </li>
+      <li>
+        the first time the person or event comes up, I can research in English
+      </li>
+      <li>
+        the second time the person or event comes up, I should read at least
+        something in French
+      </li>
+      <li>
+        If I made a mistake on what I thought I knew, that's ok, I can correct
+        it and then continue
+      </li>
+      <li>
+        whenever possible, I should try and discuss the topic because this
+        allows me to see more easily if I'm missing any linking events or
+        something isn't as clear as it should be
+      </li>
+      <li>
+        if I only look into one of the items, that's ok. This isn't a
+        punsishment and some days I'm going to have less time or less energy.
+        The idea is to do a little each day which will make a big difference
+        over time
+      </li>
+    </ul>
+    <p>
+      The data here is based on the <em>livret du citoyen</em> and interview questions
+      that I have seen. This will not cover everything, but it's a place to start.
+      I will add more people, events and fast responses if I come across any that
+      are missing.
+    </p>
+    <p>
+      It's important to note that there will always be personal questions such
+      as why you want to become French and your life in France so this won't
+      prepare you for everything.
+    </p>
+    <p>If you're applying for French nationality, good luck!</p>
   </section>
   <button class="cta" type="button" id="button-generate">generate new</button>
   <section>
@@ -166,13 +210,31 @@ export const frontmatter = {
     </h3>
     <p>
       Questions/themes that require simplier answers, often a definition or
-      knowing the stat.
+      knowing the stats.
     </p>
     <p>Things to consider:</p>
     <ul>
       <li>how does this tie into other important events?</li>
     </ul>
   </section>
+
+  <hr />
+  <p>
+    If you're new here, hi, I'm Abi. I've been living in France since 2016 and
+    have recently started a blog to talk all things Paris and travel.
+  </p>
+  <p>
+    You can read more articles <a href="https://abisummers.com/articles/"
+      >here</a
+    >.
+  </p>
+  <p>
+    I'd love to know if you use this! Or if you have any feedback on how to make
+    this more useful, or see any important people or events that are missing,
+    you can get in contact via Instagram at <strong
+      ><a href="https://www.instagram.com/abisummers/">@abisummers</a></strong
+    >
+  </p>
 
   <script define:vars={{ people, events, fastResponses }}>
     const outputPeople = document.getElementById("output-people");
