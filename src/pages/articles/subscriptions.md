@@ -11,9 +11,9 @@ publishedDate: 2024-05-17
 
 I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it. Sometimes I like to write an article after visiting so that I really take the time to think about it, you them here [here](https://abisummers.com/articles/museums/).
 
-## National Monument
+## National Monuments (passion monuments)
 
-I have the duo [national monument card](https://www.monuments-nationaux.fr) which has over 80 monuments inside France. I opted for the duo card, because it's often a place I go to with a friend, so this allows me to get another person in for free. I subscribed for the year, starting from the 25th April 2024. The solo subscription costs 45€ and the duo costs **70€**.
+I have the duo [national monument card](https://www.monuments-nationaux.fr) (passion monuments) which has over 80 monuments inside France. I opted for the duo card, because it's often a place I go to with a friend, so this allows me to get another person in for free. I subscribed for the year, starting from the 25th April 2024. The solo subscription costs 45€ and the duo costs **70€**.
 
 Has it been worth it?
 
