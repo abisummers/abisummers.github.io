@@ -19,13 +19,13 @@ There are the places that are ran by the city and are free to access even withou
 
 Most of these libraries are closed on sundays and mondays, and they have different opening hours depending on the time of year (like a modified schedule for summer).
 
-#### Bibliothèque Assia Djebar (20eme)
+#### Médiathèque de la Canopée (1er)
 
-I really really like this library. They have a lot of spaces to sit and work. I spent an afternoon working here with a friend, we had a table by a window so there was a lot of natural light. While our table didn't have any plug sockets for charging our laptops, they did have other places that did have sockets close by.
+This library is super central - just above Les Halles, located at level 0 of Westfield-Forum des Halles. I've walked past this place countless times (often outside of their opening hours) and I had no idea that it was here. When entering, it feel a little sad and run down, the toilets have a lot of graffiti but the library is nice. They have a few different places to sit including but the windows so you can watch out over les halles or tables surrounded by books.
 
-While we were there, there was a lot of kids at the front of the library (the start of school holidays) and they were making quite a lot of noise, but because of how the library is set out we really couldn't hear them at our table. They are hosting different events during the summer holidays, mostly aimed at kids, like beach volleyball.
+They had a chill out zone at the back, with some bean bags to sit on and a creative room for kids.
 
-They don't have any English books (like a lot of the libraries around Paris), but they did a fairly large section on learning languages.
+They had books in English and in Spanish (and maybe some other languages). I had a quick look at the selection before going to meet a friend. The book that stood out to me was _trainspotting_ because it's partially written in Scots so I imagine it's hard for a lot of non native English speakers to understand. I've just started reading this book (my own copy), and it's taking me a while to read it - and I lived in Scotland until I was 8 (living in Scotland doesn't mean you speak Scots but it does make understanding the Scottish accent easier).
 
 #### Bibliothèque Buffon (5eme)
 
@@ -35,13 +35,19 @@ This is a big library, over multiple levels with a spiral stair case in the cent
 
 They have a large selection of books, including books in English.
 
-#### Médiathèque de la Canopée (1er)
+#### Bibliothèque Vaugirard (15eme)
 
-This library is super central - just above Les Halles, located at level 0 of Westfield-Forum des Halles. I've walked past this place countless times (often outside of their opening hours) and I had no idea that it was here. When entering, it feel a little sad and run down, the toilets have a lot of graffiti but the library is nice. They have a few different places to sit including but the windows so you can watch out over les halles or tables surrounded by books.
+This is not a part of Paris that I'm usually in, but I liked working from here. They have two different areas on the first second floor, one for adults and one for kids. I didn't see any lifts, so it _might_ not be accessible. Inside the adult section, they have a few tables for four people in the centre of the library which had enough natural light and some seats through the aisles of books. The staff who worked there all seemed friendly. They had a water fountain by the entrance which I haven't seen in other libraries (it's possible they did have one and I just didn't see it).
 
-They had a chill out zone at the back, with some bean bags to sit on and a creative room for kids.
+I didn't check out the books sections, so I'm not sure if they have any books in other languages.
 
-They had books in English and in Spanish (and maybe some other languages). I had a quick look at the selection before going to meet a friend. The book that stood out to me was _trainspotting_ because it's partially written in Scots so I imagine it's hard for a lot of non native English speakers to understand. I've just started reading this book (my own copy), and it's taking me a while to read it - and I lived in Scotland until I was 8 (living in Scotland doesn't mean you speak Scots but it does make understanding the Scottish accent easier).
+#### Bibliothèque Assia Djebar (20eme)
+
+I really really like this library. They have a lot of spaces to sit and work. I spent an afternoon working here with a friend, we had a table by a window so there was a lot of natural light. While our table didn't have any plug sockets for charging our laptops, they did have other places that did have sockets close by.
+
+While we were there, there was a lot of kids at the front of the library (the start of school holidays) and they were making quite a lot of noise, but because of how the library is set out we really couldn't hear them at our table. They are hosting different events during the summer holidays, mostly aimed at kids, like beach volleyball.
+
+They don't have any English books (like a lot of the libraries around Paris), but they did a fairly large section on learning languages.
 
 ### Other libraries
 
