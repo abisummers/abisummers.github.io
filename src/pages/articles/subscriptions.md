@@ -43,7 +43,7 @@ These are the exhibitions that I've been to and what their full price ticket cos
 
 Total saved so far: **52€** so I've now made my money back (and there's still more to see!).
 
-I wrote a blog about both [Jean Hélion at the MaM](./museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](./museums/petit-palais-theodore-rousseau/).
+I wrote a blog about both [Jean Hélion at the MaM](https://abisummers.com/articles/museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](https://abisummers.com/articles/museums/petit-palais-theodore-rousseau/).
 
 All of these museums have a free permanent collection.
 
