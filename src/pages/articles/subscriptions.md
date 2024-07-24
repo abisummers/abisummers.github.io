@@ -3,7 +3,7 @@ layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Museum passes
-intro: I have three different museum passes. Are they worth it? Here I track what I have seen and how much I've saved.
+intro: I have three subscriptions to museums in Paris. Are they worth it? Here I track what I have seen and how much I've saved.
 publishedDate: 2024-05-17
 ---
 
@@ -17,8 +17,12 @@ I have the duo [national monument card](https://www.monuments-nationaux.fr) whic
 
 Has it been worth it?
 
-- arc de triomphe with a friend: 16€ per person
-- Maison des Jardies à Sèvres as part of my [day trip to Ville d'Avray](http://abisummers.com/articles/alphabet-ile-de-france/v-ville-d-avray/): 7€, including the guided tour.
+| museum             |   cost   | total saved |    date    |
+| :----------------- | :------: | :---------: | :--------: |
+| arc de triomphe    | 16€ (x2) |     32€     | 26/04/2024 |
+| Maison des Jardies |    7€    |     7€      | 02/05/2024 |
+
+I went to Maison des Jardies as part of my [day trip to Ville d'Avray](http://abisummers.com/articles/alphabet-ile-de-france/v-ville-d-avray/), and I'm not sure if I would have known about this museum if it wasn't for this card. I followed the guided tour and it was _so good_.
 
 total saved so far: **39€**
 
@@ -30,12 +34,16 @@ Since the 18th February 2024 I have had the solo card to the [Paris Museums](htt
 
 These are the exhibitions that I've been to and what their full price ticket costs:
 
-- La Régence à Paris at Musée Carnavalet: 13€
-- Présences arabes at the Musée d'Art Moderne (MaM): 12€
-- [Jean Hélion at the MaM](https://abisummers.com/articles/museums/mam-jean-helion/): 15€.
-- Théodore Rousseau at the Petit Palais: 12€
+| museum              |     exhibition     | ticket price |    date    |
+| :------------------ | :----------------: | :----------: | :--------: |
+| Musée Carnavalet    | La Régence à Paris |     13€      | 22/02/2024 |
+| Musée d'Art Moderne |  Présences arabes  |     12€      | 08/05/2024 |
+| Musée d'Art Moderne |    Jean Hélion     |     15€      | 23/06/2024 |
+| Petit Palais        | Théodore Rousseau  |     12€      | 06/06/2024 |
 
 Total saved so far: **52€** so I've now made my money back (and there's still more to see!).
+
+I wrote a blog about both [Jean Hélion at the MaM](./museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](./museums/petit-palais-theodore-rousseau/).
 
 All of these museums have a free permanent collection.
 
