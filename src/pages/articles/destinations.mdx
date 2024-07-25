@@ -11,51 +11,70 @@ import { getCollection } from "astro:content";
 
 export const nonArticles = [
   {
-    title: "Saint-Germain-en-Laye",
+    title: "Saint-Germain-en-Laye (known for the château and domain)",
     transportLinks: ["RER A"],
   },
   {
-    title: "Provins",
+    title: "Provins (known for the medieval town and annual medieval festival)",
     transportLinks: ["Transilien P"],
   },
   {
-    title: "Versailles",
+    title: "Versailles (no surprise, it's known for the château)",
     transportLinks: ["Transilien N", "RER C"],
   },
   {
-    title: "Fontainebleau",
+    title: "Fontainebleau (known for the château, the forest and bouldering)",
     transportLinks: ["Transilien R"],
   },
   {
-    title: "Barbizon",
+    title: "Barbizon (known for it's painters village)",
     transportLinks: ["Transilien R"],
   },
   {
-    title: "Asnières-sur-Oise",
+    title: "Asnières-sur-Oise (known for Abbaye de Royaumont)",
     transportLinks: ["Transilien H"],
   },
   {
-    title: "Saint Cloud",
+    title: "Saint Cloud (known for the large park)",
     transportLinks: ["Transilien U", "Transilien L"],
   },
   {
-    title: "Rambouillet",
+    title: "Rambouillet (known for the château and the forest)",
     transportLinks: ["Transilien N"],
   },
   {
-    title: "Sceaux",
+    title:
+      "Sceaux (known for the château domain, and the cherry blossoms during the season)",
     transportLinks: ["RER B"],
+  },
+  {
+    title: "Marne-la-Vallée Chessy (Disneyland)",
+    transportLinks: ["RER A"],
+  },
+  {
+    title: "Maincy (known for château de Vaux-le-Vicomte)",
+    transportLinks: ["Transilien R", "Transilien P"],
+  },
+  {
+    title: "Maisons-Laffitte (known for château de Maisons)",
+    transportLinks: ["RER A", "Transilien P"],
+  },
+  {
+    title: "Le Port-Marly (known for château de Monte-Cristo)",
+    transportLinks: ["RER A", "Transilien L"],
   },
 ];
 
 export const transportLinks = [
   ...[
-    ...(await getCollection("alphabet-ile-de-france")).map((article) => ({
-      type: "alphabet-ile-de-france",
-      transportLinks: article.data.transportLinks,
-      title: article.data.title,
-      slug: "/articles/alphabet-ile-de-france/" + article.slug,
-    })),
+    ...(await getCollection("alphabet-ile-de-france"))
+      .filter((article) => article.data.letter !== "K")
+      .map((article) => ({
+        type: "alphabet-ile-de-france",
+        transportLinks: article.data.transportLinks,
+        title: article.data.title,
+        slug: "/articles/alphabet-ile-de-france/" + article.slug,
+      })),
     ...nonArticles,
   ].reduce(
     (acc, article) => {
@@ -74,19 +93,19 @@ export const transportLinks = [
     new Map(
       Object.entries({
         "RER A": {
-          info: "RER A goes from the east to the west of Paris. It's the line that goes to Disneyland Paris and La Défense. It's also the line that goes to Saint-Germain-en-Laye.",
+          info: "RER A goes from the east to the west of Paris. It's the line that goes to Disneyland Paris and La Défense (the business district of Paris). It's also the line that goes to Saint-Germain-en-Laye.",
         },
         "RER B": {
           info: "RER B goes from the north to south of Paris. It connects both airports, Charles de Gaulle (CDG) and Orly to Paris.",
         },
         "RER C": {
-          info: "RER B connects Paris to places like Versailles. There are many different branches to this line.",
+          info: "RER C had many different branches. It connect Versailles to Paris.",
         },
         "RER D": {
-          info: "RER D also goes north and south of Paris",
+          info: "RER D goes north and south of Paris. Some of the stops are outside of Île-de-France so are not included in the navigio",
         },
         "RER E": {
-          info: "RER E goes east and west passing through both gare du nord and gare saint lazare. They are currently working on extending the line",
+          info: "RER E goes east and west passing through both gare du nord and gare saint lazare.",
         },
         TER: {
           info: "TER trains are the local regional trains. If you stay within the Île-de-France region, you can use your Navigo pass.",
@@ -111,7 +130,7 @@ export const transportLinks = [
 
 Looking for inspiration on where to go in Île-de-France? Find some ideas here and which train lines to use to get there. Here, I'm using the most common way to reach the destination but that doesn't mean it's the only way - for example sometimes you can take a train and then a bus, or sometimes there will be works on the line.
 
-All of these places will make for a cheap day trip if you have a <a href="/articles/navigo">Navigo</a> (depending on the activities you do while there). The places that are linked as places that I have been on as part of my alphabet of Île-de-France project, meaning they have a blog post with my experience and recommendations. There really are so many places to visit in this region.
+All of these places will make for a cheap day trip if you have a <a href="/articles/navigo">Navigo</a> because you won't have to pay anything additional for transport. The links on place names links to a blog post of my experience there - usually as part of my <a href="/articles/alphabet-ile-de-france">Alphabet of Île-de-France</a>. There really are so many places to visit in this region - there is something for everyone.
 
 There are 5 different types of trains in Île-de-France:
 
