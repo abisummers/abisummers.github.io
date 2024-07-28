@@ -1,4 +1,5 @@
 ---
+import { navigate } from "astro:transitions/client";
 import Article from "../../layouts/article.astro";
 
 export const people = [
@@ -27,12 +28,14 @@ export const people = [
   "Léon Gambetta",
   "Josephine Baker",
   "Dalida",
-  "Edith Piaf",
   "Emile Zola",
   "Brigitte Bardot",
   "Alexandre Dumas",
   "Jean Moulin",
   "André Malraux",
+  "Jean Jaurès",
+  "Marcel Proust",
+  "Simone de Beauvoir",
 ];
 
 export const events = [
@@ -57,6 +60,7 @@ export const events = [
   "Mai 68",
   "Traité de Rome",
   "Loi Veil",
+  "Dreyfus affair",
 ];
 
 export const fastResponses = [
@@ -77,6 +81,7 @@ export const fastResponses = [
   "Fleuves",
   "Chaînes de montagnes",
   "Marianne",
+  "la marseillaise",
   "1er mai",
   "8 mai",
   "11 novembre",
@@ -94,6 +99,51 @@ export const fastResponses = [
   "Cohabitation",
 ];
 
+export const tv = ["Koh Lanta", "Dix pour cent", "Au service de la France"];
+
+export const influencers = ["Hugo Decrypt", "squeezie"];
+
+export const music = [
+  "Aya nakamura",
+  "Daft Punk",
+  "Edith Piaf",
+  "Johnny Hallyday",
+  "louise attack",
+  "Jean Jacques Goldman",
+  "Philippe Katerine",
+  "Celine Dion (candian)",
+  "Stromae (belgian)",
+  "Angèle (belgian)",
+  "Charles Trenet",
+  "Joe Dassin",
+  "Juliette Armanet",
+];
+
+export const books = [
+  "lupin",
+  "Astérix et Obélix",
+  "Le Petit Prince",
+  "Les Trois Mousquetaires",
+];
+
+export const sports = [
+  "Kylian Mbappé",
+  "Zinedine Zidane",
+  "Tour de France",
+  "PSG vs OM (Le Classique)",
+  "les bleus",
+];
+
+export const movies = [
+  "Omar Sy",
+  "louis de funes",
+  "Bienvenue chez les ch'tis",
+  "Intouchables",
+  "oss 117",
+  "Camille Cottin",
+  "Jonathan Cohen",
+  "Festival de Cannes",
+];
 export const frontmatter = {
   title: "French history",
   languages: ["en"],
@@ -204,7 +254,7 @@ export const frontmatter = {
   </section>
   <section>
     <h3>
-      fast responses: <output id="output-fast-responses">
+      fast response: <output id="output-fast-responses">
         {fastResponses[Math.floor(Math.random() * fastResponses.length)]}
       </output>
     </h3>
@@ -216,6 +266,56 @@ export const frontmatter = {
     <ul>
       <li>how does this tie into other important events?</li>
     </ul>
+    <hr />
+  </section>
+  <section>
+    <h3>All things pop culture</h3>
+    <p>
+      There's so much to say about French pop culture, so here's <i>some</i> (and
+      far from all) people/things that I think are important to know for French pop
+      culture.
+    </p>
+    <p>
+      I'm using this list as a 'I should know why they're known' rather than
+      lots of details about their life. And I'm going to create a playlist with
+      different French songs
+    </p>
+    <p>
+      I feel like I should bring out the French Trivial Pursuit to add to this
+      list. If there's anyone/anything you think I should add to these lists,
+      please reach out via Instagram!
+    </p>
+    <h4>
+      Music: <output id="output-music">
+        {music[Math.floor(Math.random() * music.length)]}
+      </output>
+    </h4>
+    <h4>
+      Movie: <output id="output-movie">
+        {movies[Math.floor(Math.random() * movies.length)]}
+      </output>
+    </h4>
+    <h4>
+      Book: <output id="output-books">
+        {books[Math.floor(Math.random() * books.length)]}
+      </output>
+    </h4>
+
+    <h4>
+      tv: <output id="output-tv">
+        {tv[Math.floor(Math.random() * tv.length)]}
+      </output>
+    </h4>
+    <h4>
+      sports: <output id="output-sports">
+        {sports[Math.floor(Math.random() * sports.length)]}
+      </output>
+    </h4>
+    <h4>
+      influencer: <output id="output-influencers">
+        {influencers[Math.floor(Math.random() * influencers.length)]}
+      </output>
+    </h4>
   </section>
 
   <hr />
@@ -236,19 +336,46 @@ export const frontmatter = {
     >
   </p>
 
-  <script define:vars={{ people, events, fastResponses }}>
-    const outputPeople = document.getElementById("output-people");
-    const outputEvents = document.getElementById("output-events");
-    const outputFastResponses = document.getElementById(
-      "output-fast-responses",
-    );
-    document.getElementById("button-generate").addEventListener("click", () => {
-      outputPeople.innerText =
-        people[Math.floor(Math.random() * people.length)];
-      outputEvents.innerText =
-        events[Math.floor(Math.random() * events.length)];
-      outputFastResponses.innerText =
-        fastResponses[Math.floor(Math.random() * fastResponses.length)];
-    });
+  <script
+    define:vars={{
+      people,
+      events,
+      fastResponses,
+      movies,
+      tv,
+      music,
+      sports,
+      books,
+      influencers,
+    }}
+  >
+  const outputPeople = document.getElementById("output-people");
+  const outputEvents = document.getElementById("output-events");
+  const outputFastResponses = document.getElementById(
+    "output-fast-responses",
+  );
+  const outputMusic = document.getElementById("output-music");
+  const outputMovie = document.getElementById("output-movie");
+  const outputTV = document.getElementById("output-tv");
+  const outputSports = document.getElementById("output-sports");
+  const outputBooks = document.getElementById("output-books");
+  const outputInfluencers = document.getElementById("output-influencers");
+  document.getElementById("button-generate").addEventListener("click", () => {
+    outputPeople.innerText =
+      people[Math.floor(Math.random() * people.length)];
+    outputEvents.innerText =
+      events[Math.floor(Math.random() * events.length)];
+    outputFastResponses.innerText =
+      fastResponses[Math.floor(Math.random() * fastResponses.length)];
+    outputMovie.innerText = movies[Math.floor(Math.random() * movies.length)];
+    outputMusic.innerText = music[Math.floor(Math.random() * music.length)];
+
+    outputTV.innerText = tv[Math.floor(Math.random() * tv.length)];
+    outputSports.innerText =
+      sports[Math.floor(Math.random() * sports.length)];
+    outputBooks.innerText = books[Math.floor(Math.random() * books.length)];
+    outputInfluencers.innerText =
+      influencers[Math.floor(Math.random() * influencers.length)];
+  });
   </script>
 </Article>
