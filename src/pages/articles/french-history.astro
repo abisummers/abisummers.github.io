@@ -104,6 +104,7 @@ export const tv = [
   "Les Guignols de l'info",
   "Des chiffres et des lettres",
   "Motus",
+  "Drag Race France",
 ];
 
 export const influencers = [
@@ -130,6 +131,8 @@ export const music = [
   "Juliette Armanet",
   "Serge Gainsbourg",
   "Dalida",
+  "Véronique Sanson",
+  "Daniel Balavoine",
 ];
 
 export const books = [
@@ -168,6 +171,8 @@ export const movies = [
   "Brigitte Bardot",
   "Le huitième jour",
   "Bienvenue à Marly-Gomont",
+  "François Truffaut",
+  "Georges Méliès",
 ];
 
 export const frontmatter = {
@@ -242,6 +247,23 @@ export const frontmatter = {
       are missing.
     </p>
     <p>
+      After watching the opening ceremony of the Olympics, I realised that I
+      missed some of the references throughout so I've also added a pop culture
+      seciton. I already consume quite a lot of French media but I'm not good
+      with remembering names and I'm sure I miss things outside of my bubble. I
+      asked on a Facebook group for some French pop culture references and have
+      added some of my own too.
+    </p>
+
+    <p>
+      You can find the list of people, events, fast responses and pop culture on
+      my <a
+        href="https://github.com/abisummers/abisummers.github.io/blob/source/src/pages/articles/french-history.astro"
+        >github</a
+      >
+    </p>
+
+    <p>
       It's important to note that there will always be personal questions such
       as why you want to become French and your life in France so this won't
       prepare you for everything.
@@ -299,23 +321,35 @@ export const frontmatter = {
     <p>
       There's so much to say about French pop culture, so here's <i>some</i> (and
       far from all) people/things that I think are important to know for French pop
+      culture. Some of these things are more personal to me rather than true pop
       culture.
     </p>
     <p>
       I'm using this list as a 'I should know why they're known' rather than
-      lots of details about their life. And I'm going to create a playlist with
-      different French songs
+      lots of details about their life (in contrast to the person category).
+    </p>
+    <p>
+      Some of the people mentioned are not french but are still wellknown -
+      whenever I notice this, I will specify that they are not French (because
+      that's important to know for the interview)
     </p>
     <p>
       I feel like I should bring out the French Trivial Pursuit to add to this
       list. If there's anyone/anything you think I should add to these lists,
-      please reach out via Instagram!
+      please reach out via
+      <a href="https://www.instagram.com/abisummers/">@abisummers</a>!
     </p>
     <h4>
       Music: <output id="output-music">
         {music[Math.floor(Math.random() * music.length)]}
       </output>
     </h4>
+    <p>
+      I have started a playlist with some French hits, you can listen to it <a
+        href="https://music.apple.com/fr/playlist/french-hits/pl.u-11zBX41t2zWLB3?l=en-GB"
+        >here</a
+      > on Apple Music.
+    </p>
     <h4>
       Movie: <output id="output-movie">
         {movies[Math.floor(Math.random() * movies.length)]}
