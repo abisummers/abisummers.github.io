@@ -39,7 +39,7 @@ These are the exhibitions that I've been to and what their full price ticket cos
 | Musée Carnavalet    | La Régence à Paris |     13€      | 22/02/2024 |
 | Musée d'Art Moderne |  Présences arabes  |     12€      | 08/05/2024 |
 | Musée d'Art Moderne |    Jean Hélion     |     15€      | 23/06/2024 |
-| Petit Palais        | Théodore Rousseau  |     12€      | 06/06/2024 |
+| Petit Palais        | Théodore Rousseau  |     12€      | 26/06/2024 |
 
 Total saved so far: **52€** so I've now made my money back (and there's still more to see!).
 
