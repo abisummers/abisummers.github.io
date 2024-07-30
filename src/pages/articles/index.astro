@@ -14,6 +14,14 @@ const museums = (await getCollection("museums")).map((m) => {
   };
 });
 
+const travel = (await getCollection("travel")).map((article) => {
+  return {
+    title: article.data.title,
+    intro: article.data.intro,
+    url: `./travel/${article.data.title.replace(/\s+/g, "-").toLowerCase().replace(/\---/g, "-")}`,
+  };
+});
+
 const unsorted = await Astro.glob("./*.{md,mdx,astro}");
 
 const articles = [
@@ -28,15 +36,14 @@ const articles = [
     url: `./alphabet-ile-de-france/${article.slug}`,
   })),
   ...museums,
+  ...travel,
 ].sort((a, b) => a.title.localeCompare(b.title));
 ---
 
 <Main>
   <h2>Articles</h2>
   <p>
-    Here you can find all of my articles related to visiting places within
-    Île-de-France (planning a day trip, museums, tip etc) along with some of my
-    favourite things to do in Paris.
+    Here you can find all of my articles! These articles cover some of my favourte things in Paris, personal projects like <i>alphabet of Île-de-France</i> and travelling. You can find the category of articles on the <a href="https://abisummers.com">homepage</a> 
   </p>
   {
     articles.map((article) => (
