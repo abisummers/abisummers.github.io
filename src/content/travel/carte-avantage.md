@@ -11,7 +11,7 @@ I have a SNCF discount card which costs 49€ per year which gives reductions on
 
 For me, the main advantage is the 30% off train tickets, but there are other advantages such as a reduction on train tickets for kids and 15% off SNCF services. There are some exceptions where the 30% discount doesn't apply like when there's a _prix cassés_ which is a discounted ticket offered by certain regions on certain trains.
 
-You can buy the card online, and select what date you want it to start on. Honestly, I'm not sure why they have a youth, adult and senior card, because they all seem to give the same benefits and cost the same to buy. But why keep anything simple?
+You can buy the card online, and select what date you want it to start on. There is a difference between the youth and adult cards. The youth gives you 30% off regardless of the day, but the adult pass gives you 30% off on weekends or when you have a return trip that contains at least one overnight.
 
 ### Is it worth it?
 
