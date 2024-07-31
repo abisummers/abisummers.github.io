@@ -90,8 +90,8 @@ export const museums = [
 
   <p>
     Here you can find a map with all of the different locations. The lighter
-    colours indicate places that I have visited, while the darker colours
-    indicate places that I would like to visit.
+    colours indicate places that I have not visited, while the darker colours
+    indicate places that I have visited.
   </p>
   <MapboxMap
     latitude={48.7}
@@ -105,7 +105,7 @@ export const museums = [
       longitude: entry.longitude,
       title: entry.title,
       location: entry.location,
-      colour: !entry.visited,
+      subtle: !entry.visited,
     }))}
   />
 
