@@ -6,7 +6,7 @@ export interface Point {
   letter?: string;
   location?: string;
   link?: string;
-  colour?: boolean
+  colour?: boolean;
 }
 
 export interface Props {
@@ -18,7 +18,7 @@ export interface Props {
   interactive?: "interactive" | "non-interactive";
   containerstyle?: string;
   points?: Array<Point>;
-    colour?: boolean
+  colour?: boolean;
 }
 
 const container = "mapbox-map-" + crypto.randomUUID();
@@ -128,7 +128,7 @@ const {
         letter: string;
         location: string;
         link: string;
-        colour: boolean
+        colour: boolean;
       }
 
       const points: Array<Point> = JSON.parse(this.dataset.points!);
