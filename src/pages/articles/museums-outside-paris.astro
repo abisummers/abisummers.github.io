@@ -1,0 +1,122 @@
+---
+import Article from "../../layouts/article.astro";
+import MapboxMap from "../../components/mapbox-map.astro";
+
+export const frontmatter = {
+  title: "Museums outside of Paris",
+  languages: ["en"],
+  language: "en",
+  intro:
+    "Museums and exhibitions within Île-de-France (excluding Paris). Places that I have visited and places that I would like to visit",
+  publishedDate: new Date("2024-07-31").toISOString(),
+};
+
+export const museums = [
+  {
+    latitude: 48.4148,
+    longitude: 2.4568,
+    title: "Le Cyclop",
+    description:
+      "I loved visiting Le Cyclop, it supassed my expectations! Highly recommend the guided tour where you're able to enter inside, parts are even interactive!",
+    location: "Milly-la-Forêt",
+    visited: true,
+  },
+  {
+    latitude: 48.827,
+    longitude: 2.1887,
+    title: "Maison des Jardies - Léon Gambetta",
+    description:
+      "This is the house where Gambetta lived in the years before his death. I would highly recommend the guided tour because you get to learn so much about the life of Gambetta - the things I wouldn't have known just by visiting. I followed the tour in French, so I'm not sure if it's available in English",
+    location: "Sèvres",
+    visited: true,
+    link: "https://abisummers.com/articles/alphabet-ile-de-france/v-ville-d-avray/",
+  },
+  {
+    latitude: 48.8944,
+    longitude: 2.7922,
+    title: "Musée Louis Braille",
+    description:
+      "This musuem is Louis Braille's childhood home. I'm interested in learning more about Braille and how he helped form the tactile writing system that is used around the world",
+    location: "Coupvray",
+    visited: false,
+  },
+];
+---
+
+<Article frontmatter={frontmatter}>
+  <section>
+    <h2>Museums outside of Paris</h2>
+  </section>
+
+  <h3>Musuems that I have been to</h3>
+  <p>
+    Here are some places that I enjoy within the Île-de-France region - the
+    places that I feel should have more love. While Paris has a lot of cool
+    places to visit, it's sometimes nice to have a change of pace and to see
+    somewhere new
+  </p>
+  {
+    museums
+      .filter((museum) => museum.visited)
+      .map((musuem) => (
+        <section>
+          <h4>{musuem.title}</h4>
+          <p>{musuem.description}</p>
+          {musuem.link ? (
+            <p>
+              Find more info <a href={musuem.link}>here</a>
+            </p>
+          ) : null}
+        </section>
+      ))
+  }
+
+  <h3>Museums that I want to visit</h3>
+  <p>
+    While researching the region (mostly for my Île-de-France project), I have
+    came across a lot of places that look interesting. Here are some of the
+    places that I would like to visit.
+  </p>
+  {
+    museums
+      .filter((museum) => !museum.visited)
+      .map((musuem) => (
+        <section>
+          <h4>{musuem.title}</h4>
+          <p>{musuem.description}</p>
+        </section>
+      ))
+  }
+
+  <p>
+    Here you can find a map with all of the different locations. The lighter
+    colours indicate places that I have visited, while the darker colours
+    indicate places that I would like to visit.
+  </p>
+  <MapboxMap
+    latitude={48.7}
+    longitude={2.51}
+    zoom={7.74}
+    mapstyle="mapbox://styles/haroenv/clvi5zbe601bg01qu2iez1exk"
+    accesstoken="pk.eyJ1IjoiaGFyb2VudiIsImEiOiJjbHZpOGZsOHQwM3oyMmlscTJweTRleHo3In0.mU1wMXCVpQvbhkXcZvFawg"
+    interactive="interactive"
+    points={museums.map((entry) => ({
+      latitude: entry.latitude,
+      longitude: entry.longitude,
+      title: entry.title,
+      location: entry.location,
+      colour: !entry.visited,
+    }))}
+  />
+
+  <hr />
+  <p>
+    If you're new here, hi, I'm Abi. I've been living in France since 2016 and
+    have recently started a blog to talk all things Paris and travel.
+  </p>
+  <p>
+    You can read more articles <a href="https://abisummers.com/articles/"
+      >here</a
+    >.
+  </p>
+</Article>

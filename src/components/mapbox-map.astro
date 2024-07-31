@@ -3,8 +3,10 @@ export interface Point {
   latitude: number;
   longitude: number;
   title: string;
-  letter: string;
-  link: string;
+  letter?: string;
+  location?: string;
+  link?: string;
+  colour?: boolean
 }
 
 export interface Props {
@@ -16,6 +18,7 @@ export interface Props {
   interactive?: "interactive" | "non-interactive";
   containerstyle?: string;
   points?: Array<Point>;
+    colour?: boolean
 }
 
 const container = "mapbox-map-" + crypto.randomUUID();
@@ -123,21 +126,22 @@ const {
         longitude: number;
         title: string;
         letter: string;
+        location: string;
         link: string;
+        colour: boolean
       }
 
       const points: Array<Point> = JSON.parse(this.dataset.points!);
 
       points.forEach((point) => {
+        const pinDescription = point.link
+          ? `${point.letter || point.location}: <a href="${point.link}" target="_blank">${point.title}</a>`
+          : `${point.title}: ${point.letter || point.location}`;
         new Marker({
-          color: "#f5c636",
+          color: point.colour ? "#C49E2B" : "#f5c636",
         })
           .setLngLat([point.longitude, point.latitude])
-          .setPopup(
-            new Popup().setHTML(
-              `${point.letter}: <a href="${point.link}" target="_blank">${point.title}</a>`,
-            ),
-          )
+          .setPopup(new Popup().setHTML(pinDescription))
           .addTo(map);
       });
     }

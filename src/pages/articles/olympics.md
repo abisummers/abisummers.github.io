@@ -42,7 +42,7 @@ The weather wasn't ideal for this race, it was raining so the roads were slipper
 
 The route had many free places to watch from, with only the start and end being ticketed. I watched from in front of the Decathlon on Bd Saint-Germain with my partner. The view was pretty good, and we could see the cyclists pass in both directions. Seeing the speeds that they go at is insane, they're so good at what they do which makes it look easy - which it definitely isn't. The speeds they cycle at on the flat is faster than I cycle going down a hill!
 
-Maybe a controversial option, but I think umbrellas should be banned from all events - people are so not careful with them as they move to take photos which runs the risk of poking people in the face, and they also obstruct the view. Surely it's more annoying to hold an umbrella than it is to wear a jacket or poncho? 
+Maybe a controversial option, but I think umbrellas should be banned from all events - people are so not careful with them as they move to take photos which runs the risk of poking people in the face, and they also obstruct the view. Surely it's more annoying to hold an umbrella than it is to wear a jacket or poncho?
 
 I watched all of the women's event, and most of the men's event - I had to leave early because I had plans with a friend for her birthday.
 
@@ -62,7 +62,7 @@ We started by watching the first round of skateboarding from the side. The view 
 
 We were able to see some people practising on the BMX track and practising the 3x3 basketball. We then went and sat in the shade in the 3x3 basketball venue. It was cool being able to walk around the stadiums. It's also wild to think that they're essentially made up of scaffolding. While there we watched the Chinese team practising.
 
-Parts of Jardin des Tuileries were accessible. They had some food and drink stalls there -  there's no alcohol sold in any of the olympic venues - I actually think this is a good thing., They also had some games (mostly aimed at kids) that you can play - they had a place where kids were learning to play basketball and how to skateboard which was cool. You could see the Olympic Flame, but couldn't get close from the urban sports venue.
+Parts of Jardin des Tuileries were accessible. They had some food and drink stalls there - there's no alcohol sold in any of the olympic venues - I actually think this is a good thing., They also had some games (mostly aimed at kids) that you can play - they had a place where kids were learning to play basketball and how to skateboard which was cool. You could see the Olympic Flame, but couldn't get close from the urban sports venue.
 
 We then watched the finals of the skateboarding. We watched from the other skateboarding venue because they were showing it on a big screen there. There were no seats in the shade and I was very hot (and tired) so I went home early. I'm still happy I was able to see some of the event. The skateboarders were so good (and so young!), that they made it look easy (which it definitely isn't)
 
