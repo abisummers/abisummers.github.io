@@ -4,7 +4,7 @@ image: /src/pages/articles/images/olympic-posters.jpeg
 languages: ["en"]
 language: "en"
 title: Olympics in Paris
-intro: 2024 Olympic games in Paris - an overview of what I've seen
+intro: 2024 Olympic games in Paris - an overview of what I've seen and how much I paid per ticket
 publishedDate: 2024-07-30
 ---
 
@@ -50,6 +50,8 @@ Very grateful that I was able to see this event for free - I'm sure it would hav
 
 ### Urban sports (28th July)
 
+individual ticket price: 24€
+
 With my partner, we had tickets to see the urban park venues - we bought this in the first round of tickets were you had to buy six tickets, these were the cheapest and we thought it would be cool to see. This wasn't a ticket to see a specific event, but it allowed access to the venues that were not in use along with the athletes who were practising.
 
 The queue to get in was badly managed (which isn't so much of a surprise). They had two queues for the initial bag check, and then everyone joined one queue for ticket checks and a second security check. The first queue was ok, but the second queue has no sense. There were too many people with no clear indication on where to go, people were trying to jump the queue, and some where accidentally cutting in because there was no clear way to go.
@@ -73,3 +75,29 @@ My advice for the urban sports venue is:
 - check the official bag guidelines, I saw someone who had two flags on the plastic poles but was not allowed to take the poles in
 - wear sun cream, there's not much protection from the sun
 - wear a hat (I wish I had a hat with me - it was so hot)
+
+### Men's semi final & final kayaking (1st August)
+
+individual ticket price: 115€ (category c)
+
+I was really looking forward to this event, and it didn't disappoint! The weather was good, a little hot but not _too_ hot and this time I remembered to bring a hat. The event took place at a lake in Vaires-sur-Marne, a town east of Paris.
+
+With my partner, we opted to cycle. The morning of the event, we had a lot of discussions on how to get there, with the RER or by bike. There was a really intense storm in the morning, which impacted some train lines due to trees being on the track. It was forecast to rain again in the late afternoon / early evening but we still opted to cycle.
+
+Getting there by bike was easy, and it was well signed. I was impressed with the bike parking, I just expected there to a place to leave out bikes close to the entrance. But it was more than that - there were people there checking in bikes: they asked for a phone number and then took a photo of out bikes. At the end, they checked out the bikes. I often don't feel good about leaving my bike places, but here it really felt secure so I didn't need to worry. This was my first semi long cycle on my new bike and everything was super smooth.
+
+When we arrived, there were a lot of people arriving by the shuttle bus. The shuttle buses were scheduled to leave the RER station every 5 minutes to easily allow people to arrive. I love that public transport has been a key part of the Paris 2024 olympics. There was a small walk from the shuttle buses and bike parking to get to the ticket check and security. Along this walk, there were volunteers to ask questions to, and there was even one guy with a spray water bottle spraying people in the face (it was very refreshing after the cycle there).
+
+The security line was way smoother than the Urban Sports venue, there was essentially no queue when we arrived (2ish hours before the event started). Once in, we found a table in the shade to eat our lunch from, then got a drink - the _tourtel twist citron_ (an alcohol free beer) was refreshing. They had an area were they were spraying water (mist form) to cool down in, and a place to fill up bottles. The place to fill up bottles was muddy, but it was still ok to get to. After our beers, we headed up to our seats.
+
+I actually think all of the seats had a good view, they were steep enough so that you could see over everyone. Some seats would have been closer to the action, but I felt like I could see just fine. We had binoculars with us, but I didn't use them because they were moving too fast and I could follow better without them.
+
+For the semi finals, there were 20 people competing with 12 getting through to the finals. Parts were so so intense! The 50 second time penalties - heartbreaking! I enjoyed the commentators throughout, and liked the mix of English and French - it's not easy to give live commentary in two languages when things are so fast paced.
+
+There was an hour between the semi finals and the finals, during this time there were some classic songs (with lyrics!) to keep the vibe up. They also took the camera to the crowd and were chatting to the people in the audience. There were quite a few people who left after the semi finals, my guess is to either beat the queues when it comes to leaving or because the person they were supporting did not qualify.
+
+The finals were also intense! The top six people had less than two seconds of a difference between them. Two seconds! Between the top three athletes, there was just over half a second between them! It's so impressive to see the skills involved, water sports always have an element unpredictability.
+
+It was a lot of fun to watch, and it makes me want to try kayaking. I know that I wouldn't be good at it, but it looks fun (and like an intense workout). Maybe I can get some friends to join me for an afternoon out once the Olympics are over.
+
+The only slight disappointment in the day is how (some) French supporters are only there to support France. If there's another athlete who is close to beating the French athlete, they are _happy_ when they make a mistake. I can understand being disappointed, but come on, don't celebrate when they make a mistake. This is an international event, we're getting to watch high level athletes compete and there's only seconds difference between positions - they all deserve to be cheered on and encouraged. I want to see positive vibes towards all athletes!
