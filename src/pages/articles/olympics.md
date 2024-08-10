@@ -8,7 +8,7 @@ intro: 2024 Olympic games in Paris - an overview of what I've seen and how much 
 publishedDate: 2024-07-30
 ---
 
-### Paris
+### Paris 2024 Olympics
 
 I'm a complete olympic newbie, I've never followed it closely but this year I'm invested in it because it's in Paris. I'm going to make the most of the events while they're here because I don't see myself ever travelling for the games. For the Paris games, I don't have any of the additional costs associated with the games like travel or accommodation. Don't get me wrong, there are issues with how some things have been handled like the "social cleaning", but overall I think Paris has done a pretty good job. They have put effort into the sustainability and reducing the carbon impact such as having vegetarian options at the venues rather than everything being meat focused and all venues being accessible with public transport (the raising of the metro price is another issue that has been discussed a lot).
 
@@ -16,9 +16,21 @@ I'm a complete olympic newbie, I've never followed it closely but this year I'm 
 
 For the ~10 days before the opening ceremony, there were additional restrictions put in place. In order to access certain areas mostly around the seine, you needed to have a QR code. I tried to have a QR code for a museum that I wanted to go and see, but I didn't get it in time so I couldn't go to the exhibition. A lot of small businesses will have been negatively impacted by the Olympics, I've seen a few signs up saying that places were taking their annual leave during this period because they expected that there would be less people. Before the games, there were a lot of discussions around the positive impact on tourism but so far it seems to be the opposite.
 
+This article is going to contain all of my olympic thoughts, so you can skip to the relevant part:
+
+- [Olympic flame](#olympic-flame)
+- [Opening ceremony](#opening-ceremony)
+- [road cycling: time trial](#road-cycling-time-trial)
+- [Urban sports](#urban-sports)
+- [Kayaking](#kayaking)
+
+<a name="olympic-flame"></a>
+
 ### Olympic flame (21st July)
 
 I watched the olympic flame pass at the Château de Grosbois. They had a lot of different activities going on throughout the day. The vibe was good, and it really got people into the olympic spirit. It was nice to see that so many people arrived by bike and I know some shuttle buses were put on to reduce the number of people arriving by car.
+
+<a name="opening-ceremony"></a>
 
 ### Opening ceremony (26th July)
 
@@ -34,6 +46,8 @@ I was surprised at the level of representation at the opening ceremony especiall
 
 This was the second most watch tv emission in France of all time, first place is the 2022 France vs Argentina world cup final.
 
+<a name="road-cycling-time-trial"></a>
+
 ### Road cycling: time trial (27th July)
 
 The time trial route is a 32.4km course starting at Invalides which goes through Bois de Vincennes and back, before crossing the finish line on Pont Alexandre III. There were 35 women and 35 men with the women going first - it's nice to see that the split between men and woman globally across the games is equal. The cyclists left at intervals of 90 seconds.
@@ -47,6 +61,8 @@ Maybe a controversial option, but I think umbrellas should be banned from all ev
 I watched all of the women's event, and most of the men's event - I had to leave early because I had plans with a friend for her birthday.
 
 Very grateful that I was able to see this event for free - I'm sure it would have been too much work to restrict access and add security for a completely ticketed event. The atmosphere was good despite the weather
+
+<a name="urban-sports"></a>
 
 ### Urban sports (28th July)
 
@@ -75,6 +91,8 @@ My advice for the urban sports venue is:
 - check the official bag guidelines, I saw someone who had two flags on the plastic poles but was not allowed to take the poles in
 - wear sun cream, there's not much protection from the sun
 - wear a hat (I wish I had a hat with me - it was so hot)
+
+<a name="kayaking"></a>
 
 ### Men's semi final & final kayaking (1st August)
 
