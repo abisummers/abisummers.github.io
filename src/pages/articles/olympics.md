@@ -8,6 +8,8 @@ intro: 2024 Olympic games in Paris - an overview of what I've seen and how much 
 publishedDate: 2024-07-30
 ---
 
+<a name="top"></a>
+
 ### Paris 2024 Olympics
 
 I'm a complete olympic newbie, I've never followed it closely but this year I'm invested in it because it's in Paris. I'm going to make the most of the events while they're here because I don't see myself ever travelling for the games. For the Paris games, I don't have any of the additional costs associated with the games like travel or accommodation. Don't get me wrong, there are issues with how some things have been handled like the "social cleaning", but overall I think Paris has done a pretty good job. They have put effort into the sustainability and reducing the carbon impact such as having vegetarian options at the venues rather than everything being meat focused and all venues being accessible with public transport (the raising of the metro price is another issue that has been discussed a lot).
@@ -23,6 +25,10 @@ This article is going to contain all of my olympic thoughts, so you can skip to 
 - [road cycling: time trial](#road-cycling-time-trial)
 - [Urban sports](#urban-sports)
 - [Kayaking](#kayaking)
+- [Men's road race](#mens-road-race)
+- [Women's road race](#womens-road-race)
+- [Women's table tennis](#womens-table-tennis)
+- [Olympic houses](#olympic-houses)
 
 <a name="olympic-flame"></a>
 
@@ -96,7 +102,7 @@ My advice for the urban sports venue is:
 
 ### Men's semi final & final kayaking (1st August)
 
-individual ticket price: 115€ (category c)
+individual ticket price: 115€ (category C)
 
 I was really looking forward to this event, and it didn't disappoint! The weather was good, a little hot but not _too_ hot and this time I remembered to bring a hat. The event took place at a lake in Vaires-sur-Marne, a town east of Paris.
 
@@ -119,3 +125,61 @@ The finals were also intense! The top six people had less than two seconds of a 
 It was a lot of fun to watch, and it makes me want to try kayaking. I know that I wouldn't be good at it, but it looks fun (and like an intense workout). Maybe I can get some friends to join me for an afternoon out once the Olympics are over.
 
 The only slight disappointment in the day is how (some) French supporters are only there to support France. If there's another athlete who is close to beating the French athlete, they are _happy_ when they make a mistake. I can understand being disappointed, but come on, don't celebrate when they make a mistake. This is an international event, we're getting to watch high level athletes compete and there's only seconds difference between positions - they all deserve to be cheered on and encouraged. I want to see positive vibes towards all athletes!
+
+<a name="mens-road-race"></a>
+
+### Men's road race (3rd August)
+
+Another cycling event through Paris with free areas to watch from! I watched with my partner from just in front of the Sacré-Cœur. Getting there was a little complicated because we both came from different directions and some roads were closed (which makes sense considering the route needed to be protected in the centre of Paris.
+
+There was a small kid in front of us with his parents, and I enjoyed watching him negotiate how many sweets to get. He was having a hard time in the sun and with all of the waiting - they had been there for a few hours.
+
+I didn't have a great view, but I could still see all the athletes pass. they went so so fast, I could hardly keep up. In total they passed us three times.
+
+<a name="womens-road-race"></a>
+
+### Women's road race (4th August)
+
+We started the day going to the Olympic house area at Villette, but after visiting a few houses we made out way to montmartre to see the race. I prefer watching the event live vs watching TV because I loveeee the atmosphere. The Olympic houses we went to didn't have a great vibe for watching sports in (more on that in the Olympic house section).
+
+For the women's final, we watched from the feed zone, at the bottom of Rue Lepic, just as they started one of the climbs in montmartre. It was so impressive to see them pick up bottles of water from their team and we even got a bottle to take back with us - after the third passage, the teams were giving away the bottles that were not taken by the athletes.
+
+The final was so so tight!
+
+<a name="womens-table-tennis"></a>
+
+### Women's table tennis semi finals (9th August)
+
+individual ticket price: 50€ (category D)
+
+We watched the semi finals between Germany and Japan and it was a lot of fun. I know the basic rules of table tennis, but I wasn't entirely sure of the point system (the amount of points in a game, how many games you need to win, how many matches there are etc). I probably should have looked this up in advance, but it was easy to follow without knowing the exact rules.
+
+We took the metro 8 to get there, and it was quite a long walk to get there from the metro station. There were events that had just finished so lots of people were leaving, and a few events that were starting at the same time. Despite that, I thought the flow of people was managed well. It also helps that there are a few different public transport routes and that the venue is used to dealing with large amount of people.
+
+The first match was doubles, and then the following three matches were singles. The speed at which the athletes move is so impressive.
+
+We were quite far back but could still see ok. I think if you had seats on the furthest row your view might have been obstructed by the flags hanging around the venue.
+
+<a name="olympic-houses"></a>
+
+### Olympic houses (4th August, 8th August)
+
+I've been to a few of the different olympic houses. I really wanted to go to the French one, but on the day we went to Villette, we didn't want to queue. It looked like there were two different queues, one for buying tickets and one for the security to get it. I am sure that the French Olympic house would have had a great vibe - especially considering how well France were doing in the games.
+
+Some other Olympic houses looked good, but I didn't want to pay to get in, especially if there wasn't much to do inside. I went during the day, and it seems that most of the fun events were in the evening.
+
+With my partner, we had a drink at the Slovenia Olympic house, there wasn't many people there. Maybe because it was quite early in the day, maybe because it was so hot and there were not many seats in the shade by the screen or maybe just because there were no sports on that Slovenia were expecting to perform well in. I was hoping they would have radlers to drink because when in Slovenia in 2022 I drank a lot of them, but they didn't so I had a glass of wine instead.
+
+After that, we went to the South African Olympic house (this was my favourite house that I visited). Inside, they had some beautiful clothing and accessories on display. They had a garden area at the back, where they were teaching people how to play netball. I haven't played netball since I was at secondary school but I'm pretty sure I still know all the rules (I was never great at netball).
+
+And the final Olympic house I went to was the New Zealand house on the Champs-Élysées. A childhood friend was visiting, so we stopped by after visiting the Arc de Triomphe. There wasn't much going on inside, but again that's probably related to the time we went to visit at.
+
+---
+
+I'm so pleased that we decided to stay in Paris for the Olympics (and Paralympics!). It's been so much fun to see the different events. Before the Olympics, everyone was saying how busy Paris is going to be, how the transport is going to suck but actually the opposite is true. Paris has been so quite, and the transport to get around the city and to Olympic venues has been great. I haven't experienced any issues of the transport being overcrowded or unusable. However, because it has been so quite, local business have been negatively impacted by this - hopefully the peak season lasts a longer this year than other years.
+
+I thought I would have followed more of the games than I did. I didn't watch anything on TV, if there was something on in a bar that I was at, I would watch but I didn't go out of my way to watch something. Ì've been busy and the Olympic games wasn't my priority. I am happy that I got to see as much as I did.
+
+And now I'm hyped for the Paralympics!
+
+[Jump to top](#top)
