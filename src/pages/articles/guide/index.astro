@@ -1,0 +1,45 @@
+---
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+
+const guideCollection = await getCollection("guide");
+---
+
+<Main showLanguageSwitcher={false} title="guide">
+  <h2>Guided through Paris</h2>
+  <p>
+    I love Paris, there's so much to do here, from place to eat, learning about
+    French histroy and culture and events. Even after living here for many
+    years, I'm still constantly finding new things to explore.
+  </p>
+  <p>
+    Since living here, I've gave many tours of the city, and getting to take
+    people around always reminds me of how much I love the city. With everyday
+    life I sometimes forget that I live here.
+  </p>
+  <p>
+    Here you can find some of tips and tricks to visiting Paris, from places to visit and things to watch out for (like scams)
+  </p>
+  <p>
+    I often share things on Instagram, <a
+      href="https://www.instagram.com/abisummers/">@abisummers</a
+    >, about things to do in Paris.
+  </p>
+
+  <div>
+    {
+      guideCollection.map((article) => {
+        if (article) {
+          return (
+            <li value={article.data.title}>
+              <a href={"/articles/guide/" + article.slug}>
+                {article.data.title}
+              </a>
+              : {article.data.description}
+            </li>
+          );
+        }
+      })
+    }
+  </div>
+</Main>
