@@ -56,6 +56,8 @@ This was the second most watch tv emission in France of all time, first place is
 
 ### Road cycling: time trial (27th July)
 
+![cyclist](./images/time-trial.jpeg)
+
 The time trial route is a 32.4km course starting at Invalides which goes through Bois de Vincennes and back, before crossing the finish line on Pont Alexandre III. There were 35 women and 35 men with the women going first - it's nice to see that the split between men and woman globally across the games is equal. The cyclists left at intervals of 90 seconds.
 
 The weather wasn't ideal for this race, it was raining so the roads were slippery, a few of the cyclists unfortunately fell. A few cyclists also had mechanical issues, so has to swap bikes.
@@ -102,6 +104,8 @@ My advice for the urban sports venue is:
 
 ### Men's semi final & final kayaking (1st August)
 
+![a view of the kayaking course](./images/mens-kayaking.jpeg)
+
 individual ticket price: 115€ (category C)
 
 I was really looking forward to this event, and it didn't disappoint! The weather was good, a little hot but not _too_ hot and this time I remembered to bring a hat. The event took place at a lake in Vaires-sur-Marne, a town east of Paris.
@@ -130,6 +134,8 @@ The only slight disappointment in the day is how (some) French supporters are on
 
 ### Men's road race (3rd August)
 
+![the Mongolian cyclist](./images/mens-road-race.jpeg)
+
 Another cycling event through Paris with free areas to watch from! I watched with my partner from just in front of the Sacré-Cœur. Getting there was a little complicated because we both came from different directions and some roads were closed (which makes sense considering the route needed to be protected in the centre of Paris.
 
 There was a small kid in front of us with his parents, and I enjoyed watching him negotiate how many sweets to get. He was having a hard time in the sun and with all of the waiting - they had been there for a few hours.
@@ -140,6 +146,8 @@ I didn't have a great view, but I could still see all the athletes pass. they we
 
 ### Women's road race (4th August)
 
+![A woman cycling for Mauritius](./images/womens-road-race.jpeg)
+
 We started the day going to the Olympic house area at Villette, but after visiting a few houses we made out way to montmartre to see the race. I prefer watching the event live vs watching TV because I loveeee the atmosphere. The Olympic houses we went to didn't have a great vibe for watching sports in (more on that in the Olympic house section).
 
 For the women's final, we watched from the feed zone, at the bottom of Rue Lepic, just as they started one of the climbs in montmartre. It was so impressive to see them pick up bottles of water from their team and we even got a bottle to take back with us - after the third passage, the teams were giving away the bottles that were not taken by the athletes.
@@ -149,6 +157,8 @@ The final was so so tight!
 <a name="womens-table-tennis"></a>
 
 ### Women's table tennis semi finals (9th August)
+
+![women's table tennis double](./images/womens-table-tennis.jpeg)
 
 individual ticket price: 50€ (category D)
 
