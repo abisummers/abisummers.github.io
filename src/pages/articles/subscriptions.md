@@ -48,7 +48,7 @@ Total saved so far: **64€** so I've now made my money back (and there's still 
 
 I wrote a blog about both [Jean Hélion at the MaM](https://abisummers.com/articles/museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](https://abisummers.com/articles/museums/petit-palais-theodore-rousseau/).
 
-All of these museums have a free permanent collection. 
+All of these museums have a free permanent collection.
 
 \* I wanted to see this exhibition with a friend, but we couldn't get to the museum because it was in the grey zone for the olympic opening ceremony. We needed a QR code but we didn't receive it on time. I am not counting this in the total saved.
 
@@ -60,7 +60,7 @@ It's free to work from Richelieu, but finding a place is hard. The oval room is 
 
 I have definitely got my 24€ back with the about of times I've worked from the library.
 
-They also have exhibitions here, which don't seem to be that known. I recently went to the exhibition "La France sous leur yeux" which I enjoyed a lot. Entry was included in the BNF subscription (full price ticket is 10€). I wrote my thoughts on the exhibition [here](https://abisummers.com/articles/museums/bnf-la-france-sous-leur-yeux/) 
+They also have exhibitions here, which don't seem to be that known. I recently went to the exhibition "La France sous leur yeux" which I enjoyed a lot. Entry was included in the BNF subscription (full price ticket is 10€). I wrote my thoughts on the exhibition [here](https://abisummers.com/articles/museums/bnf-la-france-sous-leur-yeux/)
 
 ## Other subscriptions
 

@@ -33,7 +33,7 @@ I'd always be cautious with getting your wallet out in situation like this - you
 
 ### The clear cup
 
-This scam involves someone sitting on the side of the street, with a clear plastic cup in front of them, directly where people will be walking. Sometimes, they'll even put it down just as you're approaching so it's sure that you'll knock it over. 
+This scam involves someone sitting on the side of the street, with a clear plastic cup in front of them, directly where people will be walking. Sometimes, they'll even put it down just as you're approaching so it's sure that you'll knock it over.
 
 I have seen this often near the Opera and on Rue Rivoli because both of these areas are busy, but it can happen anywhere in Paris.
 
@@ -64,7 +64,6 @@ If you need to buy a metro ticket, go to the machine, which all have an English 
 The Paris transport system does not accept contactless payments when validating a ticket, so you do need to buy a ticket in advance.
 
 ### Overall advice
-
 
 - know where your personal belongings are at all times, never leave them unattended. I always have a bum bag that has all my valuables in it, and a tote bag that had everything, like a bottle of water and a book.
 - if someone approaches you in the street, it's usually not for a good reason
