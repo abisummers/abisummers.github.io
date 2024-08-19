@@ -1,6 +1,7 @@
 ---
 title: Picking a restaurant
 description: Things I consider when picking a new restaurant
+publishedDate: 2024-08-18
 ---
 
 France is known for their food, and there are _thousands_ of restaurants to chose from in the city. You'll find your classic French bistros, but you'll also find food from all around the world (which is one of the many things I love about living here).
