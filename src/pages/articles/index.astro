@@ -3,7 +3,13 @@ import { getCollection } from "astro:content";
 import Main from "../../layouts/article.astro";
 // import latinize from 'latinize'
 
-const alphabet = await getCollection("alphabet-ile-de-france");
+const alphabet = (await getCollection("alphabet-ile-de-france")).map(
+  (article) => ({
+    title: `Visiting ${article.data.title}`,
+    intro: `A day trip to ${article.data.title}. Part of the alphabet of Île-de-France series.`,
+    url: `./alphabet-ile-de-france/${article.slug}`,
+  }),
+);
 
 const museums = (await getCollection("museums")).map((m) => {
   return {
@@ -22,6 +28,14 @@ const travel = (await getCollection("travel")).map((article) => {
   };
 });
 
+const guidedThroughParis = (await getCollection("guide")).map((article) => {
+  return {
+    title: `Guided through Paris: ${article.data.title}`,
+    intro: article.data.description,
+    url: `./guide/${article.slug}`,
+  };
+});
+
 const unsorted = await Astro.glob("./*.{md,mdx,astro}");
 
 const articles = [
@@ -30,13 +44,9 @@ const articles = [
     intro: article.frontmatter.intro,
     url: article.url,
   })),
-  ...alphabet.map((article) => ({
-    title: `Visiting ${article.data.title}`,
-    intro: `A day trip to ${article.data.title}. Part of the alphabet of Île-de-France series.`,
-    url: `./alphabet-ile-de-france/${article.slug}`,
-  })),
   ...museums,
   ...travel,
+  ...guidedThroughParis,
 ].sort((a, b) => a.title.localeCompare(b.title));
 ---
 
@@ -52,6 +62,34 @@ const articles = [
   </p>
   {
     articles.map((article) => (
+      <article>
+        <h3>{article.title}</h3>
+        <p>{article.intro}</p>
+        {article.url && (
+          <a class="cta" href={article.url}>
+            read more
+          </a>
+        )}
+      </article>
+    ))
+  }
+  <br />
+  <hr />
+
+  <h3>Alphabet of Île-de-France</h3>
+  <p>
+    Here you can find all of my articles related to my Île-de-France project.
+    This is an ongoing project, for me to discover some new locations within the
+    region.
+  </p>
+
+  <p>
+    I love looking discovering the hidden things, both in Paris and outside of
+    it.
+  </p>
+
+  {
+    alphabet.map((article) => (
       <article>
         <h3>{article.title}</h3>
         <p>{article.intro}</p>

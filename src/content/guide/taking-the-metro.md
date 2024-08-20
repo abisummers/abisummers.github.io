@@ -1,6 +1,6 @@
 ---
 title: Taking the metro
-description: Advice for taking the metro in Paris
+description: Advice for taking the metro in Paris (buying tickets, navigating etc)
 publishedDate: 2024-08-19
 ---
 
@@ -42,6 +42,11 @@ If you're needing to change metros, there's often a lot of walking (and stairs) 
 
 There are three fully automated lines, the line 1, 4 and 14 - because there's no driver you can actually see out of the windows at the front and back which I think it pretty cool.
 
+### Favourite lines
+
+I can say something positive about pretty much every line, and I have been on every line.
+
+Line 6 is a fun line to take, because it's mostly overground. Between Bir Hakeim and \*\* you get a cool view of the Eiffel Tower. Line 6 is also known because of all of the cool street art that you can see (mostly on the east part of the line)
 
 ### Get in contact
 
