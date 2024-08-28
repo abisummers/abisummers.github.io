@@ -7,7 +7,7 @@ intro: My experience with learning French and how I actually became confident en
 publishedDate: 2024-05-26
 ---
 
-## Moving to France
+## Learning French
 
 I moved to Paris in 2016 to be an au pair for a second time (I was an au pair in Germany for a year before). The original plan was to be here from the September to December, but in early December I decided that I would like to stay so I spoke with the family I was working for and they thankfully agreed. So I extended my stay until July 2017.
 
@@ -17,7 +17,29 @@ For my first two years here, I spoke English with the kids - that's part of the 
 
 I'm going to be honest, it took me an embarrassingly long time to learn French to a point where I felt comfortable speaking with French people - but I'm _mostly_ there now.
 
-Here's a summary of my journey with learning French, things that didn't work for me and more importantly what did work for me.
+Here's a summary of my journey with learning French, things that I tried, things that didn't work for me and more importantly what did work for me.
+
+**In person classes**
+
+- [Mairie (town hall)](#mairie)
+- [Campus Langues](#campus-langues)
+
+**Online classes**
+
+- [Alliance Francaise](#alliance-francaise)
+- [Lingoda](#lingoda)
+- [Babbel](#babbel)
+- [Lingoda vs Babbel](#lingoda-vs-babbel)
+- [7speaking](#7speaking)
+
+**Apps**
+
+- [Linvgist & Radio France](#apps)
+
+**Overview**
+
+- [What didn't work for me](#tried)
+- [What worked for me](#worked-for-me)
 
 ### Secondary school
 
@@ -25,11 +47,15 @@ I had two years of French class at school, which was taught in English. As a cla
 
 If I could go back in time, I would have put a lot more effort into French and into other subject, but here we are. 6 years after my French classes when I moved to Paris, I could remember essentially nothing other than introducing myself by name and counting to ten.
 
+<a name="mairie"></a>
+
 ### In person classes via la Mairie
 
 After au pairing, I did a web dev bootcamp in 2018 and then started working as a teaching assistant (TA) on the same course. The bootcamp was taught in English, but most of the students were French speaking. When I was a TA, there were students who didn't speak French, so I continued to speak in English so they would understand. Not speaking French can be a very isolating feeling.
 
 I knew I wanted to improve my French, so I did some French classes via la Mairie (town hall). These classes were really cheap and I liked the classes a lot. However, where I was working moved to the other side of Paris so I was having to leave work in order to make it on time. After a while, I decided that it was too much and I stopped attending class. With being a TA, it meant that sometimes I would put on workshops after class for students or for potential students. I ran a _code me if you can_ workshop where we created a basic HTML page, and another workshop where we created a basic ping pong game.
+
+<a name="alliance-francaise"></a>
 
 ### Classes with Alliance Francaise (online & in person)
 
@@ -38,6 +64,8 @@ As a birthday gift in 2018, I got a week long course Alliance Francaise which wa
 I also did online classes with them for almost a year in total starting in 2020. Every tuesday and Thursday during term times, I had a two hour french class after work. I booked them through _mon compte formation_ which was amazing because French lessons are _expensive_ which is why I put it off for so long. The online classes worked well for me, because it was during Covid and I was working from home.
 
 When working in France, money goes towards _mon compte formation_ which is essentially credits that can be used for various courses - French classes, learning to drive and a whole bunch of other stuff. They recently changed the rules, where you now have to pay 100€ towards the cost of course. You have to pay attention to what courses you're picking because some of them are really bad deals, and are expensive just because people have "free" money to use. The search feature on the website sucks, so it takes quite a lot of time to compare different options.
+
+<a name="campus-langues"></a>
 
 ### In person classes with Campus Langues
 
@@ -51,6 +79,8 @@ The two downsides for me were:
 - the class had quite a variety of people in terms of levels, and not everyone was motivated. Because of the variety of level, parts were a little slow for me - I was there because I wanted to learn French, but some people were there because they _had_ to be there. At this point, I had a good understanding of French, I just lacked the confidence to speak it
 
 This was the cheapest in person class I could find - I knew I was motivated to get past the mental block that I had but I just needed extra guidance. However, because it was the cheapest, there were definitely people there because they needed to attend French classes in order to validate their visas for example. And I know that the A1 and A2 classes that were held at the same time as mine, had more students in per class.
+
+<a name="lingoda"></a>
 
 ### Online classes with Lingoda
 
@@ -68,9 +98,41 @@ I enjoyed the sprint a lot, and have since purchased credits twice more. I like 
 
 I feel like during this period I improved a lot because of how much I was actually speaking French. Speaking French was the thing that I struggled with a lot
 
+<a name="babbel"></a>
+
+### Online classes with Babbel
+
+I recently started online classes with [Babbel](https://share.babbel.com/x/0yHRTL) (referral link). It's a similar system to Lingoda, where you have online group classes with up to 6 people. Before committing to buy, you can get two free live classes.
+
+Babbel also have an app that has difference lessons you can do and that has podcasts you can listen to. They have rated all of the podcasts according to the level so you can see if it's the right pick for you.
+
+<a name="lingoda-vs-babbel"></a>
+
+### Lingoda vs Babbel
+
+So while Lingoda and Babbel have very similar products - small online group classes that happen throughout the day - there are actually some differences between them. 
+
+In terms of pricing, Lingoda have a credit based system. You buy credits that allow you to take lessons. When you buy credits, your account become active for 28 days. At the end of this period, if you you still have credits left, you cannot use them until you next have an active subscription. The more credits you buy, the cheaper it is per credit (but also the more likely it is you don't finish them). 12 group credits costs 136€ with no promo.
+
+With Babbel, you can take unlimited lessons within the time period you selected (1 month, 3 months etc), the longer the time period selected the cheaper it is. You also get access to the app which includes lessons, podcast and other helpful guides. If you're going to take a french class every day, then Babbel works out significantly cheaper. It costs 209€ for 3 months with no promo.
+
+In terms of the lessons, Babbel have fewer classes per level - for B2 (the level I'm currently taking classes for) there are 32 classes. However with Lingoda, there are ~150 lessons (~50 lesson for each level, so B2.1, B2.2 and B2.3). However Babbel does have C1 lessons which Lingoda doesn't offer currently (maybe they will in the future). Lingoda had lessons broken down via theme, grammar, writing, speaking so you can decide what you want to focus on which I really liked (some mornings I did not have the energy to follow a grammar lesson).
+
+For me, one of the biggest differences is the level of feedback you get at the end. On Lingoda, you get written feedback at the end of each lesson (some teachers give specific feedback, others give more generic feedback from the class), and you get access to the annotated slides. With Babbel, you don't get any written feedback, and you are responsible for taking your own notes and downloading the Zoom chat at the end.
+
+If you're interested in learning multiple languages, with Babbel, the subscription is valid for all languages, whereas with Lingoda it's for the specific one you've selected.
+
+Lingoda, really focus on the live lessons, whereas for Babbel it was something they added after they already had an established app.
+
+I do think Lingoda offers slightly more in terms of live lessons (more lessons per level, more feedback, broken down per theme) but it is more expensive that Babbel. Babbel has the advantage of the other features on their app. Both have pros and cons, it really depends on what you're looking for (and I have paid for both of them).
+
+<a name="7speaking"></a>
+
 ### Online private classes with 7Speaking
 
 At my previous company they offered private French or English lessons to those who wanted it. I had 30 hours of 1on1 lessons that needed to be taken within one year. This was my first time having private lessons, which was tough at first - there is no avoiding any questions. I enjoyed these lessons because I got specific feedback to me like the mistakes I often (like with prepositions) and it was a great opportunity for me to ask any specific questions that I had about the French language. These lessons were usually speaking focused with some grammar related to lesson topic.
+
+<a name="apps"></a>
 
 ### Apps
 
@@ -81,6 +143,8 @@ For vocab and conjugation, I found the app _Lingvist_ to be best. I tried Duolin
 With Lingvist, I think there's a lot of useful vocab - I used it for over a year straight without missing a day. I'm a creature of habit, and I know if I stop doing something, it's often hard for me to pick it up again. I am sure this is the reason why my vocab is good. You can pick the speed at which the sentences are spoken at. Ten minutes per day does a lot over a year
 
 And I loved listening to Radio France while commuting. They have a show call _le talk_ which I loved (I haven't listened to it for a while, since the new host took over). It covers topics that are going on in France and globally, the bring in experts on the subject to discuss it in detail. I didn't listen to every episode, only to the subjects that were interesting to me.
+
+<a name="tried"></a>
 
 ### What I tried that didn't work
 
@@ -94,11 +158,13 @@ I bought countless second hand kid books, convinced that I would take the time t
 
 Speaking was the most important part for me, but I didn't put myself in situations that would require me to speak it. For my first two years, most of my friends were also au pairs so we all spoke English together.
 
+<a name="worked-for-me"></a>
+
 ### What actually worked for me
 
 I identified that speaking French was the most important element for me, so I knew where to focus my energy. I very rarely need to write something in French - and when I do I always have the time to look things up.
 
-Speaking with non native speakers. Ok, sure they also make mistakes but for me, it did a lot for my confidence speaking with people at a similar level. I found they were less quick to judge me for mistakes and that speaking at a slower pace gave me time to think.
+Speaking with non native speakers. Ok, sure they also make mistakes but for me, it did a lot for my confidence speaking with people at a similar level. I found they were less quick to judge me for mistakes and that speaking at a slower pace gave me time to think. 
 
 Investing money into learning French. French classes helped me massively, and I know I'm more likely to use something that I have paid for and I really benefited from the guidance. I found both online and in person classes to work for me and offer different things. Online classes worked better while working remotely because I could do them directly after work, but I also like the community feel of in person classes and the change of scenery.
 
@@ -112,7 +178,7 @@ Consistency by integrating French into my daily life. This can be things like wa
 
 I'm still not _fluent_ in French, but I can get by in pretty much every situation. I might have to look up words in advance, but I know I can express myself even if it means explaining the word I'm looking for. I engage with French every day in some form, some days more than others.
 
-Despite that, I'm still continuing to invest in my French. At the time of writing this (end of May 2024), I have just bought more credits on Lingoda so that I can keep practising. I think learning French is always going to be something that I want to work on.
+Despite that, I'm still continuing to invest in my French. Depending on my needs at the time, will depend on what method I go for.
 
 ### What's your experience?
 
