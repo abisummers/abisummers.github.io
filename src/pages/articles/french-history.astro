@@ -44,6 +44,7 @@ export const events = [
   "empire colonial",
   "Les philosophes des Lumières",
   "La Révolution française",
+  "Sans-culottes",
   "1er République",
   "2ème République",
   "3ème République",
@@ -154,6 +155,7 @@ export const sports = [
   "PSG vs OM (Le Classique)",
   "Les Bleus",
   "Les XV de France",
+  "Marie-Amélie Le Fur",
 ];
 
 export const movies = [
@@ -397,6 +399,10 @@ export const frontmatter = {
       ><a href="https://www.instagram.com/abisummers/">@abisummers</a></strong
     >
   </p>
+  <p>
+    If you found this useful and would like to leave a small thank you, you can <a
+      href="https://buymeacoffee.com/abisummers">buy me a coffee</a>! 
+  </p>
 
   <script
     define:vars={{
@@ -411,33 +417,33 @@ export const frontmatter = {
       influencers,
     }}
   >
-    const outputPeople = document.getElementById("output-people");
-    const outputEvents = document.getElementById("output-events");
-    const outputFastResponses = document.getElementById(
-      "output-fast-responses",
-    );
-    const outputMusic = document.getElementById("output-music");
-    const outputMovie = document.getElementById("output-movie");
-    const outputTV = document.getElementById("output-tv");
-    const outputSports = document.getElementById("output-sports");
-    const outputBooks = document.getElementById("output-books");
-    const outputInfluencers = document.getElementById("output-influencers");
-    document.getElementById("button-generate").addEventListener("click", () => {
-      outputPeople.innerText =
-        people[Math.floor(Math.random() * people.length)];
-      outputEvents.innerText =
-        events[Math.floor(Math.random() * events.length)];
-      outputFastResponses.innerText =
-        fastResponses[Math.floor(Math.random() * fastResponses.length)];
-      outputMovie.innerText = movies[Math.floor(Math.random() * movies.length)];
-      outputMusic.innerText = music[Math.floor(Math.random() * music.length)];
+  const outputPeople = document.getElementById("output-people");
+  const outputEvents = document.getElementById("output-events");
+  const outputFastResponses = document.getElementById(
+    "output-fast-responses",
+  );
+  const outputMusic = document.getElementById("output-music");
+  const outputMovie = document.getElementById("output-movie");
+  const outputTV = document.getElementById("output-tv");
+  const outputSports = document.getElementById("output-sports");
+  const outputBooks = document.getElementById("output-books");
+  const outputInfluencers = document.getElementById("output-influencers");
+  document.getElementById("button-generate").addEventListener("click", () => {
+    outputPeople.innerText =
+      people[Math.floor(Math.random() * people.length)];
+    outputEvents.innerText =
+      events[Math.floor(Math.random() * events.length)];
+    outputFastResponses.innerText =
+      fastResponses[Math.floor(Math.random() * fastResponses.length)];
+    outputMovie.innerText = movies[Math.floor(Math.random() * movies.length)];
+    outputMusic.innerText = music[Math.floor(Math.random() * music.length)];
 
-      outputTV.innerText = tv[Math.floor(Math.random() * tv.length)];
-      outputSports.innerText =
-        sports[Math.floor(Math.random() * sports.length)];
-      outputBooks.innerText = books[Math.floor(Math.random() * books.length)];
-      outputInfluencers.innerText =
-        influencers[Math.floor(Math.random() * influencers.length)];
-    });
+    outputTV.innerText = tv[Math.floor(Math.random() * tv.length)];
+    outputSports.innerText =
+      sports[Math.floor(Math.random() * sports.length)];
+    outputBooks.innerText = books[Math.floor(Math.random() * books.length)];
+    outputInfluencers.innerText =
+      influencers[Math.floor(Math.random() * influencers.length)];
+      });
   </script>
 </Article>

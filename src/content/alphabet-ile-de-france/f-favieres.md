@@ -2,7 +2,7 @@
 title: Favières
 letter: F
 date: 2024-08-07
-image: /src/content/images/favieres-water.jpeg)
+image: /src/content/images/favieres-water.jpeg
 transportLinks: ["Transilien P", "RER E"]
 knownFor: []
 notablePeople: []
