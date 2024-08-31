@@ -30,7 +30,7 @@ const travel = (await getCollection("travel")).map((article) => {
 
 const guidedThroughParis = (await getCollection("guide")).map((article) => {
   return {
-    title: `Guided through Paris: ${article.data.title}`,
+    title: `${article.data.title}: guided through Paris`,
     intro: article.data.description,
     url: `./guide/${article.slug}`,
   };
