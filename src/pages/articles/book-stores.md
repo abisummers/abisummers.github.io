@@ -23,6 +23,8 @@ They have a large variety of books including a selection that is second hand. Al
 
 I prefer coming here when I don't have a book in mind because I just love taking the time to browse. Be aware that the space here is pretty tight, so it can be hard to pass people when you're looking at books especially if you have a backpack on.
 
+I like that they have a loyalty program - when you get to 100€ you get a free tote bag. They keep track of what you've spent on bookmarks which I think is cute. It's nice being able to see the books that I've bought from there.
+
 They offer tea & coffee at the entrance which is a nice treat after book shopping.
 
 ## Shakespeare and Company
@@ -36,6 +38,14 @@ They have a website where you can order books either for delivery or for a store
 Both when you order a book online or buy one from store, you get the option to have the book stamped (I always opt to have mine stamped).
 
 They have a cafe just next door where the collaborate with other local producers.
+
+### The Red Wheelbarrow Bookstore
+
+The Red Wheelbarrow and The Red Balloon are two independently owned book stores, just next to each other. The different book stores focus on different categories. The Red Balloon focuses on children's books, both in English and in French.
+
+The stores are smaller that The Abbey and Shakespeare and Co, but I thought they still had a good collection of books. The staff are friendly and can offer advice on books, and which of the book stores will have a specific book if you're looking for one.
+
+It's just opposite Jardin du Luxembourg, so the perfect place to sit and read a new book!
 
 ## Smith & Son
 
@@ -56,6 +66,10 @@ They have a website where you can order books - although I have never tried.
 There are a few different Book Off stores in Paris which is a store that focuses on second hand books (mostly in French), CDs and DVDs. They all have a selection of second hand English books (along with other languages!).
 
 I was an au pair for my first two years in Paris, so I spent a lot of time in Book Off because the books were the cheapest here. I found many good English books for 1€, the most I ever spent on a book here was 3,5€. I still visit the store, but now I usually buy my books from The Abbey or Shakespeare and Co. This is also a great place to buy books if you're wanting to learn French because of the large variety of choice at a good price.
+
+### Cafes with a book theme
+
+Maison fleuret
 
 ## Your suggestions?
 
