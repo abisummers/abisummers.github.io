@@ -39,7 +39,7 @@ Both when you order a book online or buy one from store, you get the option to h
 
 They have a cafe just next door where the collaborate with other local producers.
 
-### The Red Wheelbarrow Bookstore
+## The Red Wheelbarrow Bookstore
 
 The Red Wheelbarrow and The Red Balloon are two independently owned book stores, just next to each other. The different book stores focus on different categories. The Red Balloon focuses on children's books, both in English and in French.
 
@@ -66,10 +66,6 @@ They have a website where you can order books - although I have never tried.
 There are a few different Book Off stores in Paris which is a store that focuses on second hand books (mostly in French), CDs and DVDs. They all have a selection of second hand English books (along with other languages!).
 
 I was an au pair for my first two years in Paris, so I spent a lot of time in Book Off because the books were the cheapest here. I found many good English books for 1€, the most I ever spent on a book here was 3,5€. I still visit the store, but now I usually buy my books from The Abbey or Shakespeare and Co. This is also a great place to buy books if you're wanting to learn French because of the large variety of choice at a good price.
-
-### Cafes with a book theme
-
-Maison fleuret
 
 ## Your suggestions?
 
