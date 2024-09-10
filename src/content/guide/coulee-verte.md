@@ -3,7 +3,7 @@ title: Bastile to Vincennes
 description: A 5km scenic walk along the Coulée verte René-Dumont
 publishedDate: 2024-09-10
 category: walk
-tags: ["kid friendly", "walk"]
+themes: ["kid friendly", "walk", "activity"]
 ---
 
 Coulée verte René-Dumont, or otherwise known as _Promenade Plantée_ (planted promenade) is an almost 5km walk from Bastille to Vincennes that follow an old train line. You'll go from walking along the beautiful _Viaduc des Arts_, across bridges, and through tunnels while getting to enjoy Paris at a slower pace (and hopefully also the sunshine).

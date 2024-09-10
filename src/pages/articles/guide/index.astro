@@ -28,8 +28,31 @@ const guideCollection = await getCollection("guide");
   </p>
 
   <div>
+    <h3>Beginners guide</h3>
+    <p>Here you can find my beginners guide! The essential things to know on your first visit to Paris like avoiding scams, and getting around using public transport</p>
     {
-      guideCollection.map((article) => {
+      
+      guideCollection.filter(article => article.data.themes.includes('how-to')).map((article) => {
+        if (article) {
+          return (
+            <li value={article.data.title}>
+              <a href={"/articles/guide/" + article.slug}>
+                {article.data.title}
+              </a>
+              : {article.data.description}
+            </li>
+          );
+        }
+      })
+    }
+  </div>
+
+  <div>
+    <h3>Activities in Paris</h3>
+    <p>Here you can find some of my favourite things to do in Paris!</p>
+    {
+      
+      guideCollection.filter(article => article.data.themes.includes('activity')).map((article) => {
         if (article) {
           return (
             <li value={article.data.title}>

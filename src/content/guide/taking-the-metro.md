@@ -2,6 +2,7 @@
 title: Taking the metro
 description: Advice for taking the metro in Paris (buying tickets, navigating etc)
 publishedDate: 2024-08-19
+themes: ["how-to", "transport"]
 ---
 
 As someone who lives in Paris and works as a tour guide, I spend a lot of time on public transport. I love the metro system, I love being able to get from one side of the city to another, I love not needing to drive and I love the convenience of it. I rarely need to wait more than 5 minutes for a metro which is really really cool.

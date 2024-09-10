@@ -2,6 +2,7 @@
 title: Common scams
 description: Scams to watch out for
 publishedDate: 2024-08-18
+themes: ["how-to", "scams"]
 ---
 
 As with all big cities and tourist locations there are certain things to watch out for. The scams are used in other cities around the world, but sometimes a reminder is helpful
