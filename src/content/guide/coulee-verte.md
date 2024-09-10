@@ -12,7 +12,11 @@ I love this walk, especially in summer because you get to see all of the differe
 
 ### The walk
 
+![view of the walk over the viaduct](./images/bastille-vincennes-viaduct.jpeg)
+
 The first part of the route from Bastille to Jardin de Reuilly is easy to follow - between Basttile and jardin de Reuilly you follow the _Viaduc des Arts_. I love this viaduct, it's such a contrast to the buildings that surround it. It's crazy to me, that a train once ran along here - it's so cool to see parts of history in everyday Paris. I also really enjoy getting to see things from a different angle.
+
+![view from the viaduct](./images/bastille-vincennes-street-view.jpeg)
 
 After jardin de Reuilly, it becomes a little harder to follow. There are signs, and it's essentially a straight line, but you're no longer on the viaduct. While it is pedestrianised the entire way, you're now passed by cars on the same level and there are a few roads to cross for a short while. Once you get to this level, there is a bike lane which is easy to follow.
 
@@ -20,7 +24,11 @@ The crossing from Paris into Vincennes could be better (and maybe this will chan
 
 From here, you have a few different option! You could spend the remainder of the day exploring the Bois de Vincennes or you could even end the day with a visit to the Château de Vincennes. Or, if you're tired from a day in the sun, you can take the metro 1 back into Paris.
 
+![street art from the Bastille entrance](./images/bastille-vincennes-street-art.jpeg)
+
 I really like that along the walk, there are different pieces of street art that have been commissioned. I think it's great that art is accessible - I didn't grow up exposed to art so I'm still finding my style and words to describe it. I also really appreciate spaces that are designed for people living here - this is a great place to see friends, to read a book or to escape the business of Paris life. I love that there are so many green areas in Paris.
+
+![street art through the tunnel](./images/bastille-vincennes-street-art-tiger.jpeg)
 
 ### Ideal for
 
