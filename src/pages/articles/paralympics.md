@@ -10,15 +10,30 @@ publishedDate: 2024-09-09
 
 ### Paris 2024 Paralympics
 
-I am very grateful to have been able to see different events at the Olympics, and at the paralympics!
+I am very grateful to have been able to see different events at the Olympics, and at the paralympics! I really enjoyed the vibe of the city of the two month period.
+
+This article contains a breakdown of all of the different events that I have seen, you can skip to the relevant part here:
+
+- [Paralympic flame](#paralympic-flame)
+- [Opening ceremony](#opening-ceremony)
+- [Wheelchair tennis](#wheelchair-tennis)
+- [Track cycling](#track-cycling)
+- [Wheelchair fencing](#wheelchair-fencing)
+- [Closing ceremony](#closing-ceremony)
 
 You can read my Olympic article [here](https://abisummers.com/articles/olympics/).
 
+<a name="paralympic-flame"></a>
+
 ### Paralympic flame (27st August)
+
+![paralympic flame](./images/paralympic-flame.jpeg)
 
 I'm very fortunate that I was also able to see the Paralympic flame. There were less people that for the Olympic flame, but the vibe was still nice. The flame went around the running track, so there were lots of places you could see it from.
 
 There were definitely some groups organised via schools or youth groups, because a lot of kids were wearing the reflective jackets. there were two rows of kids that lead from the track to the centre so that the flame could pass them - this is going to be a super cool experience for the kids.
+
+<a name="opening-ceremony"></a>
 
 ### Opening ceremony (28th August)
 
@@ -28,13 +43,17 @@ I thought that the dancing was really cool - so many people on stage at once! It
 
 I enjoyed parts of the opening ceremony, but I thought the Olympic opening was better. For the Olympic opening ceremony, they had different shows during the boat parade which made it more interesting to watch. With the Paralympic opening, the dancing at the start and end was cool, but the parading of the flags didn't seem so engaging.
 
-This is my first time watching the opening ceremonies, but friends have said that the the passing of the flags is always a little dull. 
+This is my first time watching the opening ceremonies, but friends have said that the the passing of the flags is always a little dull.
 
 I really like how much representation of the disabled community there was - I feel like often in media people with non visible disabilities are often at centre stage.
+
+<a name="wheelchair-tennis"></a>
 
 ### Wheelchair tennis (31st August)
 
 individual ticket price: 20€ (category A)
+
+![wheelchair tennis](./images/wheelchair-tennis.jpeg)
 
 Wheelchair tennis was a lot of fun! We had great seats for the game. It's my first time watching a full tennis match (I only really watch rugby). I occasionally play tennis on a local court, but I never play with the real rules because I'm not great at it - I play for fun not for points. That being said, some of the rules between tennis and wheelchair tennis are different, notably the ball being allowed to double bounce. That makes sense - moving in a wheelchair isn't as easy as it is to run a few steps forwards or backwards.
 
@@ -42,13 +61,21 @@ There were some really intense moments during the games. It seems the crowd didn
 
 Tennis is something that always reminds me of my nana because she likes to watch tennis whenever it's on TV. I wanted to find a tennis related postcard at the venue to send to her (I love writing postcards), but they didn't seem to have any. Seriously, postcards would have made for great souvenirs.
 
+<a name="track-cycling"></a>
+
 ### Track cycling (1st September)
 
 individual ticket price: 15€ (category C)
 
 Getting there was easy despite being a little far from Paris, the RER C ran frequently and it wasn't too busy going there or coming back (wooo!). I sat and read on the train so the time passed fast (I love reading on trains). This was my first time seeing any track event, or being at a velodrome so it was cool (the word velodrome comes from the French word _vélo_ meaning bike, and the ancient Greek work _drómos_ meaning race course).
 
+![track light display](./images/track-cycling-light-display.jpeg)
+
+When we arrived, we could see some athletes preparing for their race. Some where actually cycling on the track, others were on the centre part on stationary bikes. Before the races started, they did some cool light displays on the track.
+
 All of the races were impressive, but some stood out to me more than others.
+
+![track cycling](./images/track-cycling.jpeg)
 
 There's was a athlete competing, Sophie Unwin with pilot Jenny Holl who's in the same online space as me so it was cool to have someone to root for. I root for all of the athletes (because it's truly impressive what they can do!), but there's something extra special about it being someone you know - she set a world record _and_ won a gold medal!
 
@@ -58,9 +85,13 @@ Team GB smashed the track cycling - the won so many medals!
 
 We had a great day at the velodrome, and I'd definitely go back to watch another event.
 
+<a name="wheelchair-fencing"></a>
+
 ### Wheelchair fencing (3rd September)
 
 individual ticket price: 40€ (category A)
+
+![Wheelchair fencing](./images/wheelchair-fencing.jpeg)
 
 Wheelchair fencing was so so cool to see. The Grand Palais was such a cool venue choice.
 
@@ -80,6 +111,8 @@ We didn't stay for the medal ceremony because by this time I was feeling awful. 
 
 I'm excited to visit the Grand Palais when it's open to the public again because it's such a beautiful building. It's so cool that there was an olympic sport here!
 
+<a name="closing-ceremony"></a>
+
 ### Closing ceremony (8th September)
 
 We just got back from a weekend away, so we ordered some food and then watched the opening ceremony from home. They weren't very lucky with the weather (again) but they still put on a great show.
@@ -97,6 +130,8 @@ And just like that the games are over! It's been a wild two month period in Pari
 I know that a lot of businesses were impacted by the lack of usual tourists, so hopefully the season has just shifted a little. A lot of the tourists I saw during the games, were from Belgium and the Netherlands which make sense. But they're very different tourists than the tourists that come from the US. You can take the train from Amsterdam to Paris in 3h30 so you can come just for a weekend.
 
 Throughout the city, there were signs pointing to different venues, people helping in metro stations and changes to road layouts. How fast will things go back to normal? When will all of the traces disappear? At what point will we stop talking about the Olympics?
+
+If you would like to share your thoughts, you can comment on my [instagram post](https://www.instagram.com/p/C_scSOltJG5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)!
 
 ---
 

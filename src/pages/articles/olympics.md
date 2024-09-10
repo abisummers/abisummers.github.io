@@ -30,6 +30,8 @@ This article is going to contain all of my olympic thoughts, so you can skip to 
 - [Women's table tennis](#womens-table-tennis)
 - [Olympic houses](#olympic-houses)
 
+You can read my article on the Paralympics [here](https://abisummers.com/articles/paralympics/)
+
 <a name="olympic-flame"></a>
 
 ### Olympic flame (21st July)
