@@ -1,9 +1,9 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Parks in Le Marais
-intro: Exploring the different parks, gardens and green areas in Le Marais
+description: My guide to some of the best parks in le Marais
+themes: ["activity"]
 publishedDate: 2024-05-22
 ---
 
@@ -11,7 +11,7 @@ publishedDate: 2024-05-22
 
 Le Marais has a lot of history and is an interesting area to visit - historically it hasn't always been a desirable place to live in. Now there are a lot of small independent stores (I saw a place that makes glasses which all looks super cool) with art galleries, museums and hidden parks. These parks are the ideal place to sit on a bench, watch the world go by and to take a pause. At the time of writing this, May 2024, spring in Paris is here and I love taking my journal to a park to sit with my own thought.
 
-In this article, I'm going to talk about some of the parks and try to summaries their history like who they're named after or who owned the park before. Most parks have opening hours, so if you're planning on going in an early morning or evening, it's better to check the opening hours in advance.
+There is always something exciting going on in Paris, but if you're looking for a quiet place to sit and relax for a moment, while still in the centre of Paris, here are some of my favourite parks (and where they get their names from)!
 
 ### Jardin Lazare-Rachline
 
@@ -41,7 +41,7 @@ This square pays tribute to a former municipal councillor of the 3rd arrondissem
 
 ### Jardin Berthe Weill
 
-This hidden garden (which is one of my favouritess) is behind the Picasso museum and has been open since 2019. What I really love about this garden is that it's designed both for people and for the biodiversity. There are benches that you can sit on to read, and there's even a book box where you can exchange your books (I love that there's so many of these around France). In order to protect the biodiversity, there are parts that are not accessible to walk on and native plants have been planted as well as insect hotels.
+This hidden garden (which is one of my favourites) is behind the Picasso museum and has been open since 2019. What I really love about this garden is that it's designed both for people and for the biodiversity. There are benches that you can sit on to read, and there's even a book box where you can exchange your books (I love that there's so many of these around France). In order to protect the biodiversity, there are parts that are not accessible to walk on and native plants have been planted as well as insect hotels.
 
 The name of the garden pays tribute to Berthe Weill (1865-1951), the first art dealer to dedicate her gallery to the modern avant-garde. She is credited as being the first person to produce a sale of Picasso's work.
 
@@ -61,10 +61,12 @@ The park is named after Albert-Schweitzer (1875-1965), a missionary doctor, phil
 
 Close by, there's a cafe called "The Caféothèque of Paris" which is nice with a great atmosphere. It gets pretty busy, so it's not always possible to get a table. Their cakes always look good too.
 
+<!-- ### Jardin des Rosiers Joseph Migneret -->
+
 <!--
 ### Jardin Roger-Priou-Valjean
 
-### Jardin des Rosiers Joseph Migneret
+
 
 ### Jardin Arnaud Beltrame
 
@@ -80,9 +82,3 @@ Close by, there's a cafe called "The Caféothèque of Paris" which is nice with 
 ### Get in contact
 
 Do you have a favourite park in Le Marais? What do you look for in a park (access to drinking water, toilets, being able to sit on the grass)? Get in contact via instagram at **[@abisummers](https://www.instagram.com/abisummers/)** or email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
-
----
-
-published date: 22nd May 2024
-
-read more articles [here](https://abisummers.com/articles/)
