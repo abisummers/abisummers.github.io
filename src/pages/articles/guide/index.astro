@@ -28,42 +28,79 @@ const guideCollection = await getCollection("guide");
   </p>
 
   <div>
-    <h3>Beginners guide</h3>
-    <p>Here you can find my beginners guide! The essential things to know on your first visit to Paris like avoiding scams, and getting around using public transport</p>
+    <h3>Personalised tours</h3>
+
+    <p>
+      Here you can read a bit about the types of tours that I offer. Paris has
+      something for everyone, and I would love to be able to make your trip
+      special!
+    </p>
+
     {
-      
-      guideCollection.filter(article => article.data.themes.includes('how-to')).map((article) => {
-        if (article) {
-          return (
-            <li value={article.data.title}>
-              <a href={"/articles/guide/" + article.slug}>
-                {article.data.title}
-              </a>
-              : {article.data.description}
-            </li>
-          );
-        }
-      })
+      guideCollection
+        .filter((article) => article.data.themes.includes("tour"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a href={"/articles/guide/" + article.slug}>
+                  {article.data.title}
+                </a>
+                : {article.data.description}
+              </li>
+            );
+          }
+        })
     }
   </div>
 
   <div>
+    <h3>Beginners guide</h3>
+    <p>
+      Here you can find my beginners guide! The essential things to know on your
+      first visit to Paris like avoiding scams, and getting around using public
+      transport
+    </p>
+    <p>
+      As a tour guide, I also offer personalised tours, you can find more about
+      that <a href="/articles/guide/visit-paris">here</a>
+    </p>! I want everyone to enjoy their Paris experience, and believe that
+    Paris has something for everyone.
+    {
+      guideCollection
+        .filter((article) => article.data.themes.includes("how-to"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a href={"/articles/guide/" + article.slug}>
+                  {article.data.title}
+                </a>
+                : {article.data.description}
+              </li>
+            );
+          }
+        })
+    }
+  </div>
+  <div>
     <h3>Activities in Paris</h3>
     <p>Here you can find some of my favourite things to do in Paris!</p>
     {
-      
-      guideCollection.filter(article => article.data.themes.includes('activity')).map((article) => {
-        if (article) {
-          return (
-            <li value={article.data.title}>
-              <a href={"/articles/guide/" + article.slug}>
-                {article.data.title}
-              </a>
-              : {article.data.description}
-            </li>
-          );
-        }
-      })
+      guideCollection
+        .filter((article) => article.data.themes.includes("activity"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a href={"/articles/guide/" + article.slug}>
+                  {article.data.title}
+                </a>
+                : {article.data.description}
+              </li>
+            );
+          }
+        })
     }
   </div>
 </Main>
