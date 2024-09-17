@@ -54,6 +54,7 @@ const guideCollection = await getCollection("guide");
     }
   </div>
 
+  <br />
   <div>
     <h3>Beginners guide</h3>
     <p>
@@ -83,12 +84,40 @@ const guideCollection = await getCollection("guide");
         })
     }
   </div>
+  <br />
   <div>
     <h3>Activities in Paris</h3>
     <p>Here you can find some of my favourite things to do in Paris!</p>
     {
       guideCollection
         .filter((article) => article.data.themes.includes("activity"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a href={"/articles/guide/" + article.slug}>
+                  {article.data.title}
+                </a>
+                : {article.data.description}
+              </li>
+            );
+          }
+        })
+    }
+  </div>
+
+  <div>
+    <h3>French food</h3>
+
+    <p>
+      Here you can find an overview on some of the important parts of French
+      food.
+    </p>
+    <p>France is known for their food, it's something they take seriously!</p>
+
+    {
+      guideCollection
+        .filter((article) => article.data.themes.includes("food"))
         .map((article) => {
           if (article) {
             return (
