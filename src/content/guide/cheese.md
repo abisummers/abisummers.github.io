@@ -40,9 +40,9 @@ Some (not all!) of the variations are:
 
 ### AOP vs AOC
 
-Many cheeses in France will have a label AOP _L’Appellation d’origine protégée_ - there are over 4O cheeses with this label in France. This is a european label put on certain products which shows that the product has been produced, processed and developed in a specific geographical area using specific ingredients and local know-how. All of these help keep certain traditions alive.
+Many cheeses in France will have a label AOP - _Appellation d’origine protégée_ - there are over 4O cheeses with this label in France. This is a european label put on certain products which shows that the product has been produced, processed and developed in a specific geographical area using specific ingredients and local know-how. All of these help keep certain traditions alive.
 
-In France, there is also the AOC _Appellation d'Origine Contrôlée_ label where the origins date back to 1411 when the production of Roquefort was regulated by parliamentary decree. Since the introduction of the AOP, cheeses no longer use the AOC label, however wine and certain other products can still have this label.
+In France, there is also the AOC - _Appellation d'Origine Contrôlée_ - label where the origins date back to 1411 when the production of Roquefort was regulated by parliamentary decree. Since the introduction of the AOP, cheeses no longer use the AOC label, however wine and certain other products can still have this label.
 
 ### The eight families of cheese
 
