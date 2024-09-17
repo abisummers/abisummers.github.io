@@ -110,7 +110,7 @@ Babbel also have an app that has difference lessons you can do and that has podc
 
 ### Lingoda vs Babbel
 
-So while Lingoda and Babbel have very similar products - small online group classes that happen throughout the day - there are actually some differences between them. 
+So while Lingoda and Babbel have very similar products - small online group classes that happen throughout the day - there are actually some differences between them.
 
 In terms of pricing, Lingoda have a credit based system. You buy credits that allow you to take lessons. When you buy credits, your account become active for 28 days. At the end of this period, if you you still have credits left, you cannot use them until you next have an active subscription. The more credits you buy, the cheaper it is per credit (but also the more likely it is you don't finish them). 12 group credits costs 136€ with no promo.
 
@@ -164,7 +164,7 @@ Speaking was the most important part for me, but I didn't put myself in situatio
 
 I identified that speaking French was the most important element for me, so I knew where to focus my energy. I very rarely need to write something in French - and when I do I always have the time to look things up.
 
-Speaking with non native speakers. Ok, sure they also make mistakes but for me, it did a lot for my confidence speaking with people at a similar level. I found they were less quick to judge me for mistakes and that speaking at a slower pace gave me time to think. 
+Speaking with non native speakers. Ok, sure they also make mistakes but for me, it did a lot for my confidence speaking with people at a similar level. I found they were less quick to judge me for mistakes and that speaking at a slower pace gave me time to think.
 
 Investing money into learning French. French classes helped me massively, and I know I'm more likely to use something that I have paid for and I really benefited from the guidance. I found both online and in person classes to work for me and offer different things. Online classes worked better while working remotely because I could do them directly after work, but I also like the community feel of in person classes and the change of scenery.
 

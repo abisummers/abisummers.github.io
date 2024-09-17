@@ -1,6 +1,6 @@
 ---
 title: Common scams
-description: Scams to watch out for
+description: Scams to watch out for throughout the city
 publishedDate: 2024-08-18
 themes: ["how-to", "scams"]
 ---

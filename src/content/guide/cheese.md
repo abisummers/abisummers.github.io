@@ -1,5 +1,5 @@
 ---
-title: All thing cheese
+title: All things cheese
 description: An overview on french cheeses, from how they're made, to the eight families of cheeses
 publishedDate: 2024-09-17
 themes: ["food"]

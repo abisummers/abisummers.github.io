@@ -1,6 +1,6 @@
 ---
 title: Picking a restaurant
-description: Things I consider when picking a new restaurant
+description: My guide for picking a restaurant in Paris
 publishedDate: 2024-08-18
 themes: ["how-to", "restaurants"]
 ---
