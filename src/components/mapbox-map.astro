@@ -57,9 +57,7 @@ const {
   import "mapbox-gl/dist/mapbox-gl.css";
 
   class MapboxMap extends HTMLElement {
-    constructor() {
-      super();
-
+    connectedCallback() {
       if (
         !this.dataset.container ||
         !this.dataset.latitude ||
