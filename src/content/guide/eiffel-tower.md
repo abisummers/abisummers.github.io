@@ -7,15 +7,32 @@ themes: ["tourist-attraction"]
 
 The Eiffel Tower, is one of the most visited attractions in the world! Here you'll find my tips and tricks for having the best experience - with or without a guide.
 
+![a view of the Eiffel Tower](./images/eiffel-tower.jpeg)
+
+The article is broken down into themes based on my experience on giving tours of the Eiffel Tower. You can skip to the part that's most relevant for you!
+
+- [Scams](#scams)
+- [Security checks](#security)
+- [Tickets](#tickets)
+- [Summit tickets](#summit-tickets)
+- [The best view](#best-view)
+- [Weather conditions](#weather)
+- [Landmarks](#landmarks)
+- [Book a tour with me](#guided-tour)
+
+<a name="scams"></a>
+
 ### Scams
 
-I have a whole article on scam in Paris, but I think it's worth mentioning here, because this is one of the locations where you'll see almost all of the scams.
+I have a whole [article on scam](https://abisummers.com/articles/guide/common-scams/) in Paris, but I think it's worth mentioning here, because this is one of the locations where you'll see almost all of the scams.
 
 All across Paris, and other big cities, you get pickpockets. You'll often see signs or hear announcements to remind you of your personal belonging - that means no phones in back pockets, no bags hanging on the back of a chair and never leaving your valuables unattended. I'm sure this advice is nothing new.
 
 For me, the most annoying scam you'll see by the Eiffel Tower is the people, usually women, with clipboards. They'll either ask if you speak English (almost always a red flag) or will just tap the clipboard pretending to be deaf. They'll claim it's for a charity or some other good will act, but in fact you're just giving them your money. They can be persistent and it's very hard to get out of it. My advice would be to not engage with them at all.
 
 Recently, I was waiting for some guests on a guided tour of the Eiffel Tower. While waiting for the people on my tour, two tourists approached me asking for help to find their tour - no worries there, I'm happy to help, they wanted to know where their meeting point was. They were standing a few meters away from me while trying to get in contact with their tour company (they missed the start and were trying to get rescheduled). I noticed that two people approached them with the _do you speak English?_ question and clipboards. I went over to see how they were getting on with rescheduling their tour, and the women were angry with me asking what I was doing - one of them even grabbed my arm. I simply said that they were with me - a small lie but I could tell they were uncomfortable _and_ I know it's hard to get out of this situation. They accused me of being a pickpocket, but they left without saying anything further.
+
+<a name="security"></a>
 
 ### Security checks
 
@@ -32,6 +49,10 @@ Here are some important things to remember for the security checks:
 
 A full list of item that are prohibited can be found on the Eiffel Tower website. If you have any of the prohibited items, they will be confiscated and you are not able to get them back at the end.
 
+You are allowed to bring in water bottles. There are places on the ground floor to fill them up - I love that all across Paris you can find places to fill up water bottles.
+
+<a name="tickets"></a>
+
 ### tickets
 
 The cheapest way to visit the Eiffel Tower is by taking the stairs - this will only take you to the second floor. They estimate that it takes ~15 minutes to get from the ground floor to the first floor, and an additional ~15 minutes between the first and second floor. This will of course depend person to person and the speed that you would like to go at.
@@ -39,6 +60,8 @@ The cheapest way to visit the Eiffel Tower is by taking the stairs - this will o
 Alternatively, you can take the lift. There are two lift options - to the second floor or to the summit. Second floor tickets are always available whereas the summit tickets tend to sell out (more on that in the next section). After visiting the second floor, you are able to take the lift or the stairs to the first floor (which is worth visiting!).
 
 You do not need a ticket to access the area underneath the Eiffel Tower.
+
+<a name="summit-tickets"></a>
 
 #### Summit tickets
 
@@ -54,11 +77,15 @@ There are also rare occasions when the summit is closed unrelated to the capacit
 
 The summit is not accessible for people in wheelchairs or people who use walking aids, so this is worth noting when deciding what option you want to take. If you have a walking aid, such as a walking stick, even if you can walk without it, you may still be refused access to the summit.
 
+<a name="best-view"></a>
+
 ### The best view
 
 Everyone is going to have their own opinion on this, but personally I find that the view is best from the second floor, and here's why. On the second floor, there is a viewing platform where you have an unobstructed view of Paris - no barriers or glass screens. This is also the best place for taking photos. I like that I can see the depth of the buildings from this angle.
 
 The summit is nice, but I find that it can be quite overwhelming due to the number of people _and_ because you are so much higher than surrounding buildings you lose the element of 3D, everything looks _flatter_.
+
+<a name="weather"></a>
 
 ### Weather conditions
 
@@ -67,6 +94,8 @@ The weather can really influence your experience of the Eiffel Tower, so it's so
 It's also worth remembering that while under the Eiffel Tower, you have _some_ protection from the wind and rain. On the 1st floor, you're more than 57 meters from the ground with nothing to protect you from the wind. I would recommend bringing an extra layer of clothing if you have any doubts - you want to fully enjoy your experience and not rush it because it's cold.
 
 There are areas on the Eiffel Tower that are protected from the wind and rain - but these are not the places with the best views!
+
+<a name="landmarks"></a>
 
 ### Landmarks
 
@@ -83,6 +112,8 @@ One of the cool things about the Eiffel Tower is getting to see all of the landm
 - la defense
 - le grand palais
 
+<a name="guided-tour"></a>
+
 ### Book a tour with me
 
 If you are interested in learning more about the history of the Eiffel Tower and what makes it so remarkable, you can get in contact with me via email **[contact@abisummers.com](mailto:contact@abisummers.com)** to organise a tour!
@@ -92,3 +123,5 @@ If you are interested in learning more about the history of the Eiffel Tower and
 If you would like for me to join you to the 2nd floor or summit, an additional fee will be charged. I am able to show you they key landmarks that are scattered across Paris and explain a bit about each of them.
 
 Note: the Eiffel Tower tickets are not included in this price. This is something you will have to pay for (including my ticket if you would like me to join you to the second floor or summit). -->
+
+<br>
