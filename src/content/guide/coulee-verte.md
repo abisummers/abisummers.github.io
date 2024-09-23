@@ -2,7 +2,6 @@
 title: Bastille to Vincennes
 description: A 5km scenic walk along the Coulée verte René-Dumont
 publishedDate: 2024-09-10
-category: walk
 themes: ["kid friendly", "walk", "activity"]
 ---
 

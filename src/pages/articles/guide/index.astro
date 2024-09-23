@@ -86,6 +86,33 @@ const guideCollection = await getCollection("guide");
     }
   </div>
   <br />
+
+  <div>
+    <h3>Tourist attractions</h3>
+    <p>Tips and tricks for enjoying the tourist attractions around the city!</p>
+    <p>
+      There can be a lot of negative connotations around the toursty places,
+      espeically in big cities like Paris. But usually places are popular for a
+      reason! Here you can find my advice on making the most out of these places.
+    </p>
+    {
+      guideCollection
+        .filter((article) => article.data.themes.includes("tourist-attraction"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a href={"/articles/guide/" + article.slug}>
+                  {article.data.title}
+                </a>
+                : {article.data.description}
+              </li>
+            );
+          }
+        })
+    }
+  </div>
+  <br />
   <div>
     <h3>Activities in Paris</h3>
     <p>Here you can find some of my favourite things to do in Paris!</p>
