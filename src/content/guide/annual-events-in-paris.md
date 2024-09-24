@@ -53,9 +53,9 @@ In French this is called the _journées européennes du patrimoine_. This is an 
 
 If you are wanting to see something specific, it's worth reserving tickets in advance - reservations open a few weeks before. Most events require reservations in Paris however there are always some that don't require it. If there's no reservation, chances are there will be quite a long queue.
 
-### Vendanges montmartre (October)
+### Vendanges Montmartre (October)
 
-Held throughout Montmarte, including at the foot of the Sacré Cœur, the harvest is celebrated. Many different producers come to show off and sell their products. France is known for their food, so this is the perfect place to enjoy all those things. There are always various activities on outside of the food and drink - from night runs, live shows and some organised walks.
+Held throughout Montmartre, including at the foot of the Sacré Cœur, the harvest is celebrated. Many different producers come to show off and sell their products. France is known for their food, so this is the perfect place to enjoy all those things. There are always various activities on outside of the food and drink - from night runs, live shows and some organised walks.
 
 ### Winter season
 

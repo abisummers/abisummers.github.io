@@ -29,7 +29,7 @@ Almost every park will have some history behind it, sometimes that's explained a
 
 One of my favourite activities is to watch the sun set from the Sacré-Cœur with a glass of wine or a beer. Often you'll find street performers which are always impressive to see and really add to the vibe.
 
-![sunset at montmarte](./images/montmarte-sunset.jpeg)
+![sunset at Montmartre](./images/montmartre-sunset.jpeg)
 
 There are two performers that always come to mind when I think of street performers here. The first being _the football guy_ - you might have seen some of his videos on youtube. He does some very impressive tricks with a football, including climbing to the top of a lamppost - all while having a great view of Paris. The second being two fire performers which is really cool to see as the sun is setting.
 

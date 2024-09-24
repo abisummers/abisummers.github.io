@@ -150,9 +150,9 @@ I didn't have a great view, but I could still see all the athletes pass. they we
 
 ![A woman cycling for Mauritius](./images/womens-road-race.jpeg)
 
-We started the day going to the Olympic house area at Villette, but after visiting a few houses we made out way to montmartre to see the race. I prefer watching the event live vs watching TV because I loveeee the atmosphere. The Olympic houses we went to didn't have a great vibe for watching sports in (more on that in the Olympic house section).
+We started the day going to the Olympic house area at Villette, but after visiting a few houses we made out way to Montmartre to see the race. I prefer watching the event live vs watching TV because I loveeee the atmosphere. The Olympic houses we went to didn't have a great vibe for watching sports in (more on that in the Olympic house section).
 
-For the women's final, we watched from the feed zone, at the bottom of Rue Lepic, just as they started one of the climbs in montmartre. It was so impressive to see them pick up bottles of water from their team and we even got a bottle to take back with us - after the third passage, the teams were giving away the bottles that were not taken by the athletes.
+For the women's final, we watched from the feed zone, at the bottom of Rue Lepic, just as they started one of the climbs in Montmartre. It was so impressive to see them pick up bottles of water from their team and we even got a bottle to take back with us - after the third passage, the teams were giving away the bottles that were not taken by the athletes.
 
 The final was so so tight!
 
