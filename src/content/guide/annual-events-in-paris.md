@@ -7,7 +7,7 @@ themes: ["activity"]
 
 There are many events that happen in Paris (and across France), here are some of the events happen annually. If you're going to be in France at the same time as any of these events, I think it's worth checking out!
 
-#### Fête de la musique (21st June)
+### Fête de la musique (21st June)
 
 Fête de la musique translates to _music festival_ which is pretty accurate - but it's so much more! This is my favourite night of the year in Paris, and I'm not just being dramatic.
 
