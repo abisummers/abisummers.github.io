@@ -35,10 +35,10 @@ const travelCollection = await getCollection("travel");
         if (article) {
           return (
             <li value={article.data.title}>
-              <a href={"/articles/travel/" + article.slug}>
-                {article.data.title}
-              </a>
-              : {article.data.intro}
+              <!-- prettier-ignore -->
+              <a href={"/articles/travel/" + article.slug}
+                >{article.data.title}</a
+              >: {article.data.intro}
             </li>
           );
         }

@@ -1,8 +1,8 @@
 ---
-import { getCollection } from "astro:content";
-import Main from "../../../layouts/article.astro";
+import { getCollection } from 'astro:content';
+import Main from '../../../layouts/article.astro';
 
-const guideCollection = await getCollection("guide");
+const guideCollection = await getCollection('guide');
 ---
 
 <Main showLanguageSwitcher={false} title="guide">
@@ -43,15 +43,15 @@ const guideCollection = await getCollection("guide");
 
     {
       guideCollection
-        .filter((article) => article.data.themes.includes("tour"))
+        .filter((article) => article.data.themes.includes('tour'))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
-                <a href={"/articles/guide/" + article.slug}>
-                  {article.data.title}
-                </a>
-                : {article.data.description}
+                <!-- prettier-ignore -->
+                <a href={'/articles/guide/' + article.slug}
+                  >{article.data.title}</a
+                >: {article.data.description}
               </li>
             );
           }
@@ -70,15 +70,15 @@ const guideCollection = await getCollection("guide");
     </p>
     {
       guideCollection
-        .filter((article) => article.data.themes.includes("how-to"))
+        .filter((article) => article.data.themes.includes('how-to'))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
-                <a href={"/articles/guide/" + article.slug}>
-                  {article.data.title}
-                </a>
-                : {article.data.description}
+                <!-- prettier-ignore -->
+                <a href={'/articles/guide/' + article.slug}
+                  >{article.data.title}</a
+                >: {article.data.description}
               </li>
             );
           }
@@ -93,19 +93,20 @@ const guideCollection = await getCollection("guide");
     <p>
       There can be a lot of negative connotations around the toursty places,
       espeically in big cities like Paris. But usually places are popular for a
-      reason! Here you can find my advice on making the most out of these places.
+      reason! Here you can find my advice on making the most out of these
+      places.
     </p>
     {
       guideCollection
-        .filter((article) => article.data.themes.includes("tourist-attraction"))
+        .filter((article) => article.data.themes.includes('tourist-attraction'))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
-                <a href={"/articles/guide/" + article.slug}>
-                  {article.data.title}
-                </a>
-                : {article.data.description}
+                <!-- prettier-ignore -->
+                <a href={'/articles/guide/' + article.slug}
+                  >{article.data.title}</a
+                >: {article.data.description}
               </li>
             );
           }
@@ -118,15 +119,15 @@ const guideCollection = await getCollection("guide");
     <p>Here you can find some of my favourite things to do in Paris!</p>
     {
       guideCollection
-        .filter((article) => article.data.themes.includes("activity"))
+        .filter((article) => article.data.themes.includes('activity'))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
-                <a href={"/articles/guide/" + article.slug}>
-                  {article.data.title}
-                </a>
-                : {article.data.description}
+                <!-- prettier-ignore -->
+                <a href={'/articles/guide/' + article.slug}
+                  >{article.data.title}</a
+                >: {article.data.description}
               </li>
             );
           }
@@ -144,15 +145,15 @@ const guideCollection = await getCollection("guide");
 
     {
       guideCollection
-        .filter((article) => article.data.themes.includes("food"))
+        .filter((article) => article.data.themes.includes('food'))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
-                <a href={"/articles/guide/" + article.slug}>
-                  {article.data.title}
-                </a>
-                : {article.data.description}
+                <!-- prettier-ignore -->
+                <a href={'/articles/guide/' + article.slug}
+                  >{article.data.title}</a
+                >: {article.data.description}
               </li>
             );
           }

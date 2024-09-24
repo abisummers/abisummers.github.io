@@ -76,10 +76,10 @@ function pastExhibitions() {
           if (article) {
             return (
               <li value={article.data.museumName}>
-                <a href={"/articles/museums/" + article.slug}>
-                  {article.data.museumName}
-                </a>
-                : {article.data.exhibitionName}
+                <!-- prettier-ignore -->
+                <a href={"/articles/museums/" + article.slug}
+                  >{article.data.museumName}</a
+                >: {article.data.exhibitionName}
                 <p class="date">
                   Exhibition date:{" "}
                   {article.data.Startdate.toLocaleDateString("en-uk", {
@@ -92,7 +92,7 @@ function pastExhibitions() {
                     year: "numeric",
                     month: "long",
                     day: "numeric",
-                  })}{" "}
+                  })}
                 </p>
               </li>
             );
@@ -110,10 +110,10 @@ function pastExhibitions() {
             if (article) {
               return (
                 <li value={article.data.museumName}>
-                  <a href={"/articles/museums/" + article.slug}>
-                    {article.data.museumName}
-                  </a>
-                  : {article.data.exhibitionName}
+                  <!-- prettier-ignore -->
+                  <a href={"/articles/museums/" + article.slug}
+                    >{article.data.museumName}</a
+                  >: {article.data.exhibitionName}
                   <p class="date">
                     Exhibition date:{" "}
                     {article.data.Startdate.toLocaleDateString("en-uk", {
@@ -158,10 +158,10 @@ function pastExhibitions() {
             if (article) {
               return (
                 <li value={article.data.museumName}>
-                  <a href={"/articles/museums/" + article.slug}>
-                    {article.data.museumName}
-                  </a>
-                  : {article.data.exhibitionName}
+                  <!-- prettier-ignore -->
+                  <a href={"/articles/museums/" + article.slug}
+                    >{article.data.museumName}</a
+                  >: {article.data.exhibitionName}
                   <p class="date">
                     Exhibition date:{" "}
                     {article.data.Startdate.toLocaleDateString("en-uk", {
