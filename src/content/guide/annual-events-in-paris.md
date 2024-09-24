@@ -27,6 +27,10 @@ If you are going, I would recommend taking some cash out in advance because ther
 
 Nuit Blanche literally translates to _white night_ which is an annual cultural event where many activities happen throughout the night from museums with extended opening hours to street performers. Created in Paris in 2002, it is now celebrated in cities across France and across the world.
 
+### Days Off Festival (June/July)
+
+Every year at the end of June/beginning of July, there's a music event hosted at La Villette which usually lasts around a week.A lot of the concerts are hosted in _Philharmonie de Paris_ which is a beautiful building. They have a variety of different music so there's something for everyone. A personal favourite at the Days Off Festival was Thylacine with the national orchestra of Île-de-France - electronic music with an orchestra is not something I would have thought to put together.
+
 ### Bals des pompiers (13th July)
 
 This is _the firemen's ball_, and which is essentially just that. Fire stations are cleared out, the fire engines parked on the streets, and then you dance! Be prepared to queue for quite a while to get into the fire station, but expect the party to go on until the early hours of the morning.
