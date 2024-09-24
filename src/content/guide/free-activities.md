@@ -82,7 +82,9 @@ One of them most beautiful libraries in the city - _Bibliothèque Nationale de F
 
 ![richelieu library](./images/richelieu.jpeg)
 
-You've probably seen or heard about the Centre Pomipdou. It's a noteworthy building - some people love it, some people hate it, but everyone has an opinion on it (personally I really like it). You are able to access the library here free of charge. Personally, I think it's worth having a quick look inside, because it really is a unique building. It's going to be closing soon for some big renovations so it's worth checking out if it's open (it's closed every tuesday)
+There's is also another BNF library, _BNF Mitterrand_ which sometimes hosts free exhibitions such as the the _[Â nous les stades](https://abisummers.com/articles/museums/bnf-a-nous-les-stades/)_ - an exhibition hosts related to women's sports and how it's evolved over time. Most of the exhibitions are in French, but I still think it's an interesting building to see.
+
+You've probably seen or heard about the Centre Pomipdou. It's a noteworthy building - some people love it, some people hate it, but everyone has an opinion on it (personally I really like it). You are able to access the library here free of charge. Personally, I think it's worth having a quick look inside, because it really is a unique building. It's going to be closing soon for some big renovations so it's worth checking out if it's open (it's closed every tuesday). The museum is also nice to visit but that's paid.
 
 <!-- ### Events
 
