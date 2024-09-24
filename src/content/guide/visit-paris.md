@@ -1,6 +1,6 @@
 ---
 title: Visit Paris with me!
-description: services that I offer, from personalised guided tours to planning an itinerary based on your wishes
+description: The experiences I offer, from personalised guided tours to planning an itinerary based on your criteria
 publishedDate: 2024-08-18
 themes: ["tour"]
 ---
@@ -23,13 +23,17 @@ Some of the things I love about Paris that I would love to share with you:
 
 Got something specific in mind? Get in contact and we can talk!
 
-### Why I'm a good tour guide
+### Reasons why I think I'm a good tour guide
+
+Every tour guide has something different to offer. Giving tours is a form of storytelling and everyone will have their own spin on it. Paris has something for everyone, and I'm here to make sure you have the best time!
 
 - I'm passionate about giving everyone the best experience, so I alter each experience for your group based on what you want to see and do. I can understand that everyone has different needs - sometimes kids need to have space to run, sometimes it's important to have a bench to sit on.
 
 - I follow tours myself, both in Paris and when I visit other cities. One of the things I love about guiding, is that there's always something else to learn. I know what I enjoy from each guided tour myself, so I can apply that to the tours that I give.
 
 - Related to point above, I have followed tours in Dutch, a language that I don't speak (I can understand ~10%ish based on context). This gives me a lot of valuable insight into how to get information across and keep in engaging without relying on just words. A lot of tourists that come to Paris are not native English speakers, all with varying levels of English so it's important that the experience is still fun. I speak French, and have followed guided tours in French and English as well.
+
+- learning French has allowed me to learn how to express things in different ways. Not every way of explaining something is going to work, sometimes other words and phrases need to be used!
 
 ### Get in contact
 
