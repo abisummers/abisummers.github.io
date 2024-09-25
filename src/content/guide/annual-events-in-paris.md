@@ -7,6 +7,10 @@ themes: ["activity"]
 
 There are many events that happen in Paris (and across France), here are some of the events happen annually. If you're going to be in France at the same time as any of these events, I think it's worth checking out!
 
+### Nuit européenne des musées (May)
+
+This is an european cultural event called where museums have extended opening hours - some places are open until 1am. In addition to seeing the museum's collections, there's often guided tours, workshops and live performances. I find it interesting to visit places outside of their normal hours - plus for events like this there's always a fun atmosphere.
+
 ### Fête de la musique (21st June)
 
 Fête de la musique translates to _music festival_ which is pretty accurate - but it's so much more! This is my favourite night of the year in Paris, and I'm not just being dramatic.
@@ -26,6 +30,10 @@ If you are going, I would recommend taking some cash out in advance because ther
 ### Nuit Blanche (June)
 
 Nuit Blanche literally translates to _white night_ which is an annual cultural event where many activities happen throughout the night from museums with extended opening hours to street performers. Created in Paris in 2002, it is now celebrated in cities across France and across the world.
+
+### Paris est Ludique (June/July)
+
+Translates to _Paris is playful_ is a two days event centred around board games! Here you'll find all different types of games where you'll get to try them - there's games for everyone! Some games can last 10 minutes, other can last hours! At each stall, you'll find someone who is able to explain the rules, which is a much nicer way to learn a game than to read a rule book. I play quite a lot of board games, and always discover something new - usually I end up buying something too. The 2024 edition was cancelled due to the Olympic preparations so expect 2025 to be back with an extra special feel!
 
 ### Days Off Festival (June/July)
 
