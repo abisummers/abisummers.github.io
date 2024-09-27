@@ -38,7 +38,7 @@ const { Content } = await entry.render();
 <Main
   showLanguageSwitcher={false}
   title={entry.data.title}
-  description={`A place to talk all things travel`}
+  description={entry.data.intro || 'A place to talk all things travel'}
   ogImage={ogImage}
 >
   <h2>{entry.data.title}</h2>
