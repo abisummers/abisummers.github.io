@@ -1,13 +1,13 @@
 ---
 title: Cycling the ViaRhôna
-intro: Cycling from Valence to Avignon
+intro: Cycling from Valence to Avignon along the ViaRhôna
 publishedDate: 2024-09-24
 tags: ["slow travel"]
 ---
 
 I love cycling for the most part - it's so freeing, it's good for my body and mind and bike packing is a conversation starter. The ride from Valence to Saint-Paul-Trois-Châteaux along the ViaRhôna, was 93km, one of my longest rides and we knew that the weather would not be ideal.
 
-![a photo of me cycling with the sunset behind](./images/riding-into-sunset.jpeg)
+![me cycling with the sunset behind](./images/riding-into-sunset.jpeg)
 
 ### Part one: Paris to Valence by train
 
