@@ -33,7 +33,7 @@ There was quite a lot of variety in his work, all with the theme of landscape an
 
 There was one [painting](https://co.pinterest.com/pin/519602875762981572/) on display _la descente des vaches dans le haut-jura_ which has unfortunately been badly damaged due to chemical processing. I'm grateful that so many pieces of art have been preserved. A close friend of mine, often tells me about the restoration process because that's what he's studying - it's super interesting to learn about it. There were two things that stood out to me, one being the size of the painting and the second being the red colour that has taken over.
 
-Rousseau, originally from Paris, settled in Barbizon in 1847, a small town in Forêt de Fontainebleau. A 'colony' of artists later formed there, and it was made more accessible when the Paris - Melun train line opened. In the exhibition there's a section dedicated to other artists who lived in Barbizon at the same time. Barbizon is actually one of the places I had in mind for my Île-de-France project, but instead I went to [Bièvres](https://abisummers.com/articles/alphabet-ile-de-france/b-bievres/).
+Rousseau, originally from Paris, settled in Barbizon in 1847, a small town in Forêt de Fontainebleau. A 'colony' of artists later formed there, and it was made more accessible when the Paris - Melun train line opened. In the exhibition there's a section dedicated to other artists who lived in Barbizon at the same time. Barbizon is actually one of the places I had in mind for my Île-de-France project, but instead I went to [Bièvres](/articles/alphabet-ile-de-france/b-bievres/).
 
 ![Théodore Rousseau](./images/theodore-rousseau-sculpture.jpeg)
 

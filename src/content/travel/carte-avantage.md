@@ -33,6 +33,6 @@ I paid _20,80€_ for this 1h37 train instead of the full price _27,70€_.
 
 **total saved: _6,90€_**
 
-After Saint Quentin, I took the train to Lille but I didn't save any money on this train because it was a _prix cassés_ ticket. I then took the eurostar to Brussels and then took the eurostar to Paris a week later - so I didn't get an discount on these tickets with my carte advantage. I wrote a blog post about my time in Belgium [here](https://abisummers.com/articles/travel/2024-06-belgium/).
+After Saint Quentin, I took the train to Lille but I didn't save any money on this train because it was a _prix cassés_ ticket. I then took the eurostar to Brussels and then took the eurostar to Paris a week later - so I didn't get an discount on these tickets with my carte advantage. I wrote a blog post about my time in Belgium [here](/articles/travel/2024-06-belgium/).
 
 ---

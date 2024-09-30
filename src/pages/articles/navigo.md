@@ -59,4 +59,4 @@ If you have any questions, or notice anything that's outdated, you can reach me 
 
 published date: 16th April 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

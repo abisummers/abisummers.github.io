@@ -188,4 +188,4 @@ What's your experience with learning a foreign language? What are your best tips
 
 published date: 26th May 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

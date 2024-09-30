@@ -51,4 +51,4 @@ Have you volunteered in Paris? What was your experience? I'd love to know your e
 
 published date: 23rd May 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

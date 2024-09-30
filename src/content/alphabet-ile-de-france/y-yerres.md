@@ -66,7 +66,7 @@ And like with most places, it's best to check opening hours before visiting, mai
 
 ### What I spent
 
-- I cycled there so the transport was free, but if I went via public transport it would have been included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
+- I cycled there so the transport was free, but if I went via public transport it would have been included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
 - we spent 6,90€ for a lemon tart and an eclair from the bakery
 - 24€ on the entry to the maison Caillebotte (12€ each)
 - we spent 12,90€ in Cafe Gustave

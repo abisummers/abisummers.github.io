@@ -58,7 +58,7 @@ I will be back another time to visit château de Bois Préau and the Musée d'Hi
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
 - the pain au chocolat from the bakery cost 1,45€
 - I spent 14,50€ on lunch
 - entry to the château cost 6,50€

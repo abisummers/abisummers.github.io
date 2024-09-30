@@ -6,7 +6,7 @@ publishedDate: 2024-09-05
 
 ### All things Paris
 
-August has been a busy month. It doesn't feel like the Olympics ended and the Paralympics started. It doesn't really feel like I was there either (which I definitely was and it was a lot of fun). I have a specific post about my [Olympic](https://abisummers.com/articles/olympics/) experience, and I will write another one for the Paralympics.
+August has been a busy month. It doesn't feel like the Olympics ended and the Paralympics started. It doesn't really feel like I was there either (which I definitely was and it was a lot of fun). I have a specific post about my [Olympic](/articles/olympics/) experience, and I will write another one for the Paralympics.
 
 A childhood friend, who I hadn't seen in ~15 years came to visit for the final of the men's hockey. While he was here in Paris, I showed him parts of the city, we went to the Arc de Triomphe, walked down the champs elyseés and chatted about how our lives had changed since I last saw him. We parted ways in the late afternoon so that we could both get to our olympic events in the evening (I went to see the table tennis).
 
@@ -22,13 +22,13 @@ I spent a morning walking along the _Coulée verte René-Dumont_. It's beautiful
 
 I went to the cinema with my partner, we went to watch _Golo et Richie_ which was a fun movie. We both really enjoy travelling by bike, so it was cool to see their adventure. We both didn't know anything about them before the movie, so I'm sure there were some things we missed. I rarely go to the cinema, so it's a nice activity to do from time to time. The last movie I watched in the cinema was Dune part one and part two, and I can't remember what I saw the time before.
 
-I went to the [book store](https://abisummers.com/articles/book-stores/) The Red Wheelbarrow for the first time! This English focused book store has been on my list for a while but I've never had time while i've been in the area. I read at 2-3 books a month on average, so I'm always looking for my next book.
+I went to the [book store](/articles/book-stores/) The Red Wheelbarrow for the first time! This English focused book store has been on my list for a while but I've never had time while i've been in the area. I read at 2-3 books a month on average, so I'm always looking for my next book.
 
 ### All things blog
 
-I did a day trip to [Favières](https://abisummers.com/articles/alphabet-ile-de-france/f-favieres/) to visit the Japanese garden there. It was a beautiful day. This is different to some of the other places I've been to on my [Project Île-de-France](https://abisummers.com/articles/alphabet-ile-de-france/) because there isn't much to see other than the garden.
+I did a day trip to [Favières](/articles/alphabet-ile-de-france/f-favieres/) to visit the Japanese garden there. It was a beautiful day. This is different to some of the other places I've been to on my [Project Île-de-France](/articles/alphabet-ile-de-france/) because there isn't much to see other than the garden.
 
-I finished writing up my [Olympic](https://abisummers.com/articles/olympics/) experience. I'm so happy I decided to stay in Paris for the games, it was a lot of fun getting to see the different events. I know a lot of people were worried about Paris during this period, from overcrowding to issues with public transport, but I honestly think everything was done well. Some friends that live here were sad to have missed out on the experience because they'd planned a holiday to get out of the city during the period.
+I finished writing up my [Olympic](/articles/olympics/) experience. I'm so happy I decided to stay in Paris for the games, it was a lot of fun getting to see the different events. I know a lot of people were worried about Paris during this period, from overcrowding to issues with public transport, but I honestly think everything was done well. Some friends that live here were sad to have missed out on the experience because they'd planned a holiday to get out of the city during the period.
 
 I've added a _guided through Paris_ blog collection where I can write a bit more about what I do for work, including things to watch out for. More articles to come in September!
 
@@ -60,7 +60,7 @@ So I've started up with my morning pages again! In September, I'm restarting The
 
 I've continued with French lessons. I wanted to try out Babbel after a friend recommended it, so I did two free live lessons and then bought a 3 month subscription.
 
-I've updated my [learning French](https://abisummers.com/articles/learning-french/) article with my thoughts comparing Lingoda and Babbel, because they offer a similar product but there are actually some differences between them. I tried out Babbel live for the first time after a friend recommended it to me.
+I've updated my [learning French](/articles/learning-french/) article with my thoughts comparing Lingoda and Babbel, because they offer a similar product but there are actually some differences between them. I tried out Babbel live for the first time after a friend recommended it to me.
 
 I created a post on a facebook group asking if anyone would like to practice French. I live in France but don't spend that much time in day to day life speaking French and I would like to practice. Lots of people were interested so I created a whatsapp group, and hopefully we're going to be able to organise frequent meetups.
 

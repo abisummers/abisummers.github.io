@@ -23,7 +23,7 @@ Now, I wanted to challenge myself to visit places that I haven't been to before,
 
 ### Picking the place
 
-I combine a few different tools when it comes to looking for places to go. Some places, I have already visited like [Auvers-sur-Oise](https://abisummers.com/articles/alphabet-ile-de-france/a-auvers-sur-oise/), but most places are going to be new.
+I combine a few different tools when it comes to looking for places to go. Some places, I have already visited like [Auvers-sur-Oise](/articles/alphabet-ile-de-france/a-auvers-sur-oise/), but most places are going to be new.
 
 #### Google Maps
 
@@ -35,7 +35,7 @@ On google maps, I add a label to the towns that I think would be interesting to 
 
 Over my years here, I have also read a lot of articles about places to visit if you live in or are visiting Paris.
 
-Sometimes, I get the inspiration to visit a château so I would search for châteaux in Île-de-France (that's how I heard about [Champs-sur-Marne](https://abisummers.com/articles/alphabet-ile-de-france/c-champs-sur-marne/)!). Sometimes I want to spend a day outside in a forest.
+Sometimes, I get the inspiration to visit a château so I would search for châteaux in Île-de-France (that's how I heard about [Champs-sur-Marne](/articles/alphabet-ile-de-france/c-champs-sur-marne/)!). Sometimes I want to spend a day outside in a forest.
 
 #### List of places
 
@@ -57,10 +57,10 @@ Personally, I like to have a variety of different day trips. If I'm doing the da
 
 Got any places you want to visit in Île-de-France? Do you do something different when planning a day trip? If so, I'd love to hear how you plan a day trip and where you're going next! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
 
-You can find a full list of my _Alphabet of Île-de-France_ project [here](https://abisummers.com/articles/alphabet-ile-de-france/)!
+You can find a full list of my _Alphabet of Île-de-France_ project [here](/articles/alphabet-ile-de-france/)!
 
 ---
 
 published date: 21st April 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

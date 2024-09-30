@@ -48,4 +48,4 @@ published date: 24th July 2024
 
 This article is a copy of my article on [DEV.to](https://dev.to/abijsummers/my-ironhack-experience-3hlo), initially published in 2019.
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

@@ -30,7 +30,7 @@ This article is going to contain all of my olympic thoughts, so you can skip to 
 - [Women's table tennis](#womens-table-tennis)
 - [Olympic houses](#olympic-houses)
 
-You can read my article on the Paralympics [here](https://abisummers.com/articles/paralympics/)
+You can read my article on the Paralympics [here](/articles/paralympics/)
 
 <a name="olympic-flame"></a>
 
@@ -48,7 +48,7 @@ I think having the ceremony outside was cool which came with it's own challenges
 
 It was definitely made to be watched on tv. I think if you had seats along the seine, you really only got to see one or maybe two of the main entertainment parts. You'd get to see all the boats pass, but that's the least interesting part (at least that's how I feel). I know a thousands of tickets were given away for free but some of them didn't have a view over the ceremony, you're really just there for the vibes.
 
-Because I missed some of the references, I posted on a Facebook group the following morning asking for some names and faces that come up a lot in French pop culture. I added the list to my [French history page](https://abisummers.com/articles/french-history/) - a way of me narrowing down what to revise for the french nationality interview. I have a list of things to look into which I'll do over the next few weeks. If anyone knows any must know pop culture references, I would love to know them (you can contact me via instagram)!
+Because I missed some of the references, I posted on a Facebook group the following morning asking for some names and faces that come up a lot in French pop culture. I added the list to my [French history page](/articles/french-history/) - a way of me narrowing down what to revise for the french nationality interview. I have a list of things to look into which I'll do over the next few weeks. If anyone knows any must know pop culture references, I would love to know them (you can contact me via instagram)!
 
 I was surprised at the level of representation at the opening ceremony especially from the queer community. This was broadcast to millions of people around the world. And the ending with Céline Dion on the Eiffel Tower was incredible. Her voice is just wow.
 
@@ -200,4 +200,4 @@ And now I'm hyped for the Paralympics!
 
 published date: 30th July 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

@@ -24,7 +24,7 @@ The article is broken down into themes based on my experience on giving tours of
 
 ### Scams
 
-I have a whole [article on scam](https://abisummers.com/articles/guide/common-scams/) in Paris, but I think it's worth mentioning here, because this is one of the locations where you'll see almost all of the scams.
+I have a whole [article on scam](/articles/guide/common-scams/) in Paris, but I think it's worth mentioning here, because this is one of the locations where you'll see almost all of the scams.
 
 All across Paris, and other big cities, you get pickpockets. You'll often see signs or hear announcements to remind you of your personal belonging - that means no phones in back pockets, no bags hanging on the back of a chair and never leaving your valuables unattended. I'm sure this advice is nothing new.
 

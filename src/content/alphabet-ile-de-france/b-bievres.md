@@ -60,7 +60,7 @@ I didn't get to visit any of the places because they were closed when I went. I 
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
 - for lunch I spent 6,30€ at the bakery
 - I spent 4€ on a soft drink at Cafe Hotel de Paris
 

@@ -53,7 +53,7 @@ We then went to sit in the library for a short while before heading to the train
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
 - entry to the château costs 5€ (full price)
 - for lunch, I spent 16€ on the burger, fries and a glass of wine
 

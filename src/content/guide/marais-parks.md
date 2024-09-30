@@ -55,7 +55,7 @@ The Place des Vosges is also known to have be the resident of several wellknown 
 
 ### Square Albert-Schweitzer
 
-This is a park I go to fairly often, because it's the meeting place of Serve the City, a charity that does food distributions a few times a week starting from this park. You can find more about my experience [here](https://abisummers.com/articles/volunteering)
+This is a park I go to fairly often, because it's the meeting place of Serve the City, a charity that does food distributions a few times a week starting from this park. You can find more about my experience [here](/articles/volunteering)
 
 The park is named after Albert-Schweitzer (1875-1965), a missionary doctor, philosopher, musician and musicologist. In 1913, he founded the hospital in Lambaréné, Gabon, and received the Nobel Peace Prize in 1952.
 

@@ -75,4 +75,4 @@ If you know of any other English book stores, then I'd love to hear about them! 
 
 published date: 23rd April 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

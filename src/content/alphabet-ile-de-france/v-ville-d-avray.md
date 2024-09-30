@@ -51,7 +51,7 @@ After visiting the house, I took the train back into Paris. Next time I would al
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
 - for lunch, I spent 14,5€ on sushi
 - entry to visit Maison des Jardies usually costs 7€ but entry was free because I have the Passion Monuments pass (70€ per year for the duo card)
 

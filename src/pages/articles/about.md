@@ -12,7 +12,7 @@ Hi, I'm Abi! I've been living in Paris since 2016 and have spent a lot of time e
 
 Since living in Paris, I've worked as an au pair, a tour coordinator, a web development teaching assistant, a fullstack developer and a backend developer - I've done a lot of different things. Over this time I've been able to connect with many people and expand on my skill sets. One of the running themes is my passion for helping others develop their skills.
 
-More recently, I have been working as a tour guide! You can read more about that [here](https://abisummers.com/articles/guide/visit-paris/), including the tours that I do and how to get in contact if you're coming to Paris! I really love working as a tour guide, it overlaps with a lot of things I'm passionate about - learning, communication and story telling.
+More recently, I have been working as a tour guide! You can read more about that [here](/articles/guide/visit-paris/), including the tours that I do and how to get in contact if you're coming to Paris! I really love working as a tour guide, it overlaps with a lot of things I'm passionate about - learning, communication and story telling.
 
 In my spare time, I love to travel and explore new places with a focus on slow travel. In march of 2024 I started a project to explore Île-de-France, the region I live in, by the alphabet - you can find my blogs [here](http://abisummers.com/articles/alphabet-ile-de-france).
 
@@ -24,4 +24,4 @@ Got any questions about the projects I'm working on? Or just want to connect? Yo
 
 ---
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

@@ -61,4 +61,4 @@ Each place offers something different depending on what you're looking for. Some
 
 Published date: 28th May 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

@@ -60,7 +60,7 @@ While I'm pleased I went, I'm not sure if I would go again because there are oth
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](https://abisummers.com/articles/navigo) (the monthly ticket costs 86,40€). Since this is within zone 1, you could also buy a single T+ ticket which costs 2,15€
+- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€). Since this is within zone 1, you could also buy a single T+ ticket which costs 2,15€
 - breakfast from the bakery cost 2,90€
 
 ### Now it's your turn

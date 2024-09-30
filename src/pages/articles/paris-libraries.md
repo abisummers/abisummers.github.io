@@ -81,4 +81,4 @@ You can share your thoughts with me via instagram at **[@abisummers](https://www
 
 published date: 15th July 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

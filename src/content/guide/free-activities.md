@@ -13,7 +13,7 @@ Disclaimer: for some of these activities I like to carry some cash, so that I ca
 
 ### Parks and other green areas
 
-Paris, has quite a lot of green spaces which I really love especially when the weather is nice. I have an article about a walk that you can do between Bastille and Vincennes called _[coulée verte](http://abisummers.com/articles/guide/coulee-verte/)_ - a 5km walk along an old train line. I also have an article about some _[parks in Le Marais](https://abisummers.com/articles/guide/marais-parks/)_ - this is a great area to explore.
+Paris, has quite a lot of green spaces which I really love especially when the weather is nice. I have an article about a walk that you can do between Bastille and Vincennes called _[coulée verte](http://abisummers.com/articles/guide/coulee-verte/)_ - a 5km walk along an old train line. I also have an article about some _[parks in Le Marais](/articles/guide/marais-parks/)_ - this is a great area to explore.
 
 Some of my other favourite green areas are:
 
@@ -29,7 +29,7 @@ Almost every park will have some history behind it, sometimes that's explained a
 
 ### Watching the sunset
 
-One of my favourite activities is to watch the sun set from the Sacré-Cœur with a glass of wine or a beer. Often you'll find street performers which are always impressive to see and really add to the vibe. You'll almost always find people walking through the crowds selling beer, wine or water. You have to be aware of pickpockets in this areas, as well as the people selling bracelets here - more on that [here](https://abisummers.com/articles/guide/common-scams/).
+One of my favourite activities is to watch the sun set from the Sacré-Cœur with a glass of wine or a beer. Often you'll find street performers which are always impressive to see and really add to the vibe. You'll almost always find people walking through the crowds selling beer, wine or water. You have to be aware of pickpockets in this areas, as well as the people selling bracelets here - more on that [here](/articles/guide/common-scams/).
 
 ![sunset at Montmartre with a view over Paris](./images/montmartre-sunset.jpeg)
 
@@ -82,7 +82,7 @@ One of them most beautiful libraries in the city - _Bibliothèque Nationale de F
 
 ![richelieu library](./images/richelieu.jpeg)
 
-There's is also another BNF library, _BNF Mitterrand_ which sometimes hosts free exhibitions such as the the _[Â nous les stades](https://abisummers.com/articles/museums/bnf-a-nous-les-stades/)_ - an exhibition hosts related to women's sports and how it's evolved over time. Most of the exhibitions are in French, but I still think it's an interesting building to see.
+There's is also another BNF library, _BNF Mitterrand_ which sometimes hosts free exhibitions such as the the _[Â nous les stades](/articles/museums/bnf-a-nous-les-stades/)_ - an exhibition hosts related to women's sports and how it's evolved over time. Most of the exhibitions are in French, but I still think it's an interesting building to see.
 
 You've probably seen or heard about the Centre Pomipdou. It's a noteworthy building - some people love it, some people hate it, but everyone has an opinion on it (personally I really like it). You are able to access the library here free of charge. Personally, I think it's worth having a quick look inside, because it really is a unique building. They sometimes have free temporary exhibitions on. It's going to be closing soon for some big renovations so it's worth checking out if it's open (it's closed every tuesday).
 

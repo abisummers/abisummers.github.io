@@ -21,7 +21,7 @@ This article contains a breakdown of all of the different events that I have see
 - [Wheelchair fencing](#wheelchair-fencing)
 - [Closing ceremony](#closing-ceremony)
 
-You can read my Olympic article [here](https://abisummers.com/articles/olympics/).
+You can read my Olympic article [here](/articles/olympics/).
 
 <a name="paralympic-flame"></a>
 
@@ -137,4 +137,4 @@ If you would like to share your thoughts, you can comment on my [instagram post]
 
 published date: 9th September 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)

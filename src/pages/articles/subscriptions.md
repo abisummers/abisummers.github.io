@@ -9,7 +9,7 @@ publishedDate: 2024-05-17
 
 ## Museum cards
 
-I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it. Sometimes I like to write an article after visiting so that I really take the time to think about it, you them here [here](https://abisummers.com/articles/museums/).
+I love visiting museums, I love getting to learn about history and I also love getting to reflect on the art I'm seeing. I currently have 3 different subscriptions, which personally I think are worth it. Sometimes I like to write an article after visiting so that I really take the time to think about it, you them here [here](/articles/museums/).
 
 ## National Monuments (passion monuments)
 
@@ -27,7 +27,7 @@ I went to Maison des Jardies as part of my [day trip to Ville d'Avray](http://ab
 
 total saved so far: **71€**
 
-Within a few month of having the card, I've already saved money! I've had a great time visiting the arc de triomphe with a friend (I hadn't been in years) and I loved the guided tour of Maison des Jardies à Sèvres. It's been helpful with my alphabet of Île-de-France [project](https://abisummers.com/articles/alphabet-ile-de-france/). This card is great because it's not specific to Paris or Île-de-France. It's great when I have friends visiting because it allows me to take them to some of the tourist locations with needing to pay for tickets on the day.
+Within a few month of having the card, I've already saved money! I've had a great time visiting the arc de triomphe with a friend (I hadn't been in years) and I loved the guided tour of Maison des Jardies à Sèvres. It's been helpful with my alphabet of Île-de-France [project](/articles/alphabet-ile-de-france/). This card is great because it's not specific to Paris or Île-de-France. It's great when I have friends visiting because it allows me to take them to some of the tourist locations with needing to pay for tickets on the day.
 
 ## Paris museum card
 
@@ -46,7 +46,7 @@ These are the exhibitions that I've been to and what their full price ticket cos
 
 Total saved so far: **64€** so I've now made my money back (and there's still more to see!).
 
-I wrote a blog about both [Jean Hélion at the MaM](https://abisummers.com/articles/museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](https://abisummers.com/articles/museums/petit-palais-theodore-rousseau/).
+I wrote a blog about both [Jean Hélion at the MaM](/articles/museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](/articles/museums/petit-palais-theodore-rousseau/).
 
 All of these museums have a free permanent collection.
 
@@ -60,7 +60,7 @@ It's free to work from Richelieu, but finding a place is hard. The oval room is 
 
 I have definitely got my 24€ back with the about of times I've worked from the library.
 
-They also have exhibitions here, which don't seem to be that known. I recently went to the exhibition "La France sous leur yeux" which I enjoyed a lot. Entry was included in the BNF subscription (full price ticket is 10€). I wrote my thoughts on the exhibition [here](https://abisummers.com/articles/museums/bnf-la-france-sous-leur-yeux/)
+They also have exhibitions here, which don't seem to be that known. I recently went to the exhibition "La France sous leur yeux" which I enjoyed a lot. Entry was included in the BNF subscription (full price ticket is 10€). I wrote my thoughts on the exhibition [here](/articles/museums/bnf-la-france-sous-leur-yeux/)
 
 ## Other subscriptions
 
@@ -76,4 +76,4 @@ Do you have a museum card that you would recommend? What is your favourite museu
 
 published date: 17th May 2024
 
-read more articles [here](https://abisummers.com/articles/)
+read more articles [here](/articles/)
