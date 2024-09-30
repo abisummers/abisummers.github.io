@@ -51,7 +51,7 @@ We stopped by a cafe to get a drink (mostly so I could go to the toilet before t
 
 ### What I spent
 
-- transport is included in my [Navigo](/articles/navigo) (the monthly price is 86,40€ which covers the entire Île-de-France region)
+- transport is included in my [Navigo](/articles/navigo/) (the monthly price is 86,40€ which covers the entire Île-de-France region)
 - lunch cost 54€ for two people
 - a drink at the cafe cost 17€ for two people
 - entry to the Donjon costs 5€ per person

@@ -84,11 +84,11 @@ function positionToLetter(position: number) {
   </p>
   <p>
     I will be visiting some of the more known places like <a
-      href="/articles/alphabet-ile-de-france/a-auvers-sur-oise"
+      href="/articles/alphabet-ile-de-france/a-auvers-sur-oise/"
       >Auvers-sur-Oise</a
     >, but I will also be going to some places that are less commonly visited.
     All of these locations will be accessible via public transport using a
-    <a href="/articles/navigo">Navigo</a> (a travel card for Île-de-France).
+    <a href="/articles/navigo/">Navigo</a> (a travel card for Île-de-France).
   </p>
   <p>
     Any suggestions on where I should visit next? You can reach me via email at
@@ -127,7 +127,7 @@ function positionToLetter(position: number) {
 
           return (
             <li value={letter}>
-              <a href={"/articles/alphabet-ile-de-france/" + entry.slug}>
+              <a href={`/articles/alphabet-ile-de-france/${entry.slug}/`}>
                 <h3>{letter}</h3>
                 <p class="title">{entry.data.title}</p>
                 <p>
@@ -174,7 +174,7 @@ function positionToLetter(position: number) {
           latitude: entry.data.coordinates.lat,
           longitude: entry.data.coordinates.lng,
           title: entry.data.title,
-          link: `/articles/alphabet-ile-de-france/${entry.slug}`,
+          link: `/articles/alphabet-ile-de-france/${entry.slug}/`,
           letter: entry.data.letter,
         }))}
     />

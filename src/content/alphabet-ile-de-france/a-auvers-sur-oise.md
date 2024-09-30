@@ -68,7 +68,7 @@ You can find additional information on the site of [Auvers](https://tourisme-auv
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo/) (the monthly ticket costs 86,40€)
 - I had lunch at Palais d'Auvers which cost 15,50€ for the menu midi
 - if I had planned better, I would have go to the exhibition at the château which costs 12€
 

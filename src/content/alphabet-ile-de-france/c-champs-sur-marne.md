@@ -48,7 +48,7 @@ There's currently a costume exhibition on until the 19th May 2024, so you can se
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo/) (the monthly ticket costs 86,40€)
 - for lunch, I spent 5,40€ at a bakery
 - the entry into the château is 9€ (or free if you're an EU resident and under 26)
 

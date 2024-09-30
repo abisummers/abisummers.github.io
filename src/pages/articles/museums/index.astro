@@ -77,7 +77,7 @@ function pastExhibitions() {
             return (
               <li value={article.data.museumName}>
                 <!-- prettier-ignore -->
-                <a href={"/articles/museums/" + article.slug}
+                <a href={`/articles/museums/${article.slug}/`}
                   >{article.data.museumName}</a
                 >: {article.data.exhibitionName}
                 <p class="date">
@@ -111,7 +111,7 @@ function pastExhibitions() {
               return (
                 <li value={article.data.museumName}>
                   <!-- prettier-ignore -->
-                  <a href={"/articles/museums/" + article.slug}
+                  <a href={`/articles/museums/${article.slug}/`}
                     >{article.data.museumName}</a
                   >: {article.data.exhibitionName}
                   <p class="date">
@@ -159,7 +159,7 @@ function pastExhibitions() {
               return (
                 <li value={article.data.museumName}>
                   <!-- prettier-ignore -->
-                  <a href={"/articles/museums/" + article.slug}
+                  <a href={`/articles/museums/${article.slug}/`}
                     >{article.data.museumName}</a
                   >: {article.data.exhibitionName}
                   <p class="date">

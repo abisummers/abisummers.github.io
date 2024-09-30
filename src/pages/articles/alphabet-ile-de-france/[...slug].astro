@@ -46,7 +46,7 @@ const { Content } = await entry.render();
   ogImage={ogImage}
 >
   <h2>{entry.data.title}</h2>
-  <a href="/articles/alphabet-ile-de-france">← back to all articles</a>
+  <a href="/articles/alphabet-ile-de-france/">← back to all articles</a>
   <p>
     date visited:
     <time datetime={entry.data.date.toISOString()}>
@@ -79,7 +79,7 @@ const { Content } = await entry.render();
         latitude: entry.data.coordinates.lat,
         longitude: entry.data.coordinates.lng,
         title: entry.data.title,
-        link: `/articles/alphabet-ile-de-france/${entry.slug}`,
+        link: `/articles/alphabet-ile-de-france/${entry.slug}/`,
         letter: entry.data.letter,
       },
     ]}
@@ -113,14 +113,14 @@ const { Content } = await entry.render();
   </style>
   <footer>
     <p>
-      This article is part of the <a href="/articles/alphabet-ile-de-france"
+      This article is part of the <a href="/articles/alphabet-ile-de-france/"
         >Alphabet of Île-de-France</a
       > series. Check out the other places as well!
     </p>
     <div class="links">
       {
         prev ? (
-          <a href={"/articles/alphabet-ile-de-france/" + prev.slug}>
+          <a href={`/articles/alphabet-ile-de-france/${prev.slug}/`}>
             <div>Read the previous article:</div>
             <div class="title">{prev.data.title}</div>
           </a>
@@ -133,7 +133,7 @@ const { Content } = await entry.render();
       }
       {
         next ? (
-          <a href={"/articles/alphabet-ile-de-france/" + next.slug}>
+          <a href={`/articles/alphabet-ile-de-france/${next.slug}/`}>
             <div>Read the next article:</div>
             <div class="title">{next.data.title}</div>
           </a>

@@ -55,6 +55,6 @@ I didn't do the guided tour which I would have loved to do because I wasn't able
 ### What I spent
 
 - entry into the gardens costs 7€
-- transport would have been covered with my monthly [Navigo](/articles/navigo) (the monthly price is 86,40€ which covers the entire Île-de-France region)
+- transport would have been covered with my monthly [Navigo](/articles/navigo/) (the monthly price is 86,40€ which covers the entire Île-de-France region)
 
 ### Now it's your turn

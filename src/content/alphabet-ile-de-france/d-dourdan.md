@@ -45,7 +45,7 @@ If the weather was nicer, then I would have like to have a picnic in the forest.
 
 ### What I spent
 
-- transport is included in my monthly [Navigo](/articles/navigo) (the monthly ticket costs 86,40€)
+- transport is included in my monthly [Navigo](/articles/navigo/) (the monthly ticket costs 86,40€)
 - I had lunch from a bakery which was 7,30€
 - entry to the château cost 5€
 

@@ -40,7 +40,7 @@ function orderByDate() {
           if (article) {
             return (
               <li value={article.data.title}>
-                <a href={"/articles/monthly-review/" + article.slug}>
+                <a href={`/articles/monthly-review/${article.slug}/`}>
                   {article.data.title}
                 </a>
               </li>

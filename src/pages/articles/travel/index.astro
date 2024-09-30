@@ -36,7 +36,7 @@ const travelCollection = await getCollection("travel");
           return (
             <li value={article.data.title}>
               <!-- prettier-ignore -->
-              <a href={"/articles/travel/" + article.slug}
+              <a href={`/articles/travel/${article.slug}/`}
                 >{article.data.title}</a
               >: {article.data.intro}
             </li>

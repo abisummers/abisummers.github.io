@@ -56,7 +56,7 @@ At the château, they had a poster with places to eat for lunch. Two restaurants
 
 ### What I spent
 
-- transport is included in my [Navigo](/articles/navigo) (the monthly price is 86,40€ which covers the entire Île-de-France region)
+- transport is included in my [Navigo](/articles/navigo/) (the monthly price is 86,40€ which covers the entire Île-de-France region)
 - for lunch I spent 5,80€ at a bakery
 - to get into the museum it cost 3,50€
 
