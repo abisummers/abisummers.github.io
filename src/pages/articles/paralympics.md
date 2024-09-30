@@ -77,7 +77,7 @@ All of the races were impressive, but some stood out to me more than others.
 
 ![track cycling](./images/track-cycling.jpeg)
 
-There's was a athlete competing, Sophie Unwin with pilot Jenny Holl who's in the same online space as me so it was cool to have someone to root for. I root for all of the athletes (because it's truly impressive what they can do!), but there's something extra special about it being someone you know - she set a world record _and_ won a gold medal!
+There was a athlete competing, Sophie Unwin with pilot Jenny Holl who's in the same online space as me so it was cool to have someone to root for. I root for all of the athletes (because it's truly impressive what they can do!), but there's something extra special about it being someone you know - she set a world record _and_ won a gold medal!
 
 There was a heartbreaking moment where a French tandem rider claimed a mechanical issue with their bike and asked for a restart - understandable because they're going speeds upwards for 50km/h with no brakes, if there is something wrong with the bike it needs to be looked at. However after looking at the bike, and the replay of the start, the referrer said there was no issues with the bike so they were unable to restart. The outcome sucked, the rules are brutal, and I understand the need for it, but at the same time it's heartbreaking for the athletes who trained so hard for this moment. I would not want to be the one making that decision.
 
