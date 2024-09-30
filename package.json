@@ -2,13 +2,16 @@
   "name": "abisummers.com",
   "type": "module",
   "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "node --test"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.4",
