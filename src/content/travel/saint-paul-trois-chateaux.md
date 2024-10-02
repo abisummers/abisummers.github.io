@@ -58,7 +58,7 @@ We walked a slightly different way back, and went via the _Chapelle Sainte-Juste
 
 From here, we followed google maps to get us back into the town. In retrospect, we should have referenced a different map too. The route down from here was _steep_. So steep that it even had metal handles in the rock for your hands and feet. 
 
-So here's the thing, I'm not super comfortable with this type of thing, I have no depth perception so I'm always a litter nervous about this. But at a certain point, I just had to commit. My partner was great, he helped me know where to put my feet and I was able to hold onto him when needed (which was a lot). I love spending time outdoors, but walking backwards down the side of the cliff makes me question if I'm really a city girl at heart. 
+So here's the thing, I'm not super comfortable with this type of thing, I have no depth perception so I'm always a little nervous about this. But at a certain point, I just had to commit. My partner was great, he helped me know where to put my feet and I was able to hold onto him when needed (which was a lot). I love spending time outdoors, but walking backwards down the side of the cliff makes me question if I'm really a city girl at heart. 
 
 ### Final thoughts
 
