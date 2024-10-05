@@ -2,7 +2,7 @@
 title: Bike packing
 intro: What I love about bike packing and some of the things I always travel with
 publishedDate: 2024-09-24
-tags: ["slow travel"]
+tags: ["slow-travel"]
 ---
 
 Bike packing is one of my favourite ways to travel. There are so many benefits to it, from the freedom it gives (no more bus or train times!), to the people you meet, to the smaller places you get to see. I love getting to push my body physically - something that I don't do often enough in daily life. I love that everyone had their own way of doing it - from the distances covered each day, to accommodation choice to who you're doing it with. All of these things make it a unique experience.

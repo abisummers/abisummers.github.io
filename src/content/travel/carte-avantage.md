@@ -1,7 +1,7 @@
 ---
 title: Carte avantage
 intro: Tracking how much money I save with the SNCF discount card
-tags: ["advantage cards", "train travel"]
+tags: ["advantage-cards", "train-travel", "slow-travel"]
 publishedDate: 2024-06-19
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Heritage days - Brussels 2024
 intro: An overview of everything I saw while in Belgium during the 2024 heritage days
-tags: ["heritage day", "belgium"]
+tags: ["heritage day", "belgium", "blog"]
 publishedDate: 2024-09-17
 ---
 

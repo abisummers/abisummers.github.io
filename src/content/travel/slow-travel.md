@@ -2,7 +2,7 @@
 title: Slow Travel
 intro: what is slow travel and what are the benefits?
 publishedDate: 2024-06-04
-tags: ["slow travel"]
+tags: ["slow-travel"]
 ---
 
 ### A definition

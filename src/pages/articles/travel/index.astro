@@ -15,7 +15,7 @@ const travelCollection = await getCollection("travel");
   <h2>Travel</h2>
   <p>Here you can find all my articles related to travel.</p>
   <p>
-    I love travelling, I love getting to visit new places, try new food and
+    I love travelling, I love getting to explore new places, try new foods and
     talking to people that I cross paths with.
   </p>
   <p>
@@ -30,8 +30,10 @@ const travelCollection = await getCollection("travel");
     >!
   </p>
   <div>
+    <h3>Slow travel</h3>
+    <p>Here I talk about all things slow travel. For me, slow travel is about staying in one place for longer rather than visiting lots of places and also visitng smaller, less known places. I do this by travelling by bike and train.</p>
     {
-      travelCollection.map((article) => {
+      travelCollection.filter(article => article.data.tags.includes('slow-travel')).map((article) => {
         if (article) {
           return (
             <li value={article.data.title}>
@@ -45,4 +47,23 @@ const travelCollection = await getCollection("travel");
       })
     }
   </div>
+  <div>
+    <h3>Blog</h3>
+    <p>I enjoy writing, so here you can find some of my blogs that are related to specific trips or events that I've been to.</p>
+    {
+      travelCollection.filter(article => article.data.tags.includes('blog')).map((article) => {
+        if (article) {
+          return (
+            <li value={article.data.title}>
+              <!-- prettier-ignore -->
+              <a href={`/articles/travel/${article.slug}/`}
+                >{article.data.title}</a
+              >: {article.data.intro}
+            </li>
+          );
+        }
+      })
+    }
+  </div>
+  
 </Main>
