@@ -35,7 +35,7 @@ One of my favourite things about travelling by bike, is getting to see places I 
 
 Another highlight was the nuclear power plant. I have never been this close to a power plant before - they're so so big. You could actually see the water stream down the sides after it condensed. It makes sense that there's a lot of nuclear power plants in this area because of the amount of water needed in the process. On one of the towers, there was a painting which looked cool.
 
-The sunset was beautiful. Very rarely do I spend an evening outside with the time to watch the entire sun set. It was amazing getting to see all of the different colours of the sky, and how it was falling on the mountains. As the rain cleared up, and the sun was setting, we got to see a rainbow! 
+The sunset was beautiful. Very rarely do I spend an evening outside with the time to watch the entire sun set. It was amazing getting to see all of the different colours of the sky, and how it was falling on the mountains. As the rain cleared up, and the sun was setting, we got to see a rainbow!
 
 ![a photo of me cycling, with the sunset and a rainbow](./images/sunset-with-rainbow.jpeg)
 
@@ -49,8 +49,30 @@ Along the route, there were quite a few areas that can flood, there's a lot of s
 
 In total, it took us just under 6 hours of cycling time, with an average speed of 16km/h. I'm a slow cycler, and that's ok with me.
 
+### Part three: Saint-Paul-Trois-Châteaux to Avignon
+
+The route we had planned was 73km. The first part of the route from Saint-Paul-Trois-Châteaux back to the ViaRhôna was not my favourite - we should have taken another route to get there but once we were on the ViaRhôna it was great.
+
+![a woman with her hands up in the air, celebrating the journey so far. She is on a bike with four bike bags](./images/saint-paul-avignon.jpeg)
+
+The route was so well signed the entire way which is great. We were luckier with the weather this time, it didn't rain! It was rather windy which is something we had experienced over the day trips we did while in Saint-Paul-Trois-Châteaux _but_ this time it wasn't all headwind! Seriously cycling into headwinds is exhausting especially with a loaded bike.
+
+The route was quiet, but again this wasn't peak season - a friday afternoon in October so it wasn't so surprising. I really enjoyed getting to talk to my partner while cycling because often when we're travelling the roads are too loud or too busy.
+
+This part of the trip was faster than the arriving with my average speed being 18km/h, with the total cycling time being 4 hours. The increased speed makes sense - the weather conditions were better and it was a shorter side! 
+
+### Part four: Avignon to Paris
+
+We took a TER from Avignon to Lyon, and then a TGV from Lyon back to Paris.
+
+We arrived at the Avignon station half an hour before our train was due to leave and I'm pleased we did. There was a lottttt of bikes getting on the same train as us. As soon as the platform was announced, we went to ask a SNCF member of staff where the bike storage on the train would be. He contacted the train driver to ask so we knew where to position ourselves on the platform. They even took out a ramp to help us get out bikes onto the train. Thankfully this train had a lot of bike storage, but it was a bit of a hassle because someone from an earlier stop has not hung their bike so it took more space than it should have.
+
+We had almost an hour to change trains in Lyon, so we posted the postcards we wrote while on the train and went to a bakery for food on the train. The train back was quiet, and we were right next to our bikes. 
+
+This experience inspired me to write an [article](/articles/travel/bike-on-a-train/) on travelling with a bike on a train - because parts of it can be stressful.
+
 ### Exchange stories
 
-I would love to hear you stories of similar cycles that you have done! You can find my post on [Instagram](https://www.instagram.com/p/DAafdqyNr9W/?img_index=1) where I summarised my day!
+I would love to hear you stories of similar cycles that you have done! You can find my post on [Instagram](https://www.instagram.com/p/DAafdqyNr9W/?img_index=1) where I summarised my day! I loved cycling along the ViaRhôna and I would definitely recommend it to those who are starting with bike packing!
 
 I would also love to know if you have any tips for cycling in the dark - it's something that I don't do often so am always a little nervous about the idea of it!
