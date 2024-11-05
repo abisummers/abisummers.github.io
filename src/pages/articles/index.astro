@@ -15,7 +15,7 @@ const museums = (await getCollection("museums")).map((m) => {
   return {
     title: `${m.data.museumName}: ${m.data.exhibitionName}`,
     intro: m.data.intro,
-    url: `./museums/${m.data.museumName.replace(/\s+/g, "-").toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}`,
+    url: `./museums/${m.data.museumName.replace(/\s+/g, "-").toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}/`,
     // url: latinize(`./museums/${m.data.museumName.replace(/\s+/g, "-").toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}`),
   };
 });
@@ -24,7 +24,7 @@ const travel = (await getCollection("travel")).map((article) => {
   return {
     title: article.data.title,
     intro: article.data.intro,
-    url: `./travel/${article.data.title.replace(/\s+/g, "-").toLowerCase().replace(/\---/g, "-")}`,
+    url: `./travel/${article.data.title.replace(/\s+/g, "-").toLowerCase().replace(/\---/g, "-")}/`,
   };
 });
 
