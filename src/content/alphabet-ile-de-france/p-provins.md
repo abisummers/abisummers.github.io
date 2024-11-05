@@ -14,13 +14,13 @@ In October, I went back to Provins! It's been over a year since I was last here 
 
 ![a small street in Provins](../images/provins.jpeg)
 
-Provins is known for it's medieval architecture and importance throughout the Middle Ages. They host an annual medieval festival in June, which is the largest in France. Since 2001, Provins has been a UNESCO world heritage site. Provins is also known for roses and produces a lot of products based on roses, from jams, honey and wine!
+Provins is known for its medieval architecture and importance throughout the Middle Ages. They host an annual medieval festival in June, which is the largest in France. Since 2001, Provins has been a UNESCO world heritage site. Provins is also known for roses and produces a lot of products based on roses, from jams to honey and even wine!
 
 ### Getting there
 
 To get to Provins you can take the _Transilien P_ from Gare de l'Est which takes roughly 1h30. The train only runs once an hour so it's worth checking the times in advance to know when you need to be at the station with a bit of margin.
 
-On the train going there, we played some card games - uno and dobble which was great. I'm pleased my friend thought to bring some games, many years ago you'd always find a deck of cards in my bag for situations like this. We engineered a table with a scarf across two seats with bags on either side to keep the tension - it works really well! When we weren't playing games, we were chatting. The time went super fast!
+On the train going there, we played some card games - Uno and Dobble - which was great. I'm pleased my friend thought to bring some games, many years ago you'd always find a deck of cards in my bag for situations like this. We engineered a table with a scarf across two seats with bags on either side to keep the tension - it works really well! When we weren't playing games, we were chatting. The time went super fast!
 
 ### The trip
 
@@ -46,7 +46,7 @@ We then had almost an hour until out train so we stopped for a drink at _Au Cés
 
 ### Recommendations
 
-- like usual, check the train times in advance because the train only runs once an hour. There are no toilets on the train, so it's worth going beforehand. In Gare de l'Est if you have a navigo the toilets there are free.
+- like usual, check the train times in advance because the train only runs once an hour. There are no toilets on the train, so it's worth going beforehand. In Gare de l'Est if you have a Navigo the toilets there are free.
 - since it's mostly things outdoors, i'd recommend going on a day when it's not going to rain the entire day and to wear comfy shoes
 
 This isn't going to be for everyone, because the festival is busy but to get a real feel of the medieval city, you can go during one of the two festivals they host. In June they host the largest medieval festival in France, and during December they host a christmas market (I haven't yet been to this, but I plan to go this year!). The summer festival is a lot of fun - there's a lot of great food and drinks, the atmosphere is great and there's various types of street performances. It's also a great place to visit outside of the festival!
