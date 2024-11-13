@@ -9,31 +9,47 @@ publishedDate: 2024-07-15
 
 ### Libraries in Paris
 
-Since a lot of my job involves researching, I like to work from libraries. I feel like I'm more motivated if I'm not working from home every day of the week, especially if friends join me at a library. Co-working spaces can be nice, but I feel like they're not worth the money for me because I don't drink hot drinks (I prefer just drinking water, boring I know) and libraries are free.
+Since a lot of my job involves researching, I like to work from libraries. I feel like I'm more motivated if I'm not working from home every day of the week, especially if friends join me at a library. Co-working spaces can be nice, but the price of that adds up fast and I don't drink coffee (I prefer just drinking water, boring I know) and libraries are free.
 
-I feel like most people will just go to whatever is closest to where they live, but I enjoy getting to see different parts of Paris and the change helps keep me motivated and different libraries have different benefits. I'm only including libraries that I've been to recently but I will keep updating this article as I visit new places.
+I feel like most people will just go to whatever is closest to where they live, but I enjoy getting to see different parts of Paris and the change helps keep me motivated and different libraries have different benefits. I'm only including libraries that I've been to but I will keep updating this article as I visit new places.
+
+Libraries are great places to get inspiration from and they're great places to learn - often libraries will host various workshops as well as having books on so many topics.
 
 ### City libraries
 
-There are the places that are ran by the city and are free to access even without a library card. There are 57 libraries in Paris, with multiple per arrondissements.
+There are the places that are ran by the city and are free to access even without a library card. There are 57 libraries in Paris, with multiple per arrondissements. It's really easy to get a library card if you live in France - you just need to ask at the desk, there's a short form to fill in. You need to have a valid form of ID with you (I used my british driving license).
 
 Most of these libraries are closed on sundays and mondays, and they have different opening hours depending on the time of year (like a modified schedule for summer).
 
 #### Médiathèque de la Canopée (1er)
 
-This library is super central - just above Les Halles, located at level 0 of Westfield-Forum des Halles. I've walked past this place countless times (often outside of their opening hours) and I had no idea that it was here. When entering, it feel a little sad and run down, the toilets have a lot of graffiti but the library is nice. They have a few different places to sit including but the windows so you can watch out over les halles or tables surrounded by books.
+This library is super central - just above Les Halles, located at level 0 of Westfield-Forum des Halles. I've walked past this place countless times (often outside of their opening hours) and I had no idea that it was here. They have a few different places to sit including but the windows (my favourite place to sit) so you can watch out over les halles or tables surrounded by books. It's often quite busy, so you'll sometimes need to share a table if you're sat alone. They usually have a community puzzle, so a table dedicated to puzzles which I love.
 
 They had a chill out zone at the back, with some bean bags to sit on and a creative room for kids.
 
-They had books in English and in Spanish (and maybe some other languages). I had a quick look at the selection before going to meet a friend. The book that stood out to me was _trainspotting_ because it's partially written in Scots so I imagine it's hard for a lot of non native English speakers to understand. I've just started reading this book (my own copy), and it's taking me a while to read it - and I lived in Scotland until I was 8 (living in Scotland doesn't mean you speak Scots but it does make understanding the Scottish accent easier).
+They had books in English and in Spanish (and some other languages). I had a quick look at the selection before going to meet a friend. The book that stood out to me was _trainspotting_ because it's partially written in Scots so I imagine it's hard for a lot of non native English speakers to understand. I've just started reading this book (my own copy), and it's taking me a while to read it - and I lived in Scotland until I was 8 (living in Scotland doesn't mean you speak Scots but it does make understanding the Scottish accent easier).
+
+This is the library that I went to when opening up a library card, and I was told that some of the staff there are deaf, so it's possible that if I ask for assistance, I'll need to write it down instead of speaking. They also host various workshops including one on French Sign Language.
+
+#### Bibliothèque du cinéma François Truffaut (1er)
+
+This library is also super central! It's in _Forum des Halles_ on level -3 (close to the UGC cinema). This library focuses on cinema - François Truffaut is icon of French cinema. You'll find all sorts of books related to the cinema industry, I like to flick through the books to get inspiration on French movies to watch because I'm still working my way through all the classics (this is true for _all_ movies, I've seen hardly any movies). They have a large selection of books in English, but they're scattered between the French books (most sections seemed to have a lot of English books).
+
+One thing to note about this library, is that the wifi here often doesn't work. This can be both a good thing and a bad thing depending on what you need to get done! They do have a lot of places to sit and work from.
 
 #### Bibliothèque Buffon (5eme)
 
-At the time of writing this article (July 2024), the library is closed for works. The opening date is not yet announced.
+At the time of writing this section (July 2024), the library is closed for works. The opening date is not yet announced.
 
 This is a big library, over multiple levels with a spiral stair case in the centre (there is also a lift). Some of the work spaces have a nice view over Jardin des Plantes which is cool (especially in spring and summer when there's lots of greens). Not all of the work spaces have plug sockets nearby.
 
 They have a large selection of books, including books in English.
+
+#### Bibliothèque Amélie (7eme)
+
+I'm not often in this area, I just happened to be here because I was giving a tour not far from here. They had a few tables to work from, less than some of the other libraries I've been in. While it's small, I enjoyed working here!
+
+They had a selection of books in English.
 
 #### Bibliothèque Vaugirard (15eme)
 
@@ -47,7 +63,7 @@ I really really like this library. They have a lot of spaces to sit and work. I 
 
 While we were there, there was a lot of kids at the front of the library (the start of school holidays) and they were making quite a lot of noise, but because of how the library is set out we really couldn't hear them at our table. They are hosting different events during the summer holidays, mostly aimed at kids, like beach volleyball.
 
-They don't have any English books (like a lot of the libraries around Paris), but they did a fairly large section on learning languages.
+They don't have any English books like a lot of the libraries around Paris (we checked with the person who worked there), but they did a fairly large section on learning languages.
 
 ### Other libraries
 
