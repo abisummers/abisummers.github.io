@@ -15,6 +15,10 @@ I feel like most people will just go to whatever is closest to where they live, 
 
 Libraries are great places to get inspiration from and they're great places to learn - often libraries will host various workshops as well as having books on so many topics.
 
+![the hallway of a library. there's a red carpet in the centre. On one side there's windows, and on the other side there's a wall which has blank panels](./images/bnf-mitterrand.jpeg)
+
+> Bibliothèque nationale de France: François-Mitterrand
+
 ### City libraries
 
 There are the places that are ran by the city and are free to access even without a library card. There are 57 libraries in Paris, with multiple per arrondissements. It's really easy to get a library card if you live in France - you just need to ask at the desk, there's a short form to fill in. You need to have a valid form of ID with you (I used my british driving license).
@@ -74,6 +78,8 @@ There are other libraries around Paris that are not ran by the city which someti
 I've mentioned the BNF in a few different articles, but this is the place I usually work from. They have two main libraries BNF François-Mitterrand and BNF Richelieu. Both of these libraries have security which required a bag check.
 
 Richelieu is free to enter. The workspace is a beautiful oval room which is definitely worth visiting (even if you're not planning to work there). However because it's free, in the centre of Paris and had a limited number of seats it's usually packed. I've never been able to work from a seat here but I have journalled from one of the standing areas. People start arriving before the opening time in order to secure a spot - that's how popular it is.
+
+![the oval room](../../content/guide/images/richelieu.jpeg)
 
 I prefer Mitterrand because there's always space. They have multiple different rooms with different specialities and they have screens that tell you roughly the occupancy of each room. All of the desks are big and quite a lot of seats that are by the windows which give a lot of natural light. To access the work spaces, you need to buy a ticket which is 5€ for a day, 24€ for a year or free if it's after 5pm. I have the year ticket, and it's definitely been worth it for me.
 
