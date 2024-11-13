@@ -13,7 +13,7 @@ Disclaimer: for some of these activities I like to carry some cash, so that I ca
 
 ### Parks and other green areas
 
-Paris, has quite a lot of green spaces which I really love especially when the weather is nice. I have an article about a walk that you can do between Bastille and Vincennes called _[coulée verte](http://abisummers.com/articles/guide/coulee-verte/)_ - a 5km walk along an old train line. I also have an article about some _[parks in Le Marais](/articles/guide/marais-parks/)_ - this is a great area to explore.
+Paris, has quite a lot of green spaces which I really love especially when the weather is nice. I have an article about a walk that you can do between Bastille and Vincennes called _[coulée verte](/articles/guide/coulee-verte/)_ - a 5km walk along an old train line. I also have an article about some _[parks in Le Marais](/articles/guide/marais-parks/)_ - this is a great area to explore.
 
 Some of my other favourite green areas are:
 
