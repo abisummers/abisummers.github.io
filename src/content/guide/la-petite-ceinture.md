@@ -1,7 +1,7 @@
 ---
 title: La Petite Ceinture
 description: Places to visit along an old train line that runs through the centre of Paris
-publishedDate: 2024-09-25
+publishedDate: 2024-11-14
 themes: ["kid friendly", "walk", "activity"]
 ---
 
