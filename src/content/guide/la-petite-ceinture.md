@@ -19,7 +19,7 @@ This isn't the only old train line that's a sign of the past, there's also [Coul
 
 Here are some of my favourite places along La Petite Ceinture!
 
-### Le passage à niveau
+### Le passage à niveau (19eme)
 
 ![the old railway next to the restaurant](./images/pc-le-passage-a-niveau.jpeg)
 
@@ -31,13 +31,25 @@ They have _The Sunday Show_ where they invite different musicians to play which 
 
 This part of La Petite Ceinture that's accessible to the public here is not so long (~0.25km), but it's still nice to walk along and enjoy the nature.
 
-### la REcyclerie
+### la REcyclerie (18eme)
 
 La REcyclerie is located in one of the stations that was served on La Petite Ceinture and I love what they've created! The building still keeps a lot of the charm of an old train station. The main focus of la REcyclerie is on sustainability. They host workshops and event throughout the month all with a focus on sustainability, aimed at different groups of people. In November 2024 they have pop up markets, guided visits of the site, workshops like _atelier 2 tonnes_ and mini parties!
 
 Atelier 2 tonnes is a known workshop in France, companies will often run them as part of their eco-responsibility (I took part in the company I previous worked at!). It's based on the global goal of everyone producing less than 2 tonnes of CO2 per year to reduce the impact of the climate crisis. You start out with a questionnaire about your lifestyle, and by the end of the workshop you have a personalised list of how you can reduce your impact, from reducing your meat consumption, to taking a train instead of flying, and buying second-hand. It also talks a lot about collective change which is super important!
 
 They also have a restaurant, cafe and garden, again with the them of sustainability. The restaurant does their part by having home made food that's sourced from local, in season ingredients, 50% of their options are vegetarian including one vegan option per day, and they recycle their biowaste. I love it when a restaurant has a real focus on the environmental impact! After you're finished with your food and drinks, make sure you check out the garden that they have!
+
+### Poinçon Paris (14eme)
+
+Poinçon is a restaurant, opened in 2019, in one of the train station along La Petite Ceinture. It takes the name from the _poinçon_, the tool that was used to punch travel tickets indicating the class of ticket. This original train station opened to travellers in 1867 and closed in 1934. 
+
+I really like the vibe of this place and the food is good! I like the mix match of tables and chairs, each table has their own set, but are different to all of the others. Some feel like they belong in a workshop, others feel like they belong in a family dining room yet it all matches the place. The tables were well spaced which isn't always the case for restaurants in Paris.
+
+On top of being a restaurant, they also host live music (DJ events & live music every sunday for brunch), stand up events and workshops!
+
+![a woman wearing a red jacket, walking along the old train track with the station platform on either side. there is a bridge in the distance that the track goes under](./images/pc-poincon.jpeg)
+
+Just behind the restaurant, you can access part of La Petite Ceinture (not part of the restaurant so you can freely access it). This part has the grungy feeling that I often associate with the old train line (back from when it wasn't open to the public). There's a lot of graffiti on walls of the old platform. Officially, you can access ~0.75km of track here.
 
 ### Further reading
 
