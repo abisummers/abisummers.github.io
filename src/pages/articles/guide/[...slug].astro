@@ -88,7 +88,7 @@ const { Content } = await entry.render();
         mapstyle="mapbox://styles/haroenv/clvi5zbe601bg01qu2iez1exk"
         accesstoken="pk.eyJ1IjoiaGFyb2VudiIsImEiOiJjbHZpOGZsOHQwM3oyMmlscTJweTRleHo3In0.mU1wMXCVpQvbhkXcZvFawg"
         interactive="interactive"
-        points={entry.data.locations.map((entry) => ({
+        points={entry.data.locations.map((entry: any) => ({
           latitude: entry.latitude,
           longitude: entry.longitude,
           title: entry.title,
