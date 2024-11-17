@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { getImage } from "astro:assets";
 import Main from "../../../layouts/article.astro";
+import MapboxMap from "../../../components/mapbox-map.astro";
 
 export async function getStaticPaths() {
   return (await getCollection("guide"))
@@ -77,11 +78,32 @@ const { Content } = await entry.render();
       text-decoration: underline;
     }
   </style>
+
+  {
+    entry.data.locations ? (
+      <MapboxMap
+        latitude={48.86}
+        longitude={2.35}
+        zoom={10.6}
+        mapstyle="mapbox://styles/haroenv/clvi5zbe601bg01qu2iez1exk"
+        accesstoken="pk.eyJ1IjoiaGFyb2VudiIsImEiOiJjbHZpOGZsOHQwM3oyMmlscTJweTRleHo3In0.mU1wMXCVpQvbhkXcZvFawg"
+        interactive="interactive"
+        points={entry.data.locations.map((entry) => ({
+          latitude: entry.latitude,
+          longitude: entry.longitude,
+          title: entry.title,
+          location: entry.location,
+        }))}
+      />
+    ) : (
+      ""
+    )
+  }
   <hr />
   <footer>
     <p>
-      This article is part of my <a href="/articles/guide/">guide</a> collection where
-      I write about my tips and tricks for enjoying Paris as a tourist.
+      This article is part of my <a href="/articles/guide/">guide</a> collection
+      where I write about my tips and tricks for enjoying Paris as a tourist.
     </p>
     <p>
       If you're new here, hi, I'm Abi. Originally from the UK but I've been

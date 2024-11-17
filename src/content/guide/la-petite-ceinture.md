@@ -3,6 +3,27 @@ title: La Petite Ceinture
 description: Places to visit along an old train line that runs through the centre of Paris
 publishedDate: 2024-11-14
 themes: ["kid friendly", "walk", "activity"]
+locations:
+  [
+    {
+      title: "Le passage à niveau",
+      location: "19eme",
+      longitude: 2.3850,
+      latitude: 48.8876,
+    },
+    {
+      title: "la REcyclerie",
+      location: "18eme",
+      longitude: 2.3441,
+      latitude: 48.8978,
+    },
+    {
+      title: "Poinçon Paris",
+      location: "14eme",
+      longitude: 2.3257,
+      latitude: 48.8244,
+    },
+  ]
 ---
 
 La Petite Ceinture translates to _the small railway belt_, is an old 32.5km train line that went around Paris. It was created in 1852, during the second empire, to connect different parts of Paris together. It was initially designed for freight trains. It's hard to imagine that actual, full size steam trains used to run _in_ Paris!
@@ -17,7 +38,7 @@ All of the places that are accessible are displayed [here](https://petiteceintur
 
 This isn't the only old train line that's a sign of the past, there's also [Coulee verte René Dumont](/articles/guide/coulee-verte/) - where you can take the scenic 5km walk from Bastille to Vincennes!
 
-Here are some of my favourite places along La Petite Ceinture!
+Here are some of my favourite places along La Petite Ceinture! Jump to [map](#map).
 
 ### Le passage à niveau (19eme)
 
@@ -41,7 +62,7 @@ They also have a restaurant, cafe and garden, again with the them of sustainabil
 
 ### Poinçon Paris (14eme)
 
-Poinçon is a restaurant, opened in 2019, in one of the train station along La Petite Ceinture. It takes the name from the _poinçon_, the tool that was used to punch travel tickets indicating the class of ticket. This original train station opened to travellers in 1867 and closed in 1934. 
+Poinçon is a restaurant, opened in 2019, in one of the train station along La Petite Ceinture. It takes the name from the _poinçon_, the tool that was used to punch travel tickets indicating the class of ticket. This original train station opened to travellers in 1867 and closed in 1934.
 
 I really like the vibe of this place and the food is good! I like the mix match of tables and chairs, each table has their own set, but are different to all of the others. Some feel like they belong in a workshop, others feel like they belong in a family dining room yet it all matches the place. The tables were well spaced which isn't always the case for restaurants in Paris.
 
@@ -56,3 +77,8 @@ Just behind the restaurant, you can access part of La Petite Ceinture (not part 
 If you're interested in learning more about the history of La Petite Ceinture, you can find information (in French) on the association [page](https://petiteceinture.org). On their [archive](https://archives.petiteceinture.org/Brief-history-of-the-Petite-Ceinture-circular-railway-of-Paris.html), there is some information in English.
 
 The City of Paris also have some [additional information](https://www.paris.fr/pages/la-petite-ceinture-et-ses-promenades-ecologiques-7855) (in French) about each section that's open to the public.
+
+
+<a name=#map></a>
+
+### Map
