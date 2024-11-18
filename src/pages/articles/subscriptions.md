@@ -15,6 +15,8 @@ I love visiting museums, I love getting to learn about history and I also love g
 
 I have the duo [national monument card](https://www.monuments-nationaux.fr) (passion monuments) which has over 80 monuments inside France. I opted for the duo card, because it's often a place I go to with a friend, so this allows me to get another person in for free. I subscribed for the year, starting from the 25th April 2024. The solo subscription costs 45€ and the duo costs **70€**.
 
+One of the great things about this card, is you're able to skip the queues, this extra cool in places like Sainte-Chapelle which always have a long queue.
+
 Has it been worth it?
 
 | museum             |   cost   | total saved |    date    |
@@ -22,10 +24,14 @@ Has it been worth it?
 | arc de triomphe    | 16€ (x2) |     32€     | 26/04/2024 |
 | Maison des Jardies |    7€    |     7€      | 02/05/2024 |
 | arc de triomphe    | 16€ (x2) |     32€     | 08/08/2024 |
+| la Conciergerie    | 13€ (x2) |     26€     | 02/11/2024 |
+| Sainte-Chapelle\*  | 13€ (x2) |     26€     | 02/11/2024 |
 
-I went to Maison des Jardies as part of my [day trip to Ville d'Avray](http://abisummers.com/articles/alphabet-ile-de-france/v-ville-d-avray/), and I'm not sure if I would have known about this museum if it wasn't for this card. I followed the guided tour and it was _so good_.
+\* you can but a twin ticket for la Conciergerie and Sainte-Chapelle which costs 20€ instead of 26€.
 
-total saved so far: **71€**
+I went to Maison des Jardies as part of my [day trip to Ville d'Avray](/articles/alphabet-ile-de-france/v-ville-d-avray/), and I'm not sure if I would have known about this museum if it wasn't for this card. I followed the guided tour and it was _so good_.
+
+total saved so far: **123€**
 
 Within a few month of having the card, I've already saved money! I've had a great time visiting the arc de triomphe with a friend (I hadn't been in years) and I loved the guided tour of Maison des Jardies à Sèvres. It's been helpful with my alphabet of Île-de-France [project](/articles/alphabet-ile-de-france/). This card is great because it's not specific to Paris or Île-de-France. It's great when I have friends visiting because it allows me to take them to some of the tourist locations with needing to pay for tickets on the day.
 
@@ -54,7 +60,7 @@ All of these museums have a free permanent collection.
 
 ## BNF (Bibliothèque Nationale de France)
 
-I bought the year subscription to the [BNF](https://www.bnf.fr/fr) which costs **24€** because I was looking for a place to work from - the city libraries are great but I find they often have weird opening hours, and don't always have power sockets that are accessible (I do sometimes work from the city libraries). BNF have different locations in Paris, but I would say the two mains ones are Francois-Mitterrand and Richelieu.
+I bought the year subscription to the [BNF](https://www.bnf.fr/fr) which costs **24€** because I was looking for a place to work from - the city libraries are great but I find they often have weird opening hours, and don't always have power sockets that are accessible (I do sometimes work from the [city libraries](/articles/paris-libraries/)). BNF have different locations in Paris, but I would say the two mains ones are Francois-Mitterrand and Richelieu.
 
 It's free to work from Richelieu, but finding a place is hard. The oval room is really beautiful but it's almost always full. I usually work at Francois-Mitterrand, I've always been able to find a space, the tables are big, all have power sockets at the wifi works. Entry to work here costs 5€ per day, or free entry after 5pm. You can see how long the security line is on the app Affluences as well as how busy each of the rooms are. I'm actually writing this article from Francois-Mitterrand.
 
