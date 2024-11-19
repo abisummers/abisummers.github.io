@@ -3,6 +3,7 @@ title: La Petite Ceinture
 description: Places to visit along an old train line that runs through the centre of Paris
 publishedDate: 2024-11-14
 themes: ["kid friendly", "walk", "activity"]
+mapConfig: { latitude: 48.86, longitude: 2.35, zoom: 10.6 }
 locations:
   [
     {
@@ -77,7 +78,6 @@ Just behind the restaurant, you can access part of La Petite Ceinture (not part 
 If you're interested in learning more about the history of La Petite Ceinture, you can find information (in French) on the association [page](https://petiteceinture.org). On their [archive](https://archives.petiteceinture.org/Brief-history-of-the-Petite-Ceinture-circular-railway-of-Paris.html), there is some information in English.
 
 The City of Paris also have some [additional information](https://www.paris.fr/pages/la-petite-ceinture-et-ses-promenades-ecologiques-7855) (in French) about each section that's open to the public.
-
 
 <a name=#map></a>
 
