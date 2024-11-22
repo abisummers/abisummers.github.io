@@ -131,7 +131,7 @@ This neighbourhood has a lot of things to offer! It's one of the areas that most
 - [Musée de Montmartre](#musee-de-montmartre)
 - [Food](#food)
 - [Book a tour](#book-a-tour)
-- [Map with pinned locations](#map)]
+- [Map with pinned locations](#map)
 
 <a name="a-brief-history-of-montmartre"></a>
 

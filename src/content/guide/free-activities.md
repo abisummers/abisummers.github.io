@@ -23,7 +23,7 @@ Some of my other favourite green areas are:
 - **Jardin du Luxembourg**: a beautiful park with lots of places to sit. There is almost always one area of grass that you're allowed to sit on towards the south of the park (sitting on the grass is something I appreciate in a park).
 - **Parc Monceau**: another park where you're allowed to sit on the grass (you'll often get to see cats playing here)! There's a small pond with Roman columns partially surrounding it, which makes for some pretty photos. Good for kids with the the places to run, carousel and the pony rides (if that's your thing)
 - **Jardin du Musée du Quai Branly**: a garden surrounding the museum with lots of hidden benches and quiet places to sit. It's close to the Eiffel Tower.
-- **La Petite Ceinture**: translates to _the little belt_, is a abandoned train that goes around Paris. Only parts of it remain accessible because it's still own by SNCF. You can find more information [here](https://petiteceinture.org/acceder-a-la-petite-ceinture/)
+- **La Petite Ceinture**: translates to _the little belt_, is a abandoned train that goes around Paris. Only parts of it remain accessible because it's still own by SNCF. You can find more information [here](https://petiteceinture.org/acceder-a-la-petite-ceinture/). You can find out my recommendations [here](/articles/guide/la-petite-ceinture/)
 
 Almost every park will have some history behind it, sometimes that's explained at the entrance of the park, other times it's not. One of the things I love about Paris is the history that's directly in front of us - who is this park named after? what was here before? why does this building stand out?
 
