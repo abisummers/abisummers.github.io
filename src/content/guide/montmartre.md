@@ -68,23 +68,23 @@ mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 
 This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. This area feels different to the rest of Paris, and there's a reason for it.
 
-
 - [Brief history of Montmartre](#a-brief-history-of-montmartre)
 - [The life of artists](#life-of-artists)
 - [Sacre cœur](#sacre-coeur)
 - [Parc de la Turlure](#parc-de-la-turlure)
 - [Place du Tertre](#place-du-tertre)
+- [Le Bateau-Lavoir](#le-bateau-lavoir)
 - [Moulin Rouge](#moulin-rouge)
 - [Le mur des je t'aime](#i-love-you-wall)
 - [Vigne du Clos](#vigne-du-clos)
 - [Musée de Montmartre](#musee-de-montmartre)
+- [Food](#food)
 - [Book a tour](#book-a-tour)
-- [Map with pinned locations](#map)
-
+- [Map with pinned locations](#map)]
 
 <a name="a-brief-history-of-montmartre"></a>
 
-### brief history of Montmartre
+### Brief history of Montmartre
 
 Montmartre is now known for its artistic heritage, artists such as _Vincent van Gogh_, _Auguste Renoir_, _Suzanne Valadon_ and _Edgar Degas_ who all worked in this area. But there was a lot of history in this area prior to the artists that moved there in the late 19th and early 20th century. Archaeological excavations show that the area has been occupied since least Gallo-Roman times.
 
@@ -100,9 +100,7 @@ This area was used until 1860 as an area for mining gypsum which has been done s
 
 In 1871, Montmartre was the site of the beginning of the revolutionary uprising of the Paris Commune. The Commune governed Paris for a two month period promoting their own policies such as the separation of church and state and the abolition of child labour. This ended in what's known as the _Semaine Sanglante_ or the bloody week, where over 40,000 Communards were taken as prisoners.
 
-
 <a name="life-of-artists"></a>
-
 
 ### The life of the artists
 
@@ -160,6 +158,14 @@ As with a lot of Paris, I think looking up is important. There's often plaques a
 
 Personally, I wouldn't recommend and of the restaurants directly on this square because I think you can get better value for your money. There's one restaurant that claims to be where the word _bistro_ comes from, they have a plaque up - however it's not 100% certain that this is the origin.
 
+<a name="le-bateau-lavoir"></a>
+
+### Le Bateau-Lavoir
+
+Le Bateau-Lavoir or _the washhouse boat_ is famous in art history as the residence and meeting places of 20th century artists including Pablo Picasso as well as men of letters, theatre people and art dealers. The front that we see today, isn't the original. There was a fire in 1970 which destroyed the building leaving only the facade which was rebuilt in 1978.
+
+The building was originally a ballroom and piano factory, that was squatted in. One theory behind the name Le Bateau-Lavoir, is the building was dark and dirty, and on stormy days it swayed and creaked. The swaying reminded people of the washing boats that were along the seine. Yes, in the 18th and 19th century, the seine had almost 80 washing boats.
+
 <a name="moulin-rouge"></a>
 
 ### Moulin Rouge
@@ -210,13 +216,26 @@ If you have the choice (I know, when travelling you can't be picky about the wea
 
 Entrance to this museum costs 15€ (full price, adult). I would recommend giving yourself at least 1 hour 30 to enjoy the museum, there's a lot of really interesting history to read about. Almost everything in the permanent collection has English translations. The main text of the temporary exhibition is translated, but some of the quotes on the walls were only in French. I spent 2 hours here between the permanent collection & the temporary exhibit, _Jacques Prévert, le rêveur d’images_.
 
+<a name="food"></a>
+
+### Food and drinks
+
+No day in Paris is complete without food! Here are some of my favourite restaurants in the area (and I'm sure there's many more!)
+
+- Le bon, la butte (french)
+- Breizh café Abbesses (French)
+- Bouillon Pigalle (french)
+- In bocca al lupo (italian)
+- Enishi (japanese)
+- Nakatsu (japanese)
+- L'Atelier Dürüm (turkish)
+
+I have a custom google map with pinned places all across Paris that you can access [here](https://www.google.com/maps/d/viewer?mid=117w2uwIFA2aieW8BoL4KOY-7JlBs3_g&ll=48.8585024429216%2C2.3323640499999954&z=13)
 
 <a name="book-a-tour"></a>
-
 
 ### Book a tour
 
 There's so much more to montmartre than what I could possible write here! If you're interested in a private tour, you can contact me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
-
 
 <a name="map"></a>
