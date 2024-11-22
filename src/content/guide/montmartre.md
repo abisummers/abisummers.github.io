@@ -68,6 +68,22 @@ mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 
 This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. This area feels different to the rest of Paris, and there's a reason for it.
 
+
+- [Brief history of Montmartre](#a-brief-history-of-montmartre)
+- [The life of artists](#life-of-artists)
+- [Sacre cœur](#sacre-coeur)
+- [Parc de la Turlure](#parc-de-la-turlure)
+- [Place du Tertre](#place-du-tertre)
+- [Moulin Rouge](#moulin-rouge)
+- [Le mur des je t'aime](#i-love-you-wall)
+- [Vigne du Clos](#vigne-du-clos)
+- [Musée de Montmartre](#musee-de-montmartre)
+- [Book a tour](#book-a-tour)
+- [Map with pinned locations](#map)
+
+
+<a name="a-brief-history-of-montmartre"></a>
+
 ### brief history of Montmartre
 
 Montmartre is now known for its artistic heritage, artists such as _Vincent van Gogh_, _Auguste Renoir_, _Suzanne Valadon_ and _Edgar Degas_ who all worked in this area. But there was a lot of history in this area prior to the artists that moved there in the late 19th and early 20th century. Archaeological excavations show that the area has been occupied since least Gallo-Roman times.
@@ -84,6 +100,10 @@ This area was used until 1860 as an area for mining gypsum which has been done s
 
 In 1871, Montmartre was the site of the beginning of the revolutionary uprising of the Paris Commune. The Commune governed Paris for a two month period promoting their own policies such as the separation of church and state and the abolition of child labour. This ended in what's known as the _Semaine Sanglante_ or the bloody week, where over 40,000 Communards were taken as prisoners.
 
+
+<a name="life-of-artists"></a>
+
+
 ### The life of the artists
 
 There are traces of artists who lives here throughout the years, from artwork they've painted or the homes that they lived in. Sometimes, there will be a plaque outside an apartment, like where Vincent and Théo van Gogh lived. You're not able to see much from the outside in most cases, but I enjoy reflecting on the lives of the people who have lived there. If you do want to see Vincent van Gogh's apartment and see some of his other inspirations, you can visit [Auvers-sur-Oise](/articles/alphabet-ile-de-france/a-auvers-sur-oise/) on a day trip from Paris.
@@ -93,6 +113,8 @@ There are also museums dedicated to artists of Montmartre. Where the musée de M
 It's not all about painting and physical art, but performers also lived here. Dalida, a celebrated singer in France lived here. She lived in an apartment here on _Rue d'Orchampt_. You'll find the _Buste de Dalida_ here, and superstition says touching the bust will bring prosperity. She's buried in _Cimetière de Montmartre_ (Montmartre cemetery)
 
 In Cimetière de Montmartre, you'll also find a lot of other artists including Edgar Degas and La Goulue (a can-can dancer in the Moulin Rouge).
+
+<a name="sacre-coeur"></a>
 
 ### Sacre Cœur
 
@@ -116,11 +138,15 @@ This is a tourist hotspot, so definitely watch out for your bags and pockets bec
 
 While the sacre Cœur is a touristy area, it's still a great place to be! I used to live close to here, and in summer I'd come and sit in the park with friends and something to drink. It's one of my favourite places to watch the sun set from. You get a great view of Paris from here (I like seeing how obnoxiously big centre Pompidou is). There are often street performers and I love love love street performers.
 
+<a name="parc-de-la-turlure"></a>
+
 ### Parc de la Turlure
 
 Otherwise known as _Parc Marcel Bleustein Blanchet dit Parc de la Turlure_, is is a park just behind the sacre Cœur. You'd think everyone would come here to enjoy the views of the Sacre cœur, but surprisingly few people know about it!
 
 Until 2004 it was just called Parc de la Turlure, with the name being in reference to the old Turlure mill that was previously here. In 2004 the name was changed to Parc Marcel Bleustein Blanchet dit Parc de la Turlure to pays tribute to Marcel Bleustein-Blanchet, a french resistance fighter and founder of a advertising group.
+
+<a name="place-du-tertre"></a>
 
 ### Place du Tertre
 
@@ -134,6 +160,8 @@ As with a lot of Paris, I think looking up is important. There's often plaques a
 
 Personally, I wouldn't recommend and of the restaurants directly on this square because I think you can get better value for your money. There's one restaurant that claims to be where the word _bistro_ comes from, they have a plaque up - however it's not 100% certain that this is the origin.
 
+<a name="moulin-rouge"></a>
+
 ### Moulin Rouge
 
 The Moulin Rouge, _red mill_ is one of the most known and iconic cabarets around the world! It opened in 1889 (the same year that the Eiffel Tower opened) originally under the name of _Jardin de Paris_ (garden of Paris). It's known as the birthplace of the can-can, which is one of the things that lead to the success! Over the years, many famous people have performed here including Josephine Baker and Dalida.
@@ -144,9 +172,13 @@ The Moulin Rouge, _red mill_ is one of the most known and iconic cabarets around
 
 <!-- ???? Only in 2023 that they stopped using snakes in their performances. Recently one of the blades of the mill fell off. -->
 
+<a name="i-love-you-wall"></a>
+
 ### Le mur des je t'aime
 
 The _Le mur des je t'aime_ or the Wall of I Love You is just outside the metro Abbesses. This metro station is known because it's the deepest metro station in Paris. Here, you'll find _I love you_ inscribed 311 times, in different languages and dialects. It was created in 2000 by artists Fédéric Baron and Claire Kito. Walls are often associated with division and separation but this wall is here to show the unity and connection across diversity.
+
+<a name="vigne-du-clos"></a>
 
 ### Vigne du Clos Montmartre
 
@@ -166,7 +198,9 @@ This is accessible via _25 Rue Chappe_, which is on the stairs. It's only open f
 
 <!-- ### all of the stairs -->
 
-### Musée de montmartre
+<a name="musee-de-montmartre"></a>
+
+### Musée de Montmartre
 
 If you're interested in learning more about Montmartre, there's an entire museum dedicated to it! It's right in the heart of Montmartre.
 
@@ -176,6 +210,13 @@ If you have the choice (I know, when travelling you can't be picky about the wea
 
 Entrance to this museum costs 15€ (full price, adult). I would recommend giving yourself at least 1 hour 30 to enjoy the museum, there's a lot of really interesting history to read about. Almost everything in the permanent collection has English translations. The main text of the temporary exhibition is translated, but some of the quotes on the walls were only in French. I spent 2 hours here between the permanent collection & the temporary exhibit, _Jacques Prévert, le rêveur d’images_.
 
+
+<a name="book-a-tour"></a>
+
+
 ### Book a tour
 
 There's so much more to montmartre than what I could possible write here! If you're interested in a private tour, you can contact me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
+
+
+<a name="map"></a>
