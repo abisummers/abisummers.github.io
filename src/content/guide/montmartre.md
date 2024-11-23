@@ -3,7 +3,7 @@ languages: ["en"]
 language: "en"
 title: Exploring Montmartre
 description: What makes Montmartre notable? A brief overview of the history and some notable places
-themes: ["tourist-attraction"]
+themes: ["tour"]
 publishedDate: 2024-11-22
 locations: [
     { title: "Sacre Cœur", location: "", longitude: 2.3431, latitude: 48.8861 },
@@ -118,19 +118,21 @@ mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 
 This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. This area feels different to the rest of Paris, and there's a reason for it.
 
+Here you'll find some of they key places to visit on a day in Montmartre!
+
 <a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
       Book a tour</a>
 
 - [Brief history of Montmartre](#a-brief-history-of-montmartre)
 - [The life of artists](#life-of-artists)
-- [Sacre cœur](#sacre-coeur)
-- [Parc de la Turlure](#parc-de-la-turlure)
-- [Place du Tertre](#place-du-tertre)
-- [Le Bateau-Lavoir](#le-bateau-lavoir)
 - [Moulin Rouge](#moulin-rouge)
 - [Le mur des je t'aime](#i-love-you-wall)
+- [Le Bateau-Lavoir](#le-bateau-lavoir)
 - [Vigne du Clos](#vigne-du-clos)
+- [Place du Tertre](#place-du-tertre)
 - [Musée de Montmartre](#musee-de-montmartre)
+- [Parc de la Turlure](#parc-de-la-turlure)
+- [Sacre cœur](#sacre-coeur)
 - [Food](#food)
 - [Book a tour](#book-a-tour)
 - [Map with pinned locations](#map)
@@ -165,6 +167,75 @@ It's not all about painting and physical art, but performers also lived here. Da
 
 In Cimetière de Montmartre, you'll also find a lot of other artists including Edgar Degas and La Goulue (a can-can dancer in the Moulin Rouge).
 
+<a name="moulin-rouge"></a>
+
+### Moulin Rouge
+
+The Moulin Rouge, _red mill_ is one of the most known and iconic cabarets around the world! It opened in 1889 (the same year that the Eiffel Tower opened) originally under the name of _Jardin de Paris_ (garden of Paris). It's known as the birthplace of the can-can, which is one of the things that lead to the success! Over the years, many famous people have performed here including Josephine Baker and Dalida.
+
+<!-- Why does the Moulin Rouge have a windmill? Historically Montmartre did have windmills here, but this is not one of the originals. -->
+
+<!-- The Moulin Rouge that we see today isn't the original. In 1915, there was a fire during building works, resulting in a nine-year closure. -->
+
+<!-- ???? Only in 2023 that they stopped using snakes in their performances. Recently one of the blades of the mill fell off. -->
+
+<a name="i-love-you-wall"></a>
+
+### Le mur des je t'aime
+
+The _Le mur des je t'aime_ or the Wall of I Love You is just outside the metro Abbesses. This metro station is known because it's the deepest metro station in Paris. Here, you'll find _I love you_ inscribed 311 times, in different languages and dialects. It was created in 2000 by artists Fédéric Baron and Claire Kito. Walls are often associated with division and separation but this wall is here to show the unity and connection across diversity.
+
+<a name="le-bateau-lavoir"></a>
+
+### Le Bateau-Lavoir
+
+Le Bateau-Lavoir or _the washhouse boat_ is famous in art history as the residence and meeting places of 20th century artists including Pablo Picasso as well as men of letters, theatre people and art dealers. The front that we see today, isn't the original. There was a fire in 1970 which destroyed the building leaving only the facade which was rebuilt in 1978.
+
+The building was originally a ballroom and piano factory, that was squatted in. One theory behind the name Le Bateau-Lavoir, is the building was dark and dirty, and on stormy days it swayed and creaked. The swaying reminded people of the washing boats that were along the seine. Yes, in the 18th and 19th century, the seine had almost 80 washing boats.
+
+<a name="vigne-du-clos"></a>
+
+### Vigne du Clos Montmartre
+
+The first vineyards were planted in this area in the 12th century as part of the Abbey de Montmartre, but by 1928 all the vineyards were destroyed.
+
+in 1932, a vineyard was replanted to prevent a real estate project. The following year, 1933, _Vendanges Montmartre_, the harvest festival was celebrated and it's still going strong!
+
+The festival isn't just about the wine it's also a multi day cultural event.
+
+<a name="place-du-tertre"></a>
+
+### Place du Tertre
+
+At Place du Tertre you get to see the artist's work. But it's so much more than just that!
+
+Place du Tertre is where the heart of the abbey de montmartre once lay. It opened to the public in 1635 as Montmartre village central square. This square was the centre of the Commune de Montmartre from 1790 until 1860 when it became part of Paris. The main businesses of the commune were wine making, stone quarries and gypsum mines.
+
+From the end of the 18th century, this is where a lot of the artists would come. The artists today, remind us of the hotspot that it was for artists at the end of the 19th and beginning of 20th century.
+
+As with a lot of Paris, I think looking up is important. There's often plaques about the people that lived there, and the events that happened. In 1898, an oil car driven by Louis Renault reached Place du Tertre, marking the departure of the French car industry. Renault are one of the best known car brands now.
+
+Personally, I wouldn't recommend and of the restaurants directly on this square because I think you can get better value for your money. There's one restaurant that claims to be where the word _bistro_ comes from, they have a plaque up - however it's not 100% certain that this is the origin.
+<a name="musee-de-montmartre"></a>
+
+### Musée de Montmartre
+
+There's an entire museum dedicated to it! It's right in the heart of Montmartre.
+
+Here, you'll see some of the inspirations behind famous paintings, and get to see the studio of Valadon. There is a video that talks about her life, and how she got started in painting.
+
+If you have the choice (I know, when travelling you can't be picky about the weather), I'd recommend going on a day when it's not raining so you can really appreciate the garden. You get a beautiful view over the existing vineyard.
+
+Entrance to this museum costs 15€ (full price, adult). I would recommend giving yourself at least 1 hour 30 to enjoy the museum, there's a lot of really interesting history to read about. Almost everything in the permanent collection has English translations. The main text of the temporary exhibition is translated, but some of the quotes on the walls were only in French. I spent 2 hours here between the permanent collection & the temporary exhibit, _Jacques Prévert, le rêveur d’images_.
+
+<a name="parc-de-la-turlure"></a>
+
+### Parc de la Turlure
+
+Otherwise known as _Parc Marcel Bleustein Blanchet dit Parc de la Turlure_, is is a park just behind the sacre Cœur. You'd think everyone would come here to enjoy the views of the Sacre cœur, but surprisingly few people know about it!
+
+Until 2004 it was just called Parc de la Turlure, with the name being in reference to the old Turlure mill that was previously here. In 2004 the name was changed to Parc Marcel Bleustein Blanchet dit Parc de la Turlure to pays tribute to Marcel Bleustein-Blanchet, a french resistance fighter and founder of a advertising group.
+
 <a name="sacre-coeur"></a>
 
 ### Sacre Cœur
@@ -189,64 +260,6 @@ This is a tourist hotspot, so definitely watch out for your bags and pockets bec
 
 While the sacre Cœur is a touristy area, it's still a great place to be! I used to live close to here, and in summer I'd come and sit in the park with friends and something to drink. It's one of my favourite places to watch the sun set from. You get a great view of Paris from here (I like seeing how obnoxiously big centre Pompidou is). There are often street performers and I love love love street performers.
 
-<a name="parc-de-la-turlure"></a>
-
-### Parc de la Turlure
-
-Otherwise known as _Parc Marcel Bleustein Blanchet dit Parc de la Turlure_, is is a park just behind the sacre Cœur. You'd think everyone would come here to enjoy the views of the Sacre cœur, but surprisingly few people know about it!
-
-Until 2004 it was just called Parc de la Turlure, with the name being in reference to the old Turlure mill that was previously here. In 2004 the name was changed to Parc Marcel Bleustein Blanchet dit Parc de la Turlure to pays tribute to Marcel Bleustein-Blanchet, a french resistance fighter and founder of a advertising group.
-
-<a name="place-du-tertre"></a>
-
-### Place du Tertre
-
-At Place du Tertre you get to see the artist's work. But it's so much more than just that!
-
-Place du Tertre is where the heart of the abbey de montmartre once lay. It opened to the public in 1635 as Montmartre village central square. This square was the centre of the Commune de Montmartre from 1790 until 1860 when it became part of Paris. The main businesses of the commune were wine making, stone quarries and gypsum mines.
-
-From the end of the 18th century, this is where a lot of the artists would come. The artists today, remind us of the hotspot that it was for artists at the end of the 19th and beginning of 20th century.
-
-As with a lot of Paris, I think looking up is important. There's often plaques about the people that lived there, and the events that happened. In 1898, an oil car driven by Louis Renault reached Place du Tertre, marking the departure of the French car industry. Renault are one of the best known car brands now.
-
-Personally, I wouldn't recommend and of the restaurants directly on this square because I think you can get better value for your money. There's one restaurant that claims to be where the word _bistro_ comes from, they have a plaque up - however it's not 100% certain that this is the origin.
-
-<a name="le-bateau-lavoir"></a>
-
-### Le Bateau-Lavoir
-
-Le Bateau-Lavoir or _the washhouse boat_ is famous in art history as the residence and meeting places of 20th century artists including Pablo Picasso as well as men of letters, theatre people and art dealers. The front that we see today, isn't the original. There was a fire in 1970 which destroyed the building leaving only the facade which was rebuilt in 1978.
-
-The building was originally a ballroom and piano factory, that was squatted in. One theory behind the name Le Bateau-Lavoir, is the building was dark and dirty, and on stormy days it swayed and creaked. The swaying reminded people of the washing boats that were along the seine. Yes, in the 18th and 19th century, the seine had almost 80 washing boats.
-
-<a name="moulin-rouge"></a>
-
-### Moulin Rouge
-
-The Moulin Rouge, _red mill_ is one of the most known and iconic cabarets around the world! It opened in 1889 (the same year that the Eiffel Tower opened) originally under the name of _Jardin de Paris_ (garden of Paris). It's known as the birthplace of the can-can, which is one of the things that lead to the success! Over the years, many famous people have performed here including Josephine Baker and Dalida.
-
-<!-- Why does the Moulin Rouge have a windmill? Historically Montmartre did have windmills here, but this is not one of the originals. -->
-
-<!-- The Moulin Rouge that we see today isn't the original. In 1915, there was a fire during building works, resulting in a nine-year closure. -->
-
-<!-- ???? Only in 2023 that they stopped using snakes in their performances. Recently one of the blades of the mill fell off. -->
-
-<a name="i-love-you-wall"></a>
-
-### Le mur des je t'aime
-
-The _Le mur des je t'aime_ or the Wall of I Love You is just outside the metro Abbesses. This metro station is known because it's the deepest metro station in Paris. Here, you'll find _I love you_ inscribed 311 times, in different languages and dialects. It was created in 2000 by artists Fédéric Baron and Claire Kito. Walls are often associated with division and separation but this wall is here to show the unity and connection across diversity.
-
-<a name="vigne-du-clos"></a>
-
-### Vigne du Clos Montmartre
-
-The first vineyards were planted in this area in the 12th century as part of the Abbey de Montmartre, but by 1928 all the vineyards were destroyed.
-
-in 1932, a vineyard was replanted to prevent a real estate project. The following year, 1933, _Vendanges Montmartre_, the harvest festival was celebrated and it's still going strong!
-
-The festival isn't just about the wine it's also a multi day cultural event.
-
 <!-- ### Arènes de Montmartre
 
  https://www.montmartre-secret.com/2022/04/les-arenes-de-montmartre.rue-chappe.html
@@ -256,18 +269,6 @@ This is accessible via _25 Rue Chappe_, which is on the stairs. It's only open f
 <!-- what is the history of this place? -->
 
 <!-- ### all of the stairs -->
-
-<a name="musee-de-montmartre"></a>
-
-### Musée de Montmartre
-
-If you're interested in learning more about Montmartre, there's an entire museum dedicated to it! It's right in the heart of Montmartre.
-
-Here, you'll see some of the inspirations behind famous paintings, and get to see the studio of Valadon. There is a video that talks about her life, and how she got started in painting.
-
-If you have the choice (I know, when travelling you can't be picky about the weather), I'd recommend going on a day when it's not raining so you can really appreciate the garden. You get a beautiful view over the existing vineyard.
-
-Entrance to this museum costs 15€ (full price, adult). I would recommend giving yourself at least 1 hour 30 to enjoy the museum, there's a lot of really interesting history to read about. Almost everything in the permanent collection has English translations. The main text of the temporary exhibition is translated, but some of the quotes on the walls were only in French. I spent 2 hours here between the permanent collection & the temporary exhibit, _Jacques Prévert, le rêveur d’images_.
 
 <a name="food"></a>
 
