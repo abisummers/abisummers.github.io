@@ -67,57 +67,59 @@ locations: [
       location: "French restaurant",
       longitude: 2.33784,
       latitude: 48.88708,
-      subtle: true
+      subtle: true,
     },
     {
       title: "Breizh café Abbesses",
       location: "French restaurant (crepes)",
       longitude: 2.33967,
       latitude: 48.88422,
-      subtle: true
+      subtle: true,
     },
     {
       title: "Bouillon Pigalle",
       location: "French restaurant",
       longitude: 2.33730,
       latitude: 48.88256,
-      subtle: true
+      subtle: true,
     },
     {
       title: "In bocca al lupo",
       location: "Italian restaurant",
       longitude: 2.34202,
       latitude: 48.89029,
-      subtle: true
+      subtle: true,
     },
     {
       title: "Enishi",
       location: "Japanese restaurant",
       longitude: 2.34602,
       latitude: 48.88879,
-      subtle: true
+      subtle: true,
     },
     {
       title: "Nakatsu",
       location: "Japanese restaurant",
       longitude: 2.34673,
       latitude: 48.88843,
-      subtle: true
+      subtle: true,
     },
     {
       title: " L'Atelier Dürüm",
       location: "Turkish restaurant",
       longitude: 2.34751,
       latitude: 48.88629,
-      subtle: true
+      subtle: true,
     },
-
   ]
 
 mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 ---
 
 This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. This area feels different to the rest of Paris, and there's a reason for it.
+
+<a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
+      Book a tour</a>
 
 - [Brief history of Montmartre](#a-brief-history-of-montmartre)
 - [The life of artists](#life-of-artists)
@@ -290,7 +292,6 @@ I have a custom google map with pinned places all across Paris that you can acce
 There's so much more to montmartre than what I could possible write here! If you're interested in a private tour, you can contact me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
 
 <a name="map"></a>
-
 
 ### Map
 
