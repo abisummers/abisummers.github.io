@@ -2,7 +2,7 @@
 languages: ["en"]
 language: "en"
 title: Exploring Montmartre
-description: What makes Montmartre notable? A brief overview of the history and some notable places
+description: What makes Montmartre notable? A brief overview of the history and a self guided walking tour
 themes: ["tour"]
 publishedDate: 2024-11-22
 locations: [
@@ -261,27 +261,13 @@ And now, we're heading towards the end of the self guided tour.
 
 ### Sacre Cœur
 
-The final stop on the self guided tour! Take a moment to appreicate both the view of Paris _and_ the Sacre Cœur.
+The final stop on the self guided tour! Take a moment to appreciate both the view of Paris _and_ the Sacre Cœur.
 
-Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It's located at the top of the butte of Montmartre (butte here meaning that it's an isolated hill with steep sides and a relatively flat top). It's a very notable landmark over Paris because it's significantly higher than the surroundings. The white of the church really stands out.
+Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It's located at the top of Butte Montmartre (butte here meaning that it's an isolated hill with steep sides and a relatively flat top). It's one of the more notable landmarks in Paris because of it's height and because of the white church.
 
-The first proposition to build a dedicated church came it 1870 from the Bishop of Nantes following the defeat of France and the capture of Emperor Napoleon III by the Prussians. Montmartre was selected as the new site because it's visible from many parts of the city and because of the association with Saint Denis (the bishop who was beheaded here). In 1873 the proposal was finally brought forward and approved in the National Assembly. In 1875 the project finally started.
+The contstruction of the Sacre Cœur took longer than expected because of the mining that happened in the area. They had to dig wells to make subterranean pillars to support the church. The construction started in 1875 but it was only completed in 1914. 
 
-The early part of the construction was delayed due to the history of mining. They dug 83 wells over 38 meters deeps that were filled with rocks and concrete to serve as subterranean pillars. The construction took so long that the estimated cost of 7 million francs was expended before any above ground construction became visible.
-
-In 1891 the interior of the basilica was completed, dedicated and opened for public worship. The dome of the church was only completed in 1899 and the bell tower finished in 1914.
-
-There are some controversies related to the Paris Commune (1871). Some journalists and politicians criticise the Sacre Cœeur with the destruction of the Commune. In 2004, the square in front of the Sacre Cœeur was renamed to Louise Michel, an active member in the Commune.
-
-In 2021 leftist members of the French parliament blocked a measure to declare the church a national historic monument to avoid celebrating the church's history in the same year as the 150th anniversary of the Paris commune. In 2022 it was declared a national historic monument.
-
-to avoid celebrating the church's history in the same year as the 150th anniversary of the Paris Commune (when 32,000 Communards were killed), leftist members of the French parliament blocked a measure to declare the church a national historic monument and postponed it until 2022.
-
-There is almost always a line to get into the sacre Cœur, but it moves fast. There is no fee to enter the sacre Cœur, but if you want to visit the dome then it costs 5€. These tickets cannot be reserved in advance. This is the highest point in Paris, after the Eiffel Tower!
-
-This is a tourist hotspot, so definitely watch out for your bags and pockets because pickpockets do exist in this area. If you're walking up through the garden then be aware of the 'bracelet' people. They _will_ try and grab your wrist - you need to be very firm with them that you're not interested. You can read more common Paris scams [here](/articles/guide/common-scams/).
-
-While the sacre Cœur is a touristy area, it's still a great place to be! I used to live close to here, and in summer I'd come and sit in the park with friends and something to drink. It's one of my favourite places to watch the sun set from. You get a great view of Paris from here (I like seeing how obnoxiously big centre Pompidou is). There are often street performers and I love love love street performers.
+You can learn more about the history of the Sacre Cœur [here](/articles/guide/sacre-coeur/) and some of the recent controversies. 
 
 <!-- ### Arènes de Montmartre
 
