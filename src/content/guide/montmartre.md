@@ -116,9 +116,15 @@ locations: [
 mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 ---
 
-This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. This area feels different to the rest of Paris, and there's a reason for it.
+This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris, but it's not just tourists who spend their time here. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. 
+
+I really like this neighbourhood of Paris because of how different it feels to the rest of the city. It has the history, it had the culture and it has things to do. On top of all of that, it's beautiful! I love the cobbled stone streets and houses that make you feel like you're in a village, rather than in a big city.
+
+I used to live close to here, and would often come and sit on the stairs in front of the Sacre Cœur. From here, you get a great view of the city, and there are often street performers! You'll get your usual buskers, but on occasion you'll get something _extra_ special, from fire performers to a guy who's got some incredible football skills. The arts are very much alive.
 
 Starting from the [Moulin Rouge](#moulin-rouge), you can use this article as a self guided tour! I'd recommend wearing comfy shoes because we're going to be walking on cobbles stones and stairs. In total the route is ~3.5km (2.2 miles) which takes roughly 1h30 depending on your walking speed and how long you stop at each destination for.
+
+If you are wanting a more personalised tour, you can book a tour with me.
 
 <a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
       Book a tour</a>
@@ -283,7 +289,7 @@ This is accessible via _25 Rue Chappe_, which is on the stairs. It's only open f
 
 ### Food and drinks
 
-No day in Paris is complete without food! Here are some of my favourite restaurants in the area (and I'm sure there's many more!)
+No day in Paris is complete without food! Here are some of my favourite restaurants in the area (and I'm sure there's many more!).
 
 - Le bon, la butte (french)
 - Breizh café Abbesses (French)
