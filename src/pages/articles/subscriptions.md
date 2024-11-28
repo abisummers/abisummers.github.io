@@ -49,8 +49,9 @@ These are the exhibitions that I've been to and what their full price ticket cos
 | Petit Palais          | Théodore Rousseau  |     12€      | 26/06/2024 |
 | Musée d'Art Moderne\* |  Présences arabes  |     12€      | 24/07/2024 |
 | Musée d'Art Moderne   |  Présences arabes  |     12€      | 06/08/2024 |
+| Musée Carnavalet      |  Paris 1793-1794   |     13€      | 27/11/2024 |
 
-Total saved so far: **64€** so I've now made my money back (and there's still more to see!).
+Total saved so far: **77€** so I've now made my money back (and there's still more to see!).
 
 I wrote a blog about both [Jean Hélion at the MaM](/articles/museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](/articles/museums/petit-palais-theodore-rousseau/).
 
