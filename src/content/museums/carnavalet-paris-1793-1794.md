@@ -7,6 +7,8 @@ endDate: 2025-02-16
 dateVisited: 2024-11-28
 ticketCost: 0
 country: FR
+title: Paris 1793-1794 Une année révolutionnaire
+image: /src/content/museums/images/paris-1793-1794.jpeg
 ---
 
 ### Paris 1793-1794: Une année révolutionnaire
