@@ -116,7 +116,7 @@ locations: [
 mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 ---
 
-This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris, but it's not just tourists who spend their time here. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring. 
+This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris, but it's not just tourists who spend their time here. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring.
 
 I really like this neighbourhood of Paris because of how different it feels to the rest of the city. It has the history, it had the culture and it has things to do. On top of all of that, it's beautiful! I love the cobbled stone streets and houses that make you feel like you're in a village, rather than in a big city.
 
@@ -271,9 +271,9 @@ The final stop on the self guided tour! Take a moment to appreciate both the vie
 
 Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It's located at the top of Butte Montmartre (butte here meaning that it's an isolated hill with steep sides and a relatively flat top). It's one of the more notable landmarks in Paris because of it's height and because of the white church.
 
-The contstruction of the Sacre Cœur took longer than expected because of the mining that happened in the area. They had to dig wells to make subterranean pillars to support the church. The construction started in 1875 but it was only completed in 1914. 
+The contstruction of the Sacre Cœur took longer than expected because of the mining that happened in the area. They had to dig wells to make subterranean pillars to support the church. The construction started in 1875 but it was only completed in 1914.
 
-You can learn more about the history of the Sacre Cœur [here](/articles/guide/sacre-coeur/) and some of the recent controversies. 
+You can learn more about the history of the Sacre Cœur [here](/articles/guide/sacre-coeur/) and some of the recent controversies.
 
 <!-- ### Arènes de Montmartre
 

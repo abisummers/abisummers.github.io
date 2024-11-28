@@ -11,7 +11,6 @@ title: Théodore Rousseau at the Petit Palais
 image: /src/content/museums/images/theodore-rousseau-chestnut.jpeg
 ---
 
-
 This was my first time at the Petit Palais which is wild after over seven years in the city. There are just so many places to visit and not enough time.
 
 This exhibition is devoted to Théodore Rousseau (1812 – 1867), a french painter who's primary focus was on nature. He was an influential artist at the time, but was also behind some big changes environmentally (in a good way!).

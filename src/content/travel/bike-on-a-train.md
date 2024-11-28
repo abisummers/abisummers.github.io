@@ -9,7 +9,8 @@ image: /src/content/travel/images/TGV-bike-storage.jpeg
 I spend a lot of time on trains, it's something I really enjoy. I also love travelling by bike, and sometimes I take my bike on a train. Here's my guide on how to do it without putting it in a bag.
 
 This article is going to focus on the two main types of trains in France - the TERs (transport express régional) and the TGVs (train à grande vitesse).
-<!-- 
+
+<!--
 Some good to know French terms:
 
 - vélo: bike

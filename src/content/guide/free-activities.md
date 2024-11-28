@@ -4,7 +4,6 @@ description: Some of my favourite free activities in Paris
 publishedDate: 2024-09-19
 themes: ["activity"]
 image: /src/content/guide/images/buttes-chaumont.jpeg
-
 ---
 
 There's this idea that Paris is an expensive city, and in ways that is true. Accommodation is one of the big expenses that's hard to avoid, and there are certainly a lot of ways to spend money while here - eating out, tickets to museums, transport etc. However there are a whole bunch of things that are free that I think can still add a lot to any trip here.
@@ -97,5 +96,5 @@ There are events throughout the city, with different themes. Some events are mor
 If you're into books, Shakespeare and Co host events a few times a month with different authors. I've been to two different events there and really enjoyed both. When the weather is good, they host events outside, otherwise it's either on the lower floor of the book store or upstairs. The book shop is also cool to visit, which is an [English book store](http://abisummers.com/articles/book-stores/).
 
 <!-- #### Comedy nights -->
-<!-- 
+<!--
 There are a few different comedy nights that are held frequently in Paris that are advertised as _free_. However, they don't fit my definition because usually you have to buy a drink and then there's the hat at the end to leave a tip in. -->

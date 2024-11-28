@@ -11,7 +11,6 @@ title: Jean Hélion at the Musée d’Art Moderne
 image: /src/content/museums/images/jean-helion.jpeg
 ---
 
-
 ![jean hélion painting](./images/jean-helion.jpeg)
 
 This exhibition contains almost 150 pieces of art ordered chronologically by Jean Hélion - a french painter and author. Full price tickets to the exhibition costs 15€ but because I have the _Carte Paris Musées_ entry is free. I've been tracking how much I've saved with the card [here](http://abisummers.com/articles/subscriptions/) along with other subscriptions I have.

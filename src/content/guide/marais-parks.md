@@ -6,7 +6,6 @@ description: My guide to some of the best parks in le Marais
 themes: ["activity"]
 publishedDate: 2024-05-22
 image: /src/content/guide/images/square-georges-cain.jpg
-
 ---
 
 Le Marais has a lot of history and is an interesting area to visit - historically it hasn't always been a desirable place to live in. Now there are a lot of small independent stores (I saw a place that makes glasses which all looks super cool) with art galleries, museums and hidden parks. These parks are the ideal place to sit on a bench, watch the world go by and to take a pause. At the time of writing this, May 2024, spring in Paris is here and I love taking my journal to a park to sit with my own thought.

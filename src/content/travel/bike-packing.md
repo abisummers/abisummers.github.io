@@ -64,12 +64,12 @@ You're going to know your bike better than anyone, so your list might be differe
 Entertainment is an important part of a trip. Some days will have more downtime than others. Sometimes it's going to rain _all_ evening and there's nowhere sheltered to sit apart from your tent.
 
 Some things that I like to bring:
+
 - a book
-- a journal 
+- a journal
 - a deck of cards, or some other small games: I often will travel with _phase 10_, _flux_ and _hive_.
 
 I often see people with small speakers either for while cycling or for chilling at the campsite. I don't yet have one, but it's something I'm considering!
-
 
 ### Rain
 
