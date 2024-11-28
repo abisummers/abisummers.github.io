@@ -11,8 +11,6 @@ title: Paris 1793-1794 Une année révolutionnaire
 image: /src/content/museums/images/paris-1793-1794.jpeg
 ---
 
-### Paris 1793-1794: Une année révolutionnaire
-
 I recently went to see the exhibition _Paris 1793-1794: Une année révolutionnaire_ at musée Carnavalet which focused on Paris in 1793-1794. This is one of my favourite museums in Paris and I always enjoy the exhibitions here. The permanent collection had loads of interesting things related to the history of Paris and it's free to enter!
 
 I spent an hour and a half going through this exhibition. There's a lot of information about this period with all of the text translated into English (which isn't always the case for museums in Paris). Full price tickets cost 13€, but I have a subscription to the Paris museums so it was free for me.

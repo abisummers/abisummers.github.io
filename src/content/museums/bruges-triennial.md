@@ -7,9 +7,10 @@ endDate: 2024-09-01
 dateVisited: 2024-06-11
 ticketCost: 0
 country: BE
+title: Bruges Triennial
+image: /src/content/museums/images/triennial-raamland.jpeg
 ---
 
-### Bruges Triennial
 
 Every three years the Bruges Triennial brings contemporary art and architecture to the historic city centre of Bruges. I’ve known about this for a few years but my trips to Bruges never aligned with the event. In each edition, artists and architects submit new temporary installations for various locations across the city.
 

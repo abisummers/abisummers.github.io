@@ -7,9 +7,10 @@ endDate: 2024-08-18
 dateVisited: 2024-06-23
 ticketCost: 0
 country: FR
+title: Jean Hélion at the Musée d’Art Moderne
+image: /src/content/museums/images/jean-helion.jpeg
 ---
 
-### Jean Hélion at the Musée d’Art Moderne
 
 ![jean hélion painting](./images/jean-helion.jpeg)
 

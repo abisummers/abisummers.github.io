@@ -7,9 +7,10 @@ endDate: 2024-07-07
 dateVisited: 2024-06-26
 ticketCost: 0
 country: FR
+title: Théodore Rousseau at the Petit Palais
+image: /src/content/museums/images/theodore-rousseau-chestnut.jpeg
 ---
 
-### Théodore Rousseau at the Petit Palais
 
 This was my first time at the Petit Palais which is wild after over seven years in the city. There are just so many places to visit and not enough time.
 
@@ -17,7 +18,7 @@ This exhibition is devoted to Théodore Rousseau (1812 – 1867), a french paint
 
 > His love of nature soon turned into a battle, and for this reason, he can be considered a true proto-ecologist: along with other artists and writers, Rousseau took a new look at the forest of Fontainebleau, which led to the protection of part of it under the name of the famous "artistic reserves" (1853), a first in a world in the throes of industrialisation.
 
-Tickets to this exhibition are 12€, but it was free for me because it's including under my _Carte Paris Musées_. I've been tracking how much I've saved with the card [here](http://abisummers.com/articles/subscriptions/). Entry into the permanent collection is free.
+Tickets to this exhibition are 12€, but it was free for me because it's including under my _Carte Paris Musées_. I've been tracking how much I've saved with the card [here](/articles/subscriptions/). Entry into the permanent collection is free.
 
 ### The exhibition
 
