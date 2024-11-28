@@ -46,7 +46,9 @@ const { Content } = await entry.render();
   ogImage={ogImage}
 >
   <h2>{entry.data.title}</h2>
-  <a href="/articles/alphabet-ile-de-france/">← back to all articles</a>
+  <a href="/articles/alphabet-ile-de-france/" class="back"
+    >← back to all articles</a
+  >
   <p>
     date visited:
     <time datetime={entry.data.date.toISOString()}>

@@ -27,6 +27,10 @@ export function algolia({ appId, apiKey, indexName }) {
         selector: "a",
         format: "inline",
       },
+      {
+        selector: "a.back",
+        format: "skip",
+      },
       ...["h2", "h3", "h4", "h5", "h6"].map((selector) => ({
         selector,
         format: "paragraph",

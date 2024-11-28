@@ -3,6 +3,9 @@ import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import { algolia } from "./plugins/index-to-algolia";
 
+// set to false if you want faster local builds
+const optimiseImages = true;
+
 // https://astro.build/config
 export default defineConfig({
   trailingSlash: "always",
@@ -29,4 +32,11 @@ export default defineConfig({
         indexName: "abisummers.com",
       }),
   ],
+  ...(optimiseImages === false
+    ? {
+        image: {
+          service: passthroughImageService(),
+        },
+      }
+    : {}),
 });
