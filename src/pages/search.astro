@@ -87,7 +87,18 @@ import Article from "../layouts/article.astro";
                       >${components.Highlight({ attribute: "title", hit })}</a
                     >
                   </h3>
-                  <p>${components.Snippet({ attribute: "content", hit })}</p>
+                  <p>
+                    ${components.Snippet({
+                      attribute: "content",
+                      hit,
+                      highlightedTagName({ children }) {
+                        return html`<a
+                          href="/${hit.pathname}#:~:text=${children}"
+                          ><mark>${children}</mark></a
+                        >`;
+                      },
+                    })}
+                  </p>
                   <a class="cta" href="/${hit.pathname}">read more </a>
                 </div>
               </article>
