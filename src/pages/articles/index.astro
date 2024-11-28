@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import Main from "../../layouts/article.astro";
-// import latinize from 'latinize'
 
 const alphabet = (await getCollection("alphabet-ile-de-france")).map(
   (article) => ({
@@ -16,7 +15,6 @@ const museums = (await getCollection("museums")).map((m) => {
     title: `${m.data.museumName}: ${m.data.exhibitionName}`,
     intro: m.data.intro,
     url: `./museums/${m.data.museumName.replace(/\s+/g, "-").toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}/`,
-    // url: latinize(`./museums/${m.data.museumName.replace(/\s+/g, "-").toLowerCase()}-${m.data.exhibitionName.replace(/\s+/g, "-").toLowerCase()}`),
   };
 });
 
@@ -50,7 +48,7 @@ const articles = [
 ].sort((a, b) => a.title.localeCompare(b.title));
 ---
 
-<Main>
+<Main title="Articles">
   <h2>Articles</h2>
   <p>
     Here you can find all of my articles! These articles cover some of my

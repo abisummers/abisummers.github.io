@@ -1,10 +1,11 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
+import { algolia } from "./plugins/index-to-algolia";
 
 // https://astro.build/config
 export default defineConfig({
-  trailingSlash: 'always',
+  trailingSlash: "always",
   site: "https://abisummers.com",
   i18n: {
     defaultLocale: "en",
@@ -21,5 +22,11 @@ export default defineConfig({
       },
     }),
     mdx(),
+    process.env.ALGOLIA_WRITE_KEY &&
+      algolia({
+        appId: "1AWHE68HXJ",
+        apiKey: process.env.ALGOLIA_WRITE_KEY,
+        indexName: "abisummers.com",
+      }),
   ],
 });

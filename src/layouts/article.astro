@@ -1,5 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
+import SearchButton from "../components/search-button.astro";
 
 const currentPathWithoutLocale = Astro.url.pathname.replace(
   new RegExp("/" + Astro.currentLocale + "(/|$)"),
@@ -116,30 +117,6 @@ const languages = [
         height: auto;
       }
 
-      @media screen and (max-width: 800px) {
-        h1.aside {
-          font-size: 1.25em;
-        }
-      }
-
-      @media screen and (max-width: 500px) {
-        h1.aside {
-          display: none;
-        }
-
-        h1.not-aside {
-          display: initial;
-        }
-
-        nav {
-          width: 10vw;
-        }
-
-        .languages {
-          margin: 0.25em;
-        }
-      }
-
       .large {
         font-size: 2em;
       }
@@ -185,6 +162,30 @@ const languages = [
       .cta:after {
         content: " →";
       }
+
+      @media screen and (max-width: 800px) {
+        h1.aside {
+          font-size: 1.25em;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        h1.aside {
+          display: none;
+        }
+
+        h1.not-aside {
+          display: initial;
+        }
+
+        nav {
+          width: 10vw;
+        }
+
+        .languages {
+          margin: 0.25em;
+        }
+      }
     </style>
   </head>
 
@@ -211,6 +212,7 @@ const languages = [
           </ul>
         )
       }
+      {Astro.url.pathname !== "/search/" && <SearchButton />}
     </nav>
     <main>
       <h1 class="font-riot not-aside">
