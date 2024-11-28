@@ -3,7 +3,7 @@ title: Saint-Paul-Trois-Châteaux
 intro: Exploring the area around Saint-Paul-Trois-Châteaux
 publishedDate: 2024-10-01
 tags: ["blog"]
-image: /src/content/travel/images/saint-paul-trois-chateaux.jpe
+image: /src/content/travel/images/saint-paul-trois-chateaux.jpeg
 ---
 
 > Holiday from 26th September - 4th October 2024
