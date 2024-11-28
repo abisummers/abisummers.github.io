@@ -19,7 +19,7 @@ import Article from "../layouts/article.astro";
       font: inherit;
       font-size: inherit;
       border: 0.1em solid currentColor;
-      background: white;
+      background: var(--background);
     }
 
     .ais-SearchBox-form {
@@ -75,6 +75,7 @@ import Article from "../layouts/article.astro";
       .addWidgets([
         searchBox({
           container: "#searchbox",
+          autofocus: true,
         }),
         hits({
           container: "#hits",
