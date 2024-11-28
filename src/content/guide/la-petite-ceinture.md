@@ -4,6 +4,8 @@ description: Places to visit along an old train line that runs through the centr
 publishedDate: 2024-11-14
 themes: ["kid friendly", "walk", "activity"]
 mapConfig: { latitude: 48.86, longitude: 2.35, zoom: 10.6 }
+image: /src/content/guide/images/pc-poincon.jpeg
+
 locations:
   [
     {

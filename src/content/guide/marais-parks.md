@@ -5,6 +5,8 @@ title: Parks in Le Marais
 description: My guide to some of the best parks in le Marais
 themes: ["activity"]
 publishedDate: 2024-05-22
+image: /src/content/guide/images/square-georges-cain.jpg
+
 ---
 
 ## Le Marais

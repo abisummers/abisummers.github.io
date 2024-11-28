@@ -22,7 +22,7 @@ const { entry } = Astro.props;
 
 let ogImage: string | undefined;
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/content/images/*.{jpeg,jpg}",
+  "/src/content/guide/images/*.{jpeg,jpg}",
 );
 if (images[entry.data.image]) {
   const { default: image } = await images[entry.data.image]();

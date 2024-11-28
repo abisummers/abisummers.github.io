@@ -3,6 +3,8 @@ title: Eiffel Tower
 description: My tips and tricks for having the best experience - with or without a guide.
 publishedDate: 2024-09-23
 themes: ["tourist-attraction"]
+image: /src/content/guide/images/eiffel-tower.jpeg
+
 ---
 
 The Eiffel Tower, is one of the most visited attractions in the world! Here you'll find my tips and tricks for having the best experience - with or without a guide.

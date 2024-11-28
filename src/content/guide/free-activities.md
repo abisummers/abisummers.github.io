@@ -3,6 +3,8 @@ title: Free activities in Paris
 description: Some of my favourite free activities in Paris
 publishedDate: 2024-09-19
 themes: ["activity"]
+image: /src/content/guide/images/buttes-chaumont.jpeg
+
 ---
 
 There's this idea that Paris is an expensive city, and in ways that is true. Accommodation is one of the big expenses that's hard to avoid, and there are certainly a lot of ways to spend money while here - eating out, tickets to museums, transport etc. However there are a whole bunch of things that are free that I think can still add a lot to any trip here.
