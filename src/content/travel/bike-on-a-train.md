@@ -3,6 +3,7 @@ title: Travelling with your bike on a train
 intro: A short guide on taking your bike on a train in France on both TGVs and TERs
 tags: ["slow-travel"]
 publishedDate: 2024-10-06
+image: /src/content/travel/images/TGV-bike-storage.jpeg
 ---
 
 I spend a lot of time on trains, it's something I really enjoy. I also love travelling by bike, and sometimes I take my bike on a train. Here's my guide on how to do it without putting it in a bag.

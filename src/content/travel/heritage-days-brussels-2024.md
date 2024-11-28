@@ -3,6 +3,8 @@ title: Heritage days - Brussels 2024
 intro: An overview of everything I saw while in Belgium during the 2024 heritage days
 tags: ["heritage day", "belgium", "blog"]
 publishedDate: 2024-09-17
+image: /src/content/travel/images/heritage-day-architect-house.jpeg
+
 ---
 
 This year, I happened to be in Brussels at the same time as heritage days. In Belgium heritage days is split over three weekends - one weekend for the Dutch speaking part, one weekend for Brussels and one weekend for the French speaking part. I love heritage days, I think it's a really cool opportunity to visit places that otherwise are not open to the public, or are otherwise paid. My mother-in-law organised the tickets since she lives in Brussels. We went to visit four locations in total.
