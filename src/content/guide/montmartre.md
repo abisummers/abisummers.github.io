@@ -56,6 +56,12 @@ locations: [
       latitude: 48.88603,
     },
     {
+      title: "Musée de Montmartre",
+      location: "",
+      longitude: 2.34069,
+      latitude: 48.8876,
+    },
+    {
       title: "Cimetière de Montmartre",
       location: "",
       longitude: 2.3297,
@@ -109,6 +115,27 @@ locations: [
       location: "Turkish restaurant",
       longitude: 2.34751,
       latitude: 48.88629,
+      subtle: true,
+    },
+    {
+      title: " Carajas",
+      location: "Brazilian restaurant",
+      longitude: 2.34105,
+      latitude: 48.8847,
+      subtle: true,
+    },
+    {
+      title: " Patoche - Microbrasserie",
+      location: "beer",
+      longitude: 2.3404,
+      latitude: 48.88500,
+      subtle: true,
+    },
+    {
+      title: " BBP (Brussels Beer Project) Pigalle",
+      location: "beer",
+      longitude: 2.3320,
+      latitude: 48.8836,
       subtle: true,
     },
   ]
