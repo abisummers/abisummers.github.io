@@ -39,7 +39,7 @@ It's been another month of giving tours (which I love) including a private tour 
 <a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
       Book a tour</a>
 
-I've also released a [self guided tour of Montmartre](/articles/guide/montmartre/)! I had a lot of fun putting this together. I have a few more tours that I've started putting together, more on that in December or January!
+I've also released a [self guided tour of Montmartre](/articles/guide/montmartre/)! I had a lot of fun putting this together, thinking about the best route between each location and the type of things people would like to see. There's a slightly different version (with more details!) for tours that I organise, so I'm excited to give that for the first time! I also have a few more tours that I've started putting together, more on that in December or January!
 
 ### All things blog
 
