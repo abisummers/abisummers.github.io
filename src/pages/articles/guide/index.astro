@@ -6,6 +6,41 @@ const guideCollection = await getCollection('guide');
 ---
 
 <Main showLanguageSwitcher={false} title="Guided through Paris">
+  <style>
+    .cards {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .cards li {
+      border: 0.1em solid currentColor;
+      text-align: center;
+    }
+
+    .cards li.unknown {
+      color: gray;
+    }
+
+    .cards li * {
+      padding: 0.5em;
+      display: block;
+    }
+
+    .cards li a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .cards li a:hover {
+      background-color: var(--contrast);
+    }
+
+    .cards li .title {
+      text-decoration: underline;
+    }
+  </style>
   <h2>Guided through Paris</h2>
   <p>
     Hi, I'm Abi and I'm a tour guide who's been living in Paris since 2016! I
@@ -41,6 +76,7 @@ const guideCollection = await getCollection('guide');
       special!
     </p>
 
+    <ul class="cards">
     {
       guideCollection
         .filter((article) => article.data.themes.includes('tour'))
@@ -48,17 +84,18 @@ const guideCollection = await getCollection('guide');
           if (article) {
             return (
               <li value={article.data.title}>
-                <!-- prettier-ignore -->
-                <a href={`/articles/guide/${article.slug}/`}
-                  >{article.data.title}</a
-                >: {article.data.description}
+                <a href={`/articles/guide/${article.slug}/`}>
+                  <h3>{article.data.title}</h3>
+                  <p>{article.data.description}</p>
+                </a>
               </li>
             );
           }
         })
     }
+    </ul>
 
-    <p><a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
+    <p style="text-align: center"><a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
       Book a tour</a></p>
   </div>
 
