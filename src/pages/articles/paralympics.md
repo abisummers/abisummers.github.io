@@ -107,7 +107,7 @@ After the qualifications, the finals started (over an hour later than the schedu
 
 The games were intense! The speed at which they move is crazy, there were moments were multiple points were scored without the time remaining going down - meaning that they were getting a point in less than a second! Their reaction times are so impressive.
 
-We didn't stay for the medal ceremony because by this time I was feeling awful. I felt rude not staying, because the athletes worked incredible hard for this moment, so I feel like it should be celebrated. A lot of the crowd had already left. I'm not sure if other people have had this experience, but I've noticed that a lot of French people will leave if there's no one French left to play or receive a medal. This seems wild to me, because I want to see _everyone_ play, not just the athletes representing the country I'm from.
+We didn't stay for the medal ceremony because by this time I was feeling awful. I felt rude not staying, because the athletes worked incredibly hard for this moment, so I feel like it should be celebrated. A lot of the crowd had already left. I'm not sure if other people have had this experience, but I've noticed that a lot of French people will leave if there's no one French left to play or receive a medal. This seems wild to me, because I want to see _everyone_ play, not just the athletes representing the country I'm from.
 
 I'm excited to visit the Grand Palais when it's open to the public again because it's such a beautiful building. It's so cool that there was an olympic sport here!
 
