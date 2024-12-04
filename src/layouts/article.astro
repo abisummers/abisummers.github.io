@@ -72,6 +72,7 @@ const languages = [
         margin: 0;
         font-family: 'Inconsolata', monospace;
         background-color: var(--background);
+        color: var(--text);
         display: flex;
         min-height: 100vh;
       }
@@ -167,6 +168,11 @@ const languages = [
 
       .cta:after {
         content: ' →';
+      }
+
+      hr {
+        border: none;
+        border-top: 0.1em solid var(--text);
       }
 
       @media screen and (max-width: 800px) {
