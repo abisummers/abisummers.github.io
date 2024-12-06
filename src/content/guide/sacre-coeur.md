@@ -3,9 +3,12 @@ title: Sacre Coœur
 description: Get to know the Sacre Cœur!
 publishedDate: 2024-11-25
 themes: ["tourist-attraction"]
+image: /src/content/guide/images/montmartre-sacre-coeur-at-sunset.jpeg
 ---
 
 Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It is one of the most visited locations in Paris, it appears on every top 10 list of places to visit along with the [Eiffel Tower](/articles/guide/eiffel-tower/), Louvre and Notre Dame.
+
+![the sacre coeur at sunset, it's got a golden glow. People are sat on the grass banks in front of the church](./images/montmartre-sacre-coeur-at-sunset.jpeg)
 
 It's located at the top of the Butte Montmartre - a butte is an isolated hill with steep sides and a relatively flat top. You've probably already seen, It's a very notable landmark over Paris because it's significantly higher than the surroundings.
 
@@ -37,6 +40,8 @@ In 2021 leftist (socialists, communists and ecologists) members of the French pa
 
 Visiting the Sacre Cœur is free. There's almost always a line to enter, but it does move quite fast. This is a place of worship, so appropriate clothing should be worn. Masses are held multiple times a day.
 
+![the sacre coeur dome is in the centre. At the right side there is a statue of Louis IX on a horse](./images/sacre-coeur-close-up.jpeg)
+
 Inside the church, take your time to really experience the building. When looking at the ceiling, it looks like there is a painting, but in fact it's a mosaic! It's one of the largest in the world!
 
 There's also the option to visit the dome which costs 5€. This will allow you to see over Paris from the second highest point, after the Eiffel Tower! There's only one way to the top, that's to climb the 280 stairs. The dome is open daily (with the exceptions of maintenance or bad weather), but it closes earlier than the church so it's worth looking at the hours in advance if this is on your todo list.
@@ -46,6 +51,10 @@ There's also the option to visit the dome which costs 5€. This will allow you 
 As with all touristy areas, there come with a certain risk of pickpockets and scams, so pay extra attention to your stuff. If you're walking up through the garden then be aware of the 'bracelet' people. They _will_ try and grab your wrist - you need to be very firm with them that you're not interested. You can read more common Paris scams [here](/articles/guide/common-scams/).
 
 Even if you chose to not go up the dome of the Sacre Cœur, I'd recommend sitting on the stairs. You get a great view of Paris from here (I like seeing how obnoxiously big centre Pompidou is). There are often street performers and I love love love street performers!
+
+At night, there are fewer people and the view look different!
+
+![looking out across Paris from the bottom of the Sacre Cœur. The sun has set so the sky is dark. Most buildings have lights on](./images/view-from-sacre-coeur-at-night.jpeg)
 
 ### Book a tour
 
