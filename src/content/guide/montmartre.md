@@ -5,6 +5,7 @@ title: Exploring Montmartre
 description: What makes Montmartre notable? A brief overview of the history and a self guided walking tour
 themes: ["tour"]
 publishedDate: 2024-11-22
+image: /src/content/guide/images/montmartre-side-street.jpeg
 locations: [
     { title: "Sacre Cœur", location: "", longitude: 2.3431, latitude: 48.8861 },
     {
@@ -145,6 +146,8 @@ mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
 
 This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris, but it's not just tourists who spend their time here. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring.
 
+![a small street going up a hill with a view of the sacre cœur in the background](./images/montmartre-side-street.jpeg)
+
 I really like this neighbourhood of Paris because of how different it feels to the rest of the city. It has the history, it had the culture and it has things to do. On top of all of that, it's beautiful! I love the cobbled stone streets and houses that make you feel like you're in a village, rather than in a big city.
 
 I used to live close to here, and would often come and sit on the stairs in front of the Sacre Cœur. From here, you get a great view of the city, and there are often street performers! You'll get your usual buskers, but on occasion you'll get something _extra_ special, from fire performers to a guy who's got some incredible football skills. The arts are very much alive.
@@ -183,6 +186,8 @@ The other theory is based on _mons Martis_, meaning mount of Mars because in the
 In the 12th century, the _Abbaye de Montmartre_ was founded by King Louis VI. The abbey was suppressed in 1790, sold in 1794 and demolished during the French Revolution, but its church, Saint-Pierre de Montmartre, survived as the parish church of Montmartre. The last abbess, Marie-Louise de Laval-Montmorency, was guillotined during the Reign of Terror. _Places des Abbesses_ is named after the abbey that was once here.
 
 By the 15th century, there was a village on the north and northeast slopes that was surrounded by vineyards, gardens and orchards. The first mills were built in 1529 which were responsible for grinding wheat, barley and rye. Now, there is only one vineyard in Montmartre, and each year it's celebrated in the _Vendanges Montmartre_, the harvest festival.
+
+![a mill above the restaurant of 'le moulin de la galette'](./images/montmartre-le-moulin-de-la-galette.jpeg)
 
 This area was used until 1860 as an area for mining gypsum which has been done since the Gallo-Roman period. The gypsum was used to make plaster which is where _plaster of Paris_ gets it's name from. Both open air and underground mines were used. In the more modern times, the mining was done with explosives leaving the area with tunnels underground. Because of the tunnels underground, the area wasn't easy to build on - it delayed the construction of the sacre Cœur. In 1860 Montmartre officially joined Paris.
 
@@ -246,6 +251,8 @@ The first vineyards were planted in this area in the 12th century as part of the
 
 in 1932, a vineyard was replanted to prevent a real estate project. The following year, 1933, _Vendanges Montmartre_, the harvest festival was celebrated and it's still going strong!
 
+![looking over the vineyard](./images/montmartre-looking-over-vineyard.jpeg)
+
 The festival which happens every October isn't just about the wine, it's also a multi day cultural event. There are different events organised throughout the 5 day period including visits to the vineyard, music and a different shows.
 
 A short walk from here will take us to Place du Tertre. You'll pass the street where the musée de Montmartre is which is an optional stop on the self guided tour.
@@ -286,6 +293,8 @@ This is a quick stop on the self guided tour, and a photo opportunity!
 
 Parc de la Turlure otherwise known as _Parc Marcel Bleustein Blanchet dit Parc de la Turlure_, is is a park just behind the sacre Cœur. You'd think everyone would come here to enjoy the views of the Sacre cœur, but surprisingly few people know about it!
 
+![a view of the sacre cœur from this park](./images/montmartre-parc-de-la-turlure.jpeg)
+
 Until 2004 it was just called Parc de la Turlure, with the name being in reference to the old Turlure mill that was previously here. In 2004 the name was changed to Parc Marcel Bleustein Blanchet dit Parc de la Turlure to pays tribute to Marcel Bleustein-Blanchet, a french resistance fighter and founder of a advertising group.
 
 And now, we're heading towards the end of the self guided tour.
@@ -295,6 +304,8 @@ And now, we're heading towards the end of the self guided tour.
 ### Sacre Cœur
 
 The final stop on the self guided tour! Take a moment to appreciate both the view of Paris _and_ the Sacre Cœur.
+
+![the sacre cœur at sunset, it has a orange glow. There are people sitting on the grass bank infront of it](./images/montmartre-sacre-coeur-at-sunset.jpeg)
 
 Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It's located at the top of Butte Montmartre (butte here meaning that it's an isolated hill with steep sides and a relatively flat top). It's one of the more notable landmarks in Paris because of it's height and because of the white church.
 
