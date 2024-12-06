@@ -1,8 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
-import Main from '../../../layouts/article.astro';
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
 
-const guideCollection = await getCollection('guide');
+const guideCollection = (await getCollection("guide")).filter(
+  (entry) => !entry.data.draft,
+);
 ---
 
 <Main showLanguageSwitcher={false} title="Guided through Paris">
@@ -81,7 +83,7 @@ const guideCollection = await getCollection('guide');
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('tour'))
+          .filter((article) => article.data.themes.includes("tour"))
           .map((article) => {
             if (article) {
               return (
@@ -119,7 +121,7 @@ const guideCollection = await getCollection('guide');
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('how-to'))
+          .filter((article) => article.data.themes.includes("how-to"))
           .map((article) => {
             if (article) {
               return (
@@ -150,7 +152,7 @@ const guideCollection = await getCollection('guide');
       {
         guideCollection
           .filter((article) =>
-            article.data.themes.includes('tourist-attraction')
+            article.data.themes.includes("tourist-attraction"),
           )
           .map((article) => {
             if (article) {
@@ -174,7 +176,7 @@ const guideCollection = await getCollection('guide');
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('activity'))
+          .filter((article) => article.data.themes.includes("activity"))
           .map((article) => {
             if (article) {
               return (
@@ -202,7 +204,7 @@ const guideCollection = await getCollection('guide');
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('food'))
+          .filter((article) => article.data.themes.includes("food"))
           .map((article) => {
             if (article) {
               return (
