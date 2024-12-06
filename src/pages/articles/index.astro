@@ -37,11 +37,13 @@ const guidedThroughParis = (await getCollection("guide")).map((article) => {
 const unsorted = await Astro.glob("./*.{md,mdx,astro}");
 
 const articles = [
-  ...unsorted.map((article) => ({
-    title: article.frontmatter.title,
-    intro: article.frontmatter.intro,
-    url: article.url,
-  })),
+  ...unsorted
+    .filter((article) => article.frontmatter.title !== "Privacy Policy")
+    .map((article) => ({
+      title: article.frontmatter.title,
+      intro: article.frontmatter.intro,
+      url: article.url,
+    })),
   ...museums,
   ...travel,
   ...guidedThroughParis,
