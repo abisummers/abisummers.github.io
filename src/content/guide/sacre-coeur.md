@@ -5,7 +5,7 @@ publishedDate: 2024-11-25
 themes: ["tourist-attraction"]
 ---
 
-Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It is one of the most visited locations in Paris, it appears on every top 10 list of places to visit along with the [Eiffel Tower](http://localhost:4321/articles/guide/eiffel-tower/), Louvre and Notre Dame.
+Sacre Cœur or _sacred heart_ is a Catholic church dedicated to the sacred heart of Jesus. It is one of the most visited locations in Paris, it appears on every top 10 list of places to visit along with the [Eiffel Tower](/articles/guide/eiffel-tower/), Louvre and Notre Dame.
 
 It's located at the top of the Butte Montmartre - a butte is an isolated hill with steep sides and a relatively flat top. You've probably already seen, It's a very notable landmark over Paris because it's significantly higher than the surroundings.
 
