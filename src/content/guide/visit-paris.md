@@ -21,6 +21,9 @@ Some of the things I love about Paris that I would love to share with you:
 - Planning an itinerary based on what you want to see, how long you're in Paris for and the type of visit you would like - some people just want to see the main landmarks, others wants to explore the whole city. This is your trip to Paris, so it will be designed around your wishes!
 - Day trip organiser. There are so many places worth visiting that are a short train ride from Paris, including Versailles and Disneyland.
 
+<a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
+      Book a tour</a>
+
 Got something specific in mind? Get in contact and we can talk!
 
 ### Reasons why I think I'm a good tour guide
