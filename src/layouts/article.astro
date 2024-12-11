@@ -1,6 +1,7 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import SearchButton from '../components/search-button.astro';
+import BookButton from '../components/book-button.astro';
 
 const currentPathWithoutLocale = Astro.url.pathname.replace(
   new RegExp('/' + Astro.currentLocale + '(/|$)'),
@@ -225,6 +226,7 @@ const languages = [
         )
       }
       {Astro.url.pathname !== '/search/' && <SearchButton />}
+      <BookButton />
     </nav>
     <main>
       <h1 class="font-riot not-aside">
