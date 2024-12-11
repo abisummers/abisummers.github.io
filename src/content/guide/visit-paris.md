@@ -3,6 +3,7 @@ title: Visit Paris with me!
 description: The experiences I offer, from personalised guided tours to planning an itinerary based on your criteria
 publishedDate: 2024-08-18
 themes: ["tour"]
+tourId: "325299P7AT193B7193747"
 ---
 
 Hi, I'm Abi, a tour guide living in Paris! I love Paris, Île-de-France and France. I love getting to share this with people who are visiting. Here you can find more about the types of experiences I offer, and how to get in contact if you would like me to help make your trip a success!
@@ -21,7 +22,7 @@ Some of the things I love about Paris that I would love to share with you:
 - Planning an itinerary based on what you want to see, how long you're in Paris for and the type of visit you would like - some people just want to see the main landmarks, others wants to explore the whole city. This is your trip to Paris, so it will be designed around your wishes!
 - Day trip organiser. There are so many places worth visiting that are a short train ride from Paris, including Versailles and Disneyland.
 
-<a  class="cta" href="mailto:contact@abisummers.com?subject=privatised%20Paris%20tour!&body=Hi%2C%20I'm%20interested%20in%20booking%20a%20private%20tour%20with%20you!" >
+<a  class="cta" href="/book/visit-paris/" >
       Book a tour</a>
 
 Got something specific in mind? Get in contact and we can talk!

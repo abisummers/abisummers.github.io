@@ -157,7 +157,7 @@ Starting from the [Moulin Rouge](#moulin-rouge), you can use this article as a s
 
 If you are wanting a more personalised tour, you can book a tour with me.
 
-<a  class="cta" href="/book/?tour=3252JM36FY193B14309DC" >
+<a  class="cta" href="/book/montmartre/" >
       Book a tour</a>
 
 - [Brief history of Montmartre](#a-brief-history-of-montmartre)
