@@ -32,6 +32,19 @@ locations: [
       longitude: 2.3403,
       latitude: 48.8885,
     },
+    {
+      title: "Le Moulin de la Galette",
+      location: "",
+      longitude: 2.33724,
+      latitude: 48.88732,
+    },
+    {
+      title: "The Man Who Walked through Walls (Le Passe-muraille)",
+      location: "",
+      longitude: 2.33807,
+      latitude: 48.88765,
+    },
+
     # { This isn't accessible outside of events
     #   title: "Arènes de Montmartre",
     #   location: "",
@@ -112,31 +125,52 @@ locations: [
       subtle: true,
     },
     {
-      title: " L'Atelier Dürüm",
+      title: "L'Atelier Dürüm",
       location: "Turkish restaurant",
       longitude: 2.34751,
       latitude: 48.88629,
       subtle: true,
     },
     {
-      title: " Carajas",
+      title: "Carajas",
       location: "Brazilian restaurant",
       longitude: 2.34105,
       latitude: 48.8847,
       subtle: true,
     },
     {
-      title: " Patoche - Microbrasserie",
+      title: "Patoche - Microbrasserie",
       location: "beer",
       longitude: 2.3404,
       latitude: 48.88500,
       subtle: true,
     },
     {
-      title: " BBP (Brussels Beer Project) Pigalle",
+      title: "BBP (Brussels Beer Project) Pigalle",
       location: "beer",
       longitude: 2.3320,
       latitude: 48.8836,
+      subtle: true,
+    },
+    {
+      title: "Maison Aleph",
+      location: "patisserie",
+      longitude: 2.33513,
+      latitude: 48.8857,
+      subtle: true,
+    },
+    {
+      title: "Aux Merveilleux de Fred",
+      location: "patisserie",
+      longitude: 2.33296,
+      latitude: 48.8839,
+      subtle: true,
+    },
+    {
+      title: "Au levain d'antan",
+      location: "bakery",
+      longitude: 2.33907,
+      latitude: 48.8840,
       subtle: true,
     },
   ]
@@ -337,6 +371,9 @@ No day in Paris is complete without food! Here are some of my favourite restaura
 - Enishi (japanese)
 - Nakatsu (japanese)
 - L'Atelier Dürüm (turkish)
+- Au levain d'antan (bakery)
+- Maison Aleph (patisserie)
+- Aux Merveilleux de Fred (patisserie)
 
 I have a custom google map with pinned places all across Paris that you can access [here](https://www.google.com/maps/d/viewer?mid=117w2uwIFA2aieW8BoL4KOY-7JlBs3_g&ll=48.8585024429216%2C2.3323640499999954&z=13)
 
