@@ -36,6 +36,9 @@ Cloudflare is a traffic optimisation and distribution service provided by Cloudf
 
 Search and recommendations are hosted by Algolia. Algolia may collect IP through the network requests, as well as session information (clicks on search and recommendation results) through an anonymous token that gets refreshed on every session. See the [Algolia Privacy Policy](https://www.algolia.com/policies/privacy) for how they process the information.
 
+### Bookings
+
+Bookings are handled on this website and processed through Bookeo. Personal and payment information is handled (through [Stripe](https://stripe.com/gb/privacy)) on an as-needed basis. More info on the data processing in the [Bookeo Privacy Policy](https://www.bookeo.com/privacy/). Card information is not stored, only processed by Stripe.
 
 ### Changes To This Privacy Policy
 
