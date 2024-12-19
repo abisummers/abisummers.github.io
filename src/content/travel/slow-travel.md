@@ -35,7 +35,7 @@ Slow travel is something that I'm passionate about but I know that for a lot of 
 
 In March 2024 I started a project in Île-de-France, the region where I live in France. I wanted to visit 26 different places, all starting with different letters of the alphabet. I wanted to challenge myself to see more of the local area, and to find new places to visit. This region is rich with culture, art and history - it's not just Paris.
 
-You can read more about my project [here](http://abisummers.com/articles/alphabet-ile-de-france/).
+You can read more about my project [here](/articles/alphabet-ile-de-france/).
 
 ### Some sites for slow travel
 
