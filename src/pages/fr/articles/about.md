@@ -12,7 +12,7 @@ Salut, je m'appelle Abi ! Je vis à Paris depuis 2016 et j'ai passé beaucoup d
 
 Depuis que je vis à Paris, j'ai travaillé comme coordinateur de tournées, assistant pédagogique en développement web et développeuse (fullstack et backend). Au cours de cette période, j'ai pu entrer en contact avec de nombreuses personnes et développer mes compétences. L'un des thèmes récurrents est ma passion d'aider les autres à développer leurs compétences.
 
-Dans mon temps libre, j'aime voyager et explorer des nouveaux endroits avec un focus sur "Slow Travel". Depuis mars 2024, j'ai commencé un projet d'explorer Île-de-France par l'alphabet - tu peux trouver mes articles [ici](http://abisummers.com/articles/alphabet-ile-de-france) en anglais, mais peut-être en français dans l'avenir.
+Dans mon temps libre, j'aime voyager et explorer des nouveaux endroits avec un focus sur "Slow Travel". Depuis mars 2024, j'ai commencé un projet d'explorer Île-de-France par l'alphabet - tu peux trouver mes articles [ici](/articles/alphabet-ile-de-france/) en anglais, mais peut-être en français dans l'avenir.
 
 Pendant les weekends et vacances (si la météo le permet) j'aime faire le "bike packing", donc le voyager avec mon vélo et tente. J'aime explorer des petits endoits que je n'ai jamais entendu avant comme le "Vieux-Poitiers". Mon premiere experience avec le bike packing était un voyage de Poitiers vers Paris en 6 jours. J'aime le rythme plus lent, et le biking packing me pousse à faire des choses même lorsqu'elles sont difficiles. Et c'est sur que mon vélo chargé va démarrer une conversation (ai-je mentionné que j'aime communiquer avec les gens ?).
 
