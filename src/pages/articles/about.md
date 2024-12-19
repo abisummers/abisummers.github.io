@@ -14,7 +14,7 @@ Since living in Paris, I've worked as an au pair, a tour coordinator, a web deve
 
 More recently, I have been working as a tour guide! You can read more about that [here](/articles/guide/visit-paris/), including the tours that I do and how to get in contact if you're coming to Paris! I really love working as a tour guide, it overlaps with a lot of things I'm passionate about - learning, communication and story telling.
 
-In my spare time, I love to travel and explore new places with a focus on slow travel. In march of 2024 I started a project to explore Île-de-France, the region I live in, by the alphabet - you can find my blogs [here](http://abisummers.com/articles/alphabet-ile-de-france).
+In my spare time, I love to travel and explore new places with a focus on slow travel. In march of 2024 I started a project to explore Île-de-France, the region I live in, by the alphabet - you can find my blogs [here](/articles/alphabet-ile-de-france/).
 
 On weekends and holidays in warmer months I enjoy bike packing. I love getting to travel by bike, I get to see a lot of places that otherwise I would not have seen. I like the slower pace of bike travel, it pushes me to do things even when they're hard and it's definitely a conversation starter (did I mention that I like connecting with people?).
 
