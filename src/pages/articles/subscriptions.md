@@ -42,17 +42,18 @@ Since the 18th February 2024 I have had the solo card to the [Paris Museums](htt
 
 These are the exhibitions that I've been to and what their full price ticket costs:
 
-| museum                |     exhibition     | ticket price |    date    |
-| :-------------------- | :----------------: | :----------: | :--------: |
-| Musée Carnavalet      | La Régence à Paris |     13€      | 22/02/2024 |
-| Musée d'Art Moderne   |  Présences arabes  |     12€      | 08/05/2024 |
-| Musée d'Art Moderne   |    Jean Hélion     |     15€      | 23/06/2024 |
-| Petit Palais          | Théodore Rousseau  |     12€      | 26/06/2024 |
-| Musée d'Art Moderne\* |  Présences arabes  |     12€      | 24/07/2024 |
-| Musée d'Art Moderne   |  Présences arabes  |     12€      | 06/08/2024 |
-| Musée Carnavalet      |  Paris 1793-1794   |     13€      | 27/11/2024 |
+| museum                |            exhibition             | ticket price |    date    |
+| :-------------------- | :-------------------------------: | :----------: | :--------: |
+| Musée Carnavalet      |        La Régence à Paris         |     13€      | 22/02/2024 |
+| Musée d'Art Moderne   |         Présences arabes          |     12€      | 08/05/2024 |
+| Musée d'Art Moderne   |            Jean Hélion            |     15€      | 23/06/2024 |
+| Petit Palais          |         Théodore Rousseau         |     12€      | 26/06/2024 |
+| Musée d'Art Moderne\* |         Présences arabes          |     12€      | 24/07/2024 |
+| Musée d'Art Moderne   |         Présences arabes          |     12€      | 06/08/2024 |
+| Musée Carnavalet      |          Paris 1793-1794          |     13€      | 27/11/2024 |
+| Musée Bourdelle       | Rodin / Bourdelle - corps à corps |     10€      | 17/12/2024 |
 
-Total saved so far: **77€** so I've now made my money back (and there's still more to see!).
+Total saved so far: **87€** so I've now made my money back (and there's still more to see!).
 
 I wrote a blog about both [Jean Hélion at the MaM](/articles/museums/mam-jean-helion/) and [Théodore Rousseau at the Petit Palais](/articles/museums/petit-palais-theodore-rousseau/).
 
