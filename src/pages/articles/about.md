@@ -11,6 +11,8 @@ description: Hi, I'm Abi, welcome to my corner of the internet! I'm a tour guide
 
 Hi, I'm Abi! I've been living in Paris since 2016 and have spent a lot of time exploring the city, France and surrounding countries. I'm passionate about learning, communication, community and slow travel.
 
+![a woman with short brown hair, she is smiling. She is wearing a red scarf and holding a cup in her hand](./images/profile-picture.jpeg)
+
 Since living in Paris, I've worked as an au pair, a tour coordinator, a web development teaching assistant, a fullstack developer and a backend developer - I've done a lot of different things. Over this time I've been able to connect with many people and expand on my skill sets. One of the running themes is my passion for helping others develop their skills.
 
 More recently, I have been working as a tour guide! You can read more about that [here](/articles/guide/visit-paris/), including the tours that I do and how to get in contact if you're coming to Paris! I really love working as a tour guide, it overlaps with a lot of things I'm passionate about - learning, communication and story telling.
