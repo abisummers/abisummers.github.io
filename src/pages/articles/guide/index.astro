@@ -1,13 +1,17 @@
 ---
-import { getCollection } from 'astro:content';
-import Main from '../../../layouts/article.astro';
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
 
-const guideCollection = (await getCollection('guide')).filter(
-  (entry) => !entry.data.draft
+const guideCollection = (await getCollection("guide")).filter(
+  (entry) => !entry.data.draft,
 );
 ---
 
-<Main showLanguageSwitcher={false} title="Guided through Paris">
+<Main
+  showLanguageSwitcher={false}
+  title="Guided through Paris"
+  description="A place to share all things Paris, from the beginners guide to gettting around the city to tips on enjoying the tourist attractions."
+>
   <style>
     .cards {
       list-style-type: none;
@@ -83,7 +87,7 @@ const guideCollection = (await getCollection('guide')).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('tour'))
+          .filter((article) => article.data.themes.includes("tour"))
           .map((article) => {
             if (article) {
               return (
@@ -116,7 +120,7 @@ const guideCollection = (await getCollection('guide')).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('how-to'))
+          .filter((article) => article.data.themes.includes("how-to"))
           .map((article) => {
             if (article) {
               return (
@@ -147,7 +151,7 @@ const guideCollection = (await getCollection('guide')).filter(
       {
         guideCollection
           .filter((article) =>
-            article.data.themes.includes('tourist-attraction')
+            article.data.themes.includes("tourist-attraction"),
           )
           .map((article) => {
             if (article) {
@@ -171,7 +175,7 @@ const guideCollection = (await getCollection('guide')).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('activity'))
+          .filter((article) => article.data.themes.includes("activity"))
           .map((article) => {
             if (article) {
               return (
@@ -199,7 +203,7 @@ const guideCollection = (await getCollection('guide')).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('food'))
+          .filter((article) => article.data.themes.includes("food"))
           .map((article) => {
             if (article) {
               return (

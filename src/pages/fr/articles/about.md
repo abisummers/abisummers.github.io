@@ -4,6 +4,7 @@ languages: ["en", "fr"]
 language: "fr"
 title: À propos de moi
 intro: Salut, je m'appelle Abi, bienvenue dans mon coin Internet ! Je suis guide touristique et développeur backend basé à Paris. Je suis passionné par l'apprentissage, la communication et la communauté.
+description: Salut, je m'appelle Abi, bienvenue dans mon coin Internet ! Je suis guide touristique et développeur backend basé à Paris. Je suis passionné par l'apprentissage, la communication et la communauté.
 ---
 
 ## À propos de moi

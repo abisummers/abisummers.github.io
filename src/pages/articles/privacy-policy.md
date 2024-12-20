@@ -3,6 +3,7 @@ layout: "../../layouts/article.astro"
 languages: "en"
 language: "en"
 title: Privacy Policy
+description: the privacy policy
 ---
 
 ## Privacy Policy
