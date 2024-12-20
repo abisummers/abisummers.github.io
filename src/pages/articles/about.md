@@ -4,6 +4,7 @@ languages: ["en", "fr"]
 language: "en"
 title: About me
 intro: Hi, I'm Abi, welcome to my corner of the internet! I'm a tour guide & backend developer based in Paris. I'm passionate about learning, communication, community and slow travel.
+description: Hi, I'm Abi, welcome to my corner of the internet! I'm a tour guide & backend developer based in Paris. I'm passionate about learning, communication, community and slow travel.
 ---
 
 ## About me

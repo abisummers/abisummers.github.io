@@ -8,6 +8,8 @@ export const frontmatter = {
   language: "en",
   intro:
     "Museums and exhibitions within Île-de-France (excluding Paris). Places that I have visited and places that I would like to visit",
+  description:
+    "Museums and exhibitions within Île-de-France (excluding Paris). Places that I have visited and places that I would like to visit",
   publishedDate: new Date("2024-07-31").toISOString(),
 };
 
@@ -40,6 +42,14 @@ export const museums = [
     location: "Coupvray",
     visited: false,
   },
+  {
+    latitude: 48.6934,
+    longitude: 2.5488,
+    title: "Foundation Dubuffet",
+    description: "",
+    location: "Périgny",
+    visited: false,
+  },
 ];
 ---
 
@@ -60,7 +70,7 @@ export const museums = [
       .filter((museum) => museum.visited)
       .map((musuem) => (
         <section>
-          <h4>{musuem.title}</h4>
+          <h5>{musuem.title}</h5>
           <p>{musuem.description}</p>
           {musuem.link ? (
             <p>
@@ -70,6 +80,7 @@ export const museums = [
         </section>
       ))
   }
+  <hr />
 
   <h3>Museums that I want to visit</h3>
   <p>
@@ -82,11 +93,13 @@ export const museums = [
       .filter((museum) => !museum.visited)
       .map((musuem) => (
         <section>
-          <h4>{musuem.title}</h4>
+          <h5>{musuem.title}</h5>
           <p>{musuem.description}</p>
         </section>
       ))
   }
+
+  <br />
 
   <p>
     Here you can find a map with all of the different locations. The lighter

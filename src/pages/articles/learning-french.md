@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Learning French
 intro: My experience with learning French and how I actually became confident enough to speak
+description: My experience with learning French and how I actually became confident enough to speak
 publishedDate: 2024-05-26
 ---
 

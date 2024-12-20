@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Museum passes
 intro: I have three subscriptions to museums in Paris. Are they worth it? Here I track what I have seen and how much I've saved.
+description: I have three subscriptions to museums in Paris. Are they worth it? Here I track what I have seen and how much I've saved.
 publishedDate: 2024-05-17
 ---
 

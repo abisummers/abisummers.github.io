@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Volunteering in Paris
 intro: My experience with English speaking volunteering in Paris with Serve the City
+description: My experience with English speaking volunteering in Paris with Serve the City
 publishedDate: 2024-05-23
 ---
 

@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Libraries in Paris
 intro: a change in work place, visiting different libraries around Paris
+description: a change in work place, visiting different libraries around Paris
 publishedDate: 2024-07-15
 ---
 

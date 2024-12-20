@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Book stores
 intro: My favourite places to buy English books in Paris
+description: My favourite places to buy English books in Paris
 publishedDate: 2024-04-23
 ---
 

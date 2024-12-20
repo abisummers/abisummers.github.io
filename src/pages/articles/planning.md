@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: How to plan a day trip
 intro: Tips on planning a day trip within Île-de-France as part of my alphabet project
+description: Tips on planning a day trip within Île-de-France as part of my alphabet project
 publishedDate: 2024-04-21
 ---
 

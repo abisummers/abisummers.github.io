@@ -5,6 +5,7 @@ languages: ["en"]
 language: "en"
 title: Paralympics in Paris
 intro: 2024 Paralympics games in Paris - an overview of what I've seen and how much I paid per ticket
+description: 2024 Paralympics games in Paris - an overview of what I've seen and how much I paid per ticket
 publishedDate: 2024-09-09
 ---
 

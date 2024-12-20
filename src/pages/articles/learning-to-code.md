@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Learning to code
 intro: My experience on learning to code at a bootcamp in Paris.
+description: My experience on learning to code at a bootcamp in Paris.
 publishedDate: 2024-07-27
 ---
 

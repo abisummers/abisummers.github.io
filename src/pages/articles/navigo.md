@@ -4,6 +4,7 @@ languages: ["en"]
 language: "en"
 title: Getting around Île-de-France
 intro: Explaining different ways to get around the Île-de-France region using public transport
+description: Explaining different ways to get around the Île-de-France region using public transport
 publishedDate: 2024-04-16
 ---
 
