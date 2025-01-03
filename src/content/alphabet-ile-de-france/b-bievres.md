@@ -68,4 +68,4 @@ I didn't get to visit any of the places because they were closed when I went. I 
 
 I will definitely be back sometimes, I want to do the hike that I had planned to cycle this time, and I also want to visit some of the cultural sites. I think it could be very interesting to visit the bakery of Poilâne which seems to only be possible on the journée de patrimoine so I'll be keeping an eye out for that.
 
-Are you planning on going to Bièvres? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Are you planning on going to Bièvres? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**

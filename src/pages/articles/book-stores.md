@@ -70,7 +70,7 @@ I was an au pair for my first two years in Paris, so I spent a lot of time in Bo
 
 ## Your suggestions?
 
-If you know of any other English book stores, then I'd love to hear about them! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+If you know of any other English book stores, then I'd love to hear about them! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
 
 ---
 

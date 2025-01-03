@@ -79,7 +79,7 @@ I also love that most museums are free if you're under 26, and some have free pe
 
 ## Get in contact
 
-Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
 
 ---
 

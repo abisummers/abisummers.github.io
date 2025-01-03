@@ -66,4 +66,4 @@ Often when I go on day trips, I don't buy things to take home with me but here t
 
 ### Now it's your turn
 
-Are you planning on going to Provins? Have you already been? If so, I'd love to hear your thoughts and experiences! You can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Are you planning on going to Provins? Have you already been? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**

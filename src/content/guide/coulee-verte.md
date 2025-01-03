@@ -52,4 +52,4 @@ And here we get onto the practical info - you can verify that all of this inform
 
 ### Now it's your turn
 
-If you walk along the Coulée verte René-Dumont I'd love to hear what you think! Please share your thoughts over on instagram at [@abisummers](https://www.instagram.com/abisummers/)!
+If you walk along the Coulée verte René-Dumont I'd love to hear what you think! Please share your thoughts over on instagram at [@abiguides](https://www.instagram.com/abiguides/)!

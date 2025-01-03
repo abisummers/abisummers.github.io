@@ -60,7 +60,7 @@ It costs **88,80€** per month for all zones. This is valid from the 1st of the
 
 **This article is to be used as a guide only**. Refer to [Île-de-France mobility](https://www.iledefrance-mobilites.fr) for the latest info regarding pricing, and ticketing options. All pricing mentioned in this article is for a regular adult ticket unless otherwise specified.
 
-If you have any questions, or notice anything that's outdated, you can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+If you have any questions, or notice anything that's outdated, you can reach me via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
 
 <details>
 <summary>Archived pricing</summary>

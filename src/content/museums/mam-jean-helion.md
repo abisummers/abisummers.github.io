@@ -65,4 +65,4 @@ I have until the 18th of August to see the rest, and then I will update my artic
 
 ---
 
-Have you been to this exhibition? If so, I would love to exchange thoughts! You can reach me via instagram at **[@abisummers](https://www.instagram.com/abisummers/)**
+Have you been to this exhibition? If so, I would love to exchange thoughts! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
