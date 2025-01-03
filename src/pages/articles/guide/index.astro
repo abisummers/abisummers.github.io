@@ -74,7 +74,7 @@ const guideCollection = (await getCollection("guide")).filter(
       href="https://www.instagram.com/abisummers/">@abisummers</a
     >, about things to do in Paris like upcoming events.
   </p>
-  <br>
+  <br />
 
   <div>
     <h3>Personalised tours</h3>
@@ -193,7 +193,7 @@ const guideCollection = (await getCollection("guide")).filter(
     </ul>
   </div>
 
-  <br>
+  <br />
   <div>
     <h3>French food</h3>
 
@@ -206,6 +206,33 @@ const guideCollection = (await getCollection("guide")).filter(
       {
         guideCollection
           .filter((article) => article.data.themes.includes("food"))
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.title}>
+                  <a href={`/articles/guide/${article.slug}/`}>
+                    <h3>{article.data.title}</h3>
+                    <p>{article.data.description}</p>
+                  </a>
+                </li>
+              );
+            }
+          })
+      }
+    </ul>
+  </div>
+
+  <br />
+
+  <div>
+    <h3>Stories from the city</h3>
+
+    <p>Some of the myths and ledgends of the city! Paris has so much history in <i>almost</i> plain sight if you know what to look for.</p>
+
+    <ul class="cards">
+      {
+        guideCollection
+          .filter((article) => article.data.themes.includes("stories"))
           .map((article) => {
             if (article) {
               return (
