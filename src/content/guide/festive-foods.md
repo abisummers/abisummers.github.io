@@ -3,6 +3,7 @@ title: Festive foods
 description: Foods that are eaten throughout the year as part of holidays and celebrations
 publishedDate: 2024-11-25
 themes: ["food"]
+image: /src/content/guide/images/galette-de-rois.jpg
 ---
 
 France is known for their food, and French people generally eat foods that are in season - they taste better, they're usually cheaper and it's also nice to have variety in your diet. You won't find strawberries at your local market in winter!
@@ -12,6 +13,8 @@ But there are certain foods that you'll only find at specific times of the year.
 ### Galette des Rois (6th January)
 
 This translates to _kings cake_, this is eaten for the occasion of _epiphany_. You will find this in most bakeries around this time as well as supermarkets. Ones from bakeries are more expensive, but worth it in my opinion. A lot of bakeries will allow you to pre-order one, so you can be sure to have one on the day! It's a heartbreaking experience going to buy one and finding out they're sold out.
+
+![both some galette des rois and some couronne des rois in a bakery](./images/galette-de-rois.jpg)
 
 This is a really fun tradition in France - especially for those with children. The youngest person goes under the table, someone cuts the galette into slices so that everyone gets a piece. The person under the table will assign a piece to each person, once everyone has a piece they can eat! The reason why someone goes under the table is to prevent cheating. Inside each galette there is a little ceramic item and whoever gets this, becomes king for the day!
 
