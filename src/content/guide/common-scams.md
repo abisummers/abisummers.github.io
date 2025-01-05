@@ -1,6 +1,6 @@
 ---
-title: Common scams
-description: Scams to watch out for throughout the city
+title: What scams exist in Paris?
+description: Scams to watch out for throughout the city from pickpockets to friendship bracelets
 publishedDate: 2024-08-18
 themes: ["how-to", "scams"]
 ---
@@ -9,7 +9,7 @@ As with all big cities and tourist locations there are certain things to watch o
 
 The french word for scam is _arnaque_.
 
-Paris, overall is a fairly safe city and is comparable to other big cities in Europe. This list isn't meant to put anyone off Paris, but more about the things to pay attention to so that you can fully enjoy your time in the city
+Paris, overall is a fairly safe city and is comparable to other big cities in Europe. This list isn't meant to put anyone off Paris, but more about the things to pay attention to so that you can fully enjoy your time in the city. A great day can easily be flipped if you notice your wallet is stolen.
 
 ### Pickpockets
 
@@ -29,13 +29,13 @@ You will often see people playing this game by the Sacré-Cœur and the Eiffel T
 
 There's a team of people working together, you have the main person who is moving the cups around, and another person who is adding to the cash prize _if_ you're able to win and observing everyone that's watching.
 
-It's crazy to watch these people play, often you'll see them playing with 50€ notes, so the stakes are high.
+It's wild to watch these people play, often you'll see them playing with 50€ notes, so the stakes are high. There's a lot of cheering that goes on around these games which draws in new people.
 
-I'd always be cautious with getting your wallet out in situation like this - you're showing them where you keep your money.
+I'd recommend staying clear of these games - the odds are not in your favour.
 
 ### The clear cup
 
-This scam involves someone sitting on the side of the street, with a clear plastic cup in front of them, directly where people will be walking. Sometimes, they'll even put it down just as you're approaching so it's sure that you'll knock it over.
+This scam involves someone sitting on the side of the street, with a clear plastic cup in front of them, directly where people will be walking. Inside the cup, they have a few coins. Sometimes, they'll even put it down just as you're approaching so it's sure that you'll knock it over.
 
 I have seen this often near the Opera and on Rue Rivoli because both of these areas are busy, but it can happen anywhere in Paris.
 
@@ -51,22 +51,30 @@ Do not engage with them, pretend that they're not even there. Often, you need to
 
 ### The clipboard
 
-In the touristy areas, you'll often see a group of people (usually young women) who have a clipboard. They say that they're collecting donations and often act as if they're deaf. I often see them around the Louvre and around the Eiffel Tower.
+In the touristy areas, like around the Louvre or Eiffel Tower, you'll often see a group of people (usually young women) who have a clipboard. They say that they're collecting donations and often act as if they're deaf.
 
 The money that they collect is in fact not going towards and charity they say it is.
 
-Sometimes, you'll see people outside metro stations asking for donations for charity or different associations - it's always very clear what they're doing when. They wear lanyards and branded clothing (t-shirts, vests etc), so it's easy to tell that they're legit volunteers.
+Sometimes, you'll see people outside metro stations asking for donations for charity or different associations - it's always very clear what they're doing when. They wear lanyards and branded clothing (t-shirts, vests etc), they're not at all pushy. It's easy to tell that they're legit volunteers.
 
 ### Metro tickets
 
-Sometimes, around metro stations (usually the ones that have the long queues) there will be people selling metro tickets. Never buy these tickets, because the tickets will not work. By time you go back to ask them about the ticket, they will have moved on to their next location
+Sometimes, around metro stations (usually the ones that have the long queues) there will be people selling metro tickets. Never buy these tickets, because the tickets will not work. By time you go back to ask them about the ticket, they will have moved on to their next location.
 
-If you need to buy a metro ticket, go to the machine, which all have an English option, or buy in on the app (because the Paris metro system now allows digital tickets!).
+If you need to buy a metro ticket, go to the machine, which all have an English option, or buy directly on the _bonjour RATP_ app.
 
 The Paris transport system does not accept contactless payments when validating a ticket, so you do need to buy a ticket in advance.
 
-### Overall advice
+### How can I avoid scams in Paris?
 
 - know where your personal belongings are at all times, never leave them unattended. I always have a bum bag that has all my valuables in it, and a tote bag that had everything, like a bottle of water and a book.
-- if someone approaches you in the street, it's usually not for a good reason
-- Saying no and walking away is often the best solution
+- do not leave your phone, wallet or other valuables in an easy to access place such as a back pocket
+- if someone approaches you in the street, it's usually not for a good reason _especially_ if they start with 'do you speak English?'.
+- if your gut is telling you something is off, you're probably onto something
+- don't be afraid to say no
+
+### Got any questions?
+
+If you have any questions about Paris, or see a scam that I've missed, feel free to reach me via Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!
+
+If you are visiting Paris and would like a private tour, you can book a tour using the button below.
