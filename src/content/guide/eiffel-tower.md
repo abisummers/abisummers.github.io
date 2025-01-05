@@ -1,7 +1,8 @@
 ---
 title: Eiffel Tower
-description: My tips and tricks for having the best experience - with or without a guide.
+description: Tips for visiting the Eiffel Tower. Do I need to reserve a ticket in advance? Can I visit the summit?
 publishedDate: 2024-09-23
+updatedDate: 2025-01-04
 themes: ["tourist-attraction"]
 image: /src/content/guide/images/eiffel-tower.jpeg
 ---
@@ -23,7 +24,7 @@ The article is broken down into themes based on my experience on giving tours of
 
 <a name="scams"></a>
 
-### Scams
+### Are there scams at the Eiffel Tower?
 
 I have a whole [article on scam](/articles/guide/common-scams/) in Paris, but I think it's worth mentioning here, because this is one of the locations where you'll see almost all of the scams.
 
@@ -35,7 +36,7 @@ Recently, I was waiting for some guests on a guided tour of the Eiffel Tower. Wh
 
 <a name="security"></a>
 
-### Security checks
+### What is the security like at the Eiffel Tower?
 
 There are two security checks. The first check is to get access to the pavilion, this is free of charge to access. For the first check, they will ask you to empty your pockets and open your bags for them to inspect. If you have mobilities issues, such as using a walking stick or wheelchair, you are often able to skip the queue - there's usually someone from the security that will assist you.
 
@@ -54,41 +55,47 @@ You are allowed to bring in water bottles. There are places on the ground floor 
 
 <a name="tickets"></a>
 
-### tickets
+### Can I buy tickets for the Eiffel Tower on the day?
 
-The cheapest way to visit the Eiffel Tower is by taking the stairs - this will only take you to the second floor. They estimate that it takes ~15 minutes to get from the ground floor to the first floor, and an additional ~15 minutes between the first and second floor. This will of course depend person to person and the speed that you would like to go at.
+There are three main ways to get tickets to the Eiffel Tower. You can reserve tickets on the Eiffel Tower website in advance with the timeslot you'd like to visit, you can book through a company, or you can queue up on the day. All of this depends on your schedule and what works best for you. You will often find out that the cheaper summit tickets (eg without the option of a glass of champagne) sell out far in advance (you can also buy them on the day), and it's not possible to add the summit option to an existing ticket.
 
-Alternatively, you can take the lift. There are two lift options - to the second floor or to the summit. Second floor tickets are always available whereas the summit tickets tend to sell out (more on that in the next section). After visiting the second floor, you are able to take the lift or the stairs to the first floor (which is worth visiting!).
+If you are booking through a company, you're probably going to want to look for an option that has skip the line tickets to the summit. If a company does not offer skip the line tickets, it means you will have to queue with the group on the day. It also means there's a chance you won't be able to access the summit because the Eiffel Tower management close the summit when they reach max capacity (~300 people). Most tour companies do no prebook tickets.
+
+There are two (or sometimes three) queues for buying tickets. There is one queue for buying tickets to the stairs, and another for elevator tickets. In peak season, there are often two queues open for the elevator tickets.
+
+The cheapest way to visit the Eiffel Tower is by taking the stairs to the second floor. When buying tickets, there is the option to take the stairs to the second floor and the elevator to the summit. They estimate that it takes ~15 minutes to get from the ground floor to the first floor, and an additional ~15 minutes between the first and second floor. This will of course depend person to person and the speed that you would like to go at.
+
+Alternatively, you can take the elevator. You can get tickets to either the second floor or summit but you do need to change lifts on the second floor if you are going to the summit. Second floor tickets are always available whereas the summit tickets tend to sell out (more on that in the next section). After visiting the second floor, you are able to take the lift or the stairs to the first floor (which is worth visiting!).
 
 You do not need a ticket to access the area underneath the Eiffel Tower.
 
 <a name="summit-tickets"></a>
 
-#### Summit tickets
+### How can I buy tickets to visit the summit?
 
-There are three ways to get tickets to the summit. You can reserve tickets on the Eiffel Tower website for the day and timeslot you'd like to visit, you can book through a company, or you can queue up on the day. All of this depends on your schedule and what works best for you. You will often find out that the cheaper summit tickets (eg without the option of a glass of champagne) sell out far in advance, and it's not possible to add the summit option to an existing ticket.
-
-If you are booking through a company, you're going to want to look for an option that has skip the line tickets to the summit. If a company does not offer skip the line tickets, there is a chance you will only get to the second floor, this is because the Eiffel Tower management close the summit when they reach max capacity (~300 people). It will also mean that you have to wait in the line to buy tickets with your guide which can sometimes take more than an hour.
-
-There will always be summit tickets available to buy on the day _however_ this does change throughout the day. If the summit is at max capacity, they will pause the sale in summit tickets. If the summit is closed, it is clearly stated both at the security lines and for the ticket purchasing lines. This is where you have to make the decision - you can wait until they reopen the summit, which is _usually_ within an hour. There is no guarantee, so it somewhat of a risk. No one at the Eiffel Tower will be able to tell you when the summit tickets will be available to purchase.
+There will always be summit tickets available to buy on the day (unless it's closed due to weather or maintenance) _however_ this does change throughout the day. If the summit is at max capacity, they will pause the sale in summit tickets. If the summit is closed, it is stated both at the security lines and for the ticket purchasing lines. This is where you have to make the decision - you can wait until they reopen the summit, which is _usually_ within an hour. There is no guarantee, so it somewhat of a risk. No one at the Eiffel Tower will be able to tell you when the summit tickets will be available to purchase.
 
 Once you are at the summit, you can spend as much time as you'd like there - enjoying the views and maybe even a glass of champagne!
-
-There are also rare occasions when the summit is closed unrelated to the capacity, like if there's a lot of wind. This is something that is out of everyone's control.
 
 The summit is not accessible for people in wheelchairs or people who use walking aids, so this is worth noting when deciding what option you want to take. If you have a walking aid, such as a walking stick, even if you can walk without it, you may still be refused access to the summit.
 
 <a name="best-view"></a>
 
-### The best view
+### Is the summit worth visiting?
 
 Everyone is going to have their own opinion on this, but personally I find that the view is best from the second floor, and here's why. On the second floor, there is a viewing platform where you have an unobstructed view of Paris - no barriers or glass screens. This is also the best place for taking photos. I like that I can see the depth of the buildings from this angle.
 
 The summit is nice, but I find that it can be quite overwhelming due to the number of people _and_ because you are so much higher than surrounding buildings you lose the element of 3D, everything looks _flatter_.
 
+However the summit is still a cool experience! Paris looks very different when you're close to 300 meters above it.
+
+If there is a lot of fog, then it's probably not worth it because you will see nothing. A few weeks ago, I was giving a tour at the Eiffel Tower and well this is the view from the summit - you can't see much. From the second floor you could still see Paris (although less defined than normal because of the fog).
+
+![a view from the summit at the Eiffel Tower. All you can see is the metal barrier and clouds. there are no buildings visible.](./images/eiffel-tower-cloud-view.jpg)
+
 <a name="weather"></a>
 
-### Weather conditions
+### Does the Eiffel Tower close in case of bad weather?
 
 The weather can really influence your experience of the Eiffel Tower, so it's something to plan for (when possible). The Eiffel Tower is a mostly open structure meaning you're going to feel the weather. This can be great on a day where the sun is shining (don't forget sun cream!), but it does also mean that if it's raining or windy, you're going to feel it!
 
@@ -102,8 +109,8 @@ There are areas on the Eiffel Tower that are protected from the wind and rain - 
 
 One of the cool things about the Eiffel Tower is getting to see all of the landmarks. Some of the things to look out for:
 
-- l'arc de triomphe
-- sacre coeur
+- [l'arc de triomphe](/articles/guide/arc-de-triomphe/)
+- [sacre coeur](/articles/guide/sacre-coeur/)
 - le louvre
 - centre pompidiou
 - notre dame
@@ -113,16 +120,14 @@ One of the cool things about the Eiffel Tower is getting to see all of the landm
 - la defense
 - le grand palais
 
+### Got any questions?
+
+If you have any questions about visiting the Eiffel tower, you can reach out on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**! I often share tips and tricks to enjoying the city.
+
 <a name="guided-tour"></a>
 
 ### Book a tour with me
 
-If you are interested in learning more about the history of the Eiffel Tower and what makes it so remarkable, you can get in contact with me via email **[contact@abisummers.com](mailto:contact@abisummers.com)** to organise a tour!
-
-<!-- For a guided tour of the ground floor where I tell you some of the stories behind the Eiffel Tower, and what makes it so remarkable (because, it really is!), pricing starts at 40€. A tour of the ground floor will take ~1 hour.
-
-If you would like for me to join you to the 2nd floor or summit, an additional fee will be charged. I am able to show you they key landmarks that are scattered across Paris and explain a bit about each of them.
-
-Note: the Eiffel Tower tickets are not included in this price. This is something you will have to pay for (including my ticket if you would like me to join you to the second floor or summit). -->
+If you are interested in learning more about the history of the Eiffel Tower and what makes it so remarkable, you can get in contact with me via email **[contact@abisummers.com](mailto:contact@abisummers.com)** to organise a tour or click the button below.
 
 <br>
