@@ -15,6 +15,15 @@ There are lots of different ways of getting around Paris and the Île-de-France 
 
 For a lot of people, buying tickets on your phone via the _Bonjour RATP_ app is the easiest, but some people (like me) prefer to have a physical card. For most people who are visiting Paris individual tickets, a day ticket or a weekly ticket is best depending on how often you want to take public transport.
 
+### the TL;DR
+
+The short version is:
+
+- metro-RER tickets cost 2,5€
+- bus-tram tickets cost 2€
+- airport tickets cost 13€ (do not risk trying to get there on a normal ticket, there are often ticket controls at airport stations)
+- day tickets cost 12€ for the entire Île-de-France region but exclude airports
+
 ### Navigo card
 
 In March 2024, I started a [project](/articles/alphabet-ile-de-france/) in the Île-de-France area and in most of these article I talk about my navigo card when breaking down the cost of public transport. But what is a navigo? Essentially it's a travel card that allows you to take all public transport within the Île-de-France region (with a few exceptions). There's a few different types of navigo (because why make anything simple?).
@@ -79,7 +88,6 @@ This covers all transport within zone 1, and can be used on buses & trams outsid
 <h3> destination tickets </h3>
 
 If you're looking at getting a ticket between two stations, eg Paris and Versailles, you need to get a ticket from a machine at the station - there's currently no way of buying this via the app for on a navigo. The direction on the ticket doesn't matter - say you're doing a day trip to Versailles and you're buying paper tickets you can buy both tickets in the morning. The ticket will say Paris Versailles but it can also be used in the other direction as well.
-
 
 <h3> 2024 Paris Olympics </h3>
 

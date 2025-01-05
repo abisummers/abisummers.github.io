@@ -1,6 +1,6 @@
 ---
-title: Taking the metro
-description: Advice for taking the metro in Paris (buying tickets, navigating etc)
+title: Getting around using public transport
+description: Advice for taking the metro and other forms of transport in Paris (buying tickets, navigating etc)
 publishedDate: 2024-08-19
 themes: ["how-to", "transport"]
 ---
@@ -9,17 +9,28 @@ As someone who lives in Paris and works as a tour guide, I spend a lot of time o
 
 Just think about it, underground tunnels that allow thousands of people to be transported - magic!
 
+### How and where can I buy a ticket?
+
+To take public transport, you're going to need to buy a ticket. There are a few different ways of buying tickets but _never_ but tickets from someone outside of a metro station. The easiest way to buy a ticket is directly on your phone using the _bonjour RATP_ app. You can buy tickets most metro station from a ticket machine or on the bus directly from the driver (you need to pay in cash, ideally with the exact amount).
+
+As of January 2025 pricing has been simplified!
+
+The short version is:
+
+- metro-RER tickets cost 2,5€
+- bus-tram tickets cost 2€
+- airport tickets cost 13€ (do not risk trying to get there on a normal ticket, there are often ticket controls at airport stations)
+- day tickets cost 12€ for the entire Île-de-France region but exclude airports
+
+It's a little more complicated if you're wanting to a physical ticket (rather than buying on your phone) and use both metros/RERs and buses/trams because you'll need to buy two cards. You cannot mix and match.
+
+If you're planning on taking a lot of public transport, a weekly or monthly navigo (travel card) might be better - you can find more details [here](/articles/navigo/)!
+
+### Is the public transport accessible?
+
 The metro is not for everyone, most metro stations are not accessible (all newly built stations are) so if you're using a wheelchair or have mobility issues then you're going to have a hard time. It's also going to be harder if you have a pushchair or lot of luggage. There will often be someone who offers to help you carry things up and down stairs, but this isn't guaranteed.
 
-### Tickets
-
-To take the metro, you're going to need to buy a ticket. There are a few different ways of buying tickets but _never_ but tickets from someone outside of a metro station because those tickets will not work.
-
-You can buy tickets from your phone using the _bonjour RATP_ app, or in most metro station from a ticket machine - I say most because some entrances don't have ticket machines, but this is clearly signed before you go in. The ticket machines all have the option to set the language to English. Your phone, or your Navigo Easy (a card to put tickets onto) can only be loaded with one type of ticket so all T+ tickets, or tickets to Orly airport, you can't have one normal ticket and one Orly ticket.
-
-If you are planning on taking public transport a lot, or planning to take it outside of the zone 1 Paris zone (like to go to Versailles or Disneyland), then you should consider a weekly or monthly Navigo (or a weekend day pass for those under 26). You can read more info about that [here](/articles/navigo/). But essentially, it's a travel card that allows unlimted travel within Île-de-France. Note the week _always_ starts on a Monday and ends on a Sunday. The monthly pass _always_ starts on the 1st and ends at the end of the month. During the Olympic & paralympic period, the weekly pass is not available.
-
-The normal T+ tickets are valid on all metros with the exception of the Orly station. They can also be used on the RER within zone 1, on buses with the exception of Orlybus and Roissybus, tramlines and the Funiculaire de Montmartre.
+Buses are a lot more accessible because you don't have all of the stairs.
 
 ### Navigating
 
@@ -51,7 +62,7 @@ Line 6 is a fun line to take, because it's mostly overground. Between Bir Hakeim
 
 ### Get in contact
 
-Do you have any questions about the Paris metro system? Feel free to get in contact!
+Do you have any questions about the Paris metro system? Feel free to get in contact via Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!
 
 I love talking about the metro, and public transport in general because of the positive impact on the environment and the convenience of it. I love the buzz of passing through busy stations while everyone is doing their own thing, living their own life.
 
