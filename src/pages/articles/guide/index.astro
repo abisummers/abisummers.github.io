@@ -5,6 +5,8 @@ import Main from "../../../layouts/article.astro";
 const guideCollection = (await getCollection("guide")).filter(
   (entry) => !entry.data.draft,
 );
+
+const museumCollection = await getCollection("museums");
 ---
 
 <Main
@@ -71,7 +73,7 @@ const guideCollection = (await getCollection("guide")).filter(
   </p>
   <p>
     I often share things on Instagram, <a
-      href="https://www.instagram.com/abisummers/">@abisummers</a
+      href="https://www.instagram.com/abiguides/">@abiguides</a
     >, about things to do in Paris like upcoming events.
   </p>
   <br />
@@ -170,6 +172,35 @@ const guideCollection = (await getCollection("guide")).filter(
     </ul>
   </div>
   <br />
+
+  <div>
+    <h3>Itinerary</h3>
+    <p>A guide on how best to spend your time in Paris</p>
+    <p>
+      Here's what I'd recommend to do based on how long you're in Paris for and
+      the main type of things you'd like to see!
+    </p>
+    <ul class="cards">
+      {
+        guideCollection
+          .filter((article) => article.data.themes.includes("itinerary"))
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.title}>
+                  <a href={`/articles/guide/${article.slug}/`}>
+                    <h3>{article.data.title}</h3>
+                    <p>{article.data.description}</p>
+                  </a>
+                </li>
+              );
+            }
+          })
+      }
+    </ul>
+  </div>
+  <br />
+
   <div>
     <h3>Activities in Paris</h3>
     <p>Here you can find some of my favourite things to do in Paris!</p>
@@ -227,7 +258,11 @@ const guideCollection = (await getCollection("guide")).filter(
   <div>
     <h3>Stories from the city</h3>
 
-    <p>Some of the myths and ledgends of the city! Paris has so much history in <i>almost</i> plain sight if you know what to look for.</p>
+    <p>
+      Some of the myths and ledgends of the city! Paris has so much history in <i
+        >almost</i
+      > plain sight if you know what to look for.
+    </p>
 
     <ul class="cards">
       {
@@ -264,7 +299,7 @@ const guideCollection = (await getCollection("guide")).filter(
         <a href="mailto:contact@abisummers.com">contact@abisummers.com</a>
       </li>
       <li>
-        Instagram: <a href="https://www.instagram.com/abisummers">@abisummers</a
+        Instagram: <a href="https://www.instagram.com/abiguides">@abiguides</a
         >
       </li>
       <li>SIREN: 843306648</li>
