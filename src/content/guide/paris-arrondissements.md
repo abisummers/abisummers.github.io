@@ -16,6 +16,8 @@ I'm going to be honest, even after 8 years of living here, I _still_ don't alway
 
 The arrondissements are laid out in a clockwise spiral starting in the middle of the city. A lot of people compare this to a snail shell.
 
+![Paris with the arrondissements labelled with a number](./images/arrondissement-layout.png)
+
 Often the edge between arrondissements is a big boulevard or the Seine. If you're talking about an area above the Seine then you're talking about _Rive Droite_ or right bank, and if you're taking about an area that is south of the Seine then you're talking about _Rive Gauche_ or left bank.
 
 ### What arrondissement am I in?
