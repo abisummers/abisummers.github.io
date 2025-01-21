@@ -18,7 +18,7 @@ As of January 2025 pricing has been simplified!
 The short version is:
 
 - metro-RER tickets cost 2,5€
-- bus-tram tickets cost 2€
+- bus-tram tickets cost 2€ (or 2,5€ if you're buying it from the bus driver)
 - airport tickets cost 13€ (do not risk trying to get there on a normal ticket, there are often ticket controls at airport stations)
 - day tickets cost 12€ for the entire Île-de-France region but exclude airports
 

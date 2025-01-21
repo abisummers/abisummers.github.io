@@ -20,7 +20,7 @@ For a lot of people, buying tickets on your phone via the _Bonjour RATP_ app is 
 The short version is:
 
 - metro-RER tickets cost 2,5€
-- bus-tram tickets cost 2€
+- bus-tram tickets cost 2€ (or 2,5€ if you're buying it from the bus driver)
 - airport tickets cost 13€ (do not risk trying to get there on a normal ticket, there are often ticket controls at airport stations)
 - day tickets cost 12€ for the entire Île-de-France region but exclude airports
 
@@ -41,7 +41,7 @@ Additional info can be found [here](https://www.iledefrance-mobilites.fr/en/tick
 
 ### ticket t+
 
-As of January 2025 there have been changes to the pricing of the ticket t+. It's now a fixed 2,5€ for a metro-RER ticket (**excluding airports**), and 2€ for a bus-tram ticket. Previously the RERs had different pricing depending on the zone, so now it's much simpler.
+As of January 2025 there have been changes to the pricing of the ticket t+. It's now a fixed 2,5€ for a metro-RER ticket (**excluding airports**), and 2€ for a bus-tram ticket (or 2,5€ if you're buying it from the bus driver). Previously the RERs had different pricing depending on the zone, so now it's much simpler.
 
 These tickets can be bought directly on your phone, or can be loaded onto a navigo card. There is no longer a discount for buying packs of 10, so you can buy the tickets as you need them.
 
