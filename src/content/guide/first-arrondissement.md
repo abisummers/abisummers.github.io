@@ -1,8 +1,8 @@
 ---
 title: Paris 1st arrondissement
 description: An afternoon in the first arrondissement of Paris
-publishedDate: 2025-01-03
-themes: ["how-to"]
+publishedDate: 2025-01-27
+themes: ["arrondissement"]
 image: /src/content/guide/images/rue-des-fosses-saint-jacques.jpg
 ---
 
@@ -20,6 +20,8 @@ At the west side of the Tuileries Garden, you have anther museum _Musée de l'Or
 
 To the east of the Louvre you have 59 Rivoli, one of my favourite art galleries and well worth a visit. It's made up of 30 different studios, with many artists having short term residences (3-6 months) so each time you go, there's something different to see. One of the things I love about 59 Rivoli is getting to watch the artists work. Each artist has a different style and it's wonderful. It's a great place to buy souvenirs and gifts. Did you know that the word souvenir comes from French? It comes from the French work _souvenir_ which means to remember.
 
+![59 rivoli street view with lots of different butterflies](./images/59-rivoli.jpeg)
+
 ### Landmarks
 
 While it's a small area, there's a lot to see. Here are some of the other notable places.
@@ -27,6 +29,8 @@ While it's a small area, there's a lot to see. Here are some of the other notabl
 At the centre of _Place Vendôme_ there is the _Colonne Vendôme_, a bronze column topped by a statue of Napoleon. While this is the first thing you're likely to see, it's not the only thing worth looking at.
 
 The French revolution had a massive impact on France (stick with me), but also globally. It was during this period that France standardised certain measurements, including the metre, litre and kilo. Throughout Paris, they had placed 16 meters standards in busy areas to help with the transition into the new system. Only two of them remain today, and one of them is here at 13 Place Vendôme.
+
+![a standardised meter](./images/metre-standard.jpeg)
 
 Another thing that is not obvious is at that the former Texas Embassy in Paris was here. It's marked by a small plaque that's easy to miss if you're not looking for it.
 

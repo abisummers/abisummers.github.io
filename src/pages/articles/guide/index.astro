@@ -76,10 +76,34 @@ const museumCollection = await getCollection("museums");
       href="https://www.instagram.com/abiguides/">@abiguides</a
     >, about things to do in Paris like upcoming events.
   </p>
+
+  <p>I've broken down the articles into different themes:</p>
+
+  <li>
+    <a href="#personalised-tours">Personalised tours</a>
+  </li>
+  <li>
+    <a href="#faq">FAQ: tips and tricks</a>
+  </li>
+  <li>
+    <a href="#arrondissement-guide">A guide to the arrondissements</a>
+  </li>
+  <li>
+    <a href="#tourtist-attractions">Tourist attractions</a>
+  </li>
+  <li>
+    <a href="#activities">Activities in Paris</a>
+  </li>
+  <li>
+    <a href="#french-food">French food</a>
+  </li>
+  <li>
+    <a href="#myths-and-ledgends">Myths and ledgends</a>
+  </li>
   <br />
 
   <div>
-    <h3>Personalised tours</h3>
+    <h3 id="personalised-tours" >Personalised tours</h3>
 
     <p>
       Here you can read a bit about the types of tours that I offer. Paris has
@@ -113,7 +137,7 @@ const museumCollection = await getCollection("museums");
 
   <br />
   <div>
-    <h3>FAQ: tips and tricks for getting to know the city</h3>
+    <h3 id="faq">FAQ: tips and tricks for getting to know the city</h3>
     <p>
       Here you can find my tips and tricks! The essential things to know on your
       first visit to Paris like scams to watch out for, picking restaurants and
@@ -139,10 +163,38 @@ const museumCollection = await getCollection("museums");
       }
     </ul>
   </div>
+
+  <br />
+  <div>
+    <h3 id="arrondissement-guide">A guide to the Paris arrondissements</h3>
+    <p>
+      Each arrondissement of Paris has something unique to offer. There are
+      countless restaurants, bakeries, museums and places to shop. Here I'll
+      talk about some of my favourite places based on the area.
+    </p>
+    <ul class="cards">
+      {
+        guideCollection
+          .filter((article) => article.data.themes.includes("arrondissement"))
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.title}>
+                  <a href={`/articles/guide/${article.slug}/`}>
+                    <h3>{article.data.title}</h3>
+                    <p>{article.data.description}</p>
+                  </a>
+                </li>
+              );
+            }
+          })
+      }
+    </ul>
+  </div>
   <br />
 
   <div>
-    <h3>Tourist attractions</h3>
+    <h3 id="tourist-attractions">Tourist attractions</h3>
     <p>Tips and tricks for enjoying the tourist attractions around the city!</p>
     <p>
       There can be a lot of negative connotations around the toursty places,
@@ -202,7 +254,7 @@ const museumCollection = await getCollection("museums");
   <br />
 
   <div>
-    <h3>Activities in Paris</h3>
+    <h3 id="activities">Activities in Paris</h3>
     <p>Here you can find some of my favourite things to do in Paris!</p>
     <ul class="cards">
       {
@@ -226,7 +278,7 @@ const museumCollection = await getCollection("museums");
 
   <br />
   <div>
-    <h3>French food</h3>
+    <h3 id="french-food">French food</h3>
 
     <p>
       France is known for their food, it's something they take seriously! Here
@@ -256,7 +308,7 @@ const museumCollection = await getCollection("museums");
   <br />
 
   <div>
-    <h3>Stories from the city</h3>
+    <h3 id="myths-and-ledgends">Stories from the city</h3>
 
     <p>
       Some of the myths and ledgends of the city! Paris has so much history in <i
@@ -299,8 +351,7 @@ const museumCollection = await getCollection("museums");
         <a href="mailto:contact@abisummers.com">contact@abisummers.com</a>
       </li>
       <li>
-        Instagram: <a href="https://www.instagram.com/abiguides">@abiguides</a
-        >
+        Instagram: <a href="https://www.instagram.com/abiguides">@abiguides</a>
       </li>
       <li>SIREN: 843306648</li>
       <li>
