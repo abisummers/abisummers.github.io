@@ -1,26 +1,22 @@
 ---
 title: Paris 1st arrondissement
-description: An afternoon in the first arrondissement of Paris
+description: Museums, landmarks, restaurants and shopping in the first arrondissement
 publishedDate: 2025-01-27
 themes: ["arrondissement"]
-image: /src/content/guide/images/rue-des-fosses-saint-jacques.jpg
+# image: /src/content/guide/images/rue-des-fosses-saint-jacques.jpg
 ---
 
-The first arrondissement is at the very centre of Paris. The name of this arrondissement is _Louvre_ and you can probably guess why. This is one of the areas that most tourists will visit. It's well connected to most of Paris through it's various metro and RER lines.
+The first arrondissement is at the very centre of Paris. The name of this arrondissement is _Louvre_ and you can probably guess why. This is one of the areas that most tourists will visit because you guessed it, the Louvre is here. It's well connected to most of Paris through it's various metro and RER lines so it's easy to get around the city from here.
 
 Depending on what you like to do while on a city holiday, you could spend a few hours here, or you could a full day here.
 
 ### Museums
 
-This area hosts one of the most famous museums in the world, the _Louvre_. It's on the to-do list of most people who visit Paris, sometimes people want to take their time to see an entire section (because you're not going to have the time to see _everything_), others are here to see some of the more famous works like the Mona Lisa (in French it's called _La Joconde_). I would highly recommend reserving tickets in advance because the queue can get really long. At the end of most guided tours here, you're allowed to wander through the rest of the exhibition on your own.
+I have an entire article dedicated to the [museums of the first arrondissement](/articles/guide/first-arrondissement-museums/), so here are a few highlights:
 
-The _Tuileries Garden_, at the west side of the Louvre is well worth a visit. I personally like to spend a bit of time outside after a museum, so the gardens are a perfect place for a stroll. They also have seats throughout where you can sit and pause. In winter, it hosts one of the biggest Christmas markets in Paris.
-
-At the west side of the Tuileries Garden, you have anther museum _Musée de l'Orangerie_. This museum is known because it has 8 of Monet's water lilies murals. They're beautiful. Again, if this is something you really want to see I would recommend reserving tickets.
-
-To the east of the Louvre you have 59 Rivoli, one of my favourite art galleries and well worth a visit. It's made up of 30 different studios, with many artists having short term residences (3-6 months) so each time you go, there's something different to see. One of the things I love about 59 Rivoli is getting to watch the artists work. Each artist has a different style and it's wonderful. It's a great place to buy souvenirs and gifts. Did you know that the word souvenir comes from French? It comes from the French work _souvenir_ which means to remember.
-
-![59 rivoli street view with lots of different butterflies](./images/59-rivoli.jpeg)
+- at number one, it's obviously the **Louvre** since that's the name of the arrondissement and it's one of the locations that most tourists want to visit. You can easily spend hours here, so allow yourself to have the time to really experience it
+- **Musée de l'Orangerie** to experience 8 of the water lilies murals by Monet.
+- **59 Rivoli** is an art gallery close to the Louvre. It's a great place to buy small souvenirs and gifts from independent artists. Each artist has their own style, so there's something for everyone
 
 ### Landmarks
 
@@ -62,17 +58,17 @@ Depending on what you're wanting to drink, you can go into most French bistros a
 
 ### Transport
 
-This area is very well connected to the rest of Paris. There are multiple metro lines (1, 4, 7, 11 and 14), and multiple RER lines (A, B and D) that run through the station Châtelet - Les Halles (it's really two stations that merged into one). Because of this, it can be a _nightmare_ to get out of the station. You can be walking for 15 minutes to get from one line to the other line. Google Maps will often tell you there's a walk, but it often underestimates it especially if you're not familiar with the station. A lot of locals joke about the 'Châtelet - Les Halles escape game'. There's ~26 exits.
+This area is very well connected to the rest of Paris. There are multiple metro lines (1, 4, 7, 11 and 14), and multiple RER lines (A, B and D) that run through the station _Châtelet - Les Halles_ (it's really two stations that merged into one). Because of this, it can be a _nightmare_ to get out of the station. You can be walking for 15 minutes to get from one line to the other line. Google Maps will often tell you there's a walk, but it often underestimates it especially if you're not familiar with the station. A lot of locals joke about the _Châtelet - Les Halles escape game_. There's more than 20 exits, and you'll probably lose the exit number you're following.
 
 Account for extra time when passing through here, and if possible _avoid_ (seriously, a lot of locals avoid this station).
 
 ### Shopping
 
-There's a lot of options for shopping in the area, the firs thing I'm going to suggest is somewhat niche.
+There's a lot of options for shopping in the area, the first thing I'm going to suggest is somewhat niche.
 
-A lot of people want to stock up on French skincare products while here. _Pharmacie du Forum Des Halles_ is a giant pharmacy located in the Westfield Forum des Halles shopping centre. It has everything you could think about, and more. A lot of the staff here speak English and are happy to help out. The prices here are reasonable - not all pharmacies are equal. I will say, that it can get busy, so it's not for everyone.
+A lot of people want to stock up on French skincare products while here. _Pharmacie du Forum Des Halles_ is a giant pharmacy located in the Westfield Forum des Halles shopping centre. It has everything you could think about, and more. A lot of the staff here speak English and are happy to help out. The prices here are good - not all pharmacies are equal. I will say, that it can get busy, so it's not for everyone.
 
-If you're wanting to buy an English book while here, I'd recommend _Smith & Son_. They have a large selection of books to choose from and a tea room upstairs. They also have a small selection of British snacks like Terry's chocolate orange.It's located just opposite the Tuileries gardens.
+If you're wanting to buy an [English book](/articles/book-stores/) while here, I'd recommend _Smith & Son_. They have a large selection of books to choose from and a tea room upstairs. They also have a small selection of British snacks like Terry's chocolate orange. It's located just opposite the Tuileries gardens.
 
 Along Rue Saint-Honoré you'll find the luxury and designer stores.
 
@@ -80,4 +76,6 @@ _Samaritaine_ is a department store, located between the Louvre and 59 Rivoli. T
 
 ### Your experience
 
-What do you think of the first arrondissement of Paris? Got anything you'd like to share? You can reach me on instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+What do you think of the first arrondissement of Paris? Got anything you'd like to share? You can reach me on instagram at **[@abiguides](https://www.instagram.com/abiguides/)**.
+
+If you'd like a guided tour of the first arrondissement, you can book a tour using the button below!
