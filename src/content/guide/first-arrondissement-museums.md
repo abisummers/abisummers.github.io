@@ -3,16 +3,20 @@ title: Paris 1st arrondissement - museums
 description: Some of the must see museums and monuments in the first arrondissement of Paris
 publishedDate: 2025-01-29
 themes: ["arrondissement"]
-# image: /src/content/guide/images/rue-des-fosses-saint-jacques.jpg
+image: /src/content/guide/images/orangerie-monet.jpeg
 ---
 
 The first arrondissement is at the very centre of Paris. The name of this arrondissement is _Louvre_, and you can probably guess why.
 
 While the Louvre is one of the most famous museums in the world, there are also other museums in the area that I really enjoy. If you're only in Paris for a few days, you're not going to see everything, so pick what speaks to you the most.
 
+If you're looking for other things to do in the first arrondissement of Paris including places to eat, you can check out my article [here](/articles/guide/first-arrondissement/).
+
 ### Louvre
 
 The first museum I'm going to mention is the Louvre, partially because it's the name of the arrondissement, but also because it's on the list of must-dos for a lot of tourists who are visiting Paris. It is one of the most famous museums in the world after all. Even if you're not planning on visiting inside, I still think it's worth admiring the building from the outside. You'll get to experience the size of the museum because it's _massive_ and you'll get to see the glass pyramids.
+
+![the outside of the Louvre in the evening. The sky is dark which makes the glass pyramid stand out](./images/louvre-evening.jpeg)
 
 One of the most famous pieces is no doubt the Mona Lisa, or _La Joconde_ in French. There's a new project underway to create a new room for the Mona Lisa that will be independently accessible and have it's own access path, which should open in 2031.
 
@@ -20,15 +24,13 @@ Another famous painting is _La Liberté guidant le peuple_ or Liberty Leading th
 
 I would highly recommend reserving tickets in advance because the queue can get really long especially during peak season. If you have the Paris Museum card, you will still need to reserve a timeslot. At the end of most guided tours here, you're allowed to wander through the rest of the exhibition on your own.
 
-### Tuileries Garden
-
-The _Tuileries Garden_, at the west side of the Louvre is well worth a visit. I personally like to spend a bit of time outside after a museum, so the gardens are a perfect place for a stroll. They also have seats throughout where you can sit and pause. In winter, it hosts one of the biggest Christmas markets in Paris.
-
 ### Musée de l'Orangerie
 
 At the west side of the Tuileries Garden, you have anther museum _Musée de l'Orangerie_. This museum is known because it has 8 of Monet's water lilies murals. They're beautiful. At the centre of the rooms where the water lilies are displayed, there are some seats where you can pause to admire the art. I would recommend reserving tickets for this museum too, because the queues can get long.
 
-note this museum is currently closed for renovations and is due to reopen in early March 2025.
+![a water lily mural, with many shades of blue and purple](./images/orangerie-monet.jpeg)
+
+note at the time of writing this (January 2025) the museum is currently closed for renovations and is due to reopen in early March 2025.
 
 ### Bourse de Commerce
 
@@ -41,6 +43,8 @@ The _Conciergerie_ is also worth visiting if you're interested in the French Rev
 ### Sainte-Chapelle
 
 While not a museum, I feel like _Sainte-Chapelle_ deserves a spot on this list because it's a place people often want to visit. If you're walking along Boulevard du Palais, you'll often see people queueing to get in. From the outside it doesn't look like much, but once you're inside it's beautiful especially on a sunny day. Sainte-Chapelle is known for the stained-glass windows.
+
+![the sainted-glass windows from inside Sainte-Chapelle](./images/sainte-chapelle.jpeg)
 
 Sainte-Chapelle also have classical music concerts. I've not yet been, but it's on my list of things to do in Paris!
 
