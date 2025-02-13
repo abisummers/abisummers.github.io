@@ -1,7 +1,8 @@
 ---
 title: Picking a restaurant
-description: My guide for picking a restaurant in Paris
+description: How to pick a restaurant in Paris.
 publishedDate: 2024-08-18
+updatedDate: 2025-02-13
 themes: ["how-to", "restaurants"]
 ---
 
@@ -9,19 +10,21 @@ France is known for their food, and there are _thousands_ of restaurants to chos
 
 When trying a new restaurant, it's sometimes hard to know what to look out for. In my first year here, I definitely ate at some restaurants that were not good and were way more expensive that they should have been.
 
-### How to pick a good restaurant
+### How to pick a good restaurant in Paris
 
-In recent years, I've rarely been let down by this guide. As someone who has eaten at hundreds of restaurants across the city, here's some of the things I personally look out for when picking a new place to try.
+In recent years, I've rarely been let down by this guide. As someone who has eaten at hundreds of restaurants across the city over the eight years that I've lived here, here's some of the things I personally look out for when picking a new place to try. 
 
-This isn't to say that all restaurants that do some of these things are bad, but they are all things that I factor in.
+You can see a list of _some_ of my favourite restaurants [here](https://www.google.com/maps/d/viewer?mid=117w2uwIFA2aieW8BoL4KOY-7JlBs3_g&ll=48.8585024429216%2C2.3323640499999954&z=13) if you're looking for a tried and tested place.
+
+A good thing to look out for is _'fait maison'_ on a menu which means home made. There are certain rules about what is allowed to be called fait maison, but it signifies the food is made on site with raw and unprocessed ingredients.
+
+Here are some of the things I look out for when picking a new restaurant. This doesn't mean the restaurant will be bad if they fall into any of these categories, but it is something to consider.
 
 ### Opening hours
 
-In France, it's very common for restaurants to only open for lunch (roughly between 12 and 2pm) and dinner (from 6pm onwards).
+In France, it's very common for restaurants to only open for lunch (roughly between 12 and 2pm) and dinner (from 6:30pm onwards). This can definitely be frustrating, especially if it's not something that you've prepared for. I've definitely been caught out by this before.
 
-As a general rule, if a restaurant is open between lunch and dinner it means that it's at least partially targetting tourists.
-
-This can definitely be frustrating, especially if it's not something that you've prepared for. If I'm hungry between lunch and dinner, I will usually go to a bakery or a supermarket.
+There are however some good restaurants that are open the entire day, or _service continu_ in French. It's just something to consider.
 
 ### Someone standing outside
 
@@ -39,9 +42,9 @@ A lot of restaurants in Paris will translate things into English, but it's usual
 
 ### The length of the menu
 
-If you go to a french restaurant and they have things like pizza on the menu, you can presume the pizza isn't going to be good.
+If a restaurant has six pages of food that are all vastly different, I'd proceed with caution. Typical French menus have a selection of items but there's often some overlapping items between each dish (the vegetables, the potatoes, the sauces etc). If there's a restaurant serving both burgers and sushi you can presume that one, or both are not going to be great.
 
-I prefer not going to restaurants that have many different options, because realistically are they all going to be good? Probably not. Especially if they have multiple different cuisines on their menu
+There are so many restaurants in Paris to choose from, so I'd recommend sticking to one type of food (French, japanese, italian etc).^>
 
 ### How busy the place is
 
@@ -51,19 +54,19 @@ Tables in Paris restaurants are often super close together (sometimes the table 
 
 ### Seating
 
-I love sitting on a terrace, but I rarely do it when I'm eating. It's super common for people to smoke while drinking or just after their meal and I _hate_ the smell.
+I love sitting on a terrace, but I rarely do it when I'm eating. It's super common for people to smoke while drinking or just after their meal and I _hate_ the smell. If you see lots of people smoking, chances are it's French people which is often a good sign.
 
 Smoking is accepted as part of the culture here, so that's something to consider if you're sensitive to the smell like me.
 
 ### Location
 
-The location of the restaurant is important. If you're close to the Louvre or have a great view of the Eiffel Tower then you should expect to pay more compared to a restaurant further from the main touristy areas.
+The location of the restaurant is important. If you're close to the Louvre or have a great view of the Eiffel Tower then you should expect to pay more compared to a restaurant further from the main touristy areas. It doesn't mean the food is going to be bad, but it does mean you're also paying for the location or view.
 
 ### Google maps reviews
 
 I almost always check the ratings on google maps, but I think the reviews should be taken with a grain of salt.
 
-If I see a few reviews complaining about how the service, I'm not automatically put off by this because I'm aware that French service is very different to that in the UK.
+If I see reviews complaining about how the service, I'm not automatically put off by this because I'm aware that French service is very different to in other countries. Service in France is often slow, and that's ok with me.
 
 If someone dreams of eating with a view of the Eiffel Tower, they're more likely to write a 5 star review even if the quality of the food is not that great because they're wowed by the Eiffel Tower (and honestly, it's an incredible piece of architecture).
 
