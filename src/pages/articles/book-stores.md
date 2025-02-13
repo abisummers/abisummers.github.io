@@ -2,15 +2,16 @@
 layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
-title: Book stores
-intro: My favourite places to buy English books in Paris
-description: My favourite places to buy English books in Paris
+title: English book stores in Paris
+intro: My favourite places to buy English books in Paris, from small independent book stores
+description: My favourite places to buy English books in Paris, from small independent book stores
 publishedDate: 2024-04-23
+updatedDate: 2025-02-13
 ---
 
 ## English book stores in Paris
 
-I love reading books, it's something that I find a lot of joy in, both reading on my own but also being part of a book club. I love being able to discuss what I'm reading.
+I love love love books. You'll almost always find me with both a book and a journal in my bag. There's something so cool about being transported to another world or getting to deep dive into a subject.
 
 I can read French, but reading French books can feel like somewhat of a lesson. I'm always learning new phrases and having to think more compared to when I read in English so that's not always the vibe I want when I'm reading for fun.
 
@@ -50,13 +51,13 @@ It's just opposite Jardin du Luxembourg, so the perfect place to sit and read a 
 
 ## Smith & Son
 
-They have two locations, one on Rue Rivoli just opposite the Jardin des Tuileries and a second one in the Marais. The main store on Rue Rivoli has a tea room and a selection of British foods that you can't find easily in France.
+They have two locations, one on Rue Rivoli just opposite the Jardin des Tuileries and a second one in the Marais. The main store on Rue Rivoli has a tea room and a selection of British foods (think Irn Bru and Terry's chocolate orange) that you can't find easily in France.
 
 They have a website where you can order books and you can see what books they have in stock. This store is usually less crowded compared to The Abbey and Shakespeare and Company - they have more space to move around.
 
 ## San-Francisco Book Co
 
-This time, the store focuses is on second hand books.
+This time, the store focus is on second hand books.
 
 One of the things I love about second hand book stores is you never know what you're going to find. You have to spend the time looking through the books until you find one that catches your eye.
 
@@ -75,5 +76,7 @@ If you know of any other English book stores, then I'd love to hear about them! 
 ---
 
 published date: 23rd April 2024
+
+updated date: 13th February 2025
 
 read more articles [here](/articles/)
