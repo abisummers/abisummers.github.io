@@ -226,7 +226,35 @@ const museumCollection = await getCollection("museums");
   <br />
 
   <div>
-    <h3>Itinerary</h3>
+    <h3 id="women-in-french-history">Women from French history</h3>
+    <p>
+      Women have played an important part throughout history, both within in
+      France and around the world. Here you can learn more about some of the
+      influential women in French history.
+    </p>
+    <ul class="cards">
+      {
+        guideCollection
+          .filter((article) => article.data.themes.includes("women"))
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.title}>
+                  <a href={`/articles/guide/${article.slug}/`}>
+                    <h3>{article.data.title}</h3>
+                    <p>{article.data.description}</p>
+                  </a>
+                </li>
+              );
+            }
+          })
+      }
+    </ul>
+  </div>
+  <br />
+
+  <div>
+    <h3 id="itinerary">Itinerary</h3>
     <p>A guide on how best to spend your time in Paris</p>
     <p>
       Here's what I'd recommend to do based on how long you're in Paris for and
