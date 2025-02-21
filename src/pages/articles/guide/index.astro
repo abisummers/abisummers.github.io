@@ -6,7 +6,10 @@ const guideCollection = (await getCollection("guide")).filter(
   (entry) => !entry.data.draft,
 );
 
-const museumCollection = await getCollection("museums");
+const museumCollection = (await getCollection("museums")).filter(
+  (museum) => new Date(museum.data.endDate) >= new Date(),
+);
+
 ---
 
 <Main
@@ -100,10 +103,19 @@ const museumCollection = await getCollection("museums");
   <li>
     <a href="#myths-and-ledgends">Myths and ledgends</a>
   </li>
+  {
+    museumCollection.length ? (
+      <li>
+        <a href="#museums">Current exhibitions</a>
+      </li>
+    ) : (
+      ""
+    )
+  }
   <br />
 
   <div>
-    <h3 id="personalised-tours" >Personalised tours</h3>
+    <h3 id="personalised-tours">Personalised tours</h3>
 
     <p>
       Here you can read a bit about the types of tours that I offer. Paris has
@@ -251,7 +263,7 @@ const museumCollection = await getCollection("museums");
       }
     </ul>
   </div>
-  <br />
+  <!-- <br />
 
   <div>
     <h3 id="itinerary">Itinerary</h3>
@@ -278,7 +290,7 @@ const museumCollection = await getCollection("museums");
           })
       }
     </ul>
-  </div>
+  </div> -->
   <br />
 
   <div>
@@ -365,6 +377,42 @@ const museumCollection = await getCollection("museums");
   </div>
 
   <br />
+  {
+    museumCollection.length ? (
+      <>
+        <div>
+          <h3 id="museums">Current exhibitions</h3>
+          <p>
+            I love that Paris has so much to do an offer, even after eight years
+            here, there's still always more to see
+          </p>
+          <p>Here are some current exhibitions that I've been to recently</p>
+          <p>
+            you can find passed exhibitions{" "}
+            <a href="/articles/museums/">here</a>
+          </p>
+
+          <ul class="cards">
+            {museumCollection.map((article) => {
+              if (article) {
+                return (
+                  <li value={article.data.title}>
+                    <a href={`/articles/museums/${article.slug}/`}>
+                      <h3>{article.data.title}</h3>
+                      <p>{article.data.intro}</p>
+                    </a>
+                  </li>
+                );
+              }
+            })}
+          </ul>
+        </div>
+        <br />
+      </>
+    ) : (
+      ""
+    )
+  }
   <hr />
 
   <p>
