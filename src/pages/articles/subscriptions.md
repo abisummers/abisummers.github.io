@@ -31,14 +31,17 @@ Has it been worth it?
 | la Conciergerie    | 13€ (x2) |     26€     | 02/11/2024 |
 | Sainte-Chapelle\*  | 13€ (x2) |     26€     | 02/11/2024 |
 | Hôtel de la Marine | 23€ (x2) |     46€     | 19/02/2024 |
+| Pantheon           | 13 (x2)  |     26€     | 15/04/2024 |
 
 \* you can but a twin ticket for la Conciergerie and Sainte-Chapelle which costs 20€ instead of 26€.
 
 I went to Maison des Jardies as part of my [day trip to Ville d'Avray](/articles/alphabet-ile-de-france/v-ville-d-avray/), and I'm not sure if I would have known about this museum if it wasn't for this card. I followed the guided tour and it was _so good_, like one of the best tours I've followed (and I've followed a lot).
 
-total saved so far: **169€**
+total saved so far: **195€**
 
 Within a few month of having the card, I've already saved money! I've had a great time visiting the arc de triomphe with a friend (I hadn't been in years) and I loved the guided tour of Maison des Jardies à Sèvres. It's been helpful with my alphabet of Île-de-France [project](/articles/alphabet-ile-de-france/). This card is great because it's not specific to Paris or Île-de-France. It's great when I have friends visiting because it allows me to take them to some of the tourist locations with needing to pay for tickets on the day. I got to take my mum to la Conciergerie and Sainte-Chapelle when she was visiting without needing to book a timeslot in advance.
+
+Hôtel de la Marine has an interesting exhibition on (until 5th October 2025), that I don't think I would have known about without having this card! I wrote my thoughts [here](/articles/museums/hotel-de-la-marine-al-thani-collection/) - I'm going to try and see it again before it ends. I really loved thinking about colours in a different way, and what they mean across cultures.
 
 ## Paris museum card
 
