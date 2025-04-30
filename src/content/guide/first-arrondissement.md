@@ -22,6 +22,8 @@ I have an entire article dedicated to the [museums of the first arrondissement](
 
 While it's a small area, there's a lot to see. Here are some of the other notable places.
 
+The _Tuileries Garden_, at the west side of the Louvre is well worth a visit. I personally like to spend a bit of time outside after a museum, so the gardens are a perfect place for a stroll. They also have seats throughout where you can sit and pause. In winter, it hosts one of the biggest Christmas markets in Paris.
+
 At the centre of _Place Vendôme_ there is the _Colonne Vendôme_, a bronze column topped by a statue of Napoleon. While this is the first thing you're likely to see, it's not the only thing worth looking at.
 
 The French revolution had a massive impact on France (stick with me), but also globally. It was during this period that France standardised certain measurements, including the metre, litre and kilo. Throughout Paris, they had placed 16 meters standards in busy areas to help with the transition into the new system. Only two of them remain today, and one of them is here at 13 Place Vendôme.
