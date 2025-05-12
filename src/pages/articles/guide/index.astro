@@ -103,6 +103,9 @@ const museumCollection = (await getCollection("museums")).filter(
   <li>
     <a href="#myths-and-ledgends">Myths and ledgends</a>
   </li>
+  <li>
+    <a href="#architecture">Architecture</a>
+  </li>
   {
     museumCollection.length ? (
       <li>
@@ -377,6 +380,37 @@ const museumCollection = (await getCollection("museums")).filter(
   </div>
 
   <br />
+
+  <div>
+    <h3 id="architecture">Architecture</h3>
+
+    <p>
+      Some of the things to look out for while walking around the city
+    </p>
+
+    <ul class="cards">
+      {
+        guideCollection
+          .filter((article) => article.data.themes.includes("architecture"))
+          .map((article) => {
+            if (article) {
+              return (
+                <li value={article.data.title}>
+                  <a href={`/articles/guide/${article.slug}/`}>
+                    <h3>{article.data.title}</h3>
+                    <p>{article.data.description}</p>
+                  </a>
+                </li>
+              );
+            }
+          })
+      }
+    </ul>
+  </div> 
+
+  <br>
+
+
   {
     museumCollection.length ? (
       <>
