@@ -2,7 +2,7 @@
 languages: ["en"]
 language: "en"
 title: How to get tickets to Sainte Chapelle
-description:
+description: My tips to avoiding the long line at Sainte Chapelle
 themes: ["tourist-attraction"]
 publishedDate: 2025-05-22
 draft: false
@@ -39,4 +39,4 @@ This is not an option I would recommend, because the line moves super slow. You 
 
 ### Book a tour
 
-If you're wanting to see more of Ile de la Cite, you can book a private tour [here](/book/)! Note I specialise in outdoor walking tours, so I will not be able to give a tour inside the Sainte Chapelle.
+If you're wanting to see more of Ile de la Cite, you can book a private tour [here](/book/)! Note I specialise in outdoor walking tours, so I will not be able to give a tour inside the Sainte Chapelle or provide the tickets.
