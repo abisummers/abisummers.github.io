@@ -59,7 +59,7 @@ There are so many museums to choice from in Paris, depending on the type of art 
 
 Almost all of the [Paris museums](https://www.parismusees.paris.fr/en/les-musees-de-la-ville-de-paris),the 14 museums ran by the city, have a free permanent collection.
 
-One of my favourite museums in this network is the Carnavalet, a museum in the heart of Le Marais. It's a museum that focuses on the history of the city of Paris. It is broken down into different sections starting with prehistory all the way up to the 19th century. Even if you're not so interested in French history, it's still worth checking out because the building is beautiful.
+One of my favourite museums in this network is _Musée Carnavalet - Histoire de Paris_, a museum in the heart of Le Marais focusing on the history of the city of Paris. It is broken down into different sections starting with prehistory all the way up to the 19th century. Even if you're not so interested in French history, it's still worth checking out because the building is beautiful and it had lots of interesting pieces on display.
 
 #### 59 Rivoli
 
