@@ -80,4 +80,4 @@ Close by, there's a cafe called "The Caféothèque of Paris" which is nice with 
 
 ### Get in contact
 
-Do you have a favourite park in Le Marais? What do you look for in a park (access to drinking water, toilets, being able to sit on the grass)? Get in contact via instagram at **[@abisummers](https://www.instagram.com/abisummers/)** or email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
+Do you have a favourite park in Le Marais? What do you look for in a park (access to drinking water, toilets, being able to sit on the grass)? Get in contact via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
