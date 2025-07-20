@@ -1,0 +1,46 @@
+---
+import Main from '../../layouts/article.astro';
+---
+
+<Main>
+  <style>
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+    }
+    .button-link {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      font-size: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 0.5em;
+      border: 0.1em solid currentColor;
+      text-decoration: none;
+      text-align: center;
+    }
+  </style>
+  <div class="">
+    <p>Bienvenue au site web de Abi Summers, guide touristique a Paris.</p>
+    <div class="links">
+      <a href="/book/" class="button-link">Reservez un guide</a>
+      <!-- <a href="/book/" class="button-link">Donnez un recensement</a> -->
+      <a href="/articles/guide/" class="button-link">Tips pour visiter Paris</a>
+      <a
+        href="https://www.google.com/maps/d/edit?mid=117w2uwIFA2aieW8BoL4KOY-7JlBs3_g&usp=sharing"
+        target="_blank"
+        class="button-link">Mes recommendations</a
+      >
+      <a
+        href="https://www.instagram.com/abiguides/"
+        target="_blank"
+        class="button-link">Instagram</a
+      >
+      <a href="mailto:contact@abisummers.com" class="button-link"
+        >Contactez moi</a
+      >
+    </div>
+  </div>
+</Main>
