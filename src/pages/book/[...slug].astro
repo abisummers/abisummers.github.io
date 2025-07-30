@@ -5,7 +5,7 @@ import Article from '../../layouts/article.astro';
 export async function getStaticPaths() {
   return (await getCollection('guide'))
     .map((entry) => ({
-      params: { slug: entry.slug },
+      params: { slug: entry.data.tourSlug || entry.slug },
       props: { entry },
     }))
     .filter(

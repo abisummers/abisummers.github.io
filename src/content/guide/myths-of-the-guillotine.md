@@ -31,7 +31,7 @@ The guillotine hasn't always gone by this name, some of the other names include 
 
 Joseph-Ignace Guillotin (1738 – 1814) was a French physician, politician, and freemason who proposed the guillotine as a more humane method of execution. Believe it or not, he was actually against capital punishment and the death penalty.
 
-Another myth surrounding Guillotin himself is that he was beheaded, but fortunately that's not true. He died of natural causes at the age of 75. He is buried in the famous Père Lachaise cemetery.
+Another myth surrounding Guillotin himself is that he was beheaded, but fortunately that's not true. He died of natural causes at the age of 75. He is buried in the famous [Père Lachaise cemetery](/book/people-of-pere-lachaise/).
 
 ### The lasting legacy
 
