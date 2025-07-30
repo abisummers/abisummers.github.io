@@ -23,7 +23,7 @@ Ticket price: 17€
 
 The exhibition covers nearly 40 years of Wolfgang Tillmans' work across various domains - photos, videos, and sound.
 
-![](./images/wolfgang-tillmans.jpeg)
+![photographic artwork by Wolfgang Tillmans](./images/wolfgang-tillmans.jpeg)
 
 In total, I spent two hours(!) here, and I could have spent longer if I didn't have work in the afternoon. I didn’t have any expectations for the exhibition, but it was so much more than I thought it would be. They have a little book leaflet with the layout and some information on the pieces.
 
@@ -41,8 +41,10 @@ I felt so inspired by the exhibition, that I took out my journal to write. Phone
 
 ### Closing thoughts
 
-I have an annual pass to Centre Pompidou, so I'm hoping to experience the exhibition again. You can hear Wolfgang Tillmans talk about his exhibition on the Centre Pompidou [YouTube channel](https://www.youtube.com/watch?v=FBOCcvkEC9w).
+I would highly recommend this exhibition! You could spend hours here, especially if you wanted to look through all of the videos in the self education section. There are plenty of places to sit down and enjoy the work.
 
-Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+ I have an annual pass to Centre Pompidou, so I'm hoping to experience the exhibition again. You can hear Wolfgang Tillmans talk about his exhibition on the Centre Pompidou [YouTube channel](https://www.youtube.com/watch?v=FBOCcvkEC9w), where he explains some of his favourite pieces.
+
+Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can leave a comment on instagram at **[@abiguides](https://www.instagram.com/reel/DMvKQkVNuC_)**
 
 ---
