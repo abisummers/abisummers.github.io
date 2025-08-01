@@ -1,7 +1,7 @@
 ---
 title: The myth of rue de la Colombe
 description: A tale of two doves in love
-publishedDate: 2024-01-03
+publishedDate: 2025-01-03
 themes: ["stories"]
 draft: false
 image: /src/content/guide/images/rue-de-la-colombe.jpg
