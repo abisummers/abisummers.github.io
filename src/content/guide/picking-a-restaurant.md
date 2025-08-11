@@ -44,7 +44,7 @@ A lot of restaurants in Paris will translate things into English, but it's usual
 
 If a restaurant has six pages of food that are all vastly different, I'd proceed with caution. Typical French menus have a selection of items but there's often some overlapping items between each dish (the vegetables, the potatoes, the sauces etc). If there's a restaurant serving both burgers and sushi you can presume that one, or both are not going to be great.
 
-There are so many restaurants in Paris to choose from, so I'd recommend sticking to one type of food (French, japanese, italian etc).^>
+There are so many restaurants in Paris to choose from, so I'd recommend sticking to one type of food (French, japanese, italian etc).
 
 ### How busy the place is
 
