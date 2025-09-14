@@ -61,7 +61,7 @@ const museum = defineCollection({
       publishedDate: z.string().refine((date) => !isNaN(Date.parse(date)), {
         message: "Invalid date format",
       }),
-      image: z.string().optional(),
+      image: image(),
     }),
 });
 
