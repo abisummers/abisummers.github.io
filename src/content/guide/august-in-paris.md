@@ -3,6 +3,7 @@ title: Paris in August
 description: What to expect when visiting Paris in August
 publishedDate: 2025-09-04
 themes: ["how-to"]
+image: /src/content/guide/images/paris-beach.PNG
 ---
 
 It's the start of September and I'm sat in my office reflecting on August. Summer is a busy period for me as a tour guide, so unlike a lot of 'normal' jobs September is actually calmer for me (it's been a while since I found the time to just sit and write!). That being said, I love Paris in August!

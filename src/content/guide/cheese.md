@@ -3,9 +3,12 @@ title: All things cheese
 description: An overview on french cheeses, from how they're made, to the eight families of cheeses
 publishedDate: 2024-09-17
 themes: ["food"]
+image: /src/content/guide/images/cheese.jpeg
 ---
 
 I don't think you can talk much about French food without mentioning cheese! Different sources list different numbers of cheeses that are produced in France - but it's safe to say there are hundreds of cheeses that are made here. There are the big brands that you'll find in almost every supermarket, but there are so many more varieties of cheeses that can be found at your local _fromagerie_.
+
+![a selection of cheeses in a supermarket. There are a mix of soft and hard cheeses, some are sold as the piece and others you can get slices of](./images/cheese.jpeg)
 
 but what exactly makes a cheese different? Why are there so many varieties?
 

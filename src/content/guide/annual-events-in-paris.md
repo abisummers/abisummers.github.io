@@ -3,6 +3,8 @@ title: Annual events in Paris (and Île-de-France)
 description: Here you can find some of the events that happen in Paris each year, including one of my favourite nights of the year!
 publishedDate: 2024-09-23
 themes: ["activity"]
+image: /src/content/guide/images/heritage-days-2023-senat.jpeg
+
 ---
 
 There are many events that happen in Paris (and across France), here are some of the events happen annually. If you're going to be in France at the same time as any of these events, I think it's worth checking out!
@@ -98,6 +100,8 @@ If you want to have a place on the barrier, then you'll need to arrive a few hou
 ### Heritage days (September)
 
 In French this is called the _journées européennes du patrimoine_. This is an event that happens in multiple european countries at the same time. It's a weekend (sometimes over multiple weekends like in Belgium). Over the weekend, there are places that are open that are otherwise closed to the public such as le sénat, and a lot of museums will have additional guided tours.
+
+![a view inside the Sénat. The walls have lots of gold details on them. The seats, positioned in a semi circle are all red. There are lots of people standing around the edge of the room](./images/heritage-days-2023-senat.jpeg)
 
 If you are wanting to see something specific, it's worth reserving tickets in advance - reservations open a few weeks before. Most events require reservations in Paris however there are always some that don't require it. If there's no reservation, chances are there will be quite a long queue.
 
