@@ -2,7 +2,7 @@
 layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
-title: Board game cafes
+title: Board game cafés
 intro: Some of my favourite places to play board games in Paris
 description: Some of my favourite places to play board games in Paris
 publishedDate: 2024-05-28

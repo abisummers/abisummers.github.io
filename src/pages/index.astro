@@ -1,7 +1,13 @@
 ---
+import { type MarkdownInstance } from 'astro';
 import Main from '../layouts/main.astro';
 
-const about = (await Astro.glob('./articles/about.md'))[0];
+const about = Object.values(
+  import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
+    './articles/about.md',
+    { eager: true }
+  )
+)[0];
 
 const articles: Array<{
   title: string;

@@ -1,7 +1,15 @@
 ---
-import Main from "../../../layouts/article.astro";
+import type { MarkdownInstance } from 'astro';
+import Main from '../../../layouts/article.astro';
 
-const unsorted = await Astro.glob("./*.md");
+const unsorted = Object.values(
+  import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
+    './*.{md,mdx,astro}',
+    {
+      eager: true,
+    }
+  )
+);
 
 const articles = [
   ...unsorted.map((article) => ({
