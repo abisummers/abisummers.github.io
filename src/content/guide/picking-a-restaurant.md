@@ -4,9 +4,12 @@ description: How to pick a restaurant in Paris.
 publishedDate: 2024-08-18
 updatedDate: 2025-02-13
 themes: ["how-to", "restaurants"]
+image: /src/content/guide/images/restaurant.JPG
 ---
 
 France is known for their food, and there are _thousands_ of restaurants to chose from in the city. You'll find your classic French bistros, but you'll also find food from all around the world (which is one of the many things I love about living here).
+
+![a table for two at a restaurant. On the table there are two wine glasses and two sets of cutlery. There is a menu in the middle of the table.](./images/restaurant.JPG)
 
 When trying a new restaurant, it's sometimes hard to know what to look out for. In my first year here, I definitely ate at some restaurants that were not good and were way more expensive that they should have been.
 

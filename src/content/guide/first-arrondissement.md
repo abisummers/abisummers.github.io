@@ -3,7 +3,7 @@ title: Paris 1st arrondissement
 description: Museums, landmarks, restaurants and shopping in the first arrondissement
 publishedDate: 2025-01-27
 themes: ["arrondissement"]
-# image: /src/content/guide/images/rue-des-fosses-saint-jacques.jpg
+image: /src/content/guide/images/metre-standard.jpeg
 ---
 
 The first arrondissement is at the very centre of Paris. The name of this arrondissement is _Louvre_ and you can probably guess why. This is one of the areas that most tourists will visit because you guessed it, the Louvre is here. It's well connected to most of Paris through it's various metro and RER lines so it's easy to get around the city from here.

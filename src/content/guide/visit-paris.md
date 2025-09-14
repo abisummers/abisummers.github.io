@@ -4,6 +4,7 @@ description: The experiences I offer, from personalised guided tours to planning
 publishedDate: 2024-08-18
 themes: ["tour"]
 tourId: "325299P7AT193B7193747"
+image: /src/pages/articles/images/profile-picture.jpeg
 ---
 
 Hi, I'm Abi, a tour guide living in Paris! I love Paris, Île-de-France and France. I love getting to share this with people who are visiting. Here you can find more about the types of experiences I offer, and how to get in contact if you would like me to help make your trip a success!
@@ -26,7 +27,7 @@ Some of the things I love about Paris that I would love to share with you:
 
 Got something specific in mind? Get in contact and we can talk!
 
-### Reasons why I think I'm a good tour guide
+### Things that help me as a guide
 
 Every tour guide has something different to offer. Giving tours is a form of storytelling and everyone will have their own spin on it. Paris has something for everyone, and I'm here to make sure you have the best time!
 

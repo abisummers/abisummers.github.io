@@ -4,7 +4,7 @@ description: How to enjoy Paris when travelling with kids
 publishedDate: 2025-08-01
 themes: ["tour"]
 draft: false
-image: /src/content/guide/images/paris-flash-invader.jpeg
+image: /src/content/guide/images/boats.jpg
 tourId: "3252JM36FY193B14309DC"
 ---
 
