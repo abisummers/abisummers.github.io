@@ -8,6 +8,7 @@ const optimiseImages = true;
 
 // https://astro.build/config
 export default defineConfig({
+  cacheDir: "./cache",
   trailingSlash: "always",
   site: "https://abisummers.com",
   i18n: {
