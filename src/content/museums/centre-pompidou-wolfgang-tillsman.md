@@ -9,6 +9,7 @@ ticketCost: 0
 country: FR
 title: Centre Pompidou | Wolfgang Tillsman | Nothing could have prepared us
 publishedDate: 2025-07-30
+image: /src/content/museums/images/wolfgang-tillmans-raisons.jpeg
 ---
 
 I went to see the final exhibition, “Nothing could have prepared us, everything could have prepared us” at Centre Pompidou before it closes for 5 years. Walking into the building was a very emotional experience - which I didn't expect. They've already closed the escalators at the front of the building, so you can no longer go to the top to get a nice view. It makes sense, but I thought it would remain open while the final exhibition is on.
@@ -43,7 +44,7 @@ I felt so inspired by the exhibition, that I took out my journal to write. Phone
 
 I would highly recommend this exhibition! You could spend hours here, especially if you wanted to look through all of the videos in the self education section. There are plenty of places to sit down and enjoy the work.
 
- I have an annual pass to Centre Pompidou, so I'm hoping to experience the exhibition again. You can hear Wolfgang Tillmans talk about his exhibition on the Centre Pompidou [YouTube channel](https://www.youtube.com/watch?v=FBOCcvkEC9w), where he explains some of his favourite pieces.
+I have an annual pass to Centre Pompidou, so I'm hoping to experience the exhibition again. You can hear Wolfgang Tillmans talk about his exhibition on the Centre Pompidou [YouTube channel](https://www.youtube.com/watch?v=FBOCcvkEC9w), where he explains some of his favourite pieces.
 
 Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can leave a comment on instagram at **[@abiguides](https://www.instagram.com/reel/DMvKQkVNuC_)**
 

@@ -9,6 +9,7 @@ ticketCost: 0
 country: FR
 title: Hôtel de la Marine | Al Thani Collection
 publishedDate: 2025-02-21
+image: /src/content/museums/images/collection-al-thani.jpeg
 ---
 
 I've been living in Paris for eight years, and this is my first time visiting Hôtel de la Marine. I had no expectations going into the museum or exhibition, but I _loved_ it. It exceeded the expectations that I didn't have.
