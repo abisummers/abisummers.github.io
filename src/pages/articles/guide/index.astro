@@ -10,6 +10,7 @@ const guideCollection = (await getCollection('guide')).filter(
 const museumCollection = (await getCollection('museums')).filter(
   (museum) => new Date(museum.data.endDate) >= new Date()
 );
+const placeholder = '/public/favicon.ico';
 ---
 
 <Main
@@ -146,9 +147,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -187,9 +189,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -223,9 +226,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -263,9 +267,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -299,9 +304,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -359,9 +365,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -396,9 +403,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -435,9 +443,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -470,9 +479,10 @@ const museumCollection = (await getCollection('museums')).filter(
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
-                    {articles.every((art) => art.data.image) && (
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image}
+                        src={article.data.image || placeholder}
                         width={160}
                         height={90}
                         alt=""
@@ -512,9 +522,10 @@ const museumCollection = (await getCollection('museums')).filter(
                 return (
                   <li value={article.data.title}>
                     <a href={`/articles/museums/${article.slug}/`}>
-                      {articles.every((art) => art.data.image) && (
+                      {(articles.every((art) => art.data.image) ||
+                        import.meta.env.MODE === 'development') && (
                         <Image
-                          src={article.data.image}
+                          src={article.data.image || placeholder}
                           width={160}
                           height={90}
                           alt=""
