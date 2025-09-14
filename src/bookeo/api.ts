@@ -44,7 +44,6 @@ export type BookeoProduct = {
 };
 
 export async function getProducts(): Promise<BookeoProductsResponse> {
-  console.log("debug", import.meta.env, process.env);
   const { data, info } = (await fetch(
     `https://api.bookeo.com/v2/settings/products?apiKey=${import.meta.env.BOOKEO_CLIENT}&secretKey=${import.meta.env.BOOKEO_SERVER}`,
   )
