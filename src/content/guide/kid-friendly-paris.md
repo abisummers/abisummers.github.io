@@ -5,15 +5,13 @@ publishedDate: 2025-08-01
 themes: ["tour"]
 draft: false
 image: /src/content/guide/images/boats.jpeg
-tourId: "3252JM36FY193B14309DC"
 ---
 
 There are lots of things about Paris that make it great for families! And in the last 5 years I've noticed a positive change too - there's less cars and more green spaces. And it's likely to get better in the coming years too!
 
 All my tours are kid friendly and I love having kids on my tours. While I'm not a parent, I do have lots of experience working with kids - from looking after my brother while growing up to three years of au pairing. I think kids ask the best questions, and I love how curious they are to know more. All my stories can be adapted to their age and interests.
 
-<a  class="cta" href="/book/" >
-Book a tour</a>
+<a class="cta" href="/book/">Book a tour</a>
 
 All of these activities depend on the kids and the family, but here are some things that I like to do to make it more interactive! As my tours are private, they're fully adapted to you and your needs!
 

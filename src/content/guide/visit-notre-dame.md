@@ -4,14 +4,14 @@ description: Do you need tickets? What is the dress code?
 publishedDate: 2025-08-01
 themes: ["how-to"]
 image: /src/content/guide/images/notre-dame.jpeg
-# tourId: "325299P7AT193B7193747"
+tour: "ile-de-la-cite"
 ---
 
 Visiting the Notre Dame is high up on the list of must-dos for a lot of people who are visiting Paris. People want to visit for a bunch of different reasons, sometimes they are wanting to visit for a service, sometimes it's to appreciate the building from a religious or spiritual point of view, and other times it's just to admire the beauty and history.
 
 I get to spend a lot of time on Île de la Cité, which includes a lot of time admiring the Notre Dame!
 
-<a class="cta" href="/book/visit-notre-dame/">Book a tour</a>
+<a class="cta" href="/book/ile-de-la-cite/">Book a tour</a>
 
 ![the bell towers of Notre Dame. At the bottom you can see the gallery of kings](./images/notre-dame.jpeg)
 

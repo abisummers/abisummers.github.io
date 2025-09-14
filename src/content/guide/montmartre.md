@@ -176,7 +176,7 @@ locations: [
   ]
 
 mapConfig: { latitude: 48.886, longitude: 2.343, zoom: 13.6 }
-tourId: "3252JM36FY193B14309DC"
+tour: "montmartre"
 ---
 
 This neighbourhood has a lot of things to offer! It's one of the areas that most tourists will want to visit on their trip to Paris, but it's not just tourists who spend their time here. There are certain streets and areas that _everyone_ will visit, but there's also a lot of smaller streets that are also worth exploring.

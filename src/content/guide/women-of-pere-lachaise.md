@@ -5,8 +5,7 @@ publishedDate: 2025-02-18
 updatedDate: 2025-02-18
 themes: ["women"]
 image: /src/content/guide/images/grave-eidth-piaf.jpeg
-tourId: "3252MEAR97195143A8FD1"
-tourSlug: "people-of-pere-lachaise"
+tour: "pere-lachaise"
 ---
 
 Père Lachaise cemetery is the largest cemetery in Paris with over 70,000 tombs. It's a beautiful and peaceful place to stroll through with so much history in front of your eyes.
@@ -15,7 +14,7 @@ I love digging into the lives of women throughout history. They played important
 
 If you would like to learn more about this cemetery and of the people who are buried here, you can book a private tour.
 
-<a class="cta" href="/book/people-of-pere-lachaise/">Book a tour</a>
+<a class="cta" href="/book/pere-lachaise/">Book a tour</a>
 
 ### Edith Piaf (1915 - 1963)
 

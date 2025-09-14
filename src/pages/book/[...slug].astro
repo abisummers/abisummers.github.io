@@ -1,29 +1,50 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
 import Article from '../../layouts/article.astro';
 
 export async function getStaticPaths() {
-  return (await getCollection('guide'))
-    .map((entry) => ({
-      params: { slug: entry.data.tourSlug || entry.slug },
-      props: { entry },
-    }))
-    .filter(
-      (entry) => !entry.props.entry.data.draft && entry.props.entry.data.tourId
-    );
+  // Get the id: https://web-252d.bookeo.com/bookeo/mkt-bookingButton.html?ncs=3pfpfhymjm (type=xxx)
+  return [
+    {
+      id: '325299P7AT193B7193747',
+      slug: 'visit-paris',
+      title: 'Personalised tour',
+    },
+    {
+      id: '3252MEAR97195143A8FD1',
+      slug: 'pere-lachaise',
+      title: 'People of Père Lachaise | Private Tour',
+    },
+    {
+      id: '3252JM36FY193B14309DC',
+      slug: 'montmartre',
+      title: 'Exploring Montmartre | Private Tour',
+    },
+    {
+      id: '3252X9PCE41981E072FA2',
+      slug: 'ile-de-la-cite',
+      title: 'Île de la Cité | Private Tour',
+    },
+  ].map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
 }
 
 interface Props {
-  entry: CollectionEntry<'guide'>;
+  entry: {
+    id: string;
+    slug: string;
+    title: string;
+  };
 }
 
 const { entry } = Astro.props;
 ---
 
-<Article showLanguageSwitcher={false} title={`Book: ${entry.data.title}`}>
+<Article showLanguageSwitcher={false} title={`Book: ${entry.title}`}>
   <noscript>Book a guided tour</noscript>
   <script
     type="text/javascript"
-    src={`https://bookeo.com/widget.js?a=3252MKCWA4193B1401C92&type=${entry.data.tourId}`}
+    src={`https://bookeo.com/widget.js?a=3252MKCWA4193B1401C92&type=${entry.id}`}
     is:inline></script>
 </Article>
