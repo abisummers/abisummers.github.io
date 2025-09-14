@@ -53,6 +53,7 @@ At every Christmas market in France, you'll see raclette. This is a little diffe
 We have another cheese based dish! Again, this is a dish the originates from Switzerland, but is common in France. The word fondue comes from the French word verb fondre 'to melt', and that's exactly what it is. A pot of melted cheese! It's usually served along with bread. You'll get a small piece of bread on a skewer and put it into a communal pot of cheese.
 
 ![there's a plate on the left that has some bread and meat on. On the right there is a pot of cheese with a wooden spoon in it.](./images/fondue.jpeg)
+
 <!-- Fondue can also be used for meat fondues, which you cook meat in hot broth (research, origin of the word in relation to _fondre_) -->
 
 ### Tartiflette

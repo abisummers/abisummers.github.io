@@ -1,17 +1,17 @@
 ---
-import { getCollection } from 'astro:content';
-import Main from '../../layouts/article.astro';
-import type { MarkdownInstance } from 'astro';
+import { getCollection } from "astro:content";
+import Main from "../../layouts/article.astro";
+import type { MarkdownInstance } from "astro";
 
-const alphabet = (await getCollection('alphabet-ile-de-france')).map(
+const alphabet = (await getCollection("alphabet-ile-de-france")).map(
   (article) => ({
     title: `Visiting ${article.data.title}`,
     intro: `A day trip to ${article.data.title}. Part of the alphabet of Île-de-France series.`,
     url: `./alphabet-ile-de-france/${article.slug}/`,
-  })
+  }),
 );
 
-const museums = (await getCollection('museums')).map((m) => {
+const museums = (await getCollection("museums")).map((m) => {
   return {
     title: `${m.data.museumName}: ${m.data.exhibitionName}`,
     intro: m.data.intro,
@@ -19,7 +19,7 @@ const museums = (await getCollection('museums')).map((m) => {
   };
 });
 
-const travel = (await getCollection('travel')).map((article) => {
+const travel = (await getCollection("travel")).map((article) => {
   return {
     title: article.data.title,
     intro: article.data.intro,
@@ -27,7 +27,7 @@ const travel = (await getCollection('travel')).map((article) => {
   };
 });
 
-const guidedThroughParis = (await getCollection('guide')).map((article) => {
+const guidedThroughParis = (await getCollection("guide")).map((article) => {
   return {
     title: `${article.data.title}: guided through Paris`,
     intro: article.data.description,
@@ -37,16 +37,16 @@ const guidedThroughParis = (await getCollection('guide')).map((article) => {
 
 const unsorted = Object.values(
   import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
-    './*.{md,mdx,astro}',
+    "./*.{md,mdx,astro}",
     {
       eager: true,
-    }
-  )
+    },
+  ),
 );
 
 const articles = [
   ...unsorted
-    .filter((article) => article.frontmatter.title !== 'Privacy Policy')
+    .filter((article) => article.frontmatter.title !== "Privacy Policy")
     .map((article) => ({
       title: article.frontmatter.title,
       intro: article.frontmatter.intro,

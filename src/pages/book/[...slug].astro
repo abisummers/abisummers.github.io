@@ -1,28 +1,28 @@
 ---
-import Article from '../../layouts/article.astro';
+import Article from "../../layouts/article.astro";
 
 export async function getStaticPaths() {
   // Get the id: https://web-252d.bookeo.com/bookeo/mkt-bookingButton.html?ncs=3pfpfhymjm (type=xxx)
   return [
     {
-      id: '325299P7AT193B7193747',
-      slug: 'visit-paris',
-      title: 'Personalised tour',
+      id: "325299P7AT193B7193747",
+      slug: "visit-paris",
+      title: "Personalised tour",
     },
     {
-      id: '3252MEAR97195143A8FD1',
-      slug: 'pere-lachaise',
-      title: 'People of Père Lachaise | Private Tour',
+      id: "3252MEAR97195143A8FD1",
+      slug: "pere-lachaise",
+      title: "People of Père Lachaise | Private Tour",
     },
     {
-      id: '3252JM36FY193B14309DC',
-      slug: 'montmartre',
-      title: 'Exploring Montmartre | Private Tour',
+      id: "3252JM36FY193B14309DC",
+      slug: "montmartre",
+      title: "Exploring Montmartre | Private Tour",
     },
     {
-      id: '3252X9PCE41981E072FA2',
-      slug: 'ile-de-la-cite',
-      title: 'Île de la Cité | Private Tour',
+      id: "3252X9PCE41981E072FA2",
+      slug: "ile-de-la-cite",
+      title: "Île de la Cité | Private Tour",
     },
   ].map((entry) => ({
     params: { slug: entry.slug },

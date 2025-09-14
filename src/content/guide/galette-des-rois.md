@@ -40,6 +40,6 @@ Different families have different rules for when you're the winner, it often dep
 
 This is more than just a cake, it's part of an annual tradition for many people across France. Fèves are often collected, some people have a really impressive collections. At flea markets, you'll often see people selling them.
 
-This is a tradition that I have been a part of every year since I moved to France. My first experience of it was when I was an au pair, and the youngest child went under the table to assign everyone a piece of the cake. I had never heard of this tradition, but it's something I now look forward to every each. 
+This is a tradition that I have been a part of every year since I moved to France. My first experience of it was when I was an au pair, and the youngest child went under the table to assign everyone a piece of the cake. I had never heard of this tradition, but it's something I now look forward to every each.
 
 Whether this is your first time trying a galette de rois, or if it's something you do annually, I'd love to hear your thoughts over on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!

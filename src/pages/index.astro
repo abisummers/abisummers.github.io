@@ -1,12 +1,12 @@
 ---
-import { type MarkdownInstance } from 'astro';
-import Main from '../layouts/main.astro';
+import { type MarkdownInstance } from "astro";
+import Main from "../layouts/main.astro";
 
 const about = Object.values(
   import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
-    './articles/about.md',
-    { eager: true }
-  )
+    "./articles/about.md",
+    { eager: true },
+  ),
 )[0];
 
 const articles: Array<{
@@ -17,48 +17,48 @@ const articles: Array<{
   {
     title: about.frontmatter.title,
     intro: about.frontmatter.intro,
-    link: '/about/',
+    link: "/about/",
   },
   {
-    title: 'Guided through Paris',
+    title: "Guided through Paris",
     intro:
       "Advice from a local: from frequently asked questions to getting to know the city. I'm constantly updating this list, with new articles!",
-    link: '/guide/',
+    link: "/guide/",
   },
   {
-    title: 'Book a tour',
+    title: "Book a tour",
     intro:
-      'Looking for a private tour in Paris? I offer personalised tours, as well as themed tours.',
-    link: '/book/',
+      "Looking for a private tour in Paris? I offer personalised tours, as well as themed tours.",
+    link: "/book/",
   },
   {
-    title: 'The Alphabet of Île-de-France',
+    title: "The Alphabet of Île-de-France",
     intro:
-      'A project to discover some of the less known locations within Île-de-France, one letter at a time.',
-    link: '/alphabet-ile-de-france/',
+      "A project to discover some of the less known locations within Île-de-France, one letter at a time.",
+    link: "/alphabet-ile-de-france/",
   },
   {
-    title: 'Museums',
+    title: "Museums",
     intro:
-      'A place to share my thoughts after visiting a museum or exhibition.',
-    link: '/museums/',
+      "A place to share my thoughts after visiting a museum or exhibition.",
+    link: "/museums/",
   },
   {
-    title: 'Travel',
-    intro: 'A place to talk about all things travel.',
-    link: '/travel/',
+    title: "Travel",
+    intro: "A place to talk about all things travel.",
+    link: "/travel/",
   },
   {
-    title: 'Articles',
+    title: "Articles",
     intro:
-      'Find all my articles here, from things to do in Paris, travelling within Île-de-France and travel blogs.',
-    link: '/',
+      "Find all my articles here, from things to do in Paris, travelling within Île-de-France and travel blogs.",
+    link: "/",
   },
   {
-    title: 'Monthly wrap up',
+    title: "Monthly wrap up",
     intro:
       "A review of each month, including thing I've seen in Paris, places I've visited and exhibitions I've been to.",
-    link: '/monthly-review/',
+    link: "/monthly-review/",
   },
 ];
 ---
@@ -80,7 +80,7 @@ const articles: Array<{
           <h2>{article.title}</h2>
           <p>{article.intro}</p>
           {article.link && (
-            <a class="cta" href={'/articles' + article.link}>
+            <a class="cta" href={"/articles" + article.link}>
               read more
             </a>
           )}

@@ -1,24 +1,24 @@
 ---
-import { getCollection } from 'astro:content';
-import Main from '../../../layouts/article.astro';
-import { Image } from 'astro:assets';
+import { getCollection } from "astro:content";
+import Main from "../../../layouts/article.astro";
+import { Image } from "astro:assets";
 
-const guideCollection = (await getCollection('guide')).filter(
-  (entry) => !entry.data.draft
+const guideCollection = (await getCollection("guide")).filter(
+  (entry) => !entry.data.draft,
 );
 
-const museumCollection = (await getCollection('museums')).filter(
-  (museum) => new Date(museum.data.endDate) >= new Date()
+const museumCollection = (await getCollection("museums")).filter(
+  (museum) => new Date(museum.data.endDate) >= new Date(),
 );
-const placeholder = '/favicon.ico';
+const placeholder = "/favicon.ico";
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/content/guide/images/*.{jpeg,jpg}',
-  { eager: true }
+  "/src/content/guide/images/*.{jpeg,jpg}",
+  { eager: true },
 );
 const museumImages = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/content/museums/images/*.{jpeg,jpg}',
-  { eager: true }
+  "/src/content/museums/images/*.{jpeg,jpg}",
+  { eager: true },
 );
 ---
 
@@ -133,7 +133,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
         <a href="#museums">Current exhibitions</a>
       </li>
     ) : (
-      ''
+      ""
     )
   }
   <br />
@@ -150,14 +150,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('tour'))
+          .filter((article) => article.data.themes.includes("tour"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -192,14 +192,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('how-to'))
+          .filter((article) => article.data.themes.includes("how-to"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -229,14 +229,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('arrondissement'))
+          .filter((article) => article.data.themes.includes("arrondissement"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -269,7 +269,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
       {
         guideCollection
           .filter((article) =>
-            article.data.themes.includes('tourist-attraction')
+            article.data.themes.includes("tourist-attraction"),
           )
           .map((article, _i, articles) => {
             if (article) {
@@ -277,7 +277,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -307,14 +307,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('women'))
+          .filter((article) => article.data.themes.includes("women"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -368,14 +368,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('activity'))
+          .filter((article) => article.data.themes.includes("activity"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -406,14 +406,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('food'))
+          .filter((article) => article.data.themes.includes("food"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -446,14 +446,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('stories'))
+          .filter((article) => article.data.themes.includes("stories"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -482,14 +482,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes('architecture'))
+          .filter((article) => article.data.themes.includes("architecture"))
           .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
                     {(articles.every((art) => art.data.image) ||
-                      import.meta.env.MODE === 'development') && (
+                      import.meta.env.MODE === "development") && (
                       <Image
                         src={images[article.data.image]?.default || placeholder}
                         width={448}
@@ -521,7 +521,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
           </p>
           <p>Here are some current exhibitions that I've been to recently</p>
           <p>
-            you can find passed exhibitions{' '}
+            you can find passed exhibitions{" "}
             <a href="/articles/museums/">here</a>
           </p>
 
@@ -532,7 +532,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
                   <li value={article.data.title}>
                     <a href={`/articles/museums/${article.slug}/`}>
                       {(articles.every((art) => art.data.image) ||
-                        import.meta.env.MODE === 'development') && (
+                        import.meta.env.MODE === "development") && (
                         <Image
                           src={
                             museumImages[article.data.image]?.default ||
@@ -555,7 +555,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
         <br />
       </>
     ) : (
-      ''
+      ""
     )
   }
   <hr />

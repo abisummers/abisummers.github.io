@@ -42,13 +42,12 @@ Here's the thing, I don't ski. There's really not much about skiing that I enjoy
 
 I don't enjoy going fast, I feel out of control, people speeding past me always surprises me, ski boots are the most uncomfortable shoes I've ever had to wear (everyone tells me that it's just part of the deal) and ski lifts on their own are scary.
 
-Despite that, I did still have a good time. I didn't fully disconnect from work (will work harder on that next time). I spent a lot of time in the sauna, jacuzzi and swimming pool. The nice thing about not skiing is the spa area during the day is quiet - I essentially had the place for myself. 
+Despite that, I did still have a good time. I didn't fully disconnect from work (will work harder on that next time). I spent a lot of time in the sauna, jacuzzi and swimming pool. The nice thing about not skiing is the spa area during the day is quiet - I essentially had the place for myself.
 
 I organised a hike one day with a few people from the group I was with. That was a lot of fun. I met some cool people, including someone who lived in the same city that I lived in in Germany!! No one has heard of Münster, so to have met someone who lived there was extra cool!.
 
-I've never done a hike in snow, but I really enjoyed it. Very happy I took my ski poles with me, because the descent was fairly steep in some parts. 
+I've never done a hike in snow, but I really enjoyed it. Very happy I took my ski poles with me, because the descent was fairly steep in some parts.
 
 On the final ski day, the weather was really bad so people couldn't really ski - a lot of the lifts were closed due to the wind and low visibility. So I reserved a lane at the bowling alley, and we had a game. I still suck at bowling, but I will say I'm better at it compared to skiing.
 
 Next year, if I go skiing, I'll take some beginners lessons. Or maybe I'll just stay home.
-

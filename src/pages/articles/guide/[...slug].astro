@@ -1,12 +1,12 @@
 ---
-import { getCollection } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
-import { getImage } from 'astro:assets';
-import Main from '../../../layouts/article.astro';
-import MapboxMap from '../../../components/mapbox-map.astro';
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
+import Main from "../../../layouts/article.astro";
+import MapboxMap from "../../../components/mapbox-map.astro";
 
 export async function getStaticPaths() {
-  return (await getCollection('guide'))
+  return (await getCollection("guide"))
     .map((entry) => ({
       params: { slug: entry.slug },
       props: { entry },
@@ -15,22 +15,22 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  entry: CollectionEntry<'guide'>;
+  entry: CollectionEntry<"guide">;
 }
 
 const { entry } = Astro.props;
 
 let ogImage: string | undefined;
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/content/guide/images/*.{jpeg,jpg}',
-  { eager: true }
+  "/src/content/guide/images/*.{jpeg,jpg}",
+  { eager: true },
 );
 if (images[entry.data.image]) {
   const { src } = await getImage({
     src: images[entry.data.image].default,
-    format: 'jpeg',
+    format: "jpeg",
   });
-  ogImage = 'https://abisummers.com' + src;
+  ogImage = "https://abisummers.com" + src;
 }
 
 const { Content } = await entry.render();
@@ -97,7 +97,7 @@ const { Content } = await entry.render();
         }))}
       />
     ) : (
-      ''
+      ""
     )
   }
   <hr />
@@ -117,7 +117,7 @@ const { Content } = await entry.render();
     <p>
       <a
         class="cta"
-        href={entry.data.tour ? `/book/${entry.data.tour}/` : '/book/'}
+        href={entry.data.tour ? `/book/${entry.data.tour}/` : "/book/"}
       >
         Book a tour</a
       >

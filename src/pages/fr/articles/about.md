@@ -13,7 +13,6 @@ Salut, je m'appelle Abi ! Je vis à Paris depuis 2016 et j'ai passé beaucoup d
 
 ![une femme aux cheveux bruns courts, elle sourit. Elle porte un foulard rouge et tient une tasse dans sa main](../../articles/images/profile-picture.jpeg)
 
-
 Depuis que je vis à Paris, j'ai travaillé comme coordinateur de tournées, assistant pédagogique en développement web et développeuse (fullstack et backend). Au cours de cette période, j'ai pu entrer en contact avec de nombreuses personnes et développer mes compétences. L'un des thèmes récurrents est ma passion d'aider les autres à développer leurs compétences.
 
 Dans mon temps libre, j'aime voyager et explorer des nouveaux endroits avec un focus sur "Slow Travel". Depuis mars 2024, j'ai commencé un projet d'explorer Île-de-France par l'alphabet - tu peux trouver mes articles [ici](/articles/alphabet-ile-de-france/) en anglais, mais peut-être en français dans l'avenir.

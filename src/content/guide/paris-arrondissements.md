@@ -65,7 +65,7 @@ Some of the neighbourhood you might have heard of are _Montmartre_, _Latin Quart
 
 ### Private tour
 
-If you are coming to Paris and would like to explore the best part of your neighbourhood (or another part of Paris) you can book a private tour that is personalised for you. Just let me know what you want to see and I'll do the rest. 
+If you are coming to Paris and would like to explore the best part of your neighbourhood (or another part of Paris) you can book a private tour that is personalised for you. Just let me know what you want to see and I'll do the rest.
 
 <a  class="cta" href="/book/visit-paris/" >
 Book a tour</a>

@@ -41,7 +41,7 @@ I _needed_ to get back to Paris, because I had train ticket to london to see a f
 
 She came to London to meet me, then we took a train to her place. I spent the weekend with her, her husband and her pets. Wonderful. On Monday, I took the train back to London and had a few hours before my eurostar back to Paris.
 
-At the end of the month, I took a train to Brussels because it was my mother-in-laws birthday party! It was a busy weekend but I had a great time. 
+At the end of the month, I took a train to Brussels because it was my mother-in-laws birthday party! It was a busy weekend but I had a great time.
 
 ### Books
 

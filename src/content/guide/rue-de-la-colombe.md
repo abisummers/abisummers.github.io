@@ -23,7 +23,7 @@ While this is a myth, and there are various versions of the story that alter in 
 
 A little bit further down this street, at 6 rue de la Colombe, there is a plaque which draws the attention to the Gallo-Roman wall. The difference in stone on the ground indicate the location of the remains of the wall which were discovered in 1898.
 
-### Where to next? 
+### Where to next?
 
 There's always something else to discover in Paris. Don't forget to look up, and pay attention to the details otherwise stories like this will pass you by.
 

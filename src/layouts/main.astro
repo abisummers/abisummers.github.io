@@ -1,11 +1,11 @@
 ---
-import { getRelativeLocaleUrl } from 'astro:i18n';
-import SearchButton from '../components/search-button.astro';
-import BookButton from '../components/book-button.astro';
+import { getRelativeLocaleUrl } from "astro:i18n";
+import SearchButton from "../components/search-button.astro";
+import BookButton from "../components/book-button.astro";
 
 const currentPathWithoutLocale = Astro.url.pathname.replace(
-  new RegExp('/' + Astro.currentLocale + '(/|$)'),
-  '$1'
+  new RegExp("/" + Astro.currentLocale + "(/|$)"),
+  "$1",
 );
 ---
 
@@ -38,7 +38,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
 
       body {
         margin: 0;
-        font-family: 'Inconsolata', monospace;
+        font-family: "Inconsolata", monospace;
         background-color: var(--background);
         display: flex;
         min-height: 100vh;
@@ -57,7 +57,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
       }
 
       .font-riot {
-        font-family: 'Protest Riot', sans-serif;
+        font-family: "Protest Riot", sans-serif;
       }
 
       .text-center {
@@ -145,7 +145,7 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
       }
 
       .cta:after {
-        content: ' →';
+        content: " →";
       }
     </style>
   </head>
@@ -154,19 +154,19 @@ const currentPathWithoutLocale = Astro.url.pathname.replace(
     <nav>
       <ul class="languages">
         <li>
-          <a href={getRelativeLocaleUrl('en', currentPathWithoutLocale)}>
-            <span role="img" aria-label=""> 🇬🇧 </span>{' '}
+          <a href={getRelativeLocaleUrl("en", currentPathWithoutLocale)}>
+            <span role="img" aria-label=""> 🇬🇧 </span>{" "}
             en
           </a>
         </li>
         <li>
-          <a href={getRelativeLocaleUrl('fr', currentPathWithoutLocale)}>
-            <span role="img" aria-label=""> 🇫🇷 </span>{' '}
+          <a href={getRelativeLocaleUrl("fr", currentPathWithoutLocale)}>
+            <span role="img" aria-label=""> 🇫🇷 </span>{" "}
             fr
           </a>
         </li>
       </ul>
-      {Astro.url.pathname !== '/search/' && <SearchButton />}
+      {Astro.url.pathname !== "/search/" && <SearchButton />}
       <BookButton />
     </nav>
 
