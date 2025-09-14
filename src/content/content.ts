@@ -39,7 +39,34 @@ const guide = defineCollection({
     }),
 });
 
+const museum = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      museumName: z.string(),
+      exhibitionName: z.string(),
+      intro: z.string(),
+      startDate: z.string().refine((date) => !isNaN(Date.parse(date)), {
+        message: "Invalid date format",
+      }),
+      endDate: z.string().refine((date) => !isNaN(Date.parse(date)), {
+        message: "Invalid date format",
+      }),
+      dateVisited: z.string().refine((date) => !isNaN(Date.parse(date)), {
+        message: "Invalid date format",
+      }),
+      ticketCost: z.number().min(0),
+      country: z.string().length(2),
+      title: z.string(),
+      publishedDate: z.string().refine((date) => !isNaN(Date.parse(date)), {
+        message: "Invalid date format",
+      }),
+      image: z.string().optional(),
+    }),
+});
+
 export const collections = {
   alphabet,
   guide,
+  museum,
 };

@@ -16,6 +16,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/content/guide/images/*.{jpeg,jpg}',
   { eager: true }
 );
+const museumImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/content/museums/images/*.{jpeg,jpg}',
+  { eager: true }
+);
 ---
 
 <Main
@@ -530,9 +534,12 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
                       {(articles.every((art) => art.data.image) ||
                         import.meta.env.MODE === 'development') && (
                         <Image
-                          src={article.data.image || placeholder}
-                          width={160}
-                          height={90}
+                          src={
+                            museumImages[article.data.image]?.default ||
+                            placeholder
+                          }
+                          width={448}
+                          height={252}
                           alt=""
                         />
                       )}
