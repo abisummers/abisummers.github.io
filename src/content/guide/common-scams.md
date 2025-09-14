@@ -3,6 +3,7 @@ title: What scams exist in Paris?
 description: Scams to watch out for throughout the city from pickpockets to friendship bracelets
 publishedDate: 2024-08-18
 themes: ["how-to", "scams"]
+image: /src/content/guide/images/clear-cup-scam.jpeg
 ---
 
 As with all big cities and tourist locations there are certain things to watch out for. The scams are used in other cities around the world, but sometimes a reminder is helpful
@@ -34,6 +35,10 @@ It's wild to watch these people play, often you'll see them playing with 50€ n
 I'd recommend staying clear of these games - the odds are not in your favour.
 
 ### The clear cup
+
+![a clear plastic cup on the ground with some coins inside](./images/clear-cup-scam.jpeg)
+
+> a clear plastic cup on the ground with some coins inside, recreated
 
 This scam involves someone sitting on the side of the street, with a clear plastic cup in front of them, directly where people will be walking. Inside the cup, they have a few coins. Sometimes, they'll even put it down just as you're approaching so it's sure that you'll knock it over.
 
