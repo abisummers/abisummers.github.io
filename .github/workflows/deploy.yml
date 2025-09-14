@@ -38,14 +38,6 @@ jobs:
         shell: "bash"
         working-directory: .
         run: yarn install
-      - name: Debug env
-        shell: bash
-        run: |
-          if [ -z "$BOOKEO_CLIENT" ]; then echo "BOOKEO_CLIENT is empty"; else echo "BOOKEO_CLIENT is set"; fi
-          if [ -z "$BOOKEO_SERVER" ]; then echo "BOOKEO_SERVER is empty"; else echo "BOOKEO_SERVER is set"; fi
-        env:
-          BOOKEO_CLIENT: ${{ secrets.BOOKEO_CLIENT }}
-          BOOKEO_SERVER: ${{ secrets.BOOKEO_SERVER }}
       - name: Build
         shell: "bash"
         working-directory: .
