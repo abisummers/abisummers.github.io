@@ -1,15 +1,14 @@
 ---
-import { getCollection } from "astro:content";
-import Main from "../../../layouts/article.astro";
+import { getCollection } from 'astro:content';
+import Main from '../../../layouts/article.astro';
 
-const guideCollection = (await getCollection("guide")).filter(
-  (entry) => !entry.data.draft,
+const guideCollection = (await getCollection('guide')).filter(
+  (entry) => !entry.data.draft
 );
 
-const museumCollection = (await getCollection("museums")).filter(
-  (museum) => new Date(museum.data.endDate) >= new Date(),
+const museumCollection = (await getCollection('museums')).filter(
+  (museum) => new Date(museum.data.endDate) >= new Date()
 );
-
 ---
 
 <Main
@@ -53,6 +52,16 @@ const museumCollection = (await getCollection("museums")).filter(
     .cards li h3 {
       text-decoration: underline;
     }
+
+    .cards li img {
+      display: block;
+      max-width: calc(100% + 1em);
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      padding: 0;
+      margin: -0.5em;
+    }
   </style>
   <h2>Guided through Paris</h2>
   <p>
@@ -62,8 +71,8 @@ const museumCollection = (await getCollection("museums")).filter(
     has something for everyone.
   </p>
   <p>
-    I love it living here! There's always so many possibilites on how to spend a
-    day in Paris, from museums, places to eat and the different events. Every
+    I love it living here! There's always so many possibilities on how to spend
+    a day in Paris, from museums, places to eat and the different events. Every
     day, I find new things in the city to inspire me.
   </p>
   <p>
@@ -92,7 +101,7 @@ const museumCollection = (await getCollection("museums")).filter(
     <a href="#arrondissement-guide">A guide to the arrondissements</a>
   </li>
   <li>
-    <a href="#tourtist-attractions">Tourist attractions</a>
+    <a href="#tourist-attractions">Tourist attractions</a>
   </li>
   <li>
     <a href="#activities">Activities in Paris</a>
@@ -101,7 +110,7 @@ const museumCollection = (await getCollection("museums")).filter(
     <a href="#french-food">French food</a>
   </li>
   <li>
-    <a href="#myths-and-ledgends">Myths and ledgends</a>
+    <a href="#myths-and-legends">Myths and legends</a>
   </li>
   <li>
     <a href="#architecture">Architecture</a>
@@ -112,7 +121,7 @@ const museumCollection = (await getCollection("museums")).filter(
         <a href="#museums">Current exhibitions</a>
       </li>
     ) : (
-      ""
+      ''
     )
   }
   <br />
@@ -129,12 +138,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("tour"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('tour'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -162,12 +174,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("how-to"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('how-to'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -190,12 +205,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("arrondissement"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('arrondissement'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -212,8 +230,8 @@ const museumCollection = (await getCollection("museums")).filter(
     <h3 id="tourist-attractions">Tourist attractions</h3>
     <p>Tips and tricks for enjoying the tourist attractions around the city!</p>
     <p>
-      There can be a lot of negative connotations around the toursty places,
-      espeically in big cities like Paris. But usually places are popular for a
+      There can be a lot of negative connotations around the touristy places,
+      especially in big cities like Paris. But usually places are popular for a
       reason! Here you can find my advice on making the most out of these
       places.
     </p>
@@ -221,13 +239,16 @@ const museumCollection = (await getCollection("museums")).filter(
       {
         guideCollection
           .filter((article) =>
-            article.data.themes.includes("tourist-attraction"),
+            article.data.themes.includes('tourist-attraction')
           )
-          .map((article) => {
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -250,12 +271,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("women"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('women'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -279,7 +303,7 @@ const museumCollection = (await getCollection("museums")).filter(
       {
         guideCollection
           .filter((article) => article.data.themes.includes("itinerary"))
-          .map((article) => {
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
@@ -302,12 +326,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("activity"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('activity'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -331,12 +358,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("food"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('food'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -351,10 +381,10 @@ const museumCollection = (await getCollection("museums")).filter(
   <br />
 
   <div>
-    <h3 id="myths-and-ledgends">Stories from the city</h3>
+    <h3 id="myths-and-legends">Stories from the city</h3>
 
     <p>
-      Some of the myths and ledgends of the city! Paris has so much history in <i
+      Some of the myths and legends of the city! Paris has so much history in <i
         >almost</i
       > plain sight if you know what to look for.
     </p>
@@ -362,12 +392,15 @@ const museumCollection = (await getCollection("museums")).filter(
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("stories"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('stories'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -384,19 +417,20 @@ const museumCollection = (await getCollection("museums")).filter(
   <div>
     <h3 id="architecture">Architecture</h3>
 
-    <p>
-      Some of the things to look out for while walking around the city
-    </p>
+    <p>Some of the things to look out for while walking around the city</p>
 
     <ul class="cards">
       {
         guideCollection
-          .filter((article) => article.data.themes.includes("architecture"))
-          .map((article) => {
+          .filter((article) => article.data.themes.includes('architecture'))
+          .map((article, _i, articles) => {
             if (article) {
               return (
                 <li value={article.data.title}>
                   <a href={`/articles/guide/${article.slug}/`}>
+                    {articles.every((art) => art.data.image) && (
+                      <img src={article.data.image} alt="" />
+                    )}
                     <h3>{article.data.title}</h3>
                     <p>{article.data.description}</p>
                   </a>
@@ -406,10 +440,9 @@ const museumCollection = (await getCollection("museums")).filter(
           })
       }
     </ul>
-  </div> 
+  </div>
 
-  <br>
-
+  <br />
 
   {
     museumCollection.length ? (
@@ -422,16 +455,19 @@ const museumCollection = (await getCollection("museums")).filter(
           </p>
           <p>Here are some current exhibitions that I've been to recently</p>
           <p>
-            you can find passed exhibitions{" "}
+            you can find passed exhibitions{' '}
             <a href="/articles/museums/">here</a>
           </p>
 
           <ul class="cards">
-            {museumCollection.map((article) => {
+            {museumCollection.map((article, _i, articles) => {
               if (article) {
                 return (
                   <li value={article.data.title}>
                     <a href={`/articles/museums/${article.slug}/`}>
+                      {articles.every((art) => art.data.image) && (
+                        <img src={article.data.image} alt="" />
+                      )}
                       <h3>{article.data.title}</h3>
                       <p>{article.data.intro}</p>
                     </a>
@@ -444,7 +480,7 @@ const museumCollection = (await getCollection("museums")).filter(
         <br />
       </>
     ) : (
-      ""
+      ''
     )
   }
   <hr />
