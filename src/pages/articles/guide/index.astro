@@ -4,21 +4,21 @@ import Main from "../../../layouts/article.astro";
 import { Image } from "astro:assets";
 
 const guideCollection = (await getCollection("guide")).filter(
-  (entry) => !entry.data.draft,
+  (entry) => !entry.data.draft
 );
 
 const museumCollection = (await getCollection("museums")).filter(
-  (museum) => new Date(museum.data.endDate) >= new Date(),
+  (museum) => new Date(museum.data.endDate) >= new Date()
 );
 const placeholder = "/favicon.ico";
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/guide/images/*.{jpeg,jpg}",
-  { eager: true },
+  { eager: true }
 );
 const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/museums/images/*.{jpeg,jpg}",
-  { eager: true },
+  { eager: true }
 );
 ---
 
@@ -79,17 +79,13 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   <p>
     Hi, I'm Abi and I'm a tour guide who's been living in Paris since 2016! I
     love getting to show people the magic of the city, through telling stories,
-    answering questions and helping you get around. I really believe that Paris
-    has something for everyone.
+    answering questions and helping them get around. I really believe that Paris
+    has something for everyone, of all ages and for all budgets.
   </p>
   <p>
-    I love it living here! There's always so many possibilities on how to spend
-    a day in Paris, from museums, places to eat and the different events. Every
-    day, I find new things in the city to inspire me.
-  </p>
-  <p>
-    Since living here, I've gave many tours of the city, and getting to take
-    people around always reminds me of how much I love the city.
+    I love living here! There's always so many possibilities on how to spend a
+    day in Paris, from museums, places to eat and events. Every day, I find new
+    things in the city to inspire me, and new exhibitions to attend.
   </p>
   <p>
     Here you can find some of tips and tricks to visiting Paris, from places to
@@ -184,10 +180,9 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   <div>
     <h3 id="faq">FAQ: tips and tricks for getting to know the city</h3>
     <p>
-      Here you can find my tips and tricks! The essential things to know on your
-      first visit to Paris like scams to watch out for, picking restaurants and
-      getting around using public transport (public transport is something I am
-      passionate about)
+      Here you can find my tips and tricks! The essential things to know for
+      your first time in Paris like scams to watch out for, picking restaurants
+      and getting around using public transport.
     </p>
     <ul class="cards">
       {
@@ -262,14 +257,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     <p>
       There can be a lot of negative connotations around the touristy places,
       especially in big cities like Paris. But usually places are popular for a
-      reason! Here you can find my advice on making the most out of these
-      places.
+      reason! Here you can find my advice on making the most out of these places
+      from buying tickets and things to pay attention to.
     </p>
     <ul class="cards">
       {
         guideCollection
           .filter((article) =>
-            article.data.themes.includes("tourist-attraction"),
+            article.data.themes.includes("tourist-attraction")
           )
           .map((article, _i, articles) => {
             if (article) {
@@ -364,7 +359,15 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
 
   <div>
     <h3 id="activities">Activities in Paris</h3>
-    <p>Here you can find some of my favourite things to do in Paris!</p>
+    <p>
+      There are so many ways to spend a day in Paris! Some are activities that
+      you can do all year round, others are only available during certain
+      periods.
+    </p>
+    <p>
+      Even after so many years here, I'm still discovering new activities and
+      places of interest!
+    </p>
     <ul class="cards">
       {
         guideCollection
@@ -477,7 +480,11 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   <div>
     <h3 id="architecture">Architecture</h3>
 
-    <p>Some of the things to look out for while walking around the city</p>
+    <p>
+      Paris is a beautiful city! I love being able to look around and notice
+      details that I've missed on previous days. Here, I'll talk about some of
+      the places that I love.
+    </p>
 
     <ul class="cards">
       {
@@ -516,13 +523,14 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
         <div>
           <h3 id="museums">Current exhibitions</h3>
           <p>
-            I love that Paris has so much to do an offer, even after eight years
-            here, there's still always more to see
+            I love that Paris has so much to do an offer, even after nine(!)
+            years here, there's still always more to see. There are still
+            permanent collections of museums that I haven't been to!
           </p>
-          <p>Here are some current exhibitions that I've been to recently</p>
+          <p>Here are some current exhibitions that I've been to recently.</p>
           <p>
             you can find passed exhibitions{" "}
-            <a href="/articles/museums/">here</a>
+            <a href="/articles/museums/">here</a>.
           </p>
 
           <ul class="cards">
