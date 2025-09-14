@@ -27,12 +27,28 @@ jobs:
         with:
           path: cache
           key: Images-${{ runner.os }}
-      - name: Install, build, and upload your site
-        uses: withastro/action@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+          cache-dependency-path: "./yarn.lock"
+      - name: Install
+        shell: "bash"
+        working-directory: .
+        run: yarn install
+      - name: Build
+        shell: "bash"
+        working-directory: .
+        run: yarn run build
         env:
           ALGOLIA_WRITE_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
           BOOKEO_CLIENT: ${{ secrets.BOOKEO_CLIENT }}
           BOOKEO_SERVER: ${{ secrets.BOOKEO_SERVER }}
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./dist/"
       - name: Install gh actions-cache extension
         run: gh extension install actions/gh-actions-cache
         env:
