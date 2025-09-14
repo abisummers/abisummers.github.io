@@ -4,7 +4,6 @@ description: Here you can find some of the events that happen in Paris each year
 publishedDate: 2024-09-23
 themes: ["activity"]
 image: /src/content/guide/images/heritage-days-2023-senat.jpeg
-
 ---
 
 There are many events that happen in Paris (and across France), here are some of the events happen annually. If you're going to be in France at the same time as any of these events, I think it's worth checking out!

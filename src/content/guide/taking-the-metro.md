@@ -3,13 +3,12 @@ title: Getting around using public transport
 description: Advice for taking the metro and other forms of transport in Paris (buying tickets, navigating etc)
 publishedDate: 2024-08-19
 themes: ["how-to", "transport"]
-image: /src/content/guide/images/paris-metro-sign.JPG
-
+image: /src/content/guide/images/paris-metro-sign.jpeg
 ---
 
 As someone who lives in Paris and works as a tour guide, I spend a lot of time on public transport. I love the metro system, I love being able to get from one side of the city to another, I love not needing to drive and I love the convenience of it. I rarely need to wait more than 5 minutes for a metro which is really really cool.
 
-![A paris metro sign taken from outside the station. It is red with METRO written in white capital letters.](./images/paris-metro-sign.JPG)
+![A paris metro sign taken from outside the station. It is red with METRO written in white capital letters.](./images/paris-metro-sign.jpeg)
 
 Just think about it, underground tunnels that allow thousands of people to be transported - magic!
 

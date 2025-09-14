@@ -3,7 +3,7 @@ title: Paris in August
 description: What to expect when visiting Paris in August
 publishedDate: 2025-09-04
 themes: ["how-to"]
-image: /src/content/guide/images/paris-beach.PNG
+image: /src/content/guide/images/paris-beach.jpeg
 ---
 
 It's the start of September and I'm sat in my office reflecting on August. Summer is a busy period for me as a tour guide, so unlike a lot of 'normal' jobs September is actually calmer for me (it's been a while since I found the time to just sit and write!). That being said, I love Paris in August!
@@ -16,7 +16,7 @@ Paris is a great city regardless of the time of year, but every period has somet
 
 Some of my favourite things about the summer are the free activities that Paris hosts, the Paris plage (Paris beach) and open air cinemas to name a few. Along the _quai de la seine_, it turns into a beach - I'm talking sand, deckchairs and this year they even a few areas to swim in - for the first time in 100 years, all thanks to the Olympics! Along the river banks, there are misting stations to cool down at, places to get sun cream (which is very important!!) and places to borrow games. It's such a vibe and you'll see people of all ages enjoying this space.
 
-![four sets of two blue deckchairs. The are on sand. Each set of deckchairs has a red parasol with them](./images/paris-beach.PNG)
+![four sets of two blue deckchairs. The are on sand. Each set of deckchairs has a red parasol with them](./images/paris-beach.jpeg)
 
 Paris has had a lot of great exhibitions on over summer! At the end of August/beginning of September a lot of exhibitions close and get ready for the next season. There's definitely some I missed out on because I didn't make the time for them.
 

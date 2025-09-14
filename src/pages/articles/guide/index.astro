@@ -11,6 +11,11 @@ const museumCollection = (await getCollection('museums')).filter(
   (museum) => new Date(museum.data.endDate) >= new Date()
 );
 const placeholder = '/favicon.ico';
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/content/guide/images/*.{jpeg,jpg}',
+  { eager: true }
+);
 ---
 
 <Main
@@ -150,9 +155,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -192,9 +197,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -229,9 +234,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -270,9 +275,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -307,9 +312,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -368,9 +373,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -406,9 +411,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -446,9 +451,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
@@ -482,9 +487,9 @@ const placeholder = '/favicon.ico';
                     {(articles.every((art) => art.data.image) ||
                       import.meta.env.MODE === 'development') && (
                       <Image
-                        src={article.data.image || placeholder}
-                        width={160}
-                        height={90}
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
                         alt=""
                       />
                     )}
