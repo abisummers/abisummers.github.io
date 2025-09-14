@@ -10,7 +10,7 @@ const guideCollection = (await getCollection('guide')).filter(
 const museumCollection = (await getCollection('museums')).filter(
   (museum) => new Date(museum.data.endDate) >= new Date()
 );
-const placeholder = '/public/favicon.ico';
+const placeholder = '/favicon.ico';
 ---
 
 <Main
