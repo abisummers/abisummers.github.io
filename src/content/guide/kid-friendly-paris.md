@@ -39,7 +39,7 @@ I also know how important it is to have access to bathrooms so if we're passing 
 
 Sometimes kids just want to run around, so if that's the case I'll make sure we pass by a playground. Sometimes they just want to sit down so if that's the case we'll find a bench to stop on. Some parks in Paris have places where you can rent boats, a great activity for kids who want to run! The boat comes with a stick, that you use to push the boat around.
 
-![small boats that you can rent from a stand. Each boat has a number in the corner. It costs 6€ for 30 minutes](./images/boats.JPeg)
+![small boats that you can rent from a stand. Each boat has a number in the corner. It costs 6€ for 30 minutes](./images/boats.jpeg)
 
 ### Got any questions?
 
