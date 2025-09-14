@@ -19,6 +19,8 @@ jobs:
   build:
     env:
       ALGOLIA_WRITE_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
+      BOOKEO_CLIENT: ${{ secrets.BOOKEO_CLIENT }}
+      BOOKEO_SERVER: ${{ secrets.BOOKEO_SERVER }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
