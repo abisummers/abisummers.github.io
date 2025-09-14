@@ -46,7 +46,16 @@ export type BookeoProduct = {
 export async function getProducts(): Promise<BookeoProductsResponse> {
   const { data, info } = (await fetch(
     `https://api.bookeo.com/v2/settings/products?apiKey=${import.meta.env.BOOKEO_CLIENT}&secretKey=${import.meta.env.BOOKEO_SERVER}`,
-  ).then((res) => res.json())) as BookeoProductsResponse;
+  )
+    .then(async (res) => {
+      if (!res.ok) {
+        throw new Error(
+          `Failed to fetch products: ${res.status} ${res.statusText} ${await res.text()}`,
+        );
+      }
+      return res;
+    })
+    .then((res) => res.json())) as BookeoProductsResponse;
 
   return { data, info };
 }
