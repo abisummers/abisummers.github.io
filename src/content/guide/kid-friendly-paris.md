@@ -10,7 +10,7 @@ tourId: "3252JM36FY193B14309DC"
 
 There are lots of things about Paris that make it great for families! And in the last 5 years I've noticed a positive change too - there's less cars and more green spaces. And it's likely to get better in the coming years too!
 
-All my tours are kid friendly and I love having kids on my tours. While I'm not a parent, I do have lots of experience working with kids - from  looking after my brother while growing up to three years of au pairing. I think kids ask the best questions, and I love how curious they are to know more. All my stories can be adapted to their age and interests.
+All my tours are kid friendly and I love having kids on my tours. While I'm not a parent, I do have lots of experience working with kids - from looking after my brother while growing up to three years of au pairing. I think kids ask the best questions, and I love how curious they are to know more. All my stories can be adapted to their age and interests.
 
 <a  class="cta" href="/book/" >
 Book a tour</a>
@@ -35,9 +35,11 @@ It's important to stay hydrated while walking around the city, so I always know 
 
 I also know how important it is to have access to bathrooms so if we're passing by a place with bathrooms, I'll always mention it.
 
-### Playgrounds
+### Playgrounds and parks
 
-Sometimes kids just want to run around, so if that's the case I'll make sure we pass by a playground. Sometimes they just want to sit down so if that's the case we'll find a bench to stop on.
+Sometimes kids just want to run around, so if that's the case I'll make sure we pass by a playground. Sometimes they just want to sit down so if that's the case we'll find a bench to stop on. Some parks in Paris have places where you can rent boats, a great activity for kids who want to run! The boat comes with a stick, that you use to push the boat around.
+
+![small boats that you can rent from a stand. Each boat has a number in the corner. It costs 6€ for 30 minutes](./images/boats.JPG)
 
 ### Got any questions?
 
