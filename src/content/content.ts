@@ -8,6 +8,13 @@ const alphabet = defineCollection({
   }),
 });
 
+const articles = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+  }),
+});
+
 const guide = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -66,6 +73,7 @@ const museum = defineCollection({
 });
 
 export const collections = {
+  articles,
   alphabet,
   guide,
   museum,

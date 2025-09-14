@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Learning French
@@ -7,8 +6,6 @@ intro: My experience with learning French and how I actually became confident en
 description: My experience with learning French and how I actually became confident enough to speak
 publishedDate: 2024-05-26
 ---
-
-## Learning French
 
 I moved to Paris in 2016 to be an au pair for a second time (I was an au pair in Germany for a year before). The original plan was to be here from the September to December, but in early December I decided that I would like to stay so I spoke with the family I was working for and they thankfully agreed. So I extended my stay until July 2017.
 

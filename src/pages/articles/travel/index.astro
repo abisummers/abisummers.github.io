@@ -5,8 +5,11 @@ import Main from "../../../layouts/article.astro";
 const travelCollection = await getCollection("travel");
 ---
 
-<Main showLanguageSwitcher={false} title="Travel"
-description="A place to share all things travel, from taking your bike on the train to blogs of trips that I have taken">
+<Main
+  showLanguageSwitcher={false}
+  title="Travel"
+  description="A place to share all things travel, from taking your bike on the train to blogs of trips that I have taken"
+>
   <style>
     .date {
       font-style: italic;
@@ -32,39 +35,52 @@ description="A place to share all things travel, from taking your bike on the tr
   </p>
   <div>
     <h3>Slow travel</h3>
-    <p>Here I talk about all things slow travel. For me, slow travel is about staying in one place for longer rather than visiting lots of places and also visitng smaller, less known places. I do this by travelling by bike and train.</p>
+    <p>
+      Here I talk about all things slow travel. For me, slow travel is about
+      staying in one place for longer rather than visiting lots of places and
+      also visitng smaller, less known places. I do this by travelling by bike
+      and train.
+    </p>
     {
-      travelCollection.filter(article => article.data.tags.includes('slow-travel')).map((article) => {
-        if (article) {
-          return (
-            <li value={article.data.title}>
-              <!-- prettier-ignore -->
-              <a href={`/articles/travel/${article.slug}/`}
-                >{article.data.title}</a
-              >: {article.data.intro}
-            </li>
-          );
-        }
-      })
+      travelCollection
+        .filter((article) => article.data.tags.includes("slow-travel"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a
+                  href={`/articles/travel/${article.slug}/`}
+                  set:text={article.data.title}
+                />
+                - {article.data.intro}
+              </li>
+            );
+          }
+        })
     }
   </div>
   <div>
     <h3>Blog</h3>
-    <p>I enjoy writing, so here you can find some of my blogs that are related to specific trips or events that I've been to.</p>
+    <p>
+      I enjoy writing, so here you can find some of my blogs that are related to
+      specific trips or events that I've been to.
+    </p>
     {
-      travelCollection.filter(article => article.data.tags.includes('blog')).map((article) => {
-        if (article) {
-          return (
-            <li value={article.data.title}>
-              <!-- prettier-ignore -->
-              <a href={`/articles/travel/${article.slug}/`}
-                >{article.data.title}</a
-              >: {article.data.intro}
-            </li>
-          );
-        }
-      })
+      travelCollection
+        .filter((article) => article.data.tags.includes("blog"))
+        .map((article) => {
+          if (article) {
+            return (
+              <li value={article.data.title}>
+                <a
+                  href={`/articles/travel/${article.slug}/`}
+                  set:text={article.data.title}
+                />
+                - {article.data.intro}
+              </li>
+            );
+          }
+        })
     }
   </div>
-  
 </Main>

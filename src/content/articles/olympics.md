@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/article.astro"
 image: /src/pages/articles/images/olympic-posters.jpeg
 languages: ["en"]
 language: "en"

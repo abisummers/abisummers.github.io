@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Learning to code

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Getting around Île-de-France with public transport (Navigo)
@@ -8,8 +7,6 @@ description: Explaining different ways to get around the Île-de-France region u
 publishedDate: 2024-04-16
 updatedDate: 2025-01-03
 ---
-
-## Getting around Île-de-France
 
 There are lots of different ways of getting around Paris and the Île-de-France region via public transport - metros, buses, trams, RERs and transiliens (regional trains). Many people who live in the area will have a weekly or monthly navigo card that allows them to take all public transport.
 

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: English book stores in Paris
@@ -8,8 +7,6 @@ description: My favourite places to buy English books in Paris, from small indep
 publishedDate: 2024-04-23
 updatedDate: 2025-02-13
 ---
-
-## English book stores in Paris
 
 I love love love books. You'll almost always find me with both a book and a journal in my bag. There's something so cool about being transported to another world or getting to deep dive into a subject.
 

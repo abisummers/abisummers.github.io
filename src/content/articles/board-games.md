@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en"]
 language: "en"
 title: Board game cafés
@@ -7,8 +6,6 @@ intro: Some of my favourite places to play board games in Paris
 description: Some of my favourite places to play board games in Paris
 publishedDate: 2024-05-28
 ---
-
-## Board games
 
 I love playing board games but Paris apartments are sometimes too small to really invite people over to play board games, or to store a large collection of games. I often like to try out a new game before buying it, especially if it's an expensive game (and they can get pricey). Sometimes it's also nice to have a change of scenery and to enjoy a drink with friends.
 

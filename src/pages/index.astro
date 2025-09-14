@@ -1,13 +1,10 @@
 ---
-import { type MarkdownInstance } from "astro";
 import Main from "../layouts/main.astro";
+import { getCollection } from "astro:content";
 
-const about = Object.values(
-  import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
-    "./articles/about.md",
-    { eager: true },
-  ),
-)[0];
+const about = (await getCollection("articles")).find(
+  (article) => article.slug === "about",
+)!;
 
 const articles: Array<{
   title: string;
@@ -15,8 +12,8 @@ const articles: Array<{
   link?: string;
 }> = [
   {
-    title: about.frontmatter.title,
-    intro: about.frontmatter.intro,
+    title: about.data.title,
+    intro: about.data.intro,
     link: "/articles/about/",
   },
   {

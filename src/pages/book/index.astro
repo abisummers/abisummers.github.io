@@ -1,14 +1,14 @@
 ---
-import { Image } from 'astro:assets';
-import { getProducts } from '../../bookeo/api';
-import Article from '../../layouts/article.astro';
+import { Image } from "astro:assets";
+import { getProducts } from "../../bookeo/api";
+import Article from "../../layouts/article.astro";
 
 const { data, info, ...all } = await getProducts();
 if (!data) {
   throw new Error(`No data found ${JSON.stringify(all)}`);
 }
 if (info.totalPages > 1) {
-  throw new Error('Pagination not implemented');
+  throw new Error("Pagination not implemented");
 }
 ---
 
@@ -110,13 +110,13 @@ if (info.totalPages > 1) {
             </a>
             <p>
               {[
-                { time: entry.duration.days, unit: 'days' },
-                { time: entry.duration.hours, unit: 'hours' },
-                { time: entry.duration.minutes, unit: 'minutes' },
+                { time: entry.duration.days, unit: "days" },
+                { time: entry.duration.hours, unit: "hours" },
+                { time: entry.duration.minutes, unit: "minutes" },
               ]
                 .filter((segment) => segment.time)
                 .map((segment) => `${segment.time} ${segment.unit}`)
-                .join(', ')}
+                .join(", ")}
             </p>
           </div>
           <Fragment set:html={entry.description} />

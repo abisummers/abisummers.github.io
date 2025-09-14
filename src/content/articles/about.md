@@ -1,13 +1,10 @@
 ---
-layout: "../../layouts/article.astro"
 languages: ["en", "fr"]
 language: "en"
 title: About me
 intro: Hi, I'm Abi, welcome to my corner of the internet! I'm a tour guide & backend developer based in Paris. I'm passionate about learning, communication, community and slow travel.
 description: Hi, I'm Abi, welcome to my corner of the internet! I'm a tour guide & backend developer based in Paris. I'm passionate about learning, communication, community and slow travel.
 ---
-
-## About me
 
 Hi, I'm Abi! I've been living in Paris since 2016 and have spent a lot of time exploring the city, France and surrounding countries. I'm passionate about learning, communication, community and slow travel.
 

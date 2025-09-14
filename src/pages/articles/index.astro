@@ -35,26 +35,32 @@ const guidedThroughParis = (await getCollection("guide")).map((article) => {
   };
 });
 
-const unsorted = Object.values(
-  import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
-    "./*.{md,mdx,astro}",
-    {
-      eager: true,
-    },
-  ),
-);
+const unsorted = (await getCollection("articles")).map((article) => {
+  return {
+    title: article.data.title,
+    intro: article.data.intro,
+    url: `./${article.slug}/`,
+  };
+});
+
+const astro = Object.values(
+  import.meta.glob<MarkdownInstance<any>>("./*.astro", {
+    eager: true,
+  }),
+)
+  .filter((article) => Boolean(article.frontmatter))
+  .map((article) => ({
+    title: article.frontmatter.title,
+    intro: article.frontmatter.intro,
+    url: article.url,
+  }));
 
 const articles = [
-  ...unsorted
-    .filter((article) => article.frontmatter.title !== "Privacy Policy")
-    .map((article) => ({
-      title: article.frontmatter.title,
-      intro: article.frontmatter.intro,
-      url: article.url,
-    })),
+  ...unsorted,
   ...museums,
   ...travel,
   ...guidedThroughParis,
+  ...astro,
 ].sort((a, b) => a.title.localeCompare(b.title));
 ---
 
@@ -62,10 +68,10 @@ const articles = [
   <h2>Articles</h2>
   <p>
     Here you can find all of my articles! These articles cover some of my
-    favourte things in Paris, personal projects like <i
-      >alphabet of Île-de-France</i
-    > and travelling. You can find the category of articles on the <a
-      href="https://abisummers.com">homepage</a
+    favourite things in Paris, personal projects like <em
+      >alphabet of Île-de-France</em
+    > and traveling. You can find the category of articles on the <a href="/"
+      >homepage</a
     >
   </p>
   {
@@ -122,7 +128,7 @@ const articles = [
       </li>
       <li>SIREN: 843306648</li>
       <li>
-        <a href="/articles/privacy-policy/">Privacy Policy</a>
+        <a href="/privacy-policy/">Privacy Policy</a>
       </li>
     </ul>
   </footer>

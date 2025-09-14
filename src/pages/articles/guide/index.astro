@@ -4,21 +4,21 @@ import Main from "../../../layouts/article.astro";
 import { Image } from "astro:assets";
 
 const guideCollection = (await getCollection("guide")).filter(
-  (entry) => !entry.data.draft
+  (entry) => !entry.data.draft,
 );
 
 const museumCollection = (await getCollection("museums")).filter(
-  (museum) => new Date(museum.data.endDate) >= new Date()
+  (museum) => new Date(museum.data.endDate) >= new Date(),
 );
 const placeholder = "/favicon.ico";
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/guide/images/*.{jpeg,jpg}",
-  { eager: true }
+  { eager: true },
 );
 const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/museums/images/*.{jpeg,jpg}",
-  { eager: true }
+  { eager: true },
 );
 ---
 
@@ -264,7 +264,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
       {
         guideCollection
           .filter((article) =>
-            article.data.themes.includes("tourist-attraction")
+            article.data.themes.includes("tourist-attraction"),
           )
           .map((article, _i, articles) => {
             if (article) {
@@ -584,7 +584,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
       </li>
       <li>SIREN: 843306648</li>
       <li>
-        <a href="/articles/privacy-policy/">Privacy Policy</a>
+        <a href="/privacy-policy/">Privacy Policy</a>
       </li>
     </ul>
   </footer>

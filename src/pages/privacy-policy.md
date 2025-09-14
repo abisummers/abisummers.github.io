@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/article.astro"
+layout: "../layouts/article.astro"
 languages: "en"
 language: "en"
 title: Privacy Policy

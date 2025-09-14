@@ -21,8 +21,11 @@ function pastExhibitions() {
 }
 ---
 
-<Main showLanguageSwitcher={false} title="Museums in Paris"
-description="A place to share my thoughts after visiting a museum or exhibition">
+<Main
+  showLanguageSwitcher={false}
+  title="Museums in Paris"
+  description="A place to share my thoughts after visiting a museum or exhibition"
+>
   <style>
     .date {
       font-style: italic;
@@ -64,8 +67,8 @@ description="A place to share my thoughts after visiting a museum or exhibition"
   </p>
   <p>
     Since I visit a lot of museums I have three different subscription cards.
-    You can find more details about them <a
-      href="/articles/subscriptions/">here</a
+    You can find more details about them <a href="/articles/subscriptions/"
+      >here</a
     >
   </p>
   <div>
@@ -77,10 +80,10 @@ description="A place to share my thoughts after visiting a museum or exhibition"
           if (article) {
             return (
               <li value={article.data.museumName}>
-                <!-- prettier-ignore -->
-                <a href={`/articles/museums/${article.slug}/`}
-                  >{article.data.museumName}</a
-                >: {article.data.exhibitionName}
+                {article.data.museumName}:
+                <a href={`/articles/museums/${article.slug}/`}>
+                  {article.data.exhibitionName}
+                </a>
                 <p class="date">
                   Exhibition date:{" "}
                   {article.data.Startdate.toLocaleDateString("en-uk", {
@@ -111,10 +114,10 @@ description="A place to share my thoughts after visiting a museum or exhibition"
             if (article) {
               return (
                 <li value={article.data.museumName}>
-                  <!-- prettier-ignore -->
-                  <a href={`/articles/museums/${article.slug}/`}
-                    >{article.data.museumName}</a
-                  >: {article.data.exhibitionName}
+                  {article.data.museumName}:
+                  <a href={`/articles/museums/${article.slug}/`}>
+                    {article.data.exhibitionName}
+                  </a>
                   <p class="date">
                     Exhibition date:{" "}
                     {article.data.Startdate.toLocaleDateString("en-uk", {
@@ -159,10 +162,10 @@ description="A place to share my thoughts after visiting a museum or exhibition"
             if (article) {
               return (
                 <li value={article.data.museumName}>
-                  <!-- prettier-ignore -->
-                  <a href={`/articles/museums/${article.slug}/`}
-                    >{article.data.museumName}</a
-                  >: {article.data.exhibitionName}
+                  {article.data.museumName}:
+                  <a href={`/articles/museums/${article.slug}/`}>
+                    {article.data.exhibitionName}
+                  </a>
                   <p class="date">
                     Exhibition date:{" "}
                     {article.data.Startdate.toLocaleDateString("en-uk", {
