@@ -1,5 +1,15 @@
 ---
+import { Image } from "astro:assets";
+import { getProducts } from "../../bookeo/api";
 import Article from "../../layouts/article.astro";
+
+const { data, info } = await getProducts();
+if (!data) {
+  throw new Error("No data found");
+}
+if (info.totalPages > 1) {
+  throw new Error("Pagination not implemented");
+}
 ---
 
 <Article
@@ -45,11 +55,78 @@ import Article from "../../layouts/article.astro";
   </p>
   <br />
 
-  <noscript>Book a guided tour</noscript>
-  <script
-    type="text/javascript"
-    src="https://bookeo.com/widget.js?a=3252MKCWA4193B1401C92"
-    is:inline></script>
+  <h2>Available tours</h2>
+
+  <style>
+    .products {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    .product {
+      max-width: 100%;
+      width: 100%;
+      border: 0.1em solid currentColor;
+      padding: 0.5em;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    }
+    .product img {
+      display: block;
+      max-width: calc(100% + 1em);
+      width: calc(100% + 1em);
+      margin: -0.5em;
+      height: auto;
+      aspect-ratio: 2/1;
+      object-fit: cover;
+    }
+    .product .cta {
+      align-self: flex-end;
+    }
+
+    .product .row {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  </style>
+
+  <style is:global>
+    .product p {
+      margin: 0;
+    }
+  </style>
+
+  <div class="products">
+    {
+      data.map((entry) => (
+        <article class="product">
+          <Image src={entry.images[0].url} width={448} height={252} alt="" />
+          <div class="row">
+            <a href={`/book/${entry.productCode}/`}>
+              <h3>{entry.name}</h3>
+            </a>
+            <p>
+              {[
+                { time: entry.duration.days, unit: "days" },
+                { time: entry.duration.hours, unit: "hours" },
+                { time: entry.duration.minutes, unit: "minutes" },
+              ]
+                .filter((segment) => segment.time)
+                .map((segment) => `${segment.time} ${segment.unit}`)
+                .join(", ")}
+            </p>
+          </div>
+          <Fragment set:html={entry.description} />
+          <a class="cta" href={`/book/${entry.productCode}/`}>
+            Book
+          </a>
+        </article>
+      ))
+    }
+  </div>
 
   <p>
     If you don't find what you're looking for, don't hesitate to reach out to me
