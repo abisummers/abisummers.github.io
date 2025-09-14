@@ -40,7 +40,7 @@ jobs:
       - name: Build
         shell: "bash"
         working-directory: .
-        run: BOOKEO_CLIENT=TESTTTT yarn run build
+        run: BOOKEO_CLIENT=$BOOKEO_CLIENT BOOKEO_SERVER=$BOOKEO_SERVER yarn run build
         env:
           ALGOLIA_WRITE_KEY: ${{ secrets.ALGOLIA_WRITE_KEY }}
           BOOKEO_CLIENT: ${{ secrets.BOOKEO_CLIENT }}

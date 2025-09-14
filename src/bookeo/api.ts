@@ -50,7 +50,7 @@ export async function getProducts(): Promise<BookeoProductsResponse> {
     .then(async (res) => {
       if (!res.ok) {
         throw new Error(
-          `Failed to fetch products: ${res.status} ${res.statusText} ${await res.text()} ${res.url}`,
+          `Failed to fetch products: ${res.status} ${res.statusText} ${await res.text()}`,
         );
       }
       return res;
