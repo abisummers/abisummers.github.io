@@ -26,6 +26,12 @@ const articles: Array<{
     link: '/guide/',
   },
   {
+    title: 'Book a tour',
+    intro:
+      'Looking for a private tour in Paris? I offer personalised tours, as well as themed tours.',
+    link: '/book/',
+  },
+  {
     title: 'The Alphabet of Île-de-France',
     intro:
       'A project to discover some of the less known locations within Île-de-France, one letter at a time.',
@@ -67,17 +73,19 @@ const articles: Array<{
       <li>slow traveller</li>
     </ul>
   </section>
-  {
-    articles.map((article) => (
-      <article>
-        <h2>{article.title}</h2>
-        <p>{article.intro}</p>
-        {article.link && (
-          <a class="cta" href={'/articles' + article.link}>
-            read more
-          </a>
-        )}
-      </article>
-    ))
-  }
+  <div class="articles">
+    {
+      articles.map((article) => (
+        <article>
+          <h2>{article.title}</h2>
+          <p>{article.intro}</p>
+          {article.link && (
+            <a class="cta" href={'/articles' + article.link}>
+              read more
+            </a>
+          )}
+        </article>
+      ))
+    }
+  </div>
 </Main>
