@@ -1,4 +1,5 @@
 ---
+import Schema from "../components/schema.astro";
 import Main from "../layouts/main.astro";
 import { getCollection } from "astro:content";
 
@@ -86,3 +87,31 @@ const articles: Array<{
     }
   </div>
 </Main>
+
+<Schema
+  item={{
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    name: "Abi Summers",
+    description:
+      "Private and themed tours in Paris by a local guide. Advice, articles, and booking for personalized experiences.",
+    url: "https://abisummers.com/",
+    email: "contact@abisummers.com",
+    sameAs: ["https://www.instagram.com/abiguides"],
+    areaServed: {
+      "@type": "City",
+      name: "Paris",
+    },
+    employee: {
+      "@type": "Person",
+      name: "Abi Summers",
+      jobTitle: "Tour Guide",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Paris",
+      addressCountry: "FR",
+    },
+    priceRange: "€€",
+  }}
+/>

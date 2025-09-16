@@ -1,6 +1,10 @@
 ---
+import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
-import { getProducts, type BookeoProduct } from "../../bookeo/api";
+import { getProducts, type BookeoProduct } from "../../lib/bookeo";
+import type { Service, TouristAttraction } from "schema-dts";
+import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
+import { stripHtml } from "../../lib/html";
 
 export async function getStaticPaths() {
   const { data, info } = await getProducts();
@@ -33,3 +37,32 @@ const { entry } = Astro.props;
     src={`https://bookeo.com/widget.js?a=3252MKCWA4193B1401C92&type=${entry.productId}`}
     is:inline></script>
 </Article>
+
+<Schema
+  item={{
+    "@context": "https://schema.org",
+    "@type": ["Service", "TouristAttraction"],
+    name: entry.name,
+    description: await stripHtml(entry.description),
+    url: `https://abisummers.com/book/${entry.productCode}`,
+    provider: {
+      "@type": "TravelAgency",
+      name: "Abi Summers",
+      areaServed: {
+        "@type": "City",
+        name: "Paris",
+      },
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Paris",
+        addressCountry: "FR",
+      },
+      priceRange: "€€",
+    },
+    offers: {
+      "@type": "Offer",
+      url: `https://abisummers.com/book/${entry.productCode}`,
+      availability: "https://schema.org/InStock",
+    },
+  } as WithMultiContext<MultiThing<Service, TouristAttraction>>}
+/>

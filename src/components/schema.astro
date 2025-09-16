@@ -1,0 +1,18 @@
+---
+import type { Graph, Thing, WithContext } from "schema-dts";
+
+import { JsonLd, type MultiThing, type WithMultiContext } from "../lib/jsonld";
+
+export type Props<T extends Thing> = {
+  item:
+    | Graph
+    | WithContext<Thing>
+    | WithContext<T>
+    | WithMultiContext<MultiThing>;
+  space?: string | number;
+};
+
+const { item, space } = Astro.props;
+---
+
+<script type="application/ld+json" set:html={JsonLd(item, space)} />

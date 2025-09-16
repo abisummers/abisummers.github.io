@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { getProducts } from "../../bookeo/api";
+import { getProducts } from "../../lib/bookeo";
 import Article from "../../layouts/article.astro";
 
 const { data, info, ...all } = await getProducts();
