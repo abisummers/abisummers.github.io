@@ -1,11 +1,11 @@
 ---
 import { Image } from "astro:assets";
-import { getProducts } from "../../lib/bookeo";
+import { getProductsWithPricing } from "../../lib/bookeo";
 import Article from "../../layouts/article.astro";
 
-const { data, info, ...all } = await getProducts();
+const { data, info } = await getProductsWithPricing();
 if (!data) {
-  throw new Error(`No data found ${JSON.stringify(all)}`);
+  throw new Error(`No data found`);
 }
 if (info.totalPages > 1) {
   throw new Error("Pagination not implemented");
@@ -118,6 +118,7 @@ if (info.totalPages > 1) {
                 .map((segment) => `${segment.time} ${segment.unit}`)
                 .join(", ")}
             </p>
+            {entry.basePrice ? <p>{entry.basePrice.amount} €</p> : undefined}
           </div>
           <Fragment set:html={entry.description} />
           <a class="cta" href={`/book/${entry.productCode}/`}>
