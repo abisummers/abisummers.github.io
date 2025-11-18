@@ -20,6 +20,14 @@ Starting off with the museum that is high on the list of many people visiting th
 
 If you're visiting the Louvre, I highly recommend either doing a guided tour _or_ coming with a plan on what you want to see - either specific pieces (hello Mona Lisa) or what themes you'd like to see. The museum is massive (and can definitely be an overwhelming experience).
 
+### Bourse de Commerce
+
+Staying within the first arrondissement, Bourse de Commerce is also open on a monday. This is one of my favourite museums, partially because the building is beautiful and partially because I enjoy their exhibitions. 
+
+![At the top, you can see the blue sky through the glass roof. In the middle there is a painting that run around the entire building. At the bottom you can see the walk way that continues and some people looking up at the painting.](./images/bourse-de-commerce.jpeg)
+
+They run free tours throughout the day that cover either the exhibition or the history of the building. Most of the tours are in French but they do have tours in English too. The tours last around 20 minutes, so it's a great overview and leaves you with energy to explore on your own!
+
 ### The Pantheon
 
 This is one of my favourite places in the city. The building is _beautiful_, and it's a great place to sit and reflect. In the crypt, you'll find some French people who have had a big impact on French history, from resistance fighters to scientists to politicians. I'm sure you're going to recognise some names but you'll also come across some names you're unfamiliar with.
