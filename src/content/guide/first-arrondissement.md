@@ -78,6 +78,6 @@ _Samaritaine_ is a department store, located between the Louvre and 59 Rivoli. T
 
 ### Your experience
 
-What do you think of the first arrondissement of Paris? Got anything you'd like to share? You can reach me on instagram at **[@abiguides](https://www.instagram.com/abiguides/)**.
+What do you think of the first arrondissement of Paris? Got anything you'd like to share? You can reach me on instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**.
 
 If you'd like a guided tour of the first arrondissement, you can book a tour using the button below!

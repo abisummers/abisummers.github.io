@@ -40,4 +40,4 @@ While the metro is quieter, it means that they take the time to do important mai
 
 Like with all things in life, there are pros and cons. If August is the only time you can visit Paris - take the opportunity! Yes, it's busier, but the vibes are much slower, there are lots of activities, and overall everyone is in a great mood!
 
-Anything you'd add to this? Let me know over on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!
+Anything you'd add to this? Let me know over on Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**!

@@ -41,4 +41,4 @@ Sometimes kids just want to run around, so if that's the case I'll make sure we 
 
 ### Got any questions?
 
-Have any questions about my private tours, you can get in contact via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Have any questions about my private tours, you can get in contact via email at **[contact@abisummers.com](mailto:contact@abisummers.com)** or via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

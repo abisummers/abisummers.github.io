@@ -14,7 +14,7 @@ December is also the month of Christmas markets! I went through a few in Paris l
 
 I had planned on following a tour in Paris about the Paris Commune but the tour was cancelled last minute, so instead I went to the cinema with my partner. We went to see _Everybody Loves Touda_, which I enjoyed but honestly the ending left me a little confused. I rarely go to the cinema, so it was nice to se something different especially while the weather wasn't great.
 
-I also created a new Instagram account, [@abiguides](https://www.instagram.com/abiguides/), where I'm going to share all things Paris!
+I also created a new Instagram account, [@abi.in.france](https://www.instagram.com/abi.in.france/), where I'm going to share all things Paris!
 
 ### All things blog
 
@@ -40,7 +40,7 @@ Am I an audiobook person now? Maybe? I've been having a great time!
 
 ### Journalling
 
-I attended a lot of [JoClub](https://joclub.memberful.com/referral/3ld2997) sessions! It has been a while since I was able to attend, so attending three in a month feels like an achievement. I also was able to use my Golden Ticket to invite a friend. Each month all JoClub members get one free invite to invite someone to any session - if you'd like to try out JoClub, let me know over on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+I attended a lot of [JoClub](https://joclub.memberful.com/referral/3ld2997) sessions! It has been a while since I was able to attend, so attending three in a month feels like an achievement. I also was able to use my Golden Ticket to invite a friend. Each month all JoClub members get one free invite to invite someone to any session - if you'd like to try out JoClub, let me know over on Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**
 
 I attended art journalling _word of 2025_, bring your own prompt (BYOP) _life lessons of 2024_ and a themed session on _new year intentions_. All of these sessions were so good and I always leave with lots to think about!
 

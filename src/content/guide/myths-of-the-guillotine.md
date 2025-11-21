@@ -39,4 +39,4 @@ I think it's somewhat unfortunate that Guillotin has the lasting legacy of the g
 
 ### Book a tour
 
-I'm currently finalising a tour talking about different myths and legends and how much of their story is based on true events. If you want to find out when the tour is launching, you can find details on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**, or check out the [other tours](/book/) that I have already launched! Or if you have any questions you can reach me via Instagram.
+I'm currently finalising a tour talking about different myths and legends and how much of their story is based on true events. If you want to find out when the tour is launching, you can find details on Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**, or check out the [other tours](/book/) that I have already launched! Or if you have any questions you can reach me via Instagram.

@@ -122,7 +122,7 @@ One of the cool things about the Eiffel Tower is getting to see all of the landm
 
 ### Got any questions?
 
-If you have any questions about visiting the Eiffel tower, you can reach out on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**! I often share tips and tricks to enjoying the city.
+If you have any questions about visiting the Eiffel tower, you can reach out on Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**! I often share tips and tricks to enjoying the city.
 
 <a name="guided-tour"></a>
 

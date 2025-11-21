@@ -37,4 +37,4 @@ After the 2019 fire, they have been working to restore the Notre Dame to her ful
 
 ### Got any question?
 
-Got any questions about the Notre Dame, or would like to book a tour of Île de la Cité, you can get in contract via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Got any questions about the Notre Dame, or would like to book a tour of Île de la Cité, you can get in contract via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

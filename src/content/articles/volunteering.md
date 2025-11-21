@@ -45,7 +45,7 @@ The workshops have different themes, but I enjoyed the Curious Question the most
 
 ### Get in contact
 
-Have you volunteered in Paris? What was your experience? I'd love to know your experience, or any other organisations that I should volunteer with. You can get in contact via instagram at **[@abiguides](https://www.instagram.com/abiguides/)** or email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
+Have you volunteered in Paris? What was your experience? I'd love to know your experience, or any other organisations that I should volunteer with. You can get in contact via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)** or email at **[contact@abisummers.com](mailto:contact@abisummers.com)**
 
 ---
 

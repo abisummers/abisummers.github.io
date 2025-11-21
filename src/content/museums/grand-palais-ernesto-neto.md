@@ -47,4 +47,4 @@ I also highly encourage to pause and listen to the music. Everyone there had dif
 
 ### Now it's your turn
 
-Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

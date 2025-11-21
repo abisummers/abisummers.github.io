@@ -62,4 +62,4 @@ At the château, they had a poster with places to eat for lunch. Two restaurants
 
 ### Now it's your turn
 
-Are you planning on going to Écouen? Have you already been? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Are you planning on going to Écouen? Have you already been? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

@@ -27,6 +27,6 @@ A little bit further down this street, at 6 rue de la Colombe, there is a plaque
 
 There's always something else to discover in Paris. Don't forget to look up, and pay attention to the details otherwise stories like this will pass you by.
 
-Let me know if you've seen this before, or if it's now on your list of places to visit! You can reach me via Instagram at **[@abiguides](https://www.instagram.com/abiguides/)** where I share all things related to Paris and France.
+Let me know if you've seen this before, or if it's now on your list of places to visit! You can reach me via Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)** where I share all things related to Paris and France.
 
 If you would like to hear more stories about things in plain sight, you can book a tour using the button below or by clicking **[here](/book/)**!

@@ -60,4 +60,4 @@ To the east of the Louvre you have 59 Rivoli, one of my favourite art galleries 
 
 Even though the area is small, there's so much to see and do. While I've listed some of the museums in the first arrondissement, there's more! Personally I find that Paris is more enjoyable when you dedicate the time to experiencing something rather than rushing between places.
 
-I'd love to know your thoughts on museums in the 1st arrondissement of Paris, you can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!
+I'd love to know your thoughts on museums in the 1st arrondissement of Paris, you can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**!

@@ -65,7 +65,7 @@ Line 6 is a fun line to take, because it's mostly overground. Between Bir Hakeim
 
 ### Get in contact
 
-Do you have any questions about the Paris metro system? Feel free to get in contact via Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!
+Do you have any questions about the Paris metro system? Feel free to get in contact via Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**!
 
 I love talking about the metro, and public transport in general because of the positive impact on the environment and the convenience of it. I love the buzz of passing through busy stations while everyone is doing their own thing, living their own life.
 

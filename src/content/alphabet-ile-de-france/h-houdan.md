@@ -58,4 +58,4 @@ We stopped by a cafe to get a drink (mostly so I could go to the toilet before t
 
 ### Now it's your turn
 
-Are you planning on going to Houdan? Have you already been? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Are you planning on going to Houdan? Have you already been? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

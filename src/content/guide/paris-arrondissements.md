@@ -75,4 +75,4 @@ Book a tour</a>
 
 ### Share your experience
 
-I love getting to know what people think about Paris, so please get in touch if you'd like to share your experience! I'd love to know what you think about where you chose to stay, and your favourite things in the neighbourhood. You can reach me via Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+I love getting to know what people think about Paris, so please get in touch if you'd like to share your experience! I'd love to know what you think about where you chose to stay, and your favourite things in the neighbourhood. You can reach me via Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

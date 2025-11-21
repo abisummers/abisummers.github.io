@@ -65,4 +65,4 @@ I will be back another time to visit château de Bois Préau and the Musée d'Hi
 
 ### Now it's your turn
 
-Are you planning to visit Rueil-Malmaison? Have you already been and see something I've missed? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Are you planning to visit Rueil-Malmaison? Have you already been and see something I've missed? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

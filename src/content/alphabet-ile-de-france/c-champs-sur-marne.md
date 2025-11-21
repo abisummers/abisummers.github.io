@@ -54,4 +54,4 @@ There's currently a costume exhibition on until the 19th May 2024, so you can se
 
 ### Now it's your turn
 
-Are you planning on going to Champs-sur-Marne? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Are you planning on going to Champs-sur-Marne? If so, I'd love to hear your thoughts and experiences! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

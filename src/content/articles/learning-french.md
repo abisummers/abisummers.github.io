@@ -180,7 +180,7 @@ Despite that, I'm still continuing to invest in my French. Depending on my needs
 
 ### What's your experience?
 
-What's your experience with learning a foreign language? What are your best tips and tricks? I'd love to talk about learning languages with you! You can get in touch via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+What's your experience with learning a foreign language? What are your best tips and tricks? I'd love to talk about learning languages with you! You can get in touch via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**
 
 ---
 

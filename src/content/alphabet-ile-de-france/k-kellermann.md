@@ -65,4 +65,4 @@ While I'm pleased I went, I'm not sure if I would go again because there are oth
 
 ### Now it's your turn
 
-Have you ever been to Parc Kellerman? Got another favourite park in Paris or another idea of a place to visit for the letter K? I would love to hear from you! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Have you ever been to Parc Kellerman? Got another favourite park in Paris or another idea of a place to visit for the letter K? I would love to hear from you! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

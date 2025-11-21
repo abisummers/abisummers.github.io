@@ -80,6 +80,6 @@ The Paris transport system does not accept contactless payments when validating 
 
 ### Got any questions?
 
-If you have any questions about Paris, or see a scam that I've missed, feel free to reach me via Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**!
+If you have any questions about Paris, or see a scam that I've missed, feel free to reach me via Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**!
 
 If you are visiting Paris and would like a private tour, you can book a tour using the button below.

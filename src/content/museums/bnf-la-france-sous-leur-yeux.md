@@ -61,4 +61,4 @@ You can find all of the photos I mentioned via the [online platform](https://com
 
 I've been going to the library for a few months to work on various projects both alone and with friends. I'm pleased I took some time to visit this exhibition before it ends.
 
-Have you been to this exhibition? If so, I would love to exchange thoughts! You can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Have you been to this exhibition? If so, I would love to exchange thoughts! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

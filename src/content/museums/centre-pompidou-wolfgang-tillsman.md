@@ -46,6 +46,6 @@ I would highly recommend this exhibition! You could spend hours here, especially
 
 I have an annual pass to Centre Pompidou, so I'm hoping to experience the exhibition again. You can hear Wolfgang Tillmans talk about his exhibition on the Centre Pompidou [YouTube channel](https://www.youtube.com/watch?v=FBOCcvkEC9w), where he explains some of his favourite pieces.
 
-Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can leave a comment on instagram at **[@abiguides](https://www.instagram.com/reel/DMvKQkVNuC_)**
+Have you been to this exhibition? What did you think? I'd love to hear your thoughts! You can leave a comment on instagram at **[@abi.in.france](https://www.instagram.com/reel/DMvKQkVNuC_)**
 
 ---

@@ -24,4 +24,4 @@ Paris and Île-de-France isn't the only place where you can find them, they're f
 
 ### Have you seen the parakeets?
 
-I'd love to know what your first reaction was! You can share your stories with me over on Instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+I'd love to know what your first reaction was! You can share your stories with me over on Instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**

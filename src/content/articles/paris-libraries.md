@@ -97,7 +97,7 @@ I have a lot of fond memories of this library, because back in 2018 when I was l
 
 What's your experience with libraries in Paris? Do you have a favourite one? Do you prefer working alone or with friends? And are you there to just pick up books or there to work?
 
-You can share your thoughts with me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+You can share your thoughts with me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**
 
 ---
 

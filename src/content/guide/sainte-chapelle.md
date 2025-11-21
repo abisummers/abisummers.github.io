@@ -29,7 +29,7 @@ This option is only available in person. The Conciergerie is a museum just next 
 
 ### Passion Monument card
 
-Now this is my _favourite_ way that not many people know about. I've spoken a lot about my love of the Passion Monument card, both on my [blog](https://abisummers.com/articles/subscriptions/) and on my [instagam](http://instagram.com/abiguides/), but this card essentially gives you priority access to a bunch of monuments around France including Sainte Chapelle. It's super affordable too, at 70€ for a year for the duo card.
+Now this is my _favourite_ way that not many people know about. I've spoken a lot about my love of the Passion Monument card, both on my [blog](https://abisummers.com/articles/subscriptions/) and on my [instagam](http://instagram.com/abi.in.france/), but this card essentially gives you priority access to a bunch of monuments around France including Sainte Chapelle. It's super affordable too, at 70€ for a year for the duo card.
 
 If you have this card, you can show it at the priority access line and they'll let you in without having to wait in any of the lines. It's like magic.
 

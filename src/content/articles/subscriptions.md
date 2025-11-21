@@ -86,7 +86,7 @@ They also have exhibitions here, which don't seem to be that known. I recently w
 
 ## Get in contact
 
-Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me via instagram at **[@abiguides](https://www.instagram.com/abiguides/)**
+Do you have a museum card that you would recommend? What is your favourite museum in Paris? I would love to chat all things museums, you can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**
 
 ---
 

@@ -44,7 +44,7 @@ So while I am happy that I went, and I did have fun I don't think I will be goin
 
 I feel like I didn't full appreciate the building because I was so focused on the skating (and trying to not fall over) - I feel like a lot of people go to be inside the Grand Palais. I loved the feeling on the sun coming through the roof but it did somewhat blind me when I passed by the area. I do however want to visit the museum!
 
-The ice quality was _ok_. At the start of the session is was much better compared to when we got off the rink. Over on my [instagram](http://instagram.com/abiguides/) I shared a story asking people to place their bets on how many times I fell (the answered ranged from 0 to 14 times - correct answer: once). I got a respond saying "that ice is so chopping, idk how you could not have fallen". So if you're looking for good quality ice, maybe give it a miss.
+The ice quality was _ok_. At the start of the session is was much better compared to when we got off the rink. Over on my [instagram](http://instagram.com/abi.in.france/) I shared a story asking people to place their bets on how many times I fell (the answered ranged from 0 to 14 times - correct answer: once). I got a respond saying "that ice is so chopping, idk how you could not have fallen". So if you're looking for good quality ice, maybe give it a miss.
 
 For the morning session, there was no music playing. I think it would have been a nice addition especially knowing the evening session had a disco.
 
@@ -54,4 +54,4 @@ And I do think 25€ for a few hours of ice skating is expensive. There are oth
 
 While I do enjoy ice skating occasionally, and I do love the building of the Grand Palais, I'm not in a hurry to go again. Yes, I had fun, but I think it was expensive for what it was. From what I have heard, I got lucky with the slot I went at considering how busy it can get. I don't think I would have enjoyed the disco session because of the number of people there. If you're an experienced skater, then you'd probably fun!
 
-Let me know over on Instagram at **[@abiguides](https://www.instagram.com/p/DEh-9g2t2m_/?img_index=1)** if you've been and if this is something you would like to do!
+Let me know over on Instagram at **[@abi.in.france](https://www.instagram.com/p/DEh-9g2t2m_/?img_index=1)** if you've been and if this is something you would like to do!
