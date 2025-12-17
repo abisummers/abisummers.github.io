@@ -1,10 +1,10 @@
 ---
 title: Île de la Cité
 description: Free self guided tour of Île de la Cité
-publishedDate: 2025-01-27
+publishedDate: 2025-12-17
 themes: ["tour"]
 draft: false
-# image: /src/content/guide/images/rue-des-fosses-saint-jacques.jpg
+image: /src/content/guide/images/ile-de-la-cite-flower-market.jpeg
 ---
 
 Île de la Cité, is the island at the heart of Paris. It is one of three islands the city has, with Île Saint Louis just next to it, and Île aux Cygnes which is close to the Eiffel Tower.
@@ -25,7 +25,7 @@ As the Roman influence came to an end, the Franks, a germanic-speaking tribe wer
 
 The self guided tour starts on the bridge _pont neuf_, or the _new bridge_, which is in fact the oldest bridge in Paris. The nearest metro station is called _pont neuf_.
 
-![](./images/pont-neuf.jpeg)
+![five of the arches connecting pont neuf to the right bank. On the right you can see the statue of Henri IV](./images/pont-neuf.jpeg)
 
 Historically in Paris bridges were made out of wood which didn't always end well - you have to deal with both fire and rot. Goodbye to the bridge, goodbye to the homes that were standing on it.
 
