@@ -5,6 +5,54 @@ publishedDate: 2025-12-17
 themes: ["tour"]
 draft: false
 image: /src/content/guide/images/ile-de-la-cite-flower-market.jpeg
+locations:
+  [
+    {
+      title: "start location",
+      location: "Pont Neuf",
+      longitude: 2.3414,
+      latitude: 48.8573,
+    },
+    {
+      title: "first stop",
+      location: "Place Dauphine",
+      longitude: 2.3423,
+      latitude: 48.8565,
+    },
+    {
+      title: "second stop",
+      
+      location: "La Conciergerie",
+      longitude: 2.3457,
+      latitude: 48.8564,
+    },
+    {
+      title: "third stop",
+      location: "The clock tower",
+      longitude: 2.3464,
+      latitude: 48.856,
+    },
+    {
+      title: "fourth stop",
+      location: "Sainte Chapelle",
+      longitude: 2.346,
+      latitude: 48.8554,
+    },
+    {
+      title: "optional stop",
+      location: "The flower market",
+      longitude: 2.347,
+      latitude: 48.855,
+    },
+    {
+      title: "fifth stop",
+      location: "Notre Dame",
+      longitude: 2.348,
+      latitude:   48.853,
+    },
+  ]
+
+mapConfig: { latitude: 48.855, longitude: 2.348, zoom: 14.7 }
 ---
 
 Île de la Cité, is the island at the heart of Paris. It is one of three islands the city has, with Île Saint Louis just next to it, and Île aux Cygnes which is close to the Eiffel Tower.
