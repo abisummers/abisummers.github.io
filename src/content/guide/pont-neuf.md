@@ -13,7 +13,7 @@ Pont Neuf, despite the name _new bridge_ is the oldest bridge in Paris. It's one
 
 This bridge is an important bridge for a few reasons. It's the oldest bridge of Paris! It was a new design for the time, with it being the first stone bridge in the city - prior to this bridges were made with wood. The bridge is made up of smaller arch bridges, made in the same was as the Romans made their bridges. On the south side there are five arches connecting the bridge to left bank, and on the north there are seven arches connect the bridge to the right bank. The bridge is 232 metres long and 22 metres wide.
 
-![five of the arches connecting pont neuf to the left bank. On the right you can see the statue of Henri IV.](./images/pont-neuf.jpeg)
+![five of the arches connecting pont neuf to the right bank. On the right you can see the statue of Henri IV.](./images/pont-neuf.jpeg)
 
 It was the first bridge in Paris that didn't have houses built on it. Henri IV said that he didn't want the houses to obstruct the view of the Louvre.
 
