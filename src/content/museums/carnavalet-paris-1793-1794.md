@@ -2,7 +2,7 @@
 museumName: Carnavalet
 exhibitionName: Paris 1793-1794
 intro: A revolutionary year
-Startdate: 2024-10-16
+startDate: 2024-10-16
 endDate: 2025-02-16
 dateVisited: 2024-11-28
 ticketCost: 0

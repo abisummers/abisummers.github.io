@@ -1,13 +1,15 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { getImage } from "astro:assets";
 import Main from "../../../layouts/article.astro";
 import MapboxMap from "../../../components/mapbox-map.astro";
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   return (await getCollection("alphabet-ile-de-france")).map((entry) => ({
-    params: { slug: entry.slug },
+    params: { slug: entry.id },
     props: { entry },
   }));
 }
@@ -22,21 +24,21 @@ let ogImage: string | undefined;
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/images/*.{jpeg,jpg}",
 );
-if (images[entry.data.image]) {
-  const { default: image } = await images[entry.data.image]();
+if (images[entry.data.image!]) {
+  const { default: image } = await images[entry.data.image!]();
   const { src } = await getImage({
     src: image,
-    format: "jpeg",
+    format: "jpg",
   });
   ogImage = "https://abisummers.com" + src;
 }
 
 const siblings = await getCollection("alphabet-ile-de-france");
-const index = siblings.findIndex((sibling) => sibling.slug === entry.slug);
+const index = siblings.findIndex((sibling) => sibling.id === entry.id);
 const prev = siblings[index - 1];
 const next = siblings[index + 1];
 
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <Main
@@ -49,18 +51,20 @@ const { Content } = await entry.render();
   <a href="/articles/alphabet-ile-de-france/" class="back"
     >← back to all articles</a
   >
-  <p>
-    date visited:
-    <time datetime={entry.data.date.toISOString()}>
-      {
-        entry.data.date.toLocaleDateString("en-uk", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        })
-      }
-    </time>
-  </p>
+  {
+    entry.data.date && (
+      <p>
+        date visited:
+        <time datetime={entry.data.date.toISOString()}>
+          {entry.data.date.toLocaleDateString("en-uk", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </time>
+      </p>
+    )
+  }
   <style is:global>
     img {
       max-width: 100%;
@@ -81,7 +85,7 @@ const { Content } = await entry.render();
         latitude: entry.data.coordinates.lat,
         longitude: entry.data.coordinates.lng,
         title: entry.data.title,
-        link: `/articles/alphabet-ile-de-france/${entry.slug}/`,
+        link: `/articles/alphabet-ile-de-france/${entry.id}/`,
         letter: entry.data.letter,
       },
     ]}
@@ -122,7 +126,7 @@ const { Content } = await entry.render();
     <div class="links">
       {
         prev ? (
-          <a href={`/articles/alphabet-ile-de-france/${prev.slug}/`}>
+          <a href={`/articles/alphabet-ile-de-france/${prev.id}/`}>
             <div>Read the previous article:</div>
             <div class="title">{prev.data.title}</div>
           </a>
@@ -135,7 +139,7 @@ const { Content } = await entry.render();
       }
       {
         next ? (
-          <a href={`/articles/alphabet-ile-de-france/${next.slug}/`}>
+          <a href={`/articles/alphabet-ile-de-france/${next.id}/`}>
             <div>Read the next article:</div>
             <div class="title">{next.data.title}</div>
           </a>

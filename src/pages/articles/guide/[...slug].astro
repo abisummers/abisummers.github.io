@@ -1,14 +1,16 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { getImage } from "astro:assets";
 import Main from "../../../layouts/article.astro";
 import MapboxMap from "../../../components/mapbox-map.astro";
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   return (await getCollection("guide"))
     .map((entry) => ({
-      params: { slug: entry.slug },
+      params: { slug: entry.id },
       props: { entry },
     }))
     .filter((entry) => !entry.props.entry.data.draft);
@@ -28,12 +30,12 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 if (images[entry.data.image]) {
   const { src } = await getImage({
     src: images[entry.data.image].default,
-    format: "jpeg",
+    format: "jpg",
   });
   ogImage = "https://abisummers.com" + src;
 }
 
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <Main
@@ -103,9 +105,9 @@ const { Content } = await entry.render();
   <hr />
   <footer>
     <p>
-      This article is part of my <a href="/articles/guide/">guide</a> collection
-      where I write about my tips and tricks for enjoying Paris as a tourist. As
-      well as my blog, I also share things on my instagram at <a
+      This article is part of my <a href="/articles/guide/">guide</a> collection where
+      I write about my tips and tricks for enjoying Paris as a tourist. As well as
+      my blog, I also share things on my instagram at <a
         href="https://www.instagram.com/abi.in.france">@abi.in.france</a
       >.
     </p>

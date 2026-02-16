@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
+import netlify from "@astrojs/netlify";
 import { algolia } from "./plugins/index-to-algolia";
 
 // set to false if you want faster local builds
@@ -40,4 +41,6 @@ export default defineConfig({
         },
       }
     : {}),
+  output: "server",
+  adapter: netlify(),
 });

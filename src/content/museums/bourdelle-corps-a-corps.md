@@ -2,7 +2,7 @@
 museumName: Musée Bourdelle
 exhibitionName: Rodin / Bourdelle. Corps à corps
 intro: Visiting Rodin / Bourdelle. Corps à corps at Bourdelle museum
-Startdate: 2024-02-10
+startDate: 2024-02-10
 endDate: 2025-02-02
 dateVisited: 2024-12-17
 ticketCost: 0

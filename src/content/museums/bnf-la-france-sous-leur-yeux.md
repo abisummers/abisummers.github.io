@@ -2,7 +2,7 @@
 museumName: BNF
 exhibitionName: La France sous leur yeux
 intro: My thoughts on my first exhibition at the BNF.
-Startdate: 2024-03-19
+startDate: 2024-03-19
 endDate: 2024-06-23
 dateVisited: 2024-05-15
 ticketCost: 0

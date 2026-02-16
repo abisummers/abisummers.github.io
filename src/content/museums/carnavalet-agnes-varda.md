@@ -2,7 +2,7 @@
 museumName: Carnavalet
 exhibitionName: Agnès Varda
 intro: Le Paris d’Agnès Varda, de-ci, de-là
-Startdate: 2025-04-09
+startDate: 2025-04-09
 endDate: 2025-08-24
 dateVisited: 2025-08-19
 ticketCost: 15

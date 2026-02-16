@@ -2,7 +2,7 @@
 museumName: Hôtel de la Marine
 exhibitionName: Al Thani Collection | Colour speaks all Languages
 intro: Colour speaks all Languages, an exhibition on how colour is reflected across cultures
-Startdate: 2024-10-03
+startDate: 2024-10-03
 endDate: 2025-10-05
 dateVisited: 2025-02-19
 ticketCost: 0

@@ -7,7 +7,7 @@ const alphabet = (await getCollection("alphabet-ile-de-france")).map(
   (article) => ({
     title: `Visiting ${article.data.title}`,
     intro: `A day trip to ${article.data.title}. Part of the alphabet of Île-de-France series.`,
-    url: `./alphabet-ile-de-france/${article.slug}/`,
+    url: `./alphabet-ile-de-france/${article.id}/`,
   }),
 );
 
@@ -15,7 +15,7 @@ const museums = (await getCollection("museums")).map((m) => {
   return {
     title: `${m.data.museumName}: ${m.data.exhibitionName}`,
     intro: m.data.intro,
-    url: `./museums/${m.slug}/`,
+    url: `./museums/${m.id}/`,
   };
 });
 
@@ -23,7 +23,7 @@ const travel = (await getCollection("travel")).map((article) => {
   return {
     title: article.data.title,
     intro: article.data.intro,
-    url: `./travel/${article.slug}/`,
+    url: `./travel/${article.id}/`,
   };
 });
 
@@ -31,7 +31,7 @@ const guidedThroughParis = (await getCollection("guide")).map((article) => {
   return {
     title: `${article.data.title}: guided through Paris`,
     intro: article.data.description,
-    url: `./guide/${article.slug}/`,
+    url: `./guide/${article.id}/`,
   };
 });
 
@@ -39,7 +39,7 @@ const unsorted = (await getCollection("articles")).map((article) => {
   return {
     title: article.data.title,
     intro: article.data.intro,
-    url: `./${article.slug}/`,
+    url: `./${article.id}/`,
   };
 });
 
@@ -124,7 +124,9 @@ const articles = [
         <a href="mailto:contact@abisummers.com">contact@abisummers.com</a>
       </li>
       <li>
-        Instagram: <a href="https://www.instagram.com/abi.in.france">@abi.in.france</a>
+        Instagram: <a href="https://www.instagram.com/abi.in.france"
+          >@abi.in.france</a
+        >
       </li>
       <li>SIREN: 843306648</li>
       <li>

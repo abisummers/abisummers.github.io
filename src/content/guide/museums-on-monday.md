@@ -22,7 +22,7 @@ If you're visiting the Louvre, I highly recommend either doing a guided tour _or
 
 ### Bourse de Commerce
 
-Staying within the first arrondissement, Bourse de Commerce is also open on a monday. This is one of my favourite museums, partially because the building is beautiful and partially because I enjoy their exhibitions. 
+Staying within the first arrondissement, Bourse de Commerce is also open on a monday. This is one of my favourite museums, partially because the building is beautiful and partially because I enjoy their exhibitions.
 
 ![At the top, you can see the blue sky through the glass roof. In the middle there is a painting that run around the entire building. At the bottom you can see the walk way that continues and some people looking up at the painting.](./images/bourse-de-commerce.jpeg)
 

@@ -50,7 +50,8 @@ function pastExhibitions() {
   </p>
   <p>
     You can reach me via instagram at <strong
-      ><a href="https://www.instagram.com/abi.in.france/">@abi.in.france</a></strong
+      ><a href="https://www.instagram.com/abi.in.france/">@abi.in.france</a
+      ></strong
     > if you want to share your experiences or any exhibitions that you would recommend!
   </p>
   <p>
@@ -81,12 +82,12 @@ function pastExhibitions() {
             return (
               <li value={article.data.museumName}>
                 {article.data.museumName}:
-                <a href={`/articles/museums/${article.slug}/`}>
+                <a href={`/articles/museums/${article.id}/`}>
                   {article.data.exhibitionName}
                 </a>
                 <p class="date">
                   Exhibition date:{" "}
-                  {article.data.Startdate.toLocaleDateString("en-uk", {
+                  {article.data.startDate.toLocaleDateString("en-uk", {
                     year: "numeric",
                     month: "long",
                     day: "numeric",
@@ -115,12 +116,12 @@ function pastExhibitions() {
               return (
                 <li value={article.data.museumName}>
                   {article.data.museumName}:
-                  <a href={`/articles/museums/${article.slug}/`}>
+                  <a href={`/articles/museums/${article.id}/`}>
                     {article.data.exhibitionName}
                   </a>
                   <p class="date">
                     Exhibition date:{" "}
-                    {article.data.Startdate.toLocaleDateString("en-uk", {
+                    {article.data.startDate.toLocaleDateString("en-uk", {
                       year: "numeric",
                       month: "long",
                       day: "numeric",
@@ -163,12 +164,12 @@ function pastExhibitions() {
               return (
                 <li value={article.data.museumName}>
                   {article.data.museumName}:
-                  <a href={`/articles/museums/${article.slug}/`}>
+                  <a href={`/articles/museums/${article.id}/`}>
                     {article.data.exhibitionName}
                   </a>
                   <p class="date">
                     Exhibition date:{" "}
-                    {article.data.Startdate.toLocaleDateString("en-uk", {
+                    {article.data.startDate.toLocaleDateString("en-uk", {
                       year: "numeric",
                       month: "long",
                       day: "numeric",

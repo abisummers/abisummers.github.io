@@ -6,6 +6,8 @@ import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
 import { stripHtml } from "../../lib/html";
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const { data, info } = await getProducts();
 
