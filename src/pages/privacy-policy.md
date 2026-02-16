@@ -39,7 +39,7 @@ Search and recommendations are hosted by Algolia. Algolia may collect IP through
 
 ### Bookings
 
-Bookings are handled on this website and processed through Bookeo. Personal and payment information is handled (through [Stripe](https://stripe.com/gb/privacy)) on an as-needed basis. More info on the data processing in the [Bookeo Privacy Policy](https://www.bookeo.com/privacy/). Card information is not stored, only processed by Stripe.
+Bookings are handled on this website. Personal and payment information is handled (through [Stripe](https://stripe.com/gb/privacy)) on an as-needed basis. Card information is not stored, only processed by Stripe.
 
 ### Changes To This Privacy Policy
 

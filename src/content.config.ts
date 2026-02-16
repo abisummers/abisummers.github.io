@@ -135,6 +135,36 @@ const images = defineCollection({
   }),
 });
 
+const tours = defineCollection({
+  type: "data",
+  schema: z.object({
+    name: z.string(),
+    description: z.string(),
+    images: z.array(z.object({ src: z.string(), alt: z.string() })),
+    sections: z.array(
+      z.object({
+        title: z.string(),
+        content: z.string(),
+      }),
+    ),
+    price: z.object({
+      base: z.number(),
+      currency: z.string().default("EUR"),
+      options: z.array(
+        z.object({
+          title: z.string(),
+          name: z.string(),
+          description: z.string(),
+          price: z.number(),
+          included: z.number(),
+          unit: z.string().default(""),
+          max: z.number().optional(),
+        }),
+      ),
+    }),
+  }),
+});
+
 export const collections = {
   "alphabet-ile-de-france": alphabet,
   articles,
@@ -143,4 +173,5 @@ export const collections = {
   "monthly-review": monthlyReview,
   travel,
   images,
+  tours,
 };

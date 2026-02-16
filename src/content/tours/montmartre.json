@@ -1,0 +1,43 @@
+{
+  "name": "Exploring Montmartre | Private tour",
+  "description": "Montmartre is one of my favourite neighbourhoods in Paris! It's one of the areas that most tourists want to visit, but it's so much more than just the places you see on instagram.I'll show you some of the places where the locals hang out, give tips on how to really enjoy this area. \n\n \n\nI'll talk to you a bit about the history of this area and how that has impacted the version of Montmatre that we love today.",
+  "images": [
+    {
+      "src": "/src/content/tours/images/montmartre-1.jpg",
+      "alt": "A wintery day in Montmartre looking at the Sacré-Cœur"
+    },
+    {
+      "src": "/src/content/tours/images/montmartre-2.jpg",
+      "alt": "A cozy street in Montmartre"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Itinerary",
+      "content": "We'll visit some of the main attractions in Montmartre including:\n\n- the moulin rouge: one of the most iconic cabarets in the world\n- Place du Tertre: a place to see artists working\n- Sacre Cœur: the church at the top of the hill (which is a controversial landmark amongst the Parisians)\n\nPlus some hidden gems!\n\nAt each location, I'll share stories about the history of the place and some of the important people.\n\nThis route can be adjusted based on what you'd like to see and what you're the most interested in!\n\n**Meeting location**: metro station Blanche"
+    }
+  ],
+  "price": {
+    "base": 180,
+    "currency": "EUR",
+    "options": [
+      {
+        "title": "Guests",
+        "name": "guests",
+        "description": "Number of guests",
+        "price": 0,
+        "included": 4,
+        "max": 12
+      },
+      {
+        "title": "Duration",
+        "name": "duration",
+        "description": "Extend the duration (in hours) of the tour",
+        "price": 50,
+        "__TODO__": "allow for half hours in the base price",
+        "included": 3,
+        "max": 8
+      }
+    ]
+  }
+}

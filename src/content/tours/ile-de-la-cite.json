@@ -1,0 +1,34 @@
+{
+  "name": "Île de la Cité | Private Tour",
+  "description": "Welcome to Île de la Cité, the heart of Paris!\n\nThere's so much to discover on this tour: from the history of the Notre Dame, to the oldest bridge of Paris. So put on a pair of comfy shoes and prepare to learn why this island is so important!\n\nNote this is a walking tour and does not include a tour inside the Notre Dame or other museums.",
+  "images": [
+    {
+      "src": "/src/content/tours/images/ile-de-la-cite-1.jpg",
+      "alt": "The point zero of France, on the Île de la Cité"
+    },
+    {
+      "src": "/src/content/tours/images/ile-de-la-cite-2.jpg",
+      "alt": "The oldest clock in Paris, on the Île de la Cité"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Duration",
+      "content": "2 hours"
+    }
+  ],
+  "price": {
+    "base": 150,
+    "currency": "EUR",
+    "options": [
+      {
+        "title": "Guests",
+        "name": "guests",
+        "description": "Number of guests",
+        "price": 0,
+        "included": 1,
+        "max": 15
+      }
+    ]
+  }
+}
