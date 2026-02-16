@@ -1,44 +1,46 @@
 ---
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
-import { getImage } from "astro:assets";
-import Main from "../../../layouts/article.astro";
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { getImage } from 'astro:assets';
+import Main from '../../../layouts/article.astro';
+
+export const prerender = true;
 
 export async function getStaticPaths() {
-  return (await getCollection("travel"))
+  return (await getCollection('travel'))
     .map((entry) => ({
-      params: { slug: entry.slug },
+      params: { slug: entry.id },
       props: { entry },
     }))
     .filter((entry) => !entry.props.entry.data.draft);
 }
 
 interface Props {
-  entry: CollectionEntry<"travel">;
+  entry: CollectionEntry<'travel'>;
 }
 
 const { entry } = Astro.props;
 
 let ogImage: string | undefined;
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/content/travel/images/*.{jpeg,jpg}",
+  '/src/content/travel/images/*.{jpeg,jpg}'
 );
-if (images[entry.data.image]) {
-  const { default: image } = await images[entry.data.image]();
+if (images[entry.data.image!]) {
+  const { default: image } = await images[entry.data.image!]();
   const { src } = await getImage({
     src: image,
-    format: "jpeg",
+    format: 'jpg',
   });
-  ogImage = "https://abisummers.com" + src;
+  ogImage = 'https://abisummers.com' + src;
 }
 
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <Main
   showLanguageSwitcher={false}
   title={entry.data.title}
-  description={entry.data.intro || "A place to talk all things travel"}
+  description={entry.data.intro || 'A place to talk all things travel'}
   ogImage={ogImage}
 >
   <h2>{entry.data.title}</h2>

@@ -15,7 +15,7 @@ I had seen so many photos and videos on Instagram prior to going. I'm sure the r
 
 This year, the ice skating will be open from the 13th December 2025 until the 7th January 2026 (How are we so close to 2026?!). Last year, there was a giant disco ball in the centre, but this year is has been replaced with an Effiel Tower that you can skate around. I like to see that there are changes between the years.
 
-This is not a cheap activity and the price depends on the time of day. In the morning it is **€27**, the afternoon it is **€32** and the evening is **€39**. This price includes the rental of the ice skates (but you can bring your own too). I'd recommend booking the earlier time slot for the morning and afternoon session so that you can make full use of the duration. 
+This is not a cheap activity and the price depends on the time of day. In the morning it is **€27**, the afternoon it is **€32** and the evening is **€39**. This price includes the rental of the ice skates (but you can bring your own too). I'd recommend booking the earlier time slot for the morning and afternoon session so that you can make full use of the duration.
 
 If you want something to do in the neighbourhood before or after ice skating, I'd highly recommend the exhibition [Niki de Saint Phalle, Jean Tinguely, Pontus Hulten](/articles/museums/grand-palais-niki-de-saint-phalle-and-jean-tinguely/) on at the Grand Palais until the 4th January.
 

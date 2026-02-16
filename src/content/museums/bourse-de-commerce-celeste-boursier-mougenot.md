@@ -2,7 +2,7 @@
 museumName: Bourse de Commerce
 exhibitionName: Céleste Boursier-Mougenot
 intro: Céleste Boursier-Mougenot | clinamen
-Startdate: 2024-06-13
+startDate: 2024-06-13
 endDate: 2025-09-22
 dateVisited: 2025-07-28
 ticketCost: 0

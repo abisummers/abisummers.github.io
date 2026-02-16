@@ -2,7 +2,7 @@
 museumName: Le Grand Palais
 exhibitionName: Ernesto Neto
 intro: Nossa Barco Tambor Terra, Our Boat Drum Earth
-Startdate: 2025-06-06
+startDate: 2025-06-06
 endDate: 2025-07-25
 dateVisited: 2025-06-19
 ticketCost: 0

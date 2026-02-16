@@ -1,5 +1,5 @@
-import { defineAction } from 'astro:actions';
-import { z } from 'astro/zod';
+import { defineAction } from "astro:actions";
+import { z } from "astro/zod";
 
 export const server = {
   getGreeting: defineAction({
@@ -7,7 +7,7 @@ export const server = {
       name: z.string(),
     }),
     handler: async (input) => {
-      return `Hello, ${input.name}!`
-    }
-  })
-}
+      return `Hello, ${input.name}!`;
+    },
+  }),
+};

@@ -2,7 +2,7 @@
 museumName: Bruges
 exhibitionName: Triennial
 intro: Exploring the Bruges Triennial
-Startdate: 2024-04-13
+startDate: 2024-04-13
 endDate: 2024-09-01
 dateVisited: 2024-06-11
 ticketCost: 0

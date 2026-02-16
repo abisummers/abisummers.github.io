@@ -21,7 +21,7 @@ locations:
     },
     {
       title: "second stop",
-      
+
       location: "La Conciergerie",
       longitude: 2.3457,
       latitude: 48.8564,
@@ -48,7 +48,7 @@ locations:
       title: "fifth stop",
       location: "Notre Dame",
       longitude: 2.348,
-      latitude:   48.853,
+      latitude: 48.853,
     },
   ]
 

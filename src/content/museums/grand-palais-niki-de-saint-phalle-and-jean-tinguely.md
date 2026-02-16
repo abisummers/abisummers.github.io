@@ -2,7 +2,7 @@
 museumName: Le Grand Palais
 exhibitionName: Niki de Saint Phalle and Jean Tinguely
 intro: Niki de Saint Phalle and Jean Tinguely through the visionary lens of Pontus Hulten.
-Startdate: 2025-06-06
+startDate: 2025-06-06
 endDate: 2026-01-04
 dateVisited: 2026-11-28
 ticketCost: 17
@@ -34,11 +34,9 @@ I love writing postcards while travelling, and I think I want to make them this 
 
 ![A white piece of paper with PONTUS written on the top half. The letters are each decorated with drawings and lots of colours. The bottom half contains French text](./images/pontus-letter.jpeg)
 
-
 One of the reoccurring themes to the exhibition was destruction. There were machines that were created so that they _would_ self-destruct. And this piece here, the giant woman lying on her back was destroyed after the original exhibition. Only a few parts of it remain. I would have loved to attend this exhibition - inside the woman, they had a bar, cinema and other art to look at.
 
 ![A large sculptured woman lying on her back with her legs open. There are stairs that go up into her vagina. The legs have been painted in lots of different colours. There are a handful of people looking at the piece of art on display](./images/niki-de-saint-phalle-and-jean-tinguely-poster.jpeg)
-
 
 ### Overall thoughts
 

@@ -30,7 +30,8 @@ const travelCollection = await getCollection("travel");
   <p>
     If you want to talk all things travel and to exchange experiences then you
     can reach me on instagram <strong
-      ><a href="https://www.instagram.com/abi.in.france/">@abi.in.france</a></strong
+      ><a href="https://www.instagram.com/abi.in.france/">@abi.in.france</a
+      ></strong
     >!
   </p>
   <div>
@@ -43,13 +44,13 @@ const travelCollection = await getCollection("travel");
     </p>
     {
       travelCollection
-        .filter((article) => article.data.tags.includes("slow-travel"))
+        .filter((article) => article.data.tags?.includes("slow-travel"))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
                 <a
-                  href={`/articles/travel/${article.slug}/`}
+                  href={`/articles/travel/${article.id}/`}
                   set:text={article.data.title}
                 />
                 - {article.data.intro}
@@ -67,13 +68,13 @@ const travelCollection = await getCollection("travel");
     </p>
     {
       travelCollection
-        .filter((article) => article.data.tags.includes("blog"))
+        .filter((article) => article.data.tags?.includes("blog"))
         .map((article) => {
           if (article) {
             return (
               <li value={article.data.title}>
                 <a
-                  href={`/articles/travel/${article.slug}/`}
+                  href={`/articles/travel/${article.id}/`}
                   set:text={article.data.title}
                 />
                 - {article.data.intro}

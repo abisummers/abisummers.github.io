@@ -2,7 +2,7 @@
 museumName: National Archives
 exhibitionName: Made in France
 intro: A look back on the history of textiles "made in France" through economic and social changes
-Startdate: 2024-10-16
+startDate: 2024-10-16
 endDate: 2025-01-27
 dateVisited: 2024-01-23
 ticketCost: 0

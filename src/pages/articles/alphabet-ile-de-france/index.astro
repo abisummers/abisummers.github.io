@@ -4,7 +4,7 @@ import Main from "../../../layouts/article.astro";
 import MapboxMap from "../../../components/mapbox-map.astro";
 
 const collection = (await getCollection("alphabet-ile-de-france")).sort(
-  (a, b) => a.data.letter - b.data.letter,
+  (a, b) => a.data.letter.localeCompare(b.data.letter),
 );
 
 /**
@@ -100,7 +100,8 @@ function positionToLetter(position: number) {
       ><a href="mailto:contact@abisummers.com">contact@abisummers.com</a
       ></strong
     > or via instagram at <strong
-      ><a href="https://www.instagram.com/abi.in.france/">@abi.in.france</a></strong
+      ><a href="https://www.instagram.com/abi.in.france/">@abi.in.france</a
+      ></strong
     >.
   </p>
   <progress
@@ -131,7 +132,7 @@ function positionToLetter(position: number) {
 
           return (
             <li value={letter}>
-              <a href={`/articles/alphabet-ile-de-france/${entry.slug}/`}>
+              <a href={`/articles/alphabet-ile-de-france/${entry.id}/`}>
                 <h3>{letter}</h3>
                 <p class="title">{entry.data.title}</p>
                 <p>
@@ -178,7 +179,7 @@ function positionToLetter(position: number) {
           latitude: entry.data.coordinates.lat,
           longitude: entry.data.coordinates.lng,
           title: entry.data.title,
-          link: `/articles/alphabet-ile-de-france/${entry.slug}/`,
+          link: `/articles/alphabet-ile-de-france/${entry.id}/`,
           letter: entry.data.letter,
         }))}
     />
@@ -191,7 +192,9 @@ function positionToLetter(position: number) {
         <a href="mailto:contact@abisummers.com">contact@abisummers.com</a>
       </li>
       <li>
-        Instagram: <a href="https://www.instagram.com/abi.in.france">@abi.in.france</a>
+        Instagram: <a href="https://www.instagram.com/abi.in.france"
+          >@abi.in.france</a
+        >
       </li>
       <li>SIREN: 843306648</li>
       <li>

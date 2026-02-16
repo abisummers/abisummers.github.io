@@ -4,7 +4,7 @@ import Main from "../layouts/main.astro";
 import { getCollection } from "astro:content";
 
 const about = (await getCollection("articles")).find(
-  (article) => article.slug === "about",
+  (article) => article.id === "about",
 )!;
 
 const articles: Array<{
@@ -14,7 +14,7 @@ const articles: Array<{
 }> = [
   {
     title: about.data.title,
-    intro: about.data.intro,
+    intro: about.data.intro ?? about.data.description ?? "",
     link: "/articles/about/",
   },
   {
@@ -91,14 +91,14 @@ const articles: Array<{
 <button>hello world!</button>
 
 <script>
-import { actions } from 'astro:actions';
+  import { actions } from "astro:actions";
 
-const button = document.querySelector('button');
-button?.addEventListener('click', async () => {
-  // Show alert pop-up with greeting from action
-  const { data, error } = await actions.getGreeting({ name: "Houston" });
-  if (!error) alert(data);
-})
+  const button = document.querySelector("button");
+  button?.addEventListener("click", async () => {
+    // Show alert pop-up with greeting from action
+    const { data, error } = await actions.getGreeting({ name: "Houston" });
+    if (!error) alert(data);
+  });
 </script>
 
 <Schema

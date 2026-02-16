@@ -2,7 +2,7 @@
 museumName: MaM
 exhibitionName: Jean Helion
 intro: Visiting the Jean Hélion - 'La prose du monde' exhibition
-Startdate: 2024-03-22
+startDate: 2024-03-22
 endDate: 2024-08-18
 dateVisited: 2024-06-23
 ticketCost: 0
