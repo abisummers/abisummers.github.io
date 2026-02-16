@@ -110,7 +110,7 @@ const monthlyReview = defineCollection({
   schema: z.object({
     title: z.string(),
     draft: z.boolean().optional(),
-    publishedDate: z.date().optional(),
+    publishedDate: z.date(),
     image: z.string().optional(),
   }),
 });

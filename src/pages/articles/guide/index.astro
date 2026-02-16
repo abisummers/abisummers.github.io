@@ -543,7 +543,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
                         import.meta.env.MODE === "development") && (
                         <Image
                           src={
-                            museumImages[article.data.image]?.default ||
+                            museumImages[article.data.image!]?.default ||
                             placeholder
                           }
                           width={448}
