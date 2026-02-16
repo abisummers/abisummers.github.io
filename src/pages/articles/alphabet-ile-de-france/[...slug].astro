@@ -1,39 +1,39 @@
 ---
-import { getCollection, render } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
-import { getImage } from 'astro:assets';
-import Main from '../../../layouts/article.astro';
-import MapboxMap from '../../../components/mapbox-map.astro';
+import { getCollection, render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
+import Main from "../../../layouts/article.astro";
+import MapboxMap from "../../../components/mapbox-map.astro";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  return (await getCollection('alphabet-ile-de-france')).map((entry) => ({
+  return (await getCollection("alphabet-ile-de-france")).map((entry) => ({
     params: { slug: entry.id },
     props: { entry },
   }));
 }
 
 interface Props {
-  entry: CollectionEntry<'alphabet-ile-de-france'>;
+  entry: CollectionEntry<"alphabet-ile-de-france">;
 }
 
 const { entry } = Astro.props;
 
 let ogImage: string | undefined;
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/content/images/*.{jpeg,jpg}'
+  "/src/content/images/*.{jpeg,jpg}",
 );
 if (images[entry.data.image!]) {
   const { default: image } = await images[entry.data.image!]();
   const { src } = await getImage({
     src: image,
-    format: 'jpg',
+    format: "jpg",
   });
-  ogImage = 'https://abisummers.com' + src;
+  ogImage = "https://abisummers.com" + src;
 }
 
-const siblings = await getCollection('alphabet-ile-de-france');
+const siblings = await getCollection("alphabet-ile-de-france");
 const index = siblings.findIndex((sibling) => sibling.id === entry.id);
 const prev = siblings[index - 1];
 const next = siblings[index + 1];
@@ -56,10 +56,10 @@ const { Content } = await render(entry);
       <p>
         date visited:
         <time datetime={entry.data.date.toISOString()}>
-          {entry.data.date.toLocaleDateString('en-uk', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
+          {entry.data.date.toLocaleDateString("en-uk", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
           })}
         </time>
       </p>
@@ -131,7 +131,7 @@ const { Content } = await render(entry);
             <div class="title">{prev.data.title}</div>
           </a>
         ) : (
-          <a href={'/articles/alphabet-ile-de-france/'}>
+          <a href={"/articles/alphabet-ile-de-france/"}>
             <div>Read all:</div>
             <div class="title">Alphabet of Île-de-France</div>
           </a>
@@ -144,7 +144,7 @@ const { Content } = await render(entry);
             <div class="title">{next.data.title}</div>
           </a>
         ) : (
-          <a href={'/articles/alphabet-ile-de-france/'}>
+          <a href={"/articles/alphabet-ile-de-france/"}>
             <div>Read all:</div>
             <div class="title">Alphabet of Île-de-France</div>
           </a>

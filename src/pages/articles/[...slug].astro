@@ -1,13 +1,13 @@
 ---
-import { getCollection, render } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
-import { getImage } from 'astro:assets';
-import Main from '../../layouts/article.astro';
+import { getCollection, render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { getImage } from "astro:assets";
+import Main from "../../layouts/article.astro";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  return (await getCollection('articles'))
+  return (await getCollection("articles"))
     .map((entry) => ({
       params: { slug: entry.id },
       props: { entry },
@@ -16,22 +16,22 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  entry: CollectionEntry<'articles'>;
+  entry: CollectionEntry<"articles">;
 }
 
 const { entry } = Astro.props;
 
 let ogImage: string | undefined;
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/content/articles/images/*.{jpeg,jpg}'
+  "/src/content/articles/images/*.{jpeg,jpg}",
 );
 if (images[entry.data.image!]) {
   const { default: image } = await images[entry.data.image!]();
   const { src } = await getImage({
     src: image,
-    format: 'jpg',
+    format: "jpg",
   });
-  ogImage = 'https://abisummers.com' + src;
+  ogImage = "https://abisummers.com" + src;
 }
 
 const { Content } = await render(entry);
