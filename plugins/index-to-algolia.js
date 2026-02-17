@@ -56,14 +56,17 @@ export function algolia({ appId, apiKey, indexName }) {
           .map((page) => ({
             objectID: page.pathname,
             pathname: page.pathname,
-            location: new URL(page.pathname + "index.html", dir),
+            location: new URL(
+              page.pathname.replace(/\/$/, "") + "/index.html",
+              dir,
+            ),
           }))
           .filter(
             (page) =>
-              page.objectID !== "404/" &&
-              page.objectID !== "" &&
-              page.objectID !== "/" &&
-              page.objectID !== "search/",
+              page.pathname !== "404/" &&
+              page.pathname !== "" &&
+              page.pathname !== "/" &&
+              page.pathname !== "search/",
           );
 
         const objects = await Promise.all(
