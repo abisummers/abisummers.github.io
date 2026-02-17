@@ -6,6 +6,7 @@ export const POST: APIRoute = async (context) => {
   const formData = await request.formData();
   const token = formData.get("token") as string;
   const action = formData.get("action") as string;
+  const totalPrice = parseFloat(formData.get("totalPrice") as string);
 
   if (!token) {
     return new Response("Missing token", { status: 400 });
@@ -13,11 +14,16 @@ export const POST: APIRoute = async (context) => {
 
   try {
     if (action === "confirm") {
-      const { error } = await context.callAction(actions.confirmBooking, { token });
+      const { error } = await context.callAction(actions.confirmBooking, {
+        token,
+        totalPrice,
+      });
       if (error) throw error;
       return redirect("/booking-confirmed/?status=confirmed");
     } else if (action === "cancel") {
-      const { error } = await context.callAction(actions.cancelBooking, { token });
+      const { error } = await context.callAction(actions.cancelBooking, {
+        token,
+      });
       if (error) throw error;
       return redirect("/booking-confirmed/?status=cancelled");
     }

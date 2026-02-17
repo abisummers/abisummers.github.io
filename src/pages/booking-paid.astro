@@ -1,0 +1,33 @@
+---
+import Article from "../layouts/article.astro";
+
+const sessionId = Astro.url.searchParams.get("session_id");
+---
+
+<Article showLanguageSwitcher={false} title="Payment Successful">
+  <h1>Payment Successful!</h1>
+
+  <p>
+    Thank you for your payment. Your booking is now complete and you'll receive
+    a confirmation email shortly.
+  </p>
+
+  {sessionId && <p class="session-id">Transaction ID: {sessionId}</p>}
+
+  <p>
+    I look forward to seeing you on your tour! If you have any questions, please
+    contact me at{" "}
+    <a href="mailto:hello@abisummers.com">hello@abisummers.com</a>
+  </p>
+
+  <p>
+    <a href="/">Return to homepage</a>
+  </p>
+
+  <style>
+    .session-id {
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+  </style>
+</Article>

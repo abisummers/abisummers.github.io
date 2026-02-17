@@ -1,12 +1,18 @@
 import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 import { Resend } from "resend";
+import Stripe from "stripe";
 
 if (!import.meta.env.RESEND_API_KEY) {
   throw new Error("RESEND_API_KEY is not defined in environment variables");
 }
 
+if (!import.meta.env.STRIPE_SECRET_KEY) {
+  throw new Error("STRIPE_SECRET_KEY is not defined in environment variables");
+}
+
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
+const stripe = new Stripe(import.meta.env.STRIPE_SECRET_KEY);
 
 export const server = {
   submitBooking: defineAction({
@@ -18,6 +24,7 @@ export const server = {
       date: z.string(),
       time: z.string(),
       duration: z.number(),
+      guests: z.number(),
       tour: z.string(),
       message: z.string().optional(),
       promo: z.string().optional(),
@@ -31,12 +38,7 @@ export const server = {
 
       const bookingId = Buffer.from(
         JSON.stringify({
-          email: input.email,
-          name: input.name,
-          tour: input.tour,
-          date: input.date,
-          time: input.time,
-          duration: input.duration,
+          ...input,
           timestamp: Date.now(),
         }),
       ).toString("base64url");
@@ -112,6 +114,7 @@ export const server = {
     accept: "json",
     input: z.object({
       token: z.string(),
+      totalPrice: z.number(),
     }),
     handler: async (input, context) => {
       const adminEmail = "hello@haroen.me";
@@ -120,6 +123,34 @@ export const server = {
         const bookingData = JSON.parse(
           Buffer.from(input.token, "base64url").toString(),
         );
+
+        const session = await stripe.checkout.sessions.create({
+          payment_method_types: ["card"],
+          line_items: [
+            {
+              price_data: {
+                currency: "eur",
+                product_data: {
+                  name: bookingData.tour,
+                  description: `Tour on ${bookingData.date} at ${bookingData.time}`,
+                },
+                unit_amount: Math.round(input.totalPrice * 100),
+              },
+              quantity: 1,
+            },
+          ],
+          mode: "payment",
+          success_url: `${context.url.origin}/booking-paid/?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${context.url.origin}/confirm-booking/?token=${input.token}`,
+          customer_email: bookingData.email,
+          metadata: {
+            bookingToken: input.token,
+            customerName: bookingData.name,
+            tourName: bookingData.tour,
+            tourDate: bookingData.date,
+            tourTime: bookingData.time,
+          },
+        });
 
         const startDateTime = new Date(
           `${bookingData.date}T${bookingData.time}:00`,
@@ -157,7 +188,7 @@ export const server = {
           from: "bookings@abisummers.com",
           to: bookingData.email,
           subject: `Booking Confirmed: ${bookingData.tour}`,
-          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
+          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\nTotal price: €${input.totalPrice}\n\nPlease complete your payment here:\n${session.url}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
           attachments: [
             {
               filename: "booking-confirmed.ics",

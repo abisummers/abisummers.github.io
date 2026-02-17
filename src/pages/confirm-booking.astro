@@ -1,22 +1,41 @@
 ---
-import Article from '../layouts/article.astro';
+import Article from "../layouts/article.astro";
+import { getCollection } from "astro:content";
 
-const token = Astro.url.searchParams.get('token');
+const token = Astro.url.searchParams.get("token");
 
 if (!token) {
-  return Astro.redirect('/');
+  return Astro.redirect("/");
 }
 
 let bookingData;
 try {
-  bookingData = JSON.parse(Buffer.from(token, 'base64url').toString());
+  bookingData = JSON.parse(Buffer.from(token, "base64url").toString());
 } catch (error) {
-  return Astro.redirect('/');
+  return Astro.redirect("/");
 }
 
-const formatter = new Intl.DateTimeFormat('en-US', {
-  dateStyle: 'full',
-  timeStyle: 'short',
+const tours = await getCollection("tours");
+const tour = tours.find((t) => t.data.name === bookingData.tour);
+
+if (!tour) {
+  return Astro.redirect("/");
+}
+
+const totalPrice = tour.data.price.options.reduce((total, option) => {
+  const quantity = parseFloat(bookingData[option.name] || option.included);
+  return total + Math.max(quantity - option.included, 0) * option.price;
+}, tour.data.price.base);
+
+const formatter = new Intl.DateTimeFormat("en-US", {
+  dateStyle: "full",
+  timeStyle: "short",
+});
+
+const priceFormatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "EUR",
+  minimumFractionDigits: 0,
 });
 
 const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
@@ -53,12 +72,17 @@ const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
         <strong>Requested:</strong>
         <span
           >{
-            new Intl.DateTimeFormat('en-US', {
-              dateStyle: 'medium',
-              timeStyle: 'short',
+            new Intl.DateTimeFormat("en-US", {
+              dateStyle: "medium",
+              timeStyle: "short",
             }).format(new Date(bookingData.timestamp))
           }</span
         >
+      </div>
+
+      <div class="detail-item">
+        <strong>Total Price:</strong>
+        <span>{priceFormatter.format(totalPrice)}</span>
       </div>
     </div>
   </div>
@@ -66,6 +90,7 @@ const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
   <div class="action-buttons">
     <form method="post" action="/api/confirm-booking/">
       <input type="hidden" name="token" value={token} />
+      <input type="hidden" name="totalPrice" value={totalPrice} />
       <input type="hidden" name="action" value="confirm" />
       <button type="submit" class="confirm-button">Confirm Booking</button>
     </form>
