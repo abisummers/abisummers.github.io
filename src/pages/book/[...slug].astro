@@ -1,17 +1,17 @@
 ---
-import Schema from "../../components/schema.astro";
-import Article from "../../layouts/article.astro";
-import type { Service, TouristAttraction } from "schema-dts";
-import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
-import { getCollection, render } from "astro:content";
-import type { ImageMetadata } from "astro";
-import { Image } from "astro:assets";
-import { markdownToHtml } from "../../lib/html";
+import Schema from '../../components/schema.astro';
+import Article from '../../layouts/article.astro';
+import type { Service, TouristAttraction } from 'schema-dts';
+import type { MultiThing, WithMultiContext } from '../../lib/jsonld';
+import { getCollection, render } from 'astro:content';
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+import { markdownToHtml } from '../../lib/html';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const tours = await getCollection("tours");
+  const tours = await getCollection('tours');
 
   return Promise.all(
     tours.map(async (tour) => {
@@ -19,7 +19,7 @@ export async function getStaticPaths() {
         tour.data.sections.map(async (section) => ({
           ...section,
           content: await markdownToHtml(section.content),
-        })),
+        }))
       );
       const description = await markdownToHtml(tour.data.description);
 
@@ -33,18 +33,18 @@ export async function getStaticPaths() {
           },
         },
       };
-    }),
+    })
   );
 }
 
-const formatter = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "EUR",
+const formatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'EUR',
   minimumFractionDigits: 0,
 });
 
-const formatOptionInfo = (option: Pricing["options"][number]) =>
-  `${option.included} ${option.unit}s ${option.price ? ` included, ${formatter.format(option.price)} per additional ${option.unit}` : ""}`;
+const formatOptionInfo = (option: Pricing['options'][number]) =>
+  `${option.included} ${option.unit}s ${option.price ? ` included, ${formatter.format(option.price)} per additional ${option.unit}` : ''}`;
 
 export interface Pricing {
   base: number;
@@ -77,7 +77,7 @@ interface Props {
 const { tour } = Astro.props;
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/content/tours/images/*.{jpeg,jpg}",
+  '/src/content/tours/images/*.{jpeg,jpg}'
 );
 
 const images = await Promise.all(
@@ -89,7 +89,7 @@ const images = await Promise.all(
       };
     }
     return null;
-  }),
+  })
 );
 
 const slug = Astro.params.slug!;
@@ -392,7 +392,7 @@ const slug = Astro.params.slug!;
     }
 
     .tour-section li::before {
-      content: "→";
+      content: '→';
       position: absolute;
       left: 0;
     }
@@ -409,20 +409,21 @@ const slug = Astro.params.slug!;
   />
 
   <script>
-    import type { Pricing } from "./[...slug].astro";
+    import type { Pricing } from './[...slug].astro';
+    import { actions } from 'astro:actions';
 
-    const form = document.getElementById("booking-form") as HTMLFormElement;
-    const formStatus = document.getElementById("form-status") as HTMLElement;
+    const form = document.getElementById('booking-form') as HTMLFormElement;
+    const formStatus = document.getElementById('form-status') as HTMLElement;
 
-    const pricingData = document.getElementById("pricing")?.textContent;
+    const pricingData = document.getElementById('pricing')?.textContent;
     const pricing: Pricing = pricingData ? JSON.parse(pricingData) : null;
-    const formatter = new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "EUR",
+    const formatter = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'EUR',
       minimumFractionDigits: 0,
     });
 
-    form?.addEventListener("input", () => {
+    form.addEventListener('input', () => {
       const formData = new FormData(form);
 
       const total = pricing.options.reduce(
@@ -432,75 +433,65 @@ const slug = Astro.params.slug!;
 
           return total + Math.max(quantity - option.included, 0) * option.price;
         },
-        pricing ? pricing.base : 0,
+        pricing ? pricing.base : 0
       );
 
       const totalPriceElement = form.querySelector(
-        'output[name="total-price"]',
+        'output[name="total-price"]'
       ) as HTMLElement;
       if (totalPriceElement) {
         totalPriceElement.textContent = `Total Price: ${formatter.format(total)}`;
       }
     });
 
-    form?.addEventListener("submit", async (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
       const formData = new FormData(form);
-      const data = Object.fromEntries(formData.entries());
 
-      try {
-        // TODO: Replace with your actual booking submission endpoint
-        // For now, this is a placeholder that logs to console
-        console.log("Booking request:", data);
+      const { error } = await actions.submitBooking(formData);
 
-        // Simulate API call
-        await new Promise((resolve) => setTimeout(resolve, 500));
-
-        // Show success message
-        formStatus.className = "form-status success";
+      if (error) {
+        formStatus.className = 'form-status error';
+        formStatus.textContent =
+          'Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com';
+      } else {
+        form.reset();
+        formStatus.className = 'form-status success';
         formStatus.textContent =
           "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
-
-        // Reset form
-        form.reset();
-
-        // Scroll to status message
-        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
-      } catch (error) {
-        formStatus.className = "form-status error";
-        formStatus.textContent =
-          "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
       }
+
+      formStatus.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   </script>
 </Article>
 
 <Schema
   item={{
-    "@context": "https://schema.org",
-    "@type": ["Service", "TouristAttraction"],
+    '@context': 'https://schema.org',
+    '@type': ['Service', 'TouristAttraction'],
     name: tour.name,
     description: tour.description,
     url: `https://abisummers.com/book/${slug}`,
     provider: {
-      "@type": "TravelAgency",
-      name: "Abi Summers",
+      '@type': 'TravelAgency',
+      name: 'Abi Summers',
       areaServed: {
-        "@type": "City",
-        name: "Paris",
+        '@type': 'City',
+        name: 'Paris',
       },
       address: {
-        "@type": "PostalAddress",
-        addressLocality: "Paris",
-        addressCountry: "FR",
+        '@type': 'PostalAddress',
+        addressLocality: 'Paris',
+        addressCountry: 'FR',
       },
-      priceRange: "€€",
+      priceRange: '€€',
     },
     offers: {
-      "@type": "Offer",
+      '@type': 'Offer',
       url: `https://abisummers.com/book/${slug}`,
-      availability: "https://schema.org/InStock",
+      availability: 'https://schema.org/InStock',
       price: tour.price.base,
       priceCurrency: tour.price.currency,
     },

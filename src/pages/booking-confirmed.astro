@@ -1,0 +1,31 @@
+---
+import Article from "../layouts/article.astro";
+
+const status = Astro.url.searchParams.get("status");
+---
+
+<Article showLanguageSwitcher={false} title={status === "cancelled" ? "Booking Cancelled" : "Booking Confirmed"}>
+  {
+    status === "cancelled" ? (
+      <>
+        <h1>Booking Cancelled ✗</h1>
+        <p>
+          The booking has been cancelled. Both you and the customer have
+          received cancellation emails.
+        </p>
+      </>
+    ) : (
+      <>
+        <h1>Booking Confirmed! ✓</h1>
+        <p>
+          The booking has been successfully confirmed. Both you and the customer
+          have received confirmation emails with calendar invites.
+        </p>
+      </>
+    )
+  }
+
+  <p>
+    <a href="/">Return to homepage</a>
+  </p>
+</Article>

@@ -1,0 +1,150 @@
+---
+import Article from '../layouts/article.astro';
+
+const token = Astro.url.searchParams.get('token');
+
+if (!token) {
+  return Astro.redirect('/');
+}
+
+let bookingData;
+try {
+  bookingData = JSON.parse(Buffer.from(token, 'base64url').toString());
+} catch (error) {
+  return Astro.redirect('/');
+}
+
+const formatter = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'full',
+  timeStyle: 'short',
+});
+
+const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
+---
+
+<Article showLanguageSwitcher={false} title="Confirm Booking">
+  <h1>Review Booking Request</h1>
+
+  <div class="booking-details">
+    <h2>{bookingData.tour}</h2>
+
+    <div class="detail-grid">
+      <div class="detail-item">
+        <strong>Customer:</strong>
+        <span>{bookingData.name}</span>
+      </div>
+
+      <div class="detail-item">
+        <strong>Email:</strong>
+        <span>{bookingData.email}</span>
+      </div>
+
+      <div class="detail-item">
+        <strong>Date & Time:</strong>
+        <span>{formatter.format(bookingDateTime)}</span>
+      </div>
+
+      <div class="detail-item">
+        <strong>Duration:</strong>
+        <span>{bookingData.duration} hours</span>
+      </div>
+
+      <div class="detail-item">
+        <strong>Requested:</strong>
+        <span
+          >{
+            new Intl.DateTimeFormat('en-US', {
+              dateStyle: 'medium',
+              timeStyle: 'short',
+            }).format(new Date(bookingData.timestamp))
+          }</span
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="action-buttons">
+    <form method="post" action="/api/confirm-booking/">
+      <input type="hidden" name="token" value={token} />
+      <input type="hidden" name="action" value="confirm" />
+      <button type="submit" class="confirm-button">Confirm Booking</button>
+    </form>
+
+    <form method="post" action="/api/confirm-booking/">
+      <input type="hidden" name="token" value={token} />
+      <input type="hidden" name="action" value="cancel" />
+      <button type="submit" class="cancel-button">Cancel Booking</button>
+    </form>
+  </div>
+
+  <style>
+    .booking-details {
+      background: var(--contrast);
+      padding: 2em;
+      margin: 2em 0;
+    }
+
+    .booking-details h2 {
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+
+    .detail-grid {
+      display: grid;
+      gap: 1em;
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25em;
+    }
+
+    .detail-item strong {
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 1em;
+      margin-top: 2em;
+    }
+
+    .action-buttons form {
+      flex: 1;
+    }
+
+    .confirm-button,
+    .cancel-button {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      font-size: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 1em 2em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+    }
+
+    .confirm-button {
+      background-color: var(--contrast);
+    }
+
+    .confirm-button:hover {
+      background-color: var(--text);
+      color: var(--background);
+    }
+
+    .cancel-button {
+      background-color: var(--background);
+    }
+
+    .cancel-button:hover {
+      opacity: 0.7;
+    }
+  </style>
+</Article>
