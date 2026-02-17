@@ -1,4 +1,5 @@
 {
+  "order": 2,
   "name": "Île de la Cité | Private Tour",
   "description": "Welcome to Île de la Cité, the heart of Paris!\n\nThere's so much to discover on this tour: from the history of the Notre Dame, to the oldest bridge of Paris. So put on a pair of comfy shoes and prepare to learn why this island is so important!\n\nNote this is a walking tour and does not include a tour inside the Notre Dame or other museums.",
   "images": [
@@ -13,8 +14,8 @@
   ],
   "sections": [
     {
-      "title": "Duration",
-      "content": "2 hours"
+      "title": "Itinerary",
+      "content": "We will meet on the Pont Saint Louis (Saint Louis bridge) at the east of the island, we'll pass some of the main landmarks on the island including:\n- the Notre Dame\n- Sainte Chapelle\n- Conciergerie\n- Pont Neuf\n\nIf there's anything specific you'd like to see, don't hesiate to leave a note when you reserve. This is fully flexible around your needs!\n\n**Meeting Location**: Pont Saint Louis"
     }
   ],
   "price": {
@@ -22,13 +23,24 @@
     "currency": "EUR",
     "options": [
       {
+        "title": "Duration",
+        "name": "duration",
+        "description": "Extend the duration (in hours) of the tour",
+        "price": 50,
+        "included": 2,
+        "min": 2,
+        "max": 6,
+        "unit": "hour"
+      },
+      {
         "title": "Guests",
         "name": "guests",
         "description": "Number of guests",
-        "price": 0,
-        "included": 1,
+        "price": 20,
+        "included": 4,
+        "min": 1,
         "max": 15,
-        "unit": "guests"
+        "unit": "guest"
       }
     ]
   }

@@ -1,4 +1,5 @@
 {
+  "order": 1,
   "name": "Personalised tour",
   "description": "This tour is personalised for you! After selecting the day and time, there will be an option to give me some details about what you'd like to see an do. It can be a walking tour through a specific neighbourhood, a beginners guide on places to see or a day trip from Paris. You can also request for the start time to be modified. Note: I focus on walking tours, and do not do tours inside museums.\n\nIf you would like a full day tour, there's an option to extend the duration after confirming the day and time.",
   "images": [
@@ -22,8 +23,10 @@
         "name": "duration",
         "description": "Extend the duration (in hours) of the tour",
         "price": 50,
+        "min": 1,
+        "max": 9,
         "included": 3,
-        "unit": "hours"
+        "unit": "hour"
       },
       {
         "title": "Guests",
@@ -31,8 +34,9 @@
         "description": "Add more guests to the tour",
         "price": 20,
         "included": 4,
+        "min": 1,
         "max": 10,
-        "unit": "guests"
+        "unit": "guest"
       }
     ]
   }

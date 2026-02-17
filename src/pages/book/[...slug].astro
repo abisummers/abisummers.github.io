@@ -43,6 +43,9 @@ const formatter = new Intl.NumberFormat("en-US", {
   minimumFractionDigits: 0,
 });
 
+const formatOptionInfo = (option: Pricing["options"][number]) =>
+  `${option.included} ${option.unit}s ${option.price ? ` included, ${formatter.format(option.price)} per additional ${option.unit}` : ""}`;
+
 export interface Pricing {
   base: number;
   currency: string;
@@ -53,7 +56,8 @@ export interface Pricing {
     price: number;
     included: number;
     unit: string;
-    max?: number;
+    min: number;
+    max: number;
   }>;
 }
 
@@ -68,7 +72,6 @@ interface Props {
     }>;
     price: Pricing;
   };
-  formatter: Intl.NumberFormat;
 }
 
 const { tour } = Astro.props;
@@ -119,7 +122,7 @@ const slug = Astro.params.slug!;
       tour.price.options.map((option) => (
         <div class="info-item">
           <strong>{option.title}:</strong>
-          {`${option.included} ${option.unit} ${option.price ? ` included, +${formatter.format(option.price)} per additional` : ""}`}
+          {formatOptionInfo(option)}
         </div>
       ))
     }
@@ -193,14 +196,12 @@ const slug = Astro.params.slug!;
               type="number"
               id={option.name}
               name={option.name}
-              min={1}
+              min={option.min}
               max={option.max}
               required
               value={option.included}
             />
-            <small>
-              {`${option.included} ${option.unit} ${option.price ? ` included, +${formatter.format(option.price)} per additional` : ""}`}
-            </small>
+            <small>{formatOptionInfo(option)}</small>
           </div>
         ))
       }
@@ -427,7 +428,7 @@ const slug = Astro.params.slug!;
       const total = pricing.options.reduce(
         (total, option) => {
           const value = formData.get(option.name);
-          const quantity = value ? parseInt(value.toString(), 10) : 0;
+          const quantity = value ? parseFloat(value.toString()) : 0;
 
           return total + Math.max(quantity - option.included, 0) * option.price;
         },

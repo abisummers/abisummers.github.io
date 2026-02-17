@@ -2,7 +2,9 @@
 import { getCollection } from "astro:content";
 import Article from "../../layouts/article.astro";
 
-const tours = await getCollection("tours");
+const tours = (await getCollection("tours")).sort(
+  (a, b) => a.data.order - b.data.order,
+);
 ---
 
 <Article
@@ -103,14 +105,13 @@ const tours = await getCollection("tours");
             </a>
             <p>
               {[
-                // { time: entry.duration.days, unit: 'days' },
-                // { time: entry.duration.hours, unit: 'hours' },
-                // { time: entry.duration.minutes, unit: 'minutes' },
                 {
                   time: entry.data.price.options.find(
                     (o) => o.name === "duration",
                   )?.included,
-                  unit: "hours",
+                  unit:
+                    entry.data.price.options.find((o) => o.name === "duration")
+                      ?.unit + "s",
                 },
               ]
                 .filter((segment) => segment.time)

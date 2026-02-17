@@ -1,4 +1,5 @@
 {
+  "order": 4,
   "name": "People of Père Lachaise | Private tour",
   "description": "Take a scenic walk through the Père Lachaise cemetery and discover the lives of some of the people who are buried there!\n\nThere are over 70,000 people buried here from famous musicians, to painters and historical figures. It's somewhat of a destination to trace the lives of people you admire for many tourists and locals alike.",
   "images": [
@@ -31,17 +32,19 @@
         "description": "Number of guests",
         "price": 20,
         "included": 4,
+        "min": 1,
         "max": 10,
-        "unit": "guests"
+        "unit": "guest"
       },
       {
         "title": "Duration",
         "name": "duration",
         "description": "Extend the duration (in hours) of the tour",
-        "price": 0,
+        "price": 50,
         "included": 3,
-        "max": 3,
-        "unit": "hours"
+        "min": 3,
+        "max": 4,
+        "unit": "hour"
       }
     ]
   }

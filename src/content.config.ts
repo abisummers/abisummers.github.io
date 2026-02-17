@@ -138,6 +138,7 @@ const images = defineCollection({
 const tours = defineCollection({
   type: "data",
   schema: z.object({
+    order: z.number(),
     name: z.string(),
     description: z.string(),
     images: z.array(z.object({ src: z.string(), alt: z.string() })),
@@ -158,7 +159,8 @@ const tours = defineCollection({
           price: z.number(),
           included: z.number(),
           unit: z.string().default(""),
-          max: z.number().optional(),
+          max: z.number(),
+          min: z.number(),
         }),
       ),
     }),

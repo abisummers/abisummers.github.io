@@ -1,4 +1,5 @@
 {
+  "order": 3,
   "name": "Exploring Montmartre | Private tour",
   "description": "Montmartre is one of my favourite neighbourhoods in Paris! It's one of the areas that most tourists want to visit, but it's so much more than just the places you see on Instagram. I'll show you some of the places where the locals hang out, and give tips on how to really enjoy this area.\n\nI'll talk to you a bit about the history of this area and how that has impacted the version of Montmartre that we love today.",
   "images": [
@@ -27,17 +28,19 @@
         "description": "Number of guests",
         "price": 0,
         "included": 4,
+        "min": 1,
         "max": 12,
-        "unit": "guests"
+        "unit": "guest"
       },
       {
         "title": "Duration",
         "name": "duration",
         "description": "Extend the duration (in hours) of the tour",
         "price": 50,
-        "included": 3,
-        "max": 8,
-        "unit": "hours"
+        "included": 2.5,
+        "min": 2.5,
+        "max": 7.5,
+        "unit": "hour"
       }
     ]
   }
