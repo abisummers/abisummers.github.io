@@ -118,8 +118,8 @@ const slug = Astro.params.slug!;
     {
       tour.price.options.map((option) => (
         <div class="info-item">
-          <strong>{option.name}:</strong>
-          {`${option.included} ${option.unit} ${option.price ? `included, +${formatter.format(option.price)} per additional` : ""}`}
+          <strong>{option.title}:</strong>
+          {`${option.included} ${option.unit} ${option.price ? ` included, +${formatter.format(option.price)} per additional` : ""}`}
         </div>
       ))
     }
@@ -193,13 +193,13 @@ const slug = Astro.params.slug!;
               type="number"
               id={option.name}
               name={option.name}
-              min="1"
+              min={1}
               max={option.max}
               required
               value={option.included}
             />
             <small>
-              {`${option.included}${option.unit}${option.price ? ` included, +${formatter.format(option.price)} per additional` : ""}`}
+              {`${option.included} ${option.unit} ${option.price ? ` included, +${formatter.format(option.price)} per additional` : ""}`}
             </small>
           </div>
         ))

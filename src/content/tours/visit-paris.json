@@ -31,7 +31,8 @@
         "description": "Add more guests to the tour",
         "price": 20,
         "included": 4,
-        "max": 10
+        "max": 10,
+        "unit": "guests"
       }
     ]
   }

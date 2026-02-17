@@ -1,6 +1,6 @@
 {
   "name": "People of Père Lachaise | Private tour",
-  "description": "Take a scenic walk through the Père Lachaise cemetery and discover the lives of some of the people who are buried there!\n\nThere are over 70,000 people burried here from famous musicians, to painters and historical figures. It's somewhat of a destination to trace the lives of people you admire for many tourists and locals alike.",
+  "description": "Take a scenic walk through the Père Lachaise cemetery and discover the lives of some of the people who are buried there!\n\nThere are over 70,000 people buried here from famous musicians, to painters and historical figures. It's somewhat of a destination to trace the lives of people you admire for many tourists and locals alike.",
   "images": [
     {
       "src": "/src/content/tours/images/pere-lachaise-1.jpg",
@@ -18,7 +18,7 @@
   "sections": [
     {
       "title": "Itinerary",
-      "content": "Explore some of the famous people buired in Père Lachaise, including Edith Piaf and Oscar Wilde.\n\nIn the additional information section, let me know if there's any specific people or themes (musicans, women, notable graves) that you'd like to discover.\n\n**Meeting location**: Metro station Alexandre Dumas.\n\n* hello\n\n* world"
+      "content": "Explore some of the famous people buried in Père Lachaise, including Edith Piaf and Oscar Wilde.\n\nIn the additional information section, let me know if there's any specific people or themes (musicians, women, notable graves) that you'd like to discover.\n\n**Meeting location**: Metro station Alexandre Dumas."
     }
   ],
   "price": {
@@ -31,7 +31,8 @@
         "description": "Number of guests",
         "price": 20,
         "included": 4,
-        "max": 10
+        "max": 10,
+        "unit": "guests"
       },
       {
         "title": "Duration",

@@ -27,7 +27,8 @@
         "description": "Number of guests",
         "price": 0,
         "included": 1,
-        "max": 15
+        "max": 15,
+        "unit": "guests"
       }
     ]
   }
