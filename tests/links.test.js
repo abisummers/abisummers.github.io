@@ -42,6 +42,8 @@ function isLinkValid(link) {
   }
 
   if (link.startsWith("/") || link.startsWith(".")) {
+    // remove query string and hash
+    link = link.split("?")[0].split("#")[0];
     // local link
     return link.endsWith("/");
   }
