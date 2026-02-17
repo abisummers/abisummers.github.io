@@ -1,0 +1,35 @@
+order: 1
+name: Personalised tour
+description: |-
+  This tour is personalised for you! After selecting the day and time, there will be an option to give me some details about what you'd like to see an do. It can be a walking tour through a specific neighbourhood, a beginners guide on places to see or a day trip from Paris. You can also request for the start time to be modified. Note: I focus on walking tours, and do not do tours inside museums.
+
+  If you would like a full day tour, there's an option to extend the duration after confirming the day and time.
+images:
+  - src: "/src/content/tours/images/visit-paris-1.jpg"
+    alt: Abi smiling with a cup of hot drink in Montmartre
+sections:
+  - title: Itinerary
+    content: |-
+      The itinerary depends on you!
+
+      This could be a walking tour of a specific area, a beginners guide on getting around the city with public transport or a tour to discover the best bakeries. It can also be a day trip from Paris.
+price:
+  base: 240
+  currency: EUR
+  options:
+    - title: Duration
+      name: duration
+      description: Extend the duration (in hours) of the tour
+      price: 50
+      min: 1
+      max: 9
+      included: 3
+      unit: hour
+    - title: Guests
+      name: guests
+      description: Add more guests to the tour
+      price: 20
+      included: 4
+      min: 1
+      max: 10
+      unit: guest
