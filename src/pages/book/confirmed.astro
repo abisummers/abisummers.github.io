@@ -1,15 +1,15 @@
 ---
-import Article from '../../layouts/article.astro';
+import Article from "../../layouts/article.astro";
 
-const status = Astro.url.searchParams.get('status');
+const status = Astro.url.searchParams.get("status");
 ---
 
 <Article
   showLanguageSwitcher={false}
-  title={status === 'cancelled' ? 'Booking Cancelled' : 'Booking Confirmed'}
+  title={status === "cancelled" ? "Booking Cancelled" : "Booking Confirmed"}
 >
   {
-    status === 'cancelled' ? (
+    status === "cancelled" ? (
       <>
         <h1>Booking Cancelled</h1>
         <p>

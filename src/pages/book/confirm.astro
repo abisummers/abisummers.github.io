@@ -1,25 +1,25 @@
 ---
-import Article from '../../layouts/article.astro';
-import { getCollection } from 'astro:content';
+import Article from "../../layouts/article.astro";
+import { getCollection } from "astro:content";
 
-const token = Astro.url.searchParams.get('token');
+const token = Astro.url.searchParams.get("token");
 
 if (!token) {
-  return Astro.redirect('/');
+  return Astro.redirect("/");
 }
 
 let bookingData;
 try {
-  bookingData = JSON.parse(Buffer.from(token, 'base64url').toString());
+  bookingData = JSON.parse(Buffer.from(token, "base64url").toString());
 } catch (error) {
-  return Astro.redirect('/');
+  return Astro.redirect("/");
 }
 
-const tours = await getCollection('tours');
+const tours = await getCollection("tours");
 const tour = tours.find((t) => t.data.name === bookingData.tour);
 
 if (!tour) {
-  return Astro.redirect('/');
+  return Astro.redirect("/");
 }
 
 const totalPrice = tour.data.price.options.reduce((total, option) => {
@@ -27,14 +27,14 @@ const totalPrice = tour.data.price.options.reduce((total, option) => {
   return total + Math.max(quantity - option.included, 0) * option.price;
 }, tour.data.price.base);
 
-const formatter = new Intl.DateTimeFormat('en-US', {
-  dateStyle: 'full',
-  timeStyle: 'short',
+const formatter = new Intl.DateTimeFormat("en-US", {
+  dateStyle: "full",
+  timeStyle: "short",
 });
 
-const priceFormatter = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'EUR',
+const priceFormatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "EUR",
   minimumFractionDigits: 0,
 });
 
@@ -72,9 +72,9 @@ const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
         <strong>Requested:</strong>
         <span
           >{
-            new Intl.DateTimeFormat('en-US', {
-              dateStyle: 'medium',
-              timeStyle: 'short',
+            new Intl.DateTimeFormat("en-US", {
+              dateStyle: "medium",
+              timeStyle: "short",
             }).format(new Date(bookingData.timestamp))
           }</span
         >
