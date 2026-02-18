@@ -27,70 +27,122 @@ const totalPrice = tour.data.price.options.reduce((total, option) => {
   return total + Math.max(quantity - option.included, 0) * option.price;
 }, tour.data.price.base);
 
-const formatter = new Intl.DateTimeFormat("en-US", {
+const formatter = new Intl.DateTimeFormat("en-UK", {
   dateStyle: "full",
   timeStyle: "short",
 });
 
-const priceFormatter = new Intl.NumberFormat("en-US", {
+const priceFormatter = new Intl.NumberFormat("en-UK", {
   style: "currency",
   currency: "EUR",
   minimumFractionDigits: 0,
 });
-
-const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
 ---
 
 <Article showLanguageSwitcher={false} title="Confirm Booking">
   <h1>Review Booking Request</h1>
 
-  <div class="booking-details">
+  <form id="booking-form" class="booking-details">
     <h2>{bookingData.tour}</h2>
 
     <div class="detail-grid">
       <div class="detail-item">
-        <strong>Customer:</strong>
-        <span>{bookingData.name}</span>
+        <label for="name">Customer:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={bookingData.name}
+          required
+        />
       </div>
 
       <div class="detail-item">
-        <strong>Email:</strong>
-        <span>{bookingData.email}</span>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={bookingData.email}
+          required
+        />
       </div>
 
       <div class="detail-item">
-        <strong>Date & Time:</strong>
-        <span>{formatter.format(bookingDateTime)}</span>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value={bookingData.phone} />
       </div>
 
       <div class="detail-item">
-        <strong>Duration:</strong>
-        <span>{bookingData.duration} hours</span>
+        <label for="date">Date:</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          value={bookingData.date}
+          required
+        />
       </div>
 
       <div class="detail-item">
-        <strong>Requested:</strong>
-        <span
-          >{
-            new Intl.DateTimeFormat("en-US", {
-              dateStyle: "medium",
-              timeStyle: "short",
-            }).format(new Date(bookingData.timestamp))
-          }</span
+        <label for="time">Time:</label>
+        <input
+          type="time"
+          id="time"
+          name="time"
+          value={bookingData.time}
+          required
+        />
+      </div>
+
+      {
+        tour.data.price.options.map((option) => (
+          <div class="detail-item">
+            <label for={option.name}>{option.title}:</label>
+            <input
+              type="number"
+              id={option.name}
+              name={option.name}
+              min={option.min}
+              max={option.max}
+              value={bookingData[option.name] || option.included}
+              required
+            />
+          </div>
+        ))
+      }
+
+      <div class="detail-item">
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="3"
+          >{bookingData.message}</textarea
         >
       </div>
 
       <div class="detail-item">
+        <strong>Requested:</strong>
+        <span>{formatter.format(new Date(bookingData.timestamp))}</span>
+      </div>
+
+      <div class="detail-item total-price">
         <strong>Total Price:</strong>
-        <span>{priceFormatter.format(totalPrice)}</span>
+        <output id="total-price">{priceFormatter.format(totalPrice)}</output>
       </div>
     </div>
-  </div>
+
+    <input type="hidden" name="tour" value={bookingData.tour} />
+    <input type="hidden" name="timestamp" value={bookingData.timestamp} />
+  </form>
 
   <div class="action-buttons">
-    <form method="post" action="/api/confirm-booking/">
-      <input type="hidden" name="token" value={token} />
-      <input type="hidden" name="totalPrice" value={totalPrice} />
+    <form method="post" action="/api/confirm-booking/" id="confirm-form">
+      <input type="hidden" name="token" id="updated-token" value={token} />
+      <input
+        type="hidden"
+        name="totalPrice"
+        id="updated-total-price"
+        value={totalPrice}
+      />
       <input type="hidden" name="action" value="confirm" />
       <button type="submit" class="confirm-button">Confirm Booking</button>
     </form>
@@ -125,19 +177,45 @@ const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
       gap: 0.25em;
     }
 
+    .detail-item label,
     .detail-item strong {
       font-size: 0.9em;
       opacity: 0.7;
+    }
+
+    .detail-item input,
+    .detail-item textarea,
+    .detail-item output {
+      font: inherit;
+      font-size: inherit;
+      padding: 0.5em;
+      border: 0.1em solid var(--text);
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    .detail-item output {
+      border: none;
+      padding: 0;
+      background: none;
+    }
+
+    .detail-item.total-price {
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: 0.1em solid var(--text);
     }
 
     .action-buttons {
       display: flex;
       gap: 1em;
       margin-top: 2em;
+      flex-wrap: wrap;
     }
 
     .action-buttons form {
       flex: 1;
+      min-width: 200px;
     }
 
     .confirm-button,
@@ -172,4 +250,74 @@ const bookingDateTime = new Date(`${bookingData.date}T${bookingData.time}:00`);
       opacity: 0.7;
     }
   </style>
+
+  <script
+    id="pricing"
+    type="application/json"
+    is:inline
+    set:html={JSON.stringify(tour.data.price)}
+  />
+
+  <script>
+    const form = document.getElementById("booking-form") as HTMLFormElement;
+    const confirmForm = document.getElementById(
+      "confirm-form",
+    ) as HTMLFormElement;
+    const totalPriceOutput = document.getElementById(
+      "total-price",
+    ) as HTMLOutputElement;
+    const updatedTokenInput = document.getElementById(
+      "updated-token",
+    ) as HTMLInputElement;
+    const updatedTotalPriceInput = document.getElementById(
+      "updated-total-price",
+    ) as HTMLInputElement;
+
+    const pricingData = document.getElementById("pricing")?.textContent;
+    const pricing = pricingData ? JSON.parse(pricingData) : null;
+
+    const priceFormatter = new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "EUR",
+      minimumFractionDigits: 0,
+    });
+
+    const calculateTotal = () => {
+      const formData = new FormData(form);
+
+      const total = pricing.options.reduce(
+        (total: number, option: any) => {
+          const value = formData.get(option.name);
+          const quantity = value ? parseFloat(value.toString()) : 0;
+
+          return total + Math.max(quantity - option.included, 0) * option.price;
+        },
+        pricing ? pricing.base : 0,
+      );
+
+      totalPriceOutput.textContent = priceFormatter.format(total);
+      return total;
+    };
+
+    const updateToken = () => {
+      const formData = new FormData(form);
+      const updatedData: Record<string, any> = {};
+
+      formData.forEach((value, key) => {
+        updatedData[key] = value;
+      });
+
+      const newToken = btoa(JSON.stringify(updatedData));
+      updatedTokenInput.value = newToken;
+
+      const newTotal = calculateTotal();
+      updatedTotalPriceInput.value = newTotal.toString();
+    };
+
+    form.addEventListener("input", calculateTotal);
+
+    confirmForm.addEventListener("submit", () => {
+      updateToken();
+    });
+  </script>
 </Article>
