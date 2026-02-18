@@ -14,7 +14,7 @@ if (!import.meta.env.STRIPE_SECRET_KEY) {
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
 const stripe = new Stripe(import.meta.env.STRIPE_SECRET_KEY);
 
-const adminEmail = "Abi Summers <bookings@abisummers>";
+const adminEmail = "Abi Summers <bookings@abisummers.com>";
 
 export const server = {
   submitBooking: defineAction({
