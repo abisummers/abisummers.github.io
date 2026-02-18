@@ -117,7 +117,7 @@ export const server = {
       totalPrice: z.number(),
     }),
     handler: async (input, context) => {
-      const adminEmail = "hello@haroen.me";
+      const adminEmail = "booking@abisummers.com";
 
       try {
         const bookingData = JSON.parse(
