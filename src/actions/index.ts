@@ -2,6 +2,13 @@ import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 import { Resend } from "resend";
 import Stripe from "stripe";
+import {
+  storeBooking,
+  validateToken,
+  markBookingUsed,
+  updateBooking,
+  type BookingData,
+} from "../lib/booking-tokens";
 
 if (!import.meta.env.RESEND_API_KEY) {
   throw new Error("RESEND_API_KEY is not defined in environment variables");
@@ -35,14 +42,14 @@ export const server = {
         .map(([key, value]) => `${key}: ${value == undefined ? "N/A" : value}`)
         .join("\n");
 
-      const bookingId = Buffer.from(
-        JSON.stringify({
-          ...input,
-          timestamp: Date.now(),
-        }),
-      ).toString("base64url");
+      const bookingData: BookingData = {
+        ...input,
+        timestamp: Date.now(),
+      };
 
-      const confirmUrl = `${context.url.origin}/book/confirm/?token=${bookingId}`;
+      const { bookingId, token } = await storeBooking(bookingData);
+
+      const confirmUrl = `${context.url.origin}/book/confirm/?token=${token}`;
 
       const startDateTime = new Date(`${input.date}T${input.time}:00`);
       const endDateTime = new Date(
@@ -79,7 +86,7 @@ export const server = {
           from: adminEmail,
           to: adminEmail,
           subject: `New Booking Request: ${input.tour}`,
-          text: `New booking request received:\n\n${bookingDetails}\n\nTo confirm this booking, click here:\n${confirmUrl}\n\n`,
+          text: `New booking request received:\n\n${bookingDetails}\n\nTo confirm this booking, click here:\n${confirmUrl}\n\nThis link expires in 48 hours and can only be used once.\n\n`,
           attachments: [
             {
               filename: "booking.ics",
@@ -111,15 +118,34 @@ export const server = {
 
   confirmBooking: defineAction({
     accept: "json",
-    input: z.object({
-      token: z.string(),
-      totalPrice: z.number(),
-    }),
+    input: z
+      .object({
+        token: z.string(),
+        totalPrice: z.number(),
+        name: z.string().optional(),
+        email: z.string().email().optional(),
+        phone: z.string().optional(),
+        date: z.string().optional(),
+        time: z.string().optional(),
+        message: z.string().optional(),
+      })
+      .passthrough(),
     handler: async (input, context) => {
       try {
-        const bookingData = JSON.parse(
-          Buffer.from(input.token, "base64url").toString(),
-        );
+        const validation = await validateToken(input.token);
+
+        if (!validation.valid || !validation.booking || !validation.bookingId) {
+          throw new Error("Invalid, expired, or already used token");
+        }
+
+        const { token, totalPrice, ...updates } = input;
+
+        if (Object.keys(updates).length > 0) {
+          await updateBooking(validation.bookingId, updates);
+        }
+
+        const updatedValidation = await validateToken(input.token);
+        const bookingData = updatedValidation.booking!.bookingData;
 
         const session = await stripe.checkout.sessions.create({
           payment_method_types: ["card"],
@@ -208,6 +234,8 @@ export const server = {
           ],
         });
 
+        await markBookingUsed(validation.bookingId, "confirmed");
+
         return { success: true };
       } catch (error) {
         console.error("Error confirming booking:", error);
@@ -223,9 +251,13 @@ export const server = {
     }),
     handler: async (input) => {
       try {
-        const bookingData = JSON.parse(
-          Buffer.from(input.token, "base64url").toString(),
-        );
+        const validation = await validateToken(input.token);
+
+        if (!validation.valid || !validation.booking || !validation.bookingId) {
+          throw new Error("Invalid, expired, or already used token");
+        }
+
+        const bookingData = validation.booking.bookingData;
 
         const startDateTime = new Date(
           `${bookingData.date}T${bookingData.time}:00`,
@@ -284,6 +316,8 @@ export const server = {
             },
           ],
         });
+
+        await markBookingUsed(validation.bookingId, "cancelled");
 
         return { success: true };
       } catch (error) {

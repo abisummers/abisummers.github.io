@@ -1,6 +1,7 @@
 ---
 import Article from "../../layouts/article.astro";
 import { getCollection } from "astro:content";
+import { validateToken } from "../../lib/booking-tokens";
 
 const token = Astro.url.searchParams.get("token");
 
@@ -8,12 +9,13 @@ if (!token) {
   return Astro.redirect("/");
 }
 
-let bookingData;
-try {
-  bookingData = JSON.parse(Buffer.from(token, "base64url").toString());
-} catch (error) {
-  return Astro.redirect("/");
+const validation = await validateToken(token);
+
+if (!validation.valid || !validation.booking) {
+  return Astro.redirect("/?error=invalid-token");
 }
+
+const bookingData = validation.booking.bookingData;
 
 const tours = await getCollection("tours");
 const tour = tours.find((t) => t.data.name === bookingData.tour);
@@ -135,23 +137,12 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
   </form>
 
   <div class="action-buttons">
-    <form method="post" action="/api/confirm-booking/" id="confirm-form">
-      <input type="hidden" name="token" id="updated-token" value={token} />
-      <input
-        type="hidden"
-        name="totalPrice"
-        id="updated-total-price"
-        value={totalPrice}
-      />
-      <input type="hidden" name="action" value="confirm" />
-      <button type="submit" class="confirm-button">Confirm Booking</button>
-    </form>
-
-    <form method="post" action="/api/confirm-booking/">
-      <input type="hidden" name="token" value={token} />
-      <input type="hidden" name="action" value="cancel" />
-      <button type="submit" class="cancel-button">Cancel Booking</button>
-    </form>
+    <button type="button" class="confirm-button" id="confirm-button"
+      >Confirm Booking</button
+    >
+    <button type="button" class="cancel-button" id="cancel-button"
+      >Cancel Booking</button
+    >
   </div>
 
   <style>
@@ -258,20 +249,24 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
     set:html={JSON.stringify(tour.data.price)}
   />
 
+  <input id="token" name="token" type="hidden" value={token} />
+
   <script>
+    import { actions } from "astro:actions";
+
+    type ConfirmBookingInput = Parameters<typeof actions.confirmBooking>[0];
+
+    const token = (document.getElementById("token") as HTMLInputElement).value;
     const form = document.getElementById("booking-form") as HTMLFormElement;
-    const confirmForm = document.getElementById(
-      "confirm-form",
-    ) as HTMLFormElement;
+    const confirmButton = document.getElementById(
+      "confirm-button",
+    ) as HTMLButtonElement;
+    const cancelButton = document.getElementById(
+      "cancel-button",
+    ) as HTMLButtonElement;
     const totalPriceOutput = document.getElementById(
       "total-price",
     ) as HTMLOutputElement;
-    const updatedTokenInput = document.getElementById(
-      "updated-token",
-    ) as HTMLInputElement;
-    const updatedTotalPriceInput = document.getElementById(
-      "updated-total-price",
-    ) as HTMLInputElement;
 
     const pricingData = document.getElementById("pricing")?.textContent;
     const pricing = pricingData ? JSON.parse(pricingData) : null;
@@ -299,25 +294,66 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
       return total;
     };
 
-    const updateToken = () => {
-      const formData = new FormData(form);
-      const updatedData: Record<string, any> = {};
-
-      formData.forEach((value, key) => {
-        updatedData[key] = value;
-      });
-
-      const newToken = btoa(JSON.stringify(updatedData));
-      updatedTokenInput.value = newToken;
-
-      const newTotal = calculateTotal();
-      updatedTotalPriceInput.value = newTotal.toString();
-    };
-
     form.addEventListener("input", calculateTotal);
 
-    confirmForm.addEventListener("submit", () => {
-      updateToken();
+    confirmButton.addEventListener("click", async () => {
+      confirmButton.disabled = true;
+      confirmButton.textContent = "Processing...";
+
+      try {
+        const formData = new FormData(form);
+        const totalPrice = calculateTotal();
+
+        const input: ConfirmBookingInput = {
+          token,
+          totalPrice,
+        };
+
+        for (const [key, value] of formData.entries()) {
+          if (key !== "tour" && key !== "timestamp") {
+            input[key] = value;
+          }
+        }
+
+        const { error } = await actions.confirmBooking(input);
+
+        if (error) {
+          alert("Failed to confirm booking: " + error.message);
+          confirmButton.disabled = false;
+          confirmButton.textContent = "Confirm Booking";
+        } else {
+          window.location.href = "/book/confirmed/?status=confirmed";
+        }
+      } catch (error) {
+        alert("An error occurred: " + (error as Error).message);
+        confirmButton.disabled = false;
+        confirmButton.textContent = "Confirm Booking";
+      }
+    });
+
+    cancelButton.addEventListener("click", async () => {
+      if (!confirm("Are you sure you want to cancel this booking?")) {
+        return;
+      }
+
+      cancelButton.disabled = true;
+      cancelButton.textContent = "Cancelling...";
+
+      try {
+        const { error } = await actions.cancelBooking({ token });
+
+        if (error) {
+          alert("Failed to cancel booking: " + error.message);
+          cancelButton.disabled = false;
+          cancelButton.textContent = "Cancel Booking";
+        } else {
+          window.location.href = "/book/confirmed/?status=cancelled";
+        }
+      } catch (error) {
+        alert("An error occurred: " + (error as Error).message);
+        cancelButton.disabled = false;
+        cancelButton.textContent = "Cancel Booking";
+      }
     });
   </script>
 </Article>
