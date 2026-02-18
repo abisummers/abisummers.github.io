@@ -14,6 +14,8 @@ if (!import.meta.env.STRIPE_SECRET_KEY) {
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
 const stripe = new Stripe(import.meta.env.STRIPE_SECRET_KEY);
 
+const adminEmail = "Abi Summers <bookings@abisummers>";
+
 export const server = {
   submitBooking: defineAction({
     accept: "form",
@@ -29,8 +31,6 @@ export const server = {
       message: z.string().optional(),
     }),
     handler: async (input, context) => {
-      const adminEmail = "hello@haroen.me";
-
       const bookingDetails = Object.entries(input)
         .map(([key, value]) => `${key}: ${value == undefined ? "N/A" : value}`)
         .join("\n");
@@ -116,8 +116,6 @@ export const server = {
       totalPrice: z.number(),
     }),
     handler: async (input, context) => {
-      const adminEmail = "bookings@abisummers.com";
-
       try {
         const bookingData = JSON.parse(
           Buffer.from(input.token, "base64url").toString(),
@@ -224,8 +222,6 @@ export const server = {
       token: z.string(),
     }),
     handler: async (input) => {
-      const adminEmail = "bookings@abisummers";
-
       try {
         const bookingData = JSON.parse(
           Buffer.from(input.token, "base64url").toString(),
