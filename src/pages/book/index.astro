@@ -6,6 +6,11 @@ import Article from "../../layouts/article.astro";
 const tours = (await getCollection("tours")).sort(
   (a, b) => a.data.order - b.data.order,
 );
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/tours/images/*.{jpeg,jpg}",
+  { eager: true },
+);
 ---
 
 <Article
@@ -102,7 +107,7 @@ const tours = (await getCollection("tours")).sort(
           <Image
             width={448}
             height={252}
-            src={entry.data.images[0].src}
+            src={images[entry.data.images[0].src].default}
             alt={entry.data.images[0].alt}
           />
           <div class="row">
