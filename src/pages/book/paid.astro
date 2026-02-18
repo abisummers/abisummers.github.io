@@ -1,7 +1,7 @@
 ---
-import Article from "../layouts/article.astro";
+import Article from '../../layouts/article.astro';
 
-const sessionId = Astro.url.searchParams.get("session_id");
+const sessionId = Astro.url.searchParams.get('session_id');
 ---
 
 <Article showLanguageSwitcher={false} title="Payment Successful">
@@ -16,7 +16,7 @@ const sessionId = Astro.url.searchParams.get("session_id");
 
   <p>
     I look forward to seeing you on your tour! If you have any questions, please
-    contact me at{" "}
+    contact me at{' '}
     <a href="mailto:bookings@abisummers.com">bookings@abisummers.com</a>
   </p>
 

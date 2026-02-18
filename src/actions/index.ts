@@ -42,7 +42,7 @@ export const server = {
         }),
       ).toString("base64url");
 
-      const confirmUrl = `${context.url.origin}/confirm-booking/?token=${bookingId}`;
+      const confirmUrl = `${context.url.origin}/book/confirm/?token=${bookingId}`;
 
       const startDateTime = new Date(`${input.date}T${input.time}:00`);
       const endDateTime = new Date(
@@ -140,8 +140,8 @@ export const server = {
           ],
           allow_promotion_codes: true,
           mode: "payment",
-          success_url: `${context.url.origin}/booking-paid/?session_id={CHECKOUT_SESSION_ID}`,
-          cancel_url: `${context.url.origin}/confirm-booking/?token=${input.token}`,
+          success_url: `${context.url.origin}/book/paid/?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${context.url.origin}/book/`,
           customer_email: bookingData.email,
           metadata: {
             bookingToken: input.token,

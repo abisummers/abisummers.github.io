@@ -19,13 +19,13 @@ export const POST: APIRoute = async (context) => {
         totalPrice,
       });
       if (error) throw error;
-      return redirect("/booking-confirmed/?status=confirmed");
+      return redirect("/book/confirmed/?status=confirmed");
     } else if (action === "cancel") {
       const { error } = await context.callAction(actions.cancelBooking, {
         token,
       });
       if (error) throw error;
-      return redirect("/booking-confirmed/?status=cancelled");
+      return redirect("/book/confirmed/?status=cancelled");
     }
 
     return new Response("Invalid action", { status: 400 });
