@@ -139,6 +139,7 @@ export const server = {
               quantity: 1,
             },
           ],
+          allow_promotion_codes: true,
           mode: "payment",
           success_url: `${context.url.origin}/booking-paid/?session_id={CHECKOUT_SESSION_ID}`,
           cancel_url: `${context.url.origin}/confirm-booking/?token=${input.token}`,
