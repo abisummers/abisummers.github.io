@@ -27,7 +27,7 @@ If you don’t want us to process your data any more, or if you would like to ac
 
 ### Hosting
 
-This Website is hosted as a GitHub Pages website. GitHub may collect User Personal Information from visitors to this GitHub Pages website, including logs of visitor IP addresses. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details about their privacy policy.
+This Website is hosted as a Netlify website. Netlify may collect User Personal Information from visitors to this Netlify website, including logs of visitor IP addresses. See the [Netlify Privacy Statement](https://www.netlify.com/privacy/) for details about their privacy policy.
 
 ### Distribution
 
