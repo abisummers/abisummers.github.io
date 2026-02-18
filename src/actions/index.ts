@@ -77,7 +77,7 @@ export const server = {
 
       try {
         await resend.emails.send({
-          from: "bookings@abisummers.com",
+          from: adminEmail,
           to: adminEmail,
           subject: `New Booking Request: ${input.tour}`,
           text: `New booking request received:\n\n${bookingDetails}\n\nTo confirm this booking, click here:\n${confirmUrl}\n\n`,
@@ -90,7 +90,7 @@ export const server = {
         });
 
         await resend.emails.send({
-          from: "bookings@abisummers.com",
+          from: adminEmail,
           to: input.email,
           subject: `Booking Request Received: ${input.tour}`,
           text: `Hello ${input.name},\n\nThank you for your booking request for ${input.tour} on ${input.date} at ${input.time}.\n\nWe'll confirm availability and send you payment details within 24 hours.\n\nBooking details:\n${bookingDetails}\n\nBest regards,\nAbi Summers\n\n`,
@@ -117,7 +117,7 @@ export const server = {
       totalPrice: z.number(),
     }),
     handler: async (input, context) => {
-      const adminEmail = "booking@abisummers.com";
+      const adminEmail = "bookings@abisummers.com";
 
       try {
         const bookingData = JSON.parse(
@@ -186,7 +186,7 @@ export const server = {
         ].join("\r\n");
 
         await resend.emails.send({
-          from: "bookings@abisummers.com",
+          from: adminEmail,
           to: bookingData.email,
           subject: `Booking Confirmed: ${bookingData.tour}`,
           text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\nTotal price: €${input.totalPrice}\n\nPlease complete your payment here:\n${session.url}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
@@ -199,7 +199,7 @@ export const server = {
         });
 
         await resend.emails.send({
-          from: "bookings@abisummers.com",
+          from: adminEmail,
           to: adminEmail,
           subject: `Booking Confirmed: ${bookingData.tour}`,
           text: `You confirmed the booking for:\n\nCustomer: ${bookingData.name} (${bookingData.email})\nTour: ${bookingData.tour}\nDate: ${bookingData.date} at ${bookingData.time}\n\n`,
@@ -224,8 +224,8 @@ export const server = {
     input: z.object({
       token: z.string(),
     }),
-    handler: async (input, context) => {
-      const adminEmail = "hello@haroen.me";
+    handler: async (input) => {
+      const adminEmail = "bookings@abisummers";
 
       try {
         const bookingData = JSON.parse(
@@ -265,7 +265,7 @@ export const server = {
         ].join("\r\n");
 
         await resend.emails.send({
-          from: "bookings@abisummers.com",
+          from: adminEmail,
           to: bookingData.email,
           subject: `Booking Cancelled: ${bookingData.tour}`,
           text: `Hello ${bookingData.name},\n\nUnfortunately, your booking request for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been cancelled.\n\nIf you have any questions, please contact us.\n\nBest regards,\nAbi Summers\n\n`,
@@ -278,7 +278,7 @@ export const server = {
         });
 
         await resend.emails.send({
-          from: "bookings@abisummers.com",
+          from: adminEmail,
           to: adminEmail,
           subject: `Booking Cancelled: ${bookingData.tour}`,
           text: `You cancelled the booking for:\n\nCustomer: ${bookingData.name} (${bookingData.email})\nTour: ${bookingData.tour}\nDate: ${bookingData.date} at ${bookingData.time}\n\n`,
