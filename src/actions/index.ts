@@ -144,8 +144,11 @@ export const server = {
           await updateBooking(validation.bookingId, updates);
         }
 
-        const updatedValidation = await validateToken(input.token);
-        const bookingData = updatedValidation.booking!.bookingData;
+        // Use the current booking data merged with any updates
+        const bookingData = {
+          ...validation.booking.bookingData,
+          ...updates,
+        };
 
         const session = await stripe.checkout.sessions.create({
           payment_method_types: ["card"],
@@ -167,6 +170,7 @@ export const server = {
           success_url: `${context.url.origin}/book/paid/?session_id={CHECKOUT_SESSION_ID}`,
           cancel_url: `${context.url.origin}/book/`,
           customer_email: bookingData.email,
+          customer_creation: "always",
           metadata: {
             bookingToken: input.token,
             customerName: bookingData.name,
