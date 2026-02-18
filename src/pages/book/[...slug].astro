@@ -3,7 +3,7 @@ import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
 import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import { markdownToHtml } from "../../lib/html";
@@ -179,7 +179,13 @@ const slug = Astro.params.slug!;
 
       <div class="form-group">
         <label for="date">Preferred Date *</label>
-        <input type="date" id="date" name="date" required />
+        <input
+          type="date"
+          id="date"
+          name="date"
+          min={new Date().toISOString().split("T")[0]}
+          required
+        />
       </div>
 
       <div class="form-group">
@@ -395,6 +401,7 @@ const slug = Astro.params.slug!;
   <script
     id="pricing"
     type="application/json"
+    is:inline
     set:html={JSON.stringify(tour.price)}
   />
 
