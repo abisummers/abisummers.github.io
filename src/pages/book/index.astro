@@ -105,8 +105,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       tours.map((entry) => (
         <article class="product">
           <Image
-            width={448}
-            height={252}
             src={images[entry.data.images[0].src].default}
             alt={entry.data.images[0].alt}
           />
