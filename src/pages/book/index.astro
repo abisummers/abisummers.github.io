@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import Article from "../../layouts/article.astro";
 
@@ -98,7 +99,12 @@ const tours = (await getCollection("tours")).sort(
     {
       tours.map((entry) => (
         <article class="product">
-          <img src={entry.data.images[0].src} width={448} height={252} alt="" />
+          <Image
+            width={448}
+            height={252}
+            src={entry.data.images[0].src}
+            alt={entry.data.images[0].alt}
+          />
           <div class="row">
             <a href={`/book/${entry.id}/`}>
               <h3>{entry.data.name}</h3>
