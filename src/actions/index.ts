@@ -27,7 +27,6 @@ export const server = {
       guests: z.number(),
       tour: z.string(),
       message: z.string().optional(),
-      promo: z.string().optional(),
     }),
     handler: async (input, context) => {
       const adminEmail = "hello@haroen.me";
