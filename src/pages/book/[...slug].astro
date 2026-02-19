@@ -265,10 +265,12 @@ const slug = Astro.params.slug!;
   {
     reviews.length > 0 && (
       <div class="reviews-section">
-        <h2>Customer Reviews</h2>
-        <a href="/review/" class="write-review-link">
-          Write a Review
-        </a>
+        <div class="reviews-header">
+          <h2>Customer Reviews</h2>
+          <a href="/review/" class="write-review-link">
+            Write a Review
+          </a>
+        </div>
 
         <div class="reviews-list">
           {reviews.slice(0, 5).map((review) => (
@@ -446,6 +448,12 @@ const slug = Astro.params.slug!;
       margin-top: 3em;
       padding-top: 2em;
       border-top: 0.1em solid var(--text);
+    }
+
+    .reviews-header {
+      display: flex;
+      align-items: center;
+      gap: 1em;
     }
 
     .write-review-link {
