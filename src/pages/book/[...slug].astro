@@ -2,7 +2,6 @@
 import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
 import NumberInput from "../../components/number-input.astro";
-import StarRating from "../../components/star-rating.astro";
 import ReviewCard from "../../components/review-card.astro";
 import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
@@ -15,7 +14,11 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const tours = await getCollection("tours");
-  const allReviews = await getCollection("reviews");
+  const reviews = (await getCollection("reviews")).sort(
+    (a, b) =>
+      new Date(b.data.submittedDate).getTime() -
+      new Date(a.data.submittedDate).getTime(),
+  );
 
   return Promise.all(
     tours.map(async (tour) => {
@@ -27,20 +30,6 @@ export async function getStaticPaths() {
       );
       const description = await markdownToHtml(tour.data.description);
 
-      // Get all reviews, sorted by submission date
-      const reviews = allReviews.sort(
-        (a, b) =>
-          new Date(b.data.submittedDate).getTime() -
-          new Date(a.data.submittedDate).getTime(),
-      );
-
-      // Calculate average rating
-      const averageRating =
-        reviews.length > 0
-          ? reviews.reduce((sum, review) => sum + review.data.rating, 0) /
-            reviews.length
-          : 0;
-
       return {
         params: { slug: tour.id },
         props: {
@@ -51,7 +40,6 @@ export async function getStaticPaths() {
           },
           tourId: tour.id,
           reviews: reviews.map((r) => r.data),
-          averageRating,
         },
       };
     }),
@@ -113,10 +101,9 @@ interface Props {
     verified: boolean;
     featured: boolean;
   }>;
-  averageRating: number;
 }
 
-const { tour, reviews, averageRating } = Astro.props;
+const { tour, reviews } = Astro.props;
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/tours/images/*.{jpeg,jpg}",
@@ -167,19 +154,6 @@ const slug = Astro.params.slug!;
           {formatOptionInfo(option)}
         </div>
       ))
-    }
-    {
-      reviews.length > 0 && (
-        <div class="info-item rating-summary">
-          <strong>Rating:</strong>
-          <div class="rating-info">
-            <StarRating rating={averageRating} size="small" showNumber={true} />
-            <span class="review-count">
-              ({reviews.length} {reviews.length === 1 ? "review" : "reviews"})
-            </span>
-          </div>
-        </div>
-      )
     }
   </div>
 
@@ -363,14 +337,8 @@ const slug = Astro.params.slug!;
       background: var(--contrast);
       padding: 1em;
       margin-bottom: 2em;
-    }
-
-    .info-item {
-      margin-bottom: 0.5em;
-    }
-
-    .info-item:last-child {
-      margin-bottom: 0;
+      display: grid;
+      gap: 0.5em;
     }
 
     .booking-form-container {
