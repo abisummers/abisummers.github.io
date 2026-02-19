@@ -44,9 +44,15 @@ const formatter = new Intl.NumberFormat("en-US", {
   minimumFractionDigits: 0,
 });
 
+const pluralRules = new Intl.PluralRules("en-US");
+const pluralize = (count: number, singular: string) => {
+  const rule = pluralRules.select(count);
+  return rule === "one" ? singular : `${singular}s`;
+};
+
 const formatOptionInfo = (option: Pricing["options"][number]) =>
   option.price
-    ? `${option.included} ${option.unit}s included, ${formatter.format(option.price)} per additional ${option.unit}`
+    ? `${option.included} ${pluralize(option.included, option.unit)} included, ${formatter.format(option.price)} per additional ${option.unit}`
     : "";
 
 export interface Pricing {
