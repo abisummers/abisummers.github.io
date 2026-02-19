@@ -1,6 +1,8 @@
 ---
 import { type MarkdownInstance } from "astro";
 import Main from "../../layouts/main.astro";
+import { Image } from "astro:assets";
+import profilePicture from "../../content/articles/images/profile-picture.jpeg";
 
 const about = Object.values(
   import.meta.glob<MarkdownInstance<{ title: string; intro: string }>>(
@@ -26,6 +28,31 @@ const articles: Array<{
   <h1 class="logo font-riot">Abi Summers</h1>
 
   <section class="large" id="intro">
+    <style>
+      #intro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+      }
+      #intro img {
+        border-radius: 0.5em;
+        width: 200px;
+        max-width: 28vw;
+        height: auto;
+      }
+      #intro .no-bullets {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+      }
+    </style>
+    <Image
+      priority
+      src={profilePicture}
+      alt="a woman with short brown hair, she is smiling. She is wearing a red scarf and holding a cup in her hand"
+      width={600}
+    />
     <ul class="no-bullets">
       <li>guide touristique</li>
       <li>ingénieur logiciels</li>
