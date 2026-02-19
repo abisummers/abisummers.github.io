@@ -253,6 +253,7 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
 
   <script>
     import { actions } from "astro:actions";
+    import { calculateTotalPrice, type Pricing } from "../../lib/pricing";
 
     type ConfirmBookingInput = Parameters<typeof actions.confirmBooking>[0];
 
@@ -268,8 +269,8 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
       "total-price",
     ) as HTMLOutputElement;
 
-    const pricingData = document.getElementById("pricing")?.textContent;
-    const pricing = pricingData ? JSON.parse(pricingData) : null;
+    const pricingData = document.getElementById("pricing")?.textContent!;
+    const pricing: Pricing = JSON.parse(pricingData);
 
     const priceFormatter = new Intl.NumberFormat("en-US", {
       style: "currency",
@@ -280,21 +281,23 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
     const calculateTotal = () => {
       const formData = new FormData(form);
 
-      const total = pricing.options.reduce(
-        (total: number, option: any) => {
-          const value = formData.get(option.name);
-          const quantity = value ? parseFloat(value.toString()) : 0;
+      const quantities: Record<string, number> = {};
+      pricing.options.forEach((option) => {
+        const value = formData.get(option.name);
+        quantities[option.name] = value
+          ? parseFloat(value.toString())
+          : option.included;
+      });
 
-          return total + Math.max(quantity - option.included, 0) * option.price;
-        },
-        pricing ? pricing.base : 0,
-      );
+      const total = calculateTotalPrice(pricing, quantities);
 
       totalPriceOutput.textContent = priceFormatter.format(total);
       return total;
     };
 
     form.addEventListener("input", calculateTotal);
+
+    calculateTotal();
 
     confirmButton.addEventListener("click", async () => {
       confirmButton.disabled = true;

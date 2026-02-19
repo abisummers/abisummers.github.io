@@ -406,7 +406,7 @@ const slug = Astro.params.slug!;
   />
 
   <script>
-    import type { Pricing } from "./[...slug].astro";
+    import { calculateTotalPrice, type Pricing } from "../../lib/pricing";
     import { actions } from "astro:actions";
 
     const form = document.getElementById("booking-form") as HTMLFormElement;
@@ -423,15 +423,15 @@ const slug = Astro.params.slug!;
     form.addEventListener("input", () => {
       const formData = new FormData(form);
 
-      const total = pricing.options.reduce(
-        (total, option) => {
-          const value = formData.get(option.name);
-          const quantity = value ? parseFloat(value.toString()) : 0;
+      const quantities: Record<string, number> = {};
+      pricing.options.forEach((option) => {
+        const value = formData.get(option.name);
+        quantities[option.name] = value
+          ? parseFloat(value.toString())
+          : option.included;
+      });
 
-          return total + Math.max(quantity - option.included, 0) * option.price;
-        },
-        pricing ? pricing.base : 0,
-      );
+      const total = calculateTotalPrice(pricing, quantities);
 
       const totalPriceElement = form.querySelector(
         'output[name="total-price"]',
