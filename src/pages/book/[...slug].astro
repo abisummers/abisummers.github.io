@@ -444,22 +444,43 @@ const slug = Astro.params.slug!;
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
 
-      const formData = new FormData(form);
+      const submitButton = form.querySelector(
+        ".submit-button",
+      ) as HTMLButtonElement;
+      const originalText = submitButton.textContent;
 
-      const { error } = await actions.submitBooking(formData);
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
 
-      if (error) {
+      try {
+        const formData = new FormData(form);
+
+        const { error } = await actions.submitBooking(formData);
+
+        if (error) {
+          formStatus.className = "form-status error";
+          formStatus.textContent =
+            "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
+          submitButton.disabled = false;
+          submitButton.textContent = originalText;
+        } else {
+          form.reset();
+          formStatus.className = "form-status success";
+          formStatus.textContent =
+            "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
+          submitButton.disabled = false;
+          submitButton.textContent = originalText;
+        }
+
+        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } catch (error) {
         formStatus.className = "form-status error";
         formStatus.textContent =
           "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
-      } else {
-        form.reset();
-        formStatus.className = "form-status success";
-        formStatus.textContent =
-          "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
+        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
       }
-
-      formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
   </script>
 </Article>
