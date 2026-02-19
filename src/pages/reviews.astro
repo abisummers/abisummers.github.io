@@ -1,0 +1,307 @@
+---
+import Article from "../layouts/article.astro";
+import StarRating from "../components/star-rating.astro";
+
+const bookingToken = Astro.url.searchParams.get("token");
+const prefillEmail = Astro.url.searchParams.get("email");
+const prefillTour = Astro.url.searchParams.get("tour");
+---
+
+<Article title="Leave a Review" showLanguageSwitcher={false}>
+  <div class="review-page">
+    <h1>Leave a Review</h1>
+    <p class="intro">
+      Thank you for experiencing a tour with me! I'd love to hear about your
+      experience and what you thought of your time in Paris.
+    </p>
+
+    <form id="review-form" class="review-form">
+      <div class="form-group">
+        <label for="customerName">Your Name *</label>
+        <input
+          type="text"
+          id="customerName"
+          name="customerName"
+          required
+          placeholder="John Smith"
+          minlength="2"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="your.email@example.com"
+          value={prefillEmail || ""}
+        />
+        <small>Your email will not be displayed publicly</small>
+      </div>
+
+      <div class="form-group">
+        <label for="tourDate">Tour Date *</label>
+        <input
+          type="date"
+          id="tourDate"
+          name="tourDate"
+          required
+          max={new Date().toISOString().split("T")[0]}
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="tourName">Which tour did you take? (optional)</label>
+        <input
+          type="text"
+          id="tourName"
+          name="tourName"
+          placeholder="e.g., Montmartre Walking Tour"
+          value={prefillTour || ""}
+        />
+        <small>Leave blank if you'd prefer not to specify</small>
+      </div>
+
+      <div class="form-group">
+        <label>Overall Rating *</label>
+        <StarRating
+          rating={5}
+          size="large"
+          interactive={true}
+          name="rating"
+          showNumber={true}
+        />
+        <small>Click a star to rate your experience</small>
+      </div>
+
+      <div class="form-group">
+        <label for="title">Review Title *</label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          required
+          placeholder="A memorable experience in Paris!"
+          minlength="5"
+          maxlength="100"
+        />
+        <small>5-100 characters</small>
+      </div>
+
+      <div class="form-group">
+        <label for="comment">Your Review *</label>
+        <textarea
+          id="comment"
+          name="comment"
+          required
+          rows="8"
+          placeholder="Tell me about your experience... What did you enjoy most? What made the tour special?"
+        ></textarea>
+        <small id="char-count">0/1000 characters (minimum 20)</small>
+      </div>
+
+      {
+        bookingToken && (
+          <input type="hidden" name="bookingToken" value={bookingToken} />
+        )
+      }
+
+      <div class="form-actions">
+        <button type="submit" class="submit-button">Submit Review</button>
+      </div>
+    </form>
+
+    <div id="form-status" class="form-status"></div>
+  </div>
+
+  <style>
+    .review-page {
+      max-width: 60ch;
+      margin: 0 auto;
+    }
+
+    .intro {
+      margin-bottom: 2em;
+      font-size: 1.1em;
+    }
+
+    .review-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      margin-bottom: 0.5em;
+      font-weight: 600;
+    }
+
+    .form-group small {
+      margin-top: 0.25em;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      padding: 0.75em;
+      border: 0.1em solid var(--text);
+      border-radius: 0;
+      font-size: 1em;
+      font-family: inherit;
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: 0.15em solid var(--text);
+      outline-offset: 0.1em;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 8em;
+    }
+
+    .form-actions {
+      margin-top: 1em;
+    }
+
+    .submit-button {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      font-size: 1.1em;
+      color: var(--text);
+      border-radius: 0;
+      padding: 0.75em 2em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      background-color: var(--contrast);
+      text-align: center;
+      width: 100%;
+    }
+
+    .submit-button:hover:not(:disabled) {
+      background-color: var(--text);
+      color: var(--background);
+    }
+
+    .submit-button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .form-status {
+      margin-top: 1.5em;
+      padding: 1em;
+      border: 0.1em solid var(--text);
+      display: none;
+    }
+
+    .form-status.success {
+      display: block;
+      background: var(--contrast);
+    }
+
+    .form-status.error {
+      display: block;
+      background: #ffe6e6;
+      border-color: #d32f2f;
+      color: #d32f2f;
+    }
+
+    #char-count {
+      text-align: right;
+    }
+
+    @media (max-width: 600px) {
+      .submit-button {
+        font-size: 1em;
+        padding: 0.5em 1.5em;
+      }
+    }
+  </style>
+
+  <script>
+    import { actions } from "astro:actions";
+
+    document.addEventListener("astro:page-load", () => {
+      const form = document.getElementById("review-form") as HTMLFormElement;
+      const formStatus = document.getElementById("form-status") as HTMLElement;
+      const commentField = document.getElementById(
+        "comment",
+      ) as HTMLTextAreaElement;
+      const charCount = document.getElementById("char-count") as HTMLElement;
+
+      if (commentField && charCount) {
+        commentField.addEventListener("input", () => {
+          const length = commentField.value.length;
+          charCount.textContent = `${length}/1000 characters${length < 20 ? " (minimum 20)" : ""}`;
+        });
+      }
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const submitButton = form.querySelector(
+          ".submit-button",
+        ) as HTMLButtonElement;
+        const originalText = submitButton.textContent;
+
+        submitButton.disabled = true;
+        submitButton.textContent = "Submitting...";
+        formStatus.style.display = "none";
+
+        try {
+          const formData = new FormData(form);
+
+          const { error } = await actions.submitReview(formData);
+
+          if (error) {
+            formStatus.className = "form-status error";
+            formStatus.textContent =
+              "Sorry, there was an error submitting your review. Please try again.";
+            submitButton.disabled = false;
+            submitButton.textContent = originalText;
+          } else {
+            form.reset();
+            formStatus.className = "form-status success";
+            formStatus.innerHTML = `<strong>Thank you for your review!</strong><br><br>
+              Your review has been submitted successfully and will be published after a quick review. 
+              I really appreciate you taking the time to share your experience!`;
+            submitButton.disabled = false;
+            submitButton.textContent = originalText;
+
+            if (charCount) {
+              charCount.textContent = "0/1000 characters (minimum 20)";
+            }
+
+            const stars = document.querySelectorAll(".star");
+            stars.forEach((star) => {
+              star.classList.remove("empty");
+              star.classList.add("filled");
+            });
+          }
+
+          formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        } catch (error) {
+          formStatus.className = "form-status error";
+          formStatus.textContent =
+            "Sorry, there was an error submitting your review. Please try again.";
+          submitButton.disabled = false;
+          submitButton.textContent = originalText;
+          formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+      });
+    });
+  </script>
+</Article>

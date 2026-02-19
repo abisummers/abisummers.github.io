@@ -1,0 +1,196 @@
+---
+interface Props {
+  rating: number;
+  maxRating?: number;
+  size?: "small" | "medium" | "large";
+  showNumber?: boolean;
+  interactive?: boolean;
+  name?: string;
+}
+
+const {
+  rating,
+  maxRating = 5,
+  size = "medium",
+  showNumber = false,
+  interactive = false,
+  name = "rating",
+} = Astro.props;
+
+const fullStars = Math.floor(rating);
+const hasHalfStar = rating % 1 >= 0.5;
+const emptyStars = maxRating - fullStars - (hasHalfStar ? 1 : 0);
+
+const sizeClasses = {
+  small: "star-small",
+  medium: "star-medium",
+  large: "star-large",
+};
+---
+
+<div
+  class={`star-rating ${interactive ? "interactive" : ""} ${sizeClasses[size]}`}
+>
+  <div class="stars" data-rating={rating}>
+    {
+      Array.from({ length: fullStars }).map((_, i) => (
+        <span class="star filled" data-value={i + 1}>
+          ★
+        </span>
+      ))
+    }
+    {
+      hasHalfStar && (
+        <span class="star half-filled" data-value={fullStars + 1}>
+          <span class="half-star">★</span>
+        </span>
+      )
+    }
+    {
+      Array.from({ length: emptyStars }).map((_, i) => (
+        <span
+          class="star empty"
+          data-value={fullStars + (hasHalfStar ? 1 : 0) + i + 1}
+        >
+          ★
+        </span>
+      ))
+    }
+  </div>
+  {showNumber && <span class="rating-number">{rating.toFixed(1)}</span>}
+  {interactive && <input type="hidden" name={name} value={rating} />}
+</div>
+
+<style>
+  .star-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .stars {
+    display: inline-flex;
+    gap: 0.1em;
+  }
+
+  .star {
+    display: inline-block;
+    cursor: default;
+    transition: color 0.2s ease;
+  }
+
+  .star-small .star {
+    font-size: 1em;
+  }
+
+  .star-medium .star {
+    font-size: 1.5em;
+  }
+
+  .star-large .star {
+    font-size: 2em;
+  }
+
+  .star.filled {
+    color: #ffc107;
+  }
+
+  .star.empty {
+    color: #e0e0e0;
+  }
+
+  .star.half-filled {
+    position: relative;
+    color: #e0e0e0;
+  }
+
+  .star.half-filled .half-star {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 50%;
+    color: #ffc107;
+  }
+
+  .interactive .star {
+    cursor: pointer;
+  }
+
+  .interactive .star:hover,
+  .interactive .star.hover {
+    color: #ffc107;
+  }
+
+  .interactive .star.empty:hover,
+  .interactive .star.empty.hover {
+    color: #ffb300;
+  }
+
+  .rating-number {
+    font-weight: 600;
+    color: var(--text);
+  }
+</style>
+
+<input type="hidden" name="interactive" value={String(interactive)} />
+
+<script>
+  const interactive =
+    (document.querySelector('input[name="interactive"]') as HTMLInputElement)
+      ?.value === "true";
+  if (interactive) {
+    const ratings = document.querySelectorAll(".star-rating.interactive");
+
+    ratings.forEach((ratingElement) => {
+      const stars = ratingElement.querySelectorAll(".star");
+      const input = ratingElement.querySelector(
+        'input[type="hidden"]',
+      ) as HTMLInputElement;
+      const ratingNumber = ratingElement.querySelector(".rating-number");
+
+      stars.forEach((star, index) => {
+        star.addEventListener("click", () => {
+          const value = index + 1;
+          if (input) {
+            input.value = value.toString();
+          }
+
+          stars.forEach((s, i) => {
+            if (i < value) {
+              s.classList.remove("empty", "half-filled");
+              s.classList.add("filled");
+            } else {
+              s.classList.remove("filled", "half-filled");
+              s.classList.add("empty");
+            }
+          });
+
+          if (ratingNumber) {
+            ratingNumber.textContent = value.toString();
+          }
+
+          const starsContainer = ratingElement.querySelector(".stars");
+          if (starsContainer) {
+            starsContainer.setAttribute("data-rating", value.toString());
+          }
+        });
+
+        star.addEventListener("mouseenter", () => {
+          const value = index + 1;
+          stars.forEach((s, i) => {
+            if (i < value) {
+              s.classList.add("hover");
+            } else {
+              s.classList.remove("hover");
+            }
+          });
+        });
+      });
+
+      ratingElement.addEventListener("mouseleave", () => {
+        stars.forEach((s) => s.classList.remove("hover"));
+      });
+    });
+  }
+</script>

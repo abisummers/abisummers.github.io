@@ -1,0 +1,154 @@
+---
+import StarRating from "./star-rating.astro";
+
+interface Props {
+  review: {
+    tourName?: string;
+    customerName: string;
+    rating: number;
+    title: string;
+    comment: string;
+    tourDate: Date;
+    submittedDate: Date;
+    verified: boolean;
+    featured: boolean;
+  };
+  showTourName?: boolean;
+  tourName?: string;
+}
+
+const { review, showTourName = false, tourName } = Astro.props;
+
+const displayTourName = tourName || review.tourName;
+
+const formatter = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+
+const tourDateFormatted = formatter.format(new Date(review.tourDate));
+const submittedDateFormatted = formatter.format(new Date(review.submittedDate));
+---
+
+<article class={`review-card ${review.featured ? "featured" : ""}`}>
+  <div class="review-header">
+    <div class="review-meta">
+      <div class="customer-info">
+        <strong class="customer-name">{review.customerName}</strong>
+        {
+          review.verified && (
+            <span class="verified-badge" title="Verified booking">
+              ✓ Verified
+            </span>
+          )
+        }
+      </div>
+      <div class="review-rating">
+        <StarRating rating={review.rating} size="small" />
+      </div>
+    </div>
+    {
+      showTourName && displayTourName && (
+        <div class="tour-name">{displayTourName}</div>
+      )
+    }
+  </div>
+
+  <div class="review-content">
+    <h3 class="review-title">{review.title}</h3>
+    <p class="review-comment">{review.comment}</p>
+  </div>
+
+  <div class="review-footer">
+    <time datetime={review.tourDate.toISOString()}>
+      Tour date: {tourDateFormatted}
+    </time>
+  </div>
+</article>
+
+<style>
+  .review-card {
+    border: 0.1em solid var(--text);
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    background: var(--background);
+  }
+
+  .review-card.featured {
+    background: var(--contrast);
+    border-width: 0.15em;
+  }
+
+  .review-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 0.05em solid var(--text);
+  }
+
+  .review-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+  }
+
+  .customer-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+  }
+
+  .customer-name {
+    font-size: 1.1em;
+  }
+
+  .verified-badge {
+    font-size: 0.85em;
+    color: #4caf50;
+    font-weight: 600;
+  }
+
+  .tour-name {
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--text);
+    opacity: 0.8;
+  }
+
+  .review-content {
+    margin-bottom: 1em;
+  }
+
+  .review-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0 0 0.5em 0;
+  }
+
+  .review-comment {
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .review-footer {
+    font-size: 0.9em;
+    color: var(--text);
+    opacity: 0.7;
+  }
+
+  @media (max-width: 600px) {
+    .review-card {
+      padding: 1em;
+    }
+
+    .review-meta {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

@@ -2,6 +2,8 @@
 import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
 import NumberInput from "../../components/number-input.astro";
+import StarRating from "../../components/star-rating.astro";
+import ReviewCard from "../../components/review-card.astro";
 import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
 import { getCollection } from "astro:content";
@@ -13,6 +15,7 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const tours = await getCollection("tours");
+  const allReviews = await getCollection("reviews");
 
   return Promise.all(
     tours.map(async (tour) => {
@@ -24,6 +27,20 @@ export async function getStaticPaths() {
       );
       const description = await markdownToHtml(tour.data.description);
 
+      // Get all reviews, sorted by submission date
+      const reviews = allReviews.sort(
+        (a, b) =>
+          new Date(b.data.submittedDate).getTime() -
+          new Date(a.data.submittedDate).getTime(),
+      );
+
+      // Calculate average rating
+      const averageRating =
+        reviews.length > 0
+          ? reviews.reduce((sum, review) => sum + review.data.rating, 0) /
+            reviews.length
+          : 0;
+
       return {
         params: { slug: tour.id },
         props: {
@@ -32,6 +49,9 @@ export async function getStaticPaths() {
             description: description,
             sections: sections,
           },
+          tourId: tour.id,
+          reviews: reviews.map((r) => r.data),
+          averageRating,
         },
       };
     }),
@@ -81,9 +101,22 @@ interface Props {
     }>;
     price: Pricing;
   };
+  tourId: string;
+  reviews: Array<{
+    tourName?: string;
+    customerName: string;
+    rating: number;
+    title: string;
+    comment: string;
+    tourDate: Date;
+    submittedDate: Date;
+    verified: boolean;
+    featured: boolean;
+  }>;
+  averageRating: number;
 }
 
-const { tour } = Astro.props;
+const { tour, reviews, averageRating } = Astro.props;
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/tours/images/*.{jpeg,jpg}",
@@ -134,6 +167,19 @@ const slug = Astro.params.slug!;
           {formatOptionInfo(option)}
         </div>
       ))
+    }
+    {
+      reviews.length > 0 && (
+        <div class="info-item rating-summary">
+          <strong>Rating:</strong>
+          <div class="rating-info">
+            <StarRating rating={averageRating} size="small" showNumber={true} />
+            <span class="review-count">
+              ({reviews.length} {reviews.length === 1 ? "review" : "reviews"})
+            </span>
+          </div>
+        </div>
+      )
     }
   </div>
 
@@ -241,6 +287,60 @@ const slug = Astro.params.slug!;
 
     <div id="form-status" class="form-status"></div>
   </div>
+
+  {
+    reviews.length > 0 && (
+      <div class="reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="reviews-summary">
+          <div class="average-rating">
+            <div class="rating-number-large">{averageRating.toFixed(1)}</div>
+            <StarRating rating={averageRating} size="medium" />
+            <div class="review-count-text">
+              Based on {reviews.length}{" "}
+              {reviews.length === 1 ? "review" : "reviews"}
+            </div>
+          </div>
+          <a href="/reviews/" class="write-review-link">
+            Write a Review
+          </a>
+        </div>
+
+        <div class="reviews-list">
+          {reviews.slice(0, 5).map((review) => (
+            <ReviewCard
+              review={review}
+              showTourName={true}
+              tourName={review.tourName}
+            />
+          ))}
+        </div>
+
+        {reviews.length > 5 && (
+          <div class="view-all-reviews">
+            <p>
+              Showing {Math.min(5, reviews.length)} of {reviews.length} reviews
+            </p>
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  {
+    reviews.length === 0 && (
+      <div class="no-reviews">
+        <h2>Be the First to Review</h2>
+        <p>
+          Have you experienced a tour with me? Share your thoughts and help
+          other travelers!
+        </p>
+        <a href="/reviews/" class="write-review-link">
+          Write the First Review
+        </a>
+      </div>
+    )
+  }
 
   <style>
     .tour-header {
@@ -379,6 +479,122 @@ const slug = Astro.params.slug!;
       display: block;
       background: var(--background);
       border-color: var(--text);
+    }
+
+    .rating-summary {
+      border-top: 0.05em solid var(--text);
+      padding-top: 0.5em;
+      margin-top: 0.5em;
+    }
+
+    .rating-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      margin-top: 0.25em;
+    }
+
+    .review-count {
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    .reviews-section {
+      margin-top: 3em;
+      padding-top: 2em;
+      border-top: 0.1em solid var(--text);
+    }
+
+    .reviews-summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2em;
+      padding: 1.5em;
+      background: var(--contrast);
+      gap: 2em;
+    }
+
+    .average-rating {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5em;
+    }
+
+    .rating-number-large {
+      font-size: 3em;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .review-count-text {
+      font-size: 0.9em;
+      opacity: 0.8;
+      text-align: center;
+    }
+
+    .write-review-link {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 0.75em 1.5em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      background-color: var(--background);
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .write-review-link:hover {
+      background-color: var(--text);
+      color: var(--background);
+    }
+
+    .reviews-list {
+      margin-top: 2em;
+    }
+
+    .view-all-reviews {
+      text-align: center;
+      margin-top: 2em;
+      padding-top: 1em;
+      border-top: 0.05em solid var(--text);
+      opacity: 0.8;
+    }
+
+    .no-reviews {
+      margin-top: 3em;
+      padding: 2em;
+      text-align: center;
+      border: 0.1em solid var(--text);
+      background: var(--contrast);
+    }
+
+    .no-reviews h2 {
+      margin-top: 0;
+    }
+
+    .no-reviews p {
+      margin-bottom: 1.5em;
+    }
+
+    @media (max-width: 600px) {
+      .reviews-summary {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .write-review-link {
+        width: 100%;
+      }
+
+      .rating-number-large {
+        font-size: 2.5em;
+      }
     }
   </style>
 
