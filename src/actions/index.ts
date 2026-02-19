@@ -144,7 +144,6 @@ export const server = {
           await updateBooking(validation.bookingId, updates);
         }
 
-        // Use the current booking data merged with any updates
         const bookingData = {
           ...validation.booking.bookingData,
           ...updates,
