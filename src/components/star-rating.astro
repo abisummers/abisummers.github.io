@@ -57,7 +57,7 @@ const sizeClasses = {
       ))
     }
   </div>
-  {showNumber && <span class="rating-number">{rating.toFixed(1)}</span>}
+  {showNumber && <span class="rating-number">{rating.toFixed(0)}</span>}
   {interactive && <input type="hidden" name={name} value={rating} />}
 </div>
 
@@ -92,16 +92,16 @@ const sizeClasses = {
   }
 
   .star.filled {
-    color: #ffc107;
+    color: var(--contrast);
   }
 
   .star.empty {
-    color: #e0e0e0;
+    color: var(--muted);
   }
 
   .star.half-filled {
     position: relative;
-    color: #e0e0e0;
+    color: var(--muted);
   }
 
   .star.half-filled .half-star {
@@ -110,7 +110,7 @@ const sizeClasses = {
     top: 0;
     overflow: hidden;
     width: 50%;
-    color: #ffc107;
+    color: var(--contrast);
   }
 
   .interactive .star {
@@ -119,12 +119,12 @@ const sizeClasses = {
 
   .interactive .star:hover,
   .interactive .star.hover {
-    color: #ffc107;
+    color: var(--contrast);
   }
 
   .interactive .star.empty:hover,
   .interactive .star.empty.hover {
-    color: #ffb300;
+    color: var(--contrast);
   }
 
   .rating-number {

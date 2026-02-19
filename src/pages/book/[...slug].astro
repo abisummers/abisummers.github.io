@@ -292,19 +292,9 @@ const slug = Astro.params.slug!;
     reviews.length > 0 && (
       <div class="reviews-section">
         <h2>Customer Reviews</h2>
-        <div class="reviews-summary">
-          <div class="average-rating">
-            <div class="rating-number-large">{averageRating.toFixed(1)}</div>
-            <StarRating rating={averageRating} size="medium" />
-            <div class="review-count-text">
-              Based on {reviews.length}{" "}
-              {reviews.length === 1 ? "review" : "reviews"}
-            </div>
-          </div>
-          <a href="/reviews/" class="write-review-link">
-            Write a Review
-          </a>
-        </div>
+        <a href="/review/" class="write-review-link">
+          Write a Review
+        </a>
 
         <div class="reviews-list">
           {reviews.slice(0, 5).map((review) => (
@@ -323,21 +313,6 @@ const slug = Astro.params.slug!;
             </p>
           </div>
         )}
-      </div>
-    )
-  }
-
-  {
-    reviews.length === 0 && (
-      <div class="no-reviews">
-        <h2>Be the First to Review</h2>
-        <p>
-          Have you experienced a tour with me? Share your thoughts and help
-          other travelers!
-        </p>
-        <a href="/reviews/" class="write-review-link">
-          Write the First Review
-        </a>
       </div>
     )
   }
@@ -505,35 +480,6 @@ const slug = Astro.params.slug!;
       border-top: 0.1em solid var(--text);
     }
 
-    .reviews-summary {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2em;
-      padding: 1.5em;
-      background: var(--contrast);
-      gap: 2em;
-    }
-
-    .average-rating {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5em;
-    }
-
-    .rating-number-large {
-      font-size: 3em;
-      font-weight: 700;
-      line-height: 1;
-    }
-
-    .review-count-text {
-      font-size: 0.9em;
-      opacity: 0.8;
-      text-align: center;
-    }
-
     .write-review-link {
       appearance: none;
       -webkit-appearance: none;
@@ -682,19 +628,15 @@ const slug = Astro.params.slug!;
         const { error } = await actions.submitBooking(formData);
 
         if (error) {
-          formStatus.className = "form-status error";
-          formStatus.textContent =
-            "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
-          submitButton.disabled = false;
-          submitButton.textContent = originalText;
-        } else {
-          form.reset();
-          formStatus.className = "form-status success";
-          formStatus.textContent =
-            "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
-          submitButton.disabled = false;
-          submitButton.textContent = originalText;
+          throw error;
         }
+
+        form.reset();
+        formStatus.className = "form-status success";
+        formStatus.textContent =
+          "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
 
         formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
       } catch (error) {

@@ -65,7 +65,7 @@ const prefillTour = Astro.url.searchParams.get("tour");
       </div>
 
       <div class="form-group">
-        <label>Overall Rating *</label>
+        <label for="rating">Overall Rating *</label>
         <StarRating
           rating={5}
           size="large"
@@ -98,7 +98,8 @@ const prefillTour = Astro.url.searchParams.get("tour");
           required
           rows="8"
           placeholder="Tell me about your experience... What did you enjoy most? What made the tour special?"
-        ></textarea>
+          minlength="20"
+          maxlength="1000"></textarea>
         <small id="char-count">0/1000 characters (minimum 20)</small>
       </div>
 
@@ -163,7 +164,7 @@ const prefillTour = Astro.url.searchParams.get("tour");
     .form-group input:focus,
     .form-group textarea:focus {
       outline: 0.15em solid var(--text);
-      outline-offset: 0.1em;
+      outline-offset: 0;
     }
 
     .form-group textarea {
@@ -204,19 +205,14 @@ const prefillTour = Astro.url.searchParams.get("tour");
       margin-top: 1.5em;
       padding: 1em;
       border: 0.1em solid var(--text);
+    }
+
+    .form-status:empty {
       display: none;
     }
 
     .form-status.success {
-      display: block;
       background: var(--contrast);
-    }
-
-    .form-status.error {
-      display: block;
-      background: #ffe6e6;
-      border-color: #d32f2f;
-      color: #d32f2f;
     }
 
     #char-count {
@@ -234,74 +230,64 @@ const prefillTour = Astro.url.searchParams.get("tour");
   <script>
     import { actions } from "astro:actions";
 
-    document.addEventListener("astro:page-load", () => {
-      const form = document.getElementById("review-form") as HTMLFormElement;
-      const formStatus = document.getElementById("form-status") as HTMLElement;
-      const commentField = document.getElementById(
-        "comment",
-      ) as HTMLTextAreaElement;
-      const charCount = document.getElementById("char-count") as HTMLElement;
+    const form = document.getElementById("review-form") as HTMLFormElement;
+    const formStatus = document.getElementById("form-status") as HTMLElement;
+    const commentField = document.getElementById(
+      "comment",
+    ) as HTMLTextAreaElement;
+    const charCount = document.getElementById("char-count") as HTMLElement;
 
-      if (commentField && charCount) {
-        commentField.addEventListener("input", () => {
-          const length = commentField.value.length;
-          charCount.textContent = `${length}/1000 characters${length < 20 ? " (minimum 20)" : ""}`;
-        });
-      }
-
-      form.addEventListener("submit", async (e) => {
-        e.preventDefault();
-
-        const submitButton = form.querySelector(
-          ".submit-button",
-        ) as HTMLButtonElement;
-        const originalText = submitButton.textContent;
-
-        submitButton.disabled = true;
-        submitButton.textContent = "Submitting...";
-        formStatus.style.display = "none";
-
-        try {
-          const formData = new FormData(form);
-
-          const { error } = await actions.submitReview(formData);
-
-          if (error) {
-            formStatus.className = "form-status error";
-            formStatus.textContent =
-              "Sorry, there was an error submitting your review. Please try again.";
-            submitButton.disabled = false;
-            submitButton.textContent = originalText;
-          } else {
-            form.reset();
-            formStatus.className = "form-status success";
-            formStatus.innerHTML = `<strong>Thank you for your review!</strong><br><br>
-              Your review has been submitted successfully and will be published after a quick review. 
-              I really appreciate you taking the time to share your experience!`;
-            submitButton.disabled = false;
-            submitButton.textContent = originalText;
-
-            if (charCount) {
-              charCount.textContent = "0/1000 characters (minimum 20)";
-            }
-
-            const stars = document.querySelectorAll(".star");
-            stars.forEach((star) => {
-              star.classList.remove("empty");
-              star.classList.add("filled");
-            });
-          }
-
-          formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        } catch (error) {
-          formStatus.className = "form-status error";
-          formStatus.textContent =
-            "Sorry, there was an error submitting your review. Please try again.";
-          submitButton.disabled = false;
-          submitButton.textContent = originalText;
-          formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        }
+    if (commentField && charCount) {
+      commentField.addEventListener("input", () => {
+        const length = commentField.value.length;
+        charCount.textContent = `${length}/1000 characters${length < 20 ? " (minimum 20)" : ""}`;
       });
+    }
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const submitButton = form.querySelector(
+        ".submit-button",
+      ) as HTMLButtonElement;
+      const originalText = submitButton.textContent;
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+      formStatus.style.display = "none";
+
+      try {
+        const formData = new FormData(form);
+
+        const { error } = await actions.submitReview(formData);
+
+        if (error) {
+          throw error;
+        }
+
+        form.reset();
+        formStatus.className = "form-status success";
+        formStatus.innerHTML = `<p><strong>Thank you for your review!</strong
+            ></p>
+            <p>Your review has been submitted successfully and will be published
+            after a quick review. I really appreciate you taking the time to
+            share your experience!</p>`;
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
+
+        if (charCount) {
+          charCount.textContent = "0/1000 characters (minimum 20)";
+        }
+
+        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } catch (error) {
+        formStatus.className = "form-status error";
+        formStatus.textContent =
+          "Sorry, there was an error submitting your review. Please try again.";
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
+        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
     });
   </script>
 </Article>

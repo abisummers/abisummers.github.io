@@ -21,14 +21,13 @@ const { review, showTourName = false, tourName } = Astro.props;
 
 const displayTourName = tourName || review.tourName;
 
-const formatter = new Intl.DateTimeFormat("en-US", {
+const formatter = new Intl.DateTimeFormat("en-GB", {
   year: "numeric",
   month: "long",
   day: "numeric",
 });
 
 const tourDateFormatted = formatter.format(new Date(review.tourDate));
-const submittedDateFormatted = formatter.format(new Date(review.submittedDate));
 ---
 
 <article class={`review-card ${review.featured ? "featured" : ""}`}>
@@ -75,11 +74,6 @@ const submittedDateFormatted = formatter.format(new Date(review.submittedDate));
     background: var(--background);
   }
 
-  .review-card.featured {
-    background: var(--contrast);
-    border-width: 0.15em;
-  }
-
   .review-header {
     display: flex;
     flex-direction: column;
@@ -87,6 +81,11 @@ const submittedDateFormatted = formatter.format(new Date(review.submittedDate));
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 0.05em solid var(--text);
+  }
+
+  .review-card.featured .review-header {
+    border-color: var(--contrast);
+    border-width: 0.2em;
   }
 
   .review-meta {
@@ -109,7 +108,6 @@ const submittedDateFormatted = formatter.format(new Date(review.submittedDate));
 
   .verified-badge {
     font-size: 0.85em;
-    color: #4caf50;
     font-weight: 600;
   }
 
