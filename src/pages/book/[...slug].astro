@@ -1,6 +1,7 @@
 ---
 import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
+import NumberInput from "../../components/number-input.astro";
 import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
 import { getCollection } from "astro:content";
@@ -44,7 +45,9 @@ const formatter = new Intl.NumberFormat("en-US", {
 });
 
 const formatOptionInfo = (option: Pricing["options"][number]) =>
-  `${option.included} ${option.unit}s ${option.price ? ` included, ${formatter.format(option.price)} per additional ${option.unit}` : ""}`;
+  option.price
+    ? `${option.included} ${option.unit}s included, ${formatter.format(option.price)} per additional ${option.unit}`
+    : "";
 
 export interface Pricing {
   base: number;
@@ -198,33 +201,13 @@ const slug = Astro.params.slug!;
           <div class="form-group">
             <label for={option.name}>{option.title} *</label>
             <small>{option.description}</small>
-            <div class="number-input-wrapper">
-              <button
-                type="button"
-                class="number-btn decrement"
-                data-target={option.name}
-                aria-label={`Decrease ${option.title}`}
-              >
-                −
-              </button>
-              <input
-                type="number"
-                id={option.name}
-                name={option.name}
-                min={option.min}
-                max={option.max}
-                required
-                value={option.included}
-              />
-              <button
-                type="button"
-                class="number-btn increment"
-                data-target={option.name}
-                aria-label={`Increase ${option.title}`}
-              >
-                +
-              </button>
-            </div>
+            <NumberInput
+              name={option.name}
+              min={option.min}
+              max={option.max}
+              value={option.included}
+              required
+            />
             <small>{formatOptionInfo(option)}</small>
           </div>
         ))
@@ -351,49 +334,6 @@ const slug = Astro.params.slug!;
       color: var(--text);
     }
 
-    .number-input-wrapper {
-      display: flex;
-      gap: 0;
-    }
-
-    .number-input-wrapper input[type="number"] {
-      flex: 1;
-      text-align: center;
-      border-left: none;
-      border-right: none;
-      -moz-appearance: textfield;
-    }
-
-    .number-input-wrapper input[type="number"]::-webkit-outer-spin-button,
-    .number-input-wrapper input[type="number"]::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
-
-    .number-btn {
-      appearance: none;
-      -webkit-appearance: none;
-      font: inherit;
-      font-size: 1.2em;
-      color: var(--text);
-      background-color: var(--contrast);
-      border: 0.1em solid var(--text);
-      border-radius: 0;
-      padding: 0.5em 1em;
-      cursor: pointer;
-      min-width: 2.5em;
-      user-select: none;
-    }
-
-    .number-btn:hover {
-      background-color: var(--text);
-      color: var(--background);
-    }
-
-    .number-btn:active {
-      transform: scale(0.95);
-    }
-
     .form-group input:focus,
     .form-group textarea:focus {
       outline: none;
@@ -476,22 +416,6 @@ const slug = Astro.params.slug!;
     const pricingData = document.getElementById("pricing")?.textContent;
     const pricing: Pricing = pricingData ? JSON.parse(pricingData) : null;
 
-    document.querySelectorAll(".number-btn").forEach((button) => {
-      button.addEventListener("click", () => {
-        const targetId = button.getAttribute("data-target");
-        const input = document.getElementById(targetId!) as HTMLInputElement;
-        const isIncrement = button.classList.contains("increment");
-        const currentValue = parseFloat(input.value) || 0;
-        const min = parseFloat(input.min) || 0;
-        const max = parseFloat(input.max) || Infinity;
-
-        let newValue = isIncrement ? currentValue + 1 : currentValue - 1;
-        newValue = Math.max(min, Math.min(max, newValue));
-
-        input.value = newValue.toString();
-        input.dispatchEvent(new Event("input", { bubbles: true }));
-      });
-    });
     const formatter = new Intl.NumberFormat("en-US", {
       style: "currency",
       currency: "EUR",

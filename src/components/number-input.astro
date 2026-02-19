@@ -1,0 +1,131 @@
+---
+interface Props {
+  name: string;
+  id?: string;
+  min?: number;
+  max?: number;
+  value?: number;
+  required?: boolean;
+}
+
+const { name, id = name, min, max, value, required } = Astro.props;
+---
+
+<div class="number-input-wrapper">
+  <button
+    type="button"
+    class="number-btn"
+    data-target={id}
+    data-action={-1}
+    aria-label={`Decrease ${name}`}>−</button
+  >
+  <input
+    type="number"
+    id={id}
+    name={name}
+    min={min}
+    max={max}
+    value={value}
+    required={required}
+  />
+  <button
+    type="button"
+    class="number-btn"
+    data-target={id}
+    data-action={1}
+    aria-label={`Increase ${name}`}>+</button
+  >
+</div>
+
+<style>
+  .number-input-wrapper {
+    display: flex;
+    gap: 0;
+  }
+
+  .number-input-wrapper input[type="number"] {
+    flex: 1;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    -moz-appearance: textfield;
+  }
+
+  .number-input-wrapper input[type="number"]::-webkit-outer-spin-button,
+  .number-input-wrapper input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .number-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    font: inherit;
+    font-size: 1.2em;
+    color: var(--text);
+    background-color: var(--contrast);
+    border: 0.1em solid var(--text);
+    border-radius: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    min-width: 2.5em;
+    user-select: none;
+  }
+
+  .number-btn:hover {
+    background-color: var(--text);
+    color: var(--background);
+  }
+
+  .number-btn:active {
+    transform: scale(0.95);
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    padding: 0.5em;
+    border: 0.1em solid var(--text);
+    border-radius: 0;
+    font-size: 1em;
+    font-family: inherit;
+    background-color: var(--background);
+    color: var(--text);
+  }
+
+  input[type="number"]:focus {
+    outline: none;
+  }
+</style>
+
+<script>
+  document
+    .querySelectorAll<HTMLButtonElement>(".number-btn")
+    .forEach((button) => {
+      button.addEventListener("click", () => {
+        const targetId = button.dataset.target;
+        if (!targetId) return;
+
+        const input = document.getElementById(targetId) as HTMLInputElement;
+        if (!input) return;
+
+        const currentValue = parseFloat(input.value) || 0;
+        const min = parseFloat(input.min) || 0;
+        const max = parseFloat(input.max) || Infinity;
+        const change = parseFloat(button.dataset.action!);
+
+        let newValue = currentValue + change;
+        newValue = Math.max(min, Math.min(max, newValue));
+
+        input.value = newValue.toString();
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+      });
+    });
+</script>
