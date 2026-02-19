@@ -149,6 +149,12 @@ export const server = {
           ...updates,
         };
 
+        const bookingDetails = Object.entries(bookingData)
+          .map(
+            ([key, value]) => `${key}: ${value == undefined ? "N/A" : value}`,
+          )
+          .join("\n");
+
         const session = await stripe.checkout.sessions.create({
           payment_method_types: ["card"],
           line_items: [
@@ -215,7 +221,7 @@ export const server = {
           from: adminEmail,
           to: bookingData.email,
           subject: `Booking Confirmed: ${bookingData.tour}`,
-          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\nTotal price: €${input.totalPrice}\n\nPlease complete your payment here:\n${session.url}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
+          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\n${bookingDetails}\n\nTotal price: €${input.totalPrice}\n\nPlease complete your payment here:\n${session.url}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
           attachments: [
             {
               filename: "booking-confirmed.ics",
