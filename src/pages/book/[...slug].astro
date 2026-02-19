@@ -106,8 +106,8 @@ const slug = Astro.params.slug!;
       <div class="image-scroller">
         {images
           .filter((img) => img !== null)
-          .map((image) => (
-            <Image src={image.src} alt={image.alt} />
+          .map((image, i) => (
+            <Image priority={i < 3} src={image.src} alt={image.alt} />
           ))}
       </div>
     )
