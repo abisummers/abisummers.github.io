@@ -1,52 +1,505 @@
 ---
 import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
-import { getProducts, type BookeoProduct } from "../../lib/bookeo";
+import NumberInput from "../../components/number-input.astro";
 import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
-import { stripHtml } from "../../lib/html";
+import { getCollection } from "astro:content";
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+import { markdownToHtml } from "../../lib/html";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const { data, info } = await getProducts();
+  const tours = await getCollection("tours");
 
-  if (!data) {
-    throw new Error("No data found");
-  }
+  return Promise.all(
+    tours.map(async (tour) => {
+      const sections = await Promise.all(
+        tour.data.sections.map(async (section) => ({
+          ...section,
+          content: await markdownToHtml(section.content),
+        })),
+      );
+      const description = await markdownToHtml(tour.data.description);
 
-  if (info.totalPages > 1) {
-    throw new Error("Pagination not implemented");
-  }
+      return {
+        params: { slug: tour.id },
+        props: {
+          tour: {
+            ...tour.data,
+            description: description,
+            sections: sections,
+          },
+        },
+      };
+    }),
+  );
+}
 
-  return data.map((entry) => ({
-    params: { slug: entry.productCode },
-    props: { entry },
-  }));
+const formatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "EUR",
+  minimumFractionDigits: 0,
+});
+
+const pluralRules = new Intl.PluralRules("en-US");
+const pluralize = (count: number, singular: string) => {
+  const rule = pluralRules.select(count);
+  return rule === "one" ? singular : `${singular}s`;
+};
+
+const formatOptionInfo = (option: Pricing["options"][number]) =>
+  option.price
+    ? `${option.included} ${pluralize(option.included, option.unit)} included, ${formatter.format(option.price)} per additional ${option.unit}`
+    : "";
+
+export interface Pricing {
+  base: number;
+  currency: string;
+  options: Array<{
+    title: string;
+    name: string;
+    description: string;
+    price: number;
+    included: number;
+    unit: string;
+    min: number;
+    max: number;
+  }>;
 }
 
 interface Props {
-  entry: BookeoProduct;
+  tour: {
+    name: string;
+    description: string;
+    images: { src: string; alt: string }[];
+    sections: Array<{
+      title: string;
+      content: string;
+    }>;
+    price: Pricing;
+  };
 }
 
-const { entry } = Astro.props;
+const { tour } = Astro.props;
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/tours/images/*.{jpeg,jpg}",
+);
+
+const images = await Promise.all(
+  tour.images.map(async (image) => {
+    if (allImages[image.src]) {
+      return {
+        src: (await allImages[image.src]()).default,
+        alt: image.alt,
+      };
+    }
+    return null;
+  }),
+);
+
+const slug = Astro.params.slug!;
 ---
 
-<Article showLanguageSwitcher={false} title={`Book: ${entry.name}`}>
-  <noscript>Book a guided tour</noscript>
+<Article showLanguageSwitcher={false} title={`Book: ${tour.name}`}>
+  <div class="tour-header">
+    <h1>{tour.name}</h1>
+    <div set:html={tour.description} />
+  </div>
+
+  {
+    tour.images && tour.images.length > 0 && (
+      <div class="image-scroller">
+        {images
+          .filter((img) => img !== null)
+          .map((image, i) => (
+            <Image priority={i < 3} src={image.src} alt={image.alt} />
+          ))}
+      </div>
+    )
+  }
+
+  <div class="tour-info">
+    <div class="info-item">
+      <strong>Starting price:</strong>
+      {formatter.format(tour.price.base)}
+    </div>
+    {
+      tour.price.options.map((option) => (
+        <div class="info-item">
+          <strong>{option.title}:</strong>
+          {formatOptionInfo(option)}
+        </div>
+      ))
+    }
+  </div>
+
+  {
+    tour.sections.map((section) => (
+      <div class="tour-section">
+        <h2>{section.title}</h2>
+        {section.content && <div set:html={section.content} />}
+      </div>
+    ))
+  }
+
+  <div class="booking-form-container">
+    <h2>Request a Booking</h2>
+    <p class="booking-note">
+      Submit your booking request below. We'll confirm availability and send you
+      payment details within 24 hours.
+    </p>
+
+    <form id="booking-form" class="booking-form">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Your full name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="your.email@example.com"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+33 1 23 45 67 89"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="date">Preferred Date *</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          min={new Date().toISOString().split("T")[0]}
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="time">Preferred Time *</label>
+        <input type="time" id="time" name="time" value="10:00" required />
+      </div>
+
+      {
+        tour.price.options.map((option) => (
+          <div class="form-group">
+            <label for={option.name}>{option.title} *</label>
+            <small>{option.description}</small>
+            <NumberInput
+              name={option.name}
+              min={option.min}
+              max={option.max}
+              value={option.included}
+              required
+            />
+            <small>{formatOptionInfo(option)}</small>
+          </div>
+        ))
+      }
+
+      <div class="form-group">
+        <label for="message">Additional Information</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Any special requests or questions?"></textarea>
+      </div>
+
+      <input type="hidden" name="tour" value={tour.name} />
+
+      <output name="total-price" class="total-price"
+        >Total Price: {formatter.format(tour.price.base)}</output
+      >
+
+      <button type="submit" class="submit-button">
+        Submit Booking Request
+      </button>
+    </form>
+
+    <div id="form-status" class="form-status"></div>
+  </div>
+
+  <style>
+    .tour-header {
+      margin-bottom: 2em;
+    }
+
+    .image-scroller {
+      display: flex;
+      gap: 1em;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 2em;
+      padding-bottom: 0.5em;
+    }
+
+    .image-scroller img {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 60ch;
+      width: auto;
+      height: auto;
+      max-height: 40vh;
+      scroll-snap-align: start;
+    }
+
+    .image-scroller::-webkit-scrollbar {
+      height: 0.5em;
+    }
+
+    .image-scroller::-webkit-scrollbar-track {
+      background: var(--background);
+    }
+
+    .image-scroller::-webkit-scrollbar-thumb {
+      background: var(--text);
+    }
+
+    .tour-section {
+      margin-bottom: 2em;
+    }
+
+    .tour-info {
+      background: var(--contrast);
+      padding: 1em;
+      margin-bottom: 2em;
+    }
+
+    .info-item {
+      margin-bottom: 0.5em;
+    }
+
+    .info-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .booking-form-container {
+      margin-top: 2em;
+      border-top: 0.1em solid var(--text);
+      padding-top: 2em;
+    }
+
+    .booking-note {
+      margin-bottom: 2em;
+    }
+
+    .booking-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      margin-bottom: 0.5em;
+      font-weight: 600;
+    }
+
+    .form-group small {
+      margin-top: 0.25em;
+      font-size: 0.9em;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      padding: 0.5em;
+      border: 0.1em solid var(--text);
+      border-radius: 0;
+      font-size: 1em;
+      font-family: inherit;
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+    }
+
+    .submit-button {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      font-size: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 0.5em 1em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      background-color: var(--contrast);
+      text-align: center;
+    }
+
+    .submit-button:hover {
+      background-color: var(--contrast);
+    }
+
+    .form-status {
+      margin-top: 1em;
+      padding: 1em;
+      border: 0.1em solid var(--text);
+      display: none;
+    }
+
+    .form-status.success {
+      display: block;
+      background: var(--contrast);
+    }
+
+    .form-status.error {
+      display: block;
+      background: var(--background);
+      border-color: var(--text);
+    }
+  </style>
+
+  <style is:global>
+    .tour-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .tour-section li {
+      padding: 0.5em 0;
+      padding-left: 1.5em;
+      position: relative;
+    }
+
+    .tour-section li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+    }
+
+    .tour-section li p {
+      margin: 0;
+    }
+  </style>
+
   <script
-    type="text/javascript"
-    src={`https://bookeo.com/widget.js?a=3252MKCWA4193B1401C92&type=${entry.productId}`}
-    is:inline></script>
+    id="pricing"
+    type="application/json"
+    is:inline
+    set:html={JSON.stringify(tour.price)}
+  />
+
+  <script>
+    import { calculateTotalPrice, type Pricing } from "../../lib/pricing";
+    import { actions } from "astro:actions";
+
+    const form = document.getElementById("booking-form") as HTMLFormElement;
+    const formStatus = document.getElementById("form-status") as HTMLElement;
+
+    const pricingData = document.getElementById("pricing")?.textContent;
+    const pricing: Pricing = pricingData ? JSON.parse(pricingData) : null;
+
+    const formatter = new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "EUR",
+      minimumFractionDigits: 0,
+    });
+
+    form.addEventListener("input", () => {
+      const formData = new FormData(form);
+
+      const quantities: Record<string, number> = {};
+      pricing.options.forEach((option) => {
+        const value = formData.get(option.name);
+        quantities[option.name] = value
+          ? parseFloat(value.toString())
+          : option.included;
+      });
+
+      const total = calculateTotalPrice(pricing, quantities);
+
+      const totalPriceElement = form.querySelector(
+        'output[name="total-price"]',
+      ) as HTMLElement;
+      if (totalPriceElement) {
+        totalPriceElement.textContent = `Total Price: ${formatter.format(total)}`;
+      }
+    });
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const submitButton = form.querySelector(
+        ".submit-button",
+      ) as HTMLButtonElement;
+      const originalText = submitButton.textContent;
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+
+      try {
+        const formData = new FormData(form);
+
+        const { error } = await actions.submitBooking(formData);
+
+        if (error) {
+          formStatus.className = "form-status error";
+          formStatus.textContent =
+            "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
+          submitButton.disabled = false;
+          submitButton.textContent = originalText;
+        } else {
+          form.reset();
+          formStatus.className = "form-status success";
+          formStatus.textContent =
+            "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
+          submitButton.disabled = false;
+          submitButton.textContent = originalText;
+        }
+
+        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } catch (error) {
+        formStatus.className = "form-status error";
+        formStatus.textContent =
+          "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
+        formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+    });
+  </script>
 </Article>
 
 <Schema
   item={{
     "@context": "https://schema.org",
     "@type": ["Service", "TouristAttraction"],
-    name: entry.name,
-    description: await stripHtml(entry.description),
-    url: `https://abisummers.com/book/${entry.productCode}`,
+    name: tour.name,
+    description: tour.description,
+    url: `https://abisummers.com/book/${slug}`,
     provider: {
       "@type": "TravelAgency",
       name: "Abi Summers",
@@ -63,8 +516,10 @@ const { entry } = Astro.props;
     },
     offers: {
       "@type": "Offer",
-      url: `https://abisummers.com/book/${entry.productCode}`,
+      url: `https://abisummers.com/book/${slug}`,
       availability: "https://schema.org/InStock",
+      price: tour.price.base,
+      priceCurrency: tour.price.currency,
     },
   } as WithMultiContext<MultiThing<Service, TouristAttraction>>}
 />

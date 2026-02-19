@@ -28,7 +28,9 @@
     "instantsearch.js": "^4.75.5",
     "mapbox-gl": "^3.3.0",
     "rehype-parse": "^9.0.0",
+    "resend": "^6.9.2",
     "schema-dts": "^1.1.5",
+    "stripe": "^20.3.1",
     "typescript": "^5.3.3"
   },
   "devDependencies": {

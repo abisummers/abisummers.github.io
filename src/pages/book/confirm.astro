@@ -1,0 +1,349 @@
+---
+import Article from "../../layouts/article.astro";
+import { getCollection } from "astro:content";
+import NumberInput from "../../components/number-input.astro";
+import { validateToken } from "../../lib/booking-tokens";
+
+const token = Astro.url.searchParams.get("token");
+
+if (!token) {
+  return Astro.redirect("/");
+}
+
+const validation = await validateToken(token);
+
+if (!validation.valid || !validation.booking) {
+  return Astro.redirect("/?error=invalid-token");
+}
+
+const bookingData = validation.booking.bookingData;
+
+const tours = await getCollection("tours");
+const tour = tours.find((t) => t.data.name === bookingData.tour);
+
+if (!tour) {
+  return Astro.redirect("/");
+}
+
+const totalPrice = tour.data.price.options.reduce((total, option) => {
+  const quantity = parseFloat(bookingData[option.name] || option.included);
+  return total + Math.max(quantity - option.included, 0) * option.price;
+}, tour.data.price.base);
+
+const formatter = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full",
+  timeStyle: "short",
+});
+
+const priceFormatter = new Intl.NumberFormat("en-UK", {
+  style: "currency",
+  currency: "EUR",
+  minimumFractionDigits: 0,
+});
+---
+
+<Article showLanguageSwitcher={false} title="Confirm Booking">
+  <h1>Review Booking Request</h1>
+
+  <form id="booking-form" class="booking-details">
+    <h2>{bookingData.tour}</h2>
+
+    <div class="detail-grid">
+      <div class="detail-item">
+        <label for="name">Customer:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={bookingData.name}
+          required
+        />
+      </div>
+
+      <div class="detail-item">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={bookingData.email}
+          required
+        />
+      </div>
+
+      <div class="detail-item">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value={bookingData.phone} />
+      </div>
+
+      <div class="detail-item">
+        <label for="date">Date:</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          value={bookingData.date}
+          required
+        />
+      </div>
+
+      <div class="detail-item">
+        <label for="time">Time:</label>
+        <input
+          type="time"
+          id="time"
+          name="time"
+          value={bookingData.time}
+          required
+        />
+      </div>
+
+      {
+        tour.data.price.options.map((option) => (
+          <div class="detail-item">
+            <label for={option.name}>{option.title}:</label>
+            <NumberInput
+              name={option.name}
+              min={option.min}
+              max={option.max}
+              value={bookingData[option.name] || option.included}
+              required
+            />
+          </div>
+        ))
+      }
+
+      <div class="detail-item">
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="3"
+          >{bookingData.message}</textarea
+        >
+      </div>
+
+      <div class="detail-item">
+        <strong>Requested:</strong>
+        <span>{formatter.format(new Date(bookingData.timestamp))}</span>
+      </div>
+
+      <div class="detail-item total-price">
+        <strong>Total Price:</strong>
+        <output id="total-price">{priceFormatter.format(totalPrice)}</output>
+      </div>
+    </div>
+
+    <input type="hidden" name="tour" value={bookingData.tour} />
+    <input type="hidden" name="timestamp" value={bookingData.timestamp} />
+  </form>
+
+  <div class="action-buttons">
+    <button type="button" class="confirm-button" id="confirm-button"
+      >Confirm Booking</button
+    >
+    <button type="button" class="cancel-button" id="cancel-button"
+      >Cancel Booking</button
+    >
+  </div>
+
+  <style>
+    .booking-details {
+      background: var(--contrast);
+      padding: 2em;
+      margin: 2em 0;
+    }
+
+    .booking-details h2 {
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+
+    .detail-grid {
+      display: grid;
+      gap: 1em;
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25em;
+    }
+
+    .detail-item label,
+    .detail-item strong {
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+
+    .detail-item input,
+    .detail-item textarea,
+    .detail-item output {
+      font: inherit;
+      font-size: inherit;
+      padding: 0.5em;
+      border: 0.1em solid var(--text);
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    .detail-item output {
+      border: none;
+      padding: 0;
+      background: none;
+    }
+
+    .detail-item.total-price {
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: 0.1em solid var(--text);
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 1em;
+      margin-top: 2em;
+      flex-wrap: wrap;
+    }
+
+    .action-buttons form {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .confirm-button,
+    .cancel-button {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      font-size: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 1em 2em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+    }
+
+    .confirm-button {
+      background-color: var(--contrast);
+    }
+
+    .confirm-button:hover {
+      background-color: var(--text);
+      color: var(--background);
+    }
+
+    .cancel-button {
+      background-color: var(--background);
+    }
+
+    .cancel-button:hover {
+      opacity: 0.7;
+    }
+  </style>
+
+  <script
+    id="pricing"
+    type="application/json"
+    is:inline
+    set:html={JSON.stringify(tour.data.price)}
+  />
+
+  <input id="token" name="token" type="hidden" value={token} />
+
+  <script>
+    import { actions } from "astro:actions";
+    import { calculateTotalPrice, type Pricing } from "../../lib/pricing";
+
+    type ConfirmBookingInput = Parameters<typeof actions.confirmBooking>[0];
+
+    const token = (document.getElementById("token") as HTMLInputElement).value;
+    const form = document.getElementById("booking-form") as HTMLFormElement;
+    const confirmButton = document.getElementById(
+      "confirm-button",
+    ) as HTMLButtonElement;
+    const cancelButton = document.getElementById(
+      "cancel-button",
+    ) as HTMLButtonElement;
+    const totalPriceOutput = document.getElementById(
+      "total-price",
+    ) as HTMLOutputElement;
+
+    const pricingData = document.getElementById("pricing")?.textContent!;
+    const pricing: Pricing = JSON.parse(pricingData);
+
+    const priceFormatter = new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "EUR",
+      minimumFractionDigits: 0,
+    });
+
+    const calculateTotal = () => {
+      const formData = new FormData(form);
+
+      const quantities: Record<string, number> = {};
+      pricing.options.forEach((option) => {
+        const value = formData.get(option.name);
+        quantities[option.name] = value
+          ? parseFloat(value.toString())
+          : option.included;
+      });
+
+      const total = calculateTotalPrice(pricing, quantities);
+
+      totalPriceOutput.textContent = priceFormatter.format(total);
+      return total;
+    };
+
+    form.addEventListener("input", calculateTotal);
+
+    calculateTotal();
+
+    confirmButton.addEventListener("click", async () => {
+      confirmButton.disabled = true;
+      confirmButton.textContent = "Processing...";
+
+      const formData = new FormData(form);
+      const totalPrice = calculateTotal();
+
+      const input: ConfirmBookingInput = {
+        token,
+        totalPrice,
+      };
+
+      for (const [key, value] of formData.entries()) {
+        if (key !== "tour" && key !== "timestamp") {
+          input[key] = value;
+        }
+      }
+
+      const { error } = await actions.confirmBooking(input);
+
+      if (error) {
+        alert("Failed to confirm booking: " + error.message);
+        confirmButton.disabled = false;
+        confirmButton.textContent = "Confirm Booking";
+      } else {
+        window.location.href = "/book/confirmed/?status=confirmed";
+      }
+    });
+
+    cancelButton.addEventListener("click", async () => {
+      if (!confirm("Are you sure you want to cancel this booking?")) {
+        return;
+      }
+
+      cancelButton.disabled = true;
+      cancelButton.textContent = "Cancelling...";
+
+      const { error } = await actions.cancelBooking({ token });
+
+      if (error) {
+        alert("Failed to cancel booking: " + error.message);
+        cancelButton.disabled = false;
+        cancelButton.textContent = "Cancel Booking";
+      } else {
+        window.location.href = "/book/confirmed/?status=cancelled";
+      }
+    });
+  </script>
+</Article>

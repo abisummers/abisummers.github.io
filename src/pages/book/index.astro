@@ -1,14 +1,16 @@
 ---
-import { getProductsWithPricing } from "../../lib/bookeo";
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
 import Article from "../../layouts/article.astro";
 
-const { data, info } = await getProductsWithPricing();
-if (!data) {
-  throw new Error(`No data found`);
-}
-if (info.totalPages > 1) {
-  throw new Error("Pagination not implemented");
-}
+const tours = (await getCollection("tours")).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/tours/images/*.{jpeg,jpg}",
+  { eager: true },
+);
 ---
 
 <Article
@@ -100,27 +102,35 @@ if (info.totalPages > 1) {
 
   <div class="products">
     {
-      data.map((entry) => (
+      tours.map((entry) => (
         <article class="product">
-          <img src={entry.images[0].url} width={448} height={252} alt="" />
+          <Image
+            src={images[entry.data.images[0].src].default}
+            alt={entry.data.images[0].alt}
+          />
           <div class="row">
-            <a href={`/book/${entry.productCode}/`}>
-              <h3>{entry.name}</h3>
+            <a href={`/book/${entry.id}/`}>
+              <h3>{entry.data.name}</h3>
             </a>
             <p>
               {[
-                { time: entry.duration.days, unit: "days" },
-                { time: entry.duration.hours, unit: "hours" },
-                { time: entry.duration.minutes, unit: "minutes" },
+                {
+                  time: entry.data.price.options.find(
+                    (o) => o.name === "duration",
+                  )?.included,
+                  unit:
+                    entry.data.price.options.find((o) => o.name === "duration")
+                      ?.unit + "s",
+                },
               ]
                 .filter((segment) => segment.time)
                 .map((segment) => `${segment.time} ${segment.unit}`)
                 .join(", ")}
             </p>
-            {entry.basePrice ? <p>{entry.basePrice.amount} €</p> : undefined}
+            <p>{entry.data.price.base} €</p>
           </div>
-          <Fragment set:html={entry.description} />
-          <a class="cta" href={`/book/${entry.productCode}/`}>
+          <Fragment set:html={entry.data.description} />
+          <a class="cta" href={`/book/${entry.id}/`}>
             Book
           </a>
         </article>

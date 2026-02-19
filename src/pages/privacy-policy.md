@@ -27,7 +27,7 @@ If you don’t want us to process your data any more, or if you would like to ac
 
 ### Hosting
 
-This Website is hosted as a GitHub Pages website. GitHub may collect User Personal Information from visitors to this GitHub Pages website, including logs of visitor IP addresses. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details about their privacy policy.
+This Website is hosted as a Netlify website. Netlify may collect User Personal Information from visitors to this Netlify website, including logs of visitor IP addresses. See the [Netlify Privacy Statement](https://www.netlify.com/privacy/) for details about their privacy policy.
 
 ### Distribution
 
@@ -39,7 +39,7 @@ Search and recommendations are hosted by Algolia. Algolia may collect IP through
 
 ### Bookings
 
-Bookings are handled on this website and processed through Bookeo. Personal and payment information is handled (through [Stripe](https://stripe.com/gb/privacy)) on an as-needed basis. More info on the data processing in the [Bookeo Privacy Policy](https://www.bookeo.com/privacy/). Card information is not stored, only processed by Stripe.
+Bookings are handled on this website. Personal and payment information is handled (through [Stripe](https://stripe.com/gb/privacy)) on an as-needed basis. Card information is not stored, only processed by Stripe.
 
 ### Changes To This Privacy Policy
 
