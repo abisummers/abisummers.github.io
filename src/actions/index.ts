@@ -7,6 +7,8 @@ import {
   validateToken,
   markBookingUsed,
   updateBooking,
+  markReminderSent,
+  getAllBookings,
   type BookingData,
 } from "../lib/booking-tokens";
 
@@ -332,6 +334,108 @@ export const server = {
       } catch (error) {
         console.error("Error cancelling booking:", error);
         throw new Error("Failed to cancel booking");
+      }
+    },
+  }),
+
+  sendReminder: defineAction({
+    accept: "json",
+    input: z.object({
+      bookingId: z.string(),
+    }),
+    handler: async (input) => {
+      try {
+        const bookings = await getAllBookings();
+        const bookingEntry = bookings.find(
+          (b) => b.bookingId === input.bookingId,
+        );
+
+        if (!bookingEntry) {
+          throw new Error("Booking not found");
+        }
+
+        const { booking } = bookingEntry;
+
+        if (booking.status !== "confirmed") {
+          throw new Error("Only confirmed bookings can receive reminders");
+        }
+
+        const { bookingData } = booking;
+
+        await resend.emails.send({
+          from: adminEmail,
+          to: bookingData.email,
+          subject: `Reminder: Your tour - ${bookingData.tour}`,
+          text: `Hello ${bookingData.name},\n\nThis is a friendly reminder about your upcoming tour!\n\nTour: ${bookingData.tour}\nDate: ${bookingData.date}\nTime: ${bookingData.time}\nGuests: ${bookingData.guests}\n\nMeeting point: We'll send you the exact meeting location and any last-minute details via email. Please check your inbox closer to the tour time.\n\nWhat to bring:\n- Comfortable walking shoes\n- Weather-appropriate clothing\n- Water bottle\n- Camera (optional)\n\nIf you have any questions or need to make changes, please reply to this email.\n\nWe're looking forward to showing you around Paris!\n\nBest regards,\nAbi Summers\nbookings@abisummers.com\n\n`,
+        });
+
+        await markReminderSent(input.bookingId);
+
+        return { success: true };
+      } catch (error) {
+        console.error("Error sending reminder:", error);
+        throw new Error("Failed to send reminder");
+      }
+    },
+  }),
+
+  checkAndSendReminders: defineAction({
+    accept: "json",
+    input: z.object({}).optional(),
+    handler: async () => {
+      try {
+        const bookings = await getAllBookings();
+        const confirmedBookings = bookings.filter(
+          (b) => b.booking.status === "confirmed" && !b.booking.used,
+        );
+
+        const now = Date.now();
+        const twentyFourHoursFromNow = now + 24 * 60 * 60 * 1000;
+        const twentyThreeHoursFromNow = now + 23 * 60 * 60 * 1000;
+
+        const remindersToSend: string[] = [];
+
+        for (const { bookingId, booking } of confirmedBookings) {
+          const { bookingData } = booking;
+
+          // Skip if reminder already sent
+          if (booking.reminderSent) {
+            continue;
+          }
+
+          // Parse tour date and time
+          const tourDateTime = new Date(
+            `${bookingData.date}T${bookingData.time}:00`,
+          );
+          const tourTimestamp = tourDateTime.getTime();
+
+          // Check if tour is between 23 and 24 hours from now
+          if (
+            tourTimestamp >= twentyThreeHoursFromNow &&
+            tourTimestamp <= twentyFourHoursFromNow
+          ) {
+            remindersToSend.push(bookingId);
+
+            await resend.emails.send({
+              from: adminEmail,
+              to: bookingData.email,
+              subject: `Reminder: Your tour tomorrow - ${bookingData.tour}`,
+              text: `Hello ${bookingData.name},\n\nThis is a friendly reminder about your upcoming tour!\n\nTour: ${bookingData.tour}\nDate: ${bookingData.date}\nTime: ${bookingData.time}\nGuests: ${bookingData.guests}\n\nMeeting point: We'll send you the exact meeting location and any last-minute details via email. Please check your inbox closer to the tour time.\n\nWhat to bring:\n- Comfortable walking shoes\n- Weather-appropriate clothing\n- Water bottle\n- Camera (optional)\n\nIf you have any questions or need to make changes, please reply to this email.\n\nWe're looking forward to showing you around Paris!\n\nBest regards,\nAbi Summers\nbookings@abisummers.com\n\n`,
+            });
+
+            await markReminderSent(bookingId);
+          }
+        }
+
+        return {
+          success: true,
+          totalBookings: confirmedBookings.length,
+          remindersSent: remindersToSend.length,
+          bookingIds: remindersToSend,
+        };
+      } catch (error) {
+        console.error("Error checking and sending reminders:", error);
+        throw new Error("Failed to process reminders");
       }
     },
   }),

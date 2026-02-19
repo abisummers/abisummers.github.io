@@ -1,0 +1,14 @@
+# Netlify configuration for Astro site with scheduled functions
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Scheduled function for sending tour reminders
+# Runs every hour to check for tours happening in 24 hours
+[functions]
+  directory = "netlify/functions"
+
+[[functions]]
+  path = "/.netlify/functions/scheduled-reminders"
+  schedule = "0 * * * *"
