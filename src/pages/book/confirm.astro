@@ -300,34 +300,28 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
       confirmButton.disabled = true;
       confirmButton.textContent = "Processing...";
 
-      try {
-        const formData = new FormData(form);
-        const totalPrice = calculateTotal();
+      const formData = new FormData(form);
+      const totalPrice = calculateTotal();
 
-        const input: ConfirmBookingInput = {
-          token,
-          totalPrice,
-        };
+      const input: ConfirmBookingInput = {
+        token,
+        totalPrice,
+      };
 
-        for (const [key, value] of formData.entries()) {
-          if (key !== "tour" && key !== "timestamp") {
-            input[key] = value;
-          }
+      for (const [key, value] of formData.entries()) {
+        if (key !== "tour" && key !== "timestamp") {
+          input[key] = value;
         }
+      }
 
-        const { error } = await actions.confirmBooking(input);
+      const { error } = await actions.confirmBooking(input);
 
-        if (error) {
-          alert("Failed to confirm booking: " + error.message);
-          confirmButton.disabled = false;
-          confirmButton.textContent = "Confirm Booking";
-        } else {
-          window.location.href = "/book/confirmed/?status=confirmed";
-        }
-      } catch (error) {
-        alert("An error occurred: " + (error as Error).message);
+      if (error) {
+        alert("Failed to confirm booking: " + error.message);
         confirmButton.disabled = false;
         confirmButton.textContent = "Confirm Booking";
+      } else {
+        window.location.href = "/book/confirmed/?status=confirmed";
       }
     });
 
@@ -339,20 +333,14 @@ const priceFormatter = new Intl.NumberFormat("en-UK", {
       cancelButton.disabled = true;
       cancelButton.textContent = "Cancelling...";
 
-      try {
-        const { error } = await actions.cancelBooking({ token });
+      const { error } = await actions.cancelBooking({ token });
 
-        if (error) {
-          alert("Failed to cancel booking: " + error.message);
-          cancelButton.disabled = false;
-          cancelButton.textContent = "Cancel Booking";
-        } else {
-          window.location.href = "/book/confirmed/?status=cancelled";
-        }
-      } catch (error) {
-        alert("An error occurred: " + (error as Error).message);
+      if (error) {
+        alert("Failed to cancel booking: " + error.message);
         cancelButton.disabled = false;
         cancelButton.textContent = "Cancel Booking";
+      } else {
+        window.location.href = "/book/confirmed/?status=cancelled";
       }
     });
   </script>
