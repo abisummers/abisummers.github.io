@@ -1,21 +1,30 @@
 ---
 languages: ["en"]
 language: "en"
-title: Learning French
-intro: My experience with learning French and how I actually became confident enough to speak
-description: My experience with learning French and how I actually became confident enough to speak
+title: How I actually learnt French
+description: I moved here speaking no French, here's how I actually became confident enough to speak
 publishedDate: 2024-05-26
+updatedDate: 2026-02-20
+image: /src/content/guide/images/l'arbre-du-voyageur.jpeg
+themes: ["questions-from-tours"]
 ---
 
-I moved to Paris in 2016 to be an au pair for a second time (I was an au pair in Germany for a year before). The original plan was to be here from the September to December, but in early December I decided that I would like to stay so I spoke with the family I was working for and they thankfully agreed. So I extended my stay until July 2017.
+On tours, I often get asked if I knew French before arriving here, or my experience with learning French. When I moved to Paris in 2016 to work as an au pair I spoke no French. I had two years of French class at secondary school but could remember essentially nothing. I had only planned on being here for a few months - September to December, but, here I am still calling Paris home!
 
-I went back to the UK, I still wasn't sure what to study at uni so I moved back to France to be an au pair for another year for a different family.
+Learning French has been an _experience_. I'm going to be honest, it took me an embarrassingly long time to learn French to a point where I felt comfortable speaking with French people - but I'm _mostly_ there now. I still have days where my french feels clumsy and forget words but I know that I _can_ speak french.
 
-For my first two years here, I spoke English with the kids - that's part of the reason why they had an English speaking au pair. I didn't see my future in France so I didn't invest nearly enough time into learning French.
+Here's a summary of my journey with learning French, things that I tried, things that didn't work for me and more importantly what did work for me. I've tried a _lot_ of things, and still continue to work on my French.
 
-I'm going to be honest, it took me an embarrassingly long time to learn French to a point where I felt comfortable speaking with French people - but I'm _mostly_ there now.
+![the front of a book store called l'arbre du voyageur. The store has a red front with a big window with books on display](./images/l'arbre-du-voyageur.jpeg)
 
-Here's a summary of my journey with learning French, things that I tried, things that didn't work for me and more importantly what did work for me.
+This is a _long_ post, so here's the TLDR;
+
+- I identified the part that was more important to be so I knew where to focus my energy
+- embrace my accent, I will always have an accent and that's ok (and accept that French people _will_ comment on this at the start of pretty much every conversation)
+- I _needed_ to take lessons to hold me accountable, learning a language is challenging and it's easy to stop when things get hard
+- start. You just need to start. Be ok with making mistakes, saying the wrong thing, but come back and try again
+
+</br>
 
 **In person classes**
 
@@ -28,7 +37,8 @@ Here's a summary of my journey with learning French, things that I tried, things
 - [Lingoda](#lingoda)
 - [Babbel](#babbel)
 - [Lingoda vs Babbel](#lingoda-vs-babbel)
-- [7speaking](#7speaking)
+- [7speaking (private lessons)](#7speaking)
+- [Writing lessons with Le français avec Ariela (private lessons)](#writing)
 
 **Apps**
 
@@ -130,6 +140,14 @@ I do think Lingoda offers slightly more in terms of live lessons (more lessons p
 
 At my previous company they offered private French or English lessons to those who wanted it. I had 30 hours of 1on1 lessons that needed to be taken within one year. This was my first time having private lessons, which was tough at first - there is no avoiding any questions. I enjoyed these lessons because I got specific feedback to me like the mistakes I often (like with prepositions) and it was a great opportunity for me to ask any specific questions that I had about the French language. These lessons were usually speaking focused with some grammar related to lesson topic.
 
+<a name="writing"></a>
+
+### Online writing lessons with _Le français avec Ariela_
+
+I had spent a lot of time focusing on my speaking, but at a certain point I knew I needed to up my writing and grammar. I posted on a Facebook group asking for recommendations for French teachers who work specially on writing. [Ariela](https://ariela.super.site) ([instagram](https://www.instagram.com/lefrancaisavecariela/)), was one of the teachers the replied with _exactly_ what I was looking for. I started working with Ariela in 2025, and will definitely schedule lessons with her again.
+
+I had never needed to write in French apart from the informal French with colleagues over Slack, but I applied to get the DAEU (an equivalent to the bac which is what you get if you pass your exams when you're 18) so learning to write proper french was needed. At the time of updating this article, I'm a student! I have a written exam in French, history and geography. I still have work to do, but working with Ariela has been great! She specially tailored my courses to the DAEU working on the a _résumé_ and _discussion_, the two components of my French exam. We work in four week blocks - writing exercises for four weeks with feedback each week followed by an hour long call to review in detail the parts that I'm struggling with.
+
 <a name="apps"></a>
 
 ### Apps
@@ -186,4 +204,4 @@ What's your experience with learning a foreign language? What are your best tips
 
 published date: 26th May 2024
 
-read more articles [here](/articles/)
+updated date: 20th February 2026

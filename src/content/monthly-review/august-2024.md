@@ -60,7 +60,7 @@ So I've started up with my morning pages again! In September, I'm restarting The
 
 I've continued with French lessons. I wanted to try out Babbel after a friend recommended it, so I did two free live lessons and then bought a 3 month subscription.
 
-I've updated my [learning French](/articles/learning-french/) article with my thoughts comparing Lingoda and Babbel, because they offer a similar product but there are actually some differences between them. I tried out Babbel live for the first time after a friend recommended it to me.
+I've updated my [learning French](/articles/guide/learning-french/) article with my thoughts comparing Lingoda and Babbel, because they offer a similar product but there are actually some differences between them. I tried out Babbel live for the first time after a friend recommended it to me.
 
 I created a post on a facebook group asking if anyone would like to practice French. I live in France but don't spend that much time in day to day life speaking French and I would like to practice. Lots of people were interested so I created a whatsapp group, and hopefully we're going to be able to organise frequent meetups.
 

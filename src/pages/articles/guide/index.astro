@@ -123,6 +123,9 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   <li>
     <a href="#architecture">Architecture</a>
   </li>
+  <li>
+    <a href="#questions-from-tours">Questions from tours</a>
+  </li>
   {
     museumCollection.length ? (
       <li>
@@ -516,6 +519,46 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   </div>
 
   <br />
+
+  <div>
+    <h3 id="questions-from-tours">Questions from tours</h3>
+    <p>
+      One of the many things that I love about my job is the questions that I
+      get asked. There is no such thing as a 'stupid' question - all questions
+      are equally as valid! And I'm always happy to answer!
+    </p>
+    <ul class="cards">
+      {
+        guideCollection
+          .filter((article) =>
+            article.data.themes.includes("questions-from-tours"),
+          )
+          .map((article, _i, articles) => {
+            if (article) {
+              return (
+                <li value={article.data.title}>
+                  <a href={`/articles/guide/${article.id}/`}>
+                    {(articles.every((art) => art.data.image) ||
+                      import.meta.env.MODE === "development") && (
+                      <Image
+                        src={images[article.data.image]?.default || placeholder}
+                        width={448}
+                        height={252}
+                        alt=""
+                      />
+                    )}
+                    <h3>{article.data.title}</h3>
+                    <p>{article.data.description}</p>
+                  </a>
+                </li>
+              );
+            }
+          })
+      }
+    </ul>
+  </div>
+
+  <be></be>
 
   {
     museumCollection.length ? (
