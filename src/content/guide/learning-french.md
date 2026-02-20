@@ -5,7 +5,7 @@ title: How I actually learnt French
 description: I moved here speaking no French, here's how I actually became confident enough to speak
 publishedDate: 2024-05-26
 updatedDate: 2026-02-20
-image: /src/content/guide/images/l'arbre-du-voyageur.jpeg
+image: /src/content/guide/images/l-arbre-du-voyageur.jpeg
 themes: ["questions-from-tours"]
 ---
 
@@ -15,7 +15,7 @@ Learning French has been an _experience_. I'm going to be honest, it took me an 
 
 Here's a summary of my journey with learning French, things that I tried, things that didn't work for me and more importantly what did work for me. I've tried a _lot_ of things, and still continue to work on my French.
 
-![the front of a book store called l'arbre du voyageur. The store has a red front with a big window with books on display](./images/l'arbre-du-voyageur.jpeg)
+![the front of a book store called l'arbre du voyageur. The store has a red front with a big window with books on display](./images/l-arbre-du-voyageur.jpeg)
 
 This is a _long_ post, so here's the TLDR;
 
