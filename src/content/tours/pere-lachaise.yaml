@@ -20,7 +20,7 @@ sections:
 
       **Meeting location**: Metro station Alexandre Dumas.
 price:
-  base: 170
+  base: 150
   currency: EUR
   options:
     - title: Guests
@@ -35,7 +35,7 @@ price:
       name: duration
       description: Extend the duration (in hours) of the tour
       price: 50
-      included: 3
-      min: 3
+      included: 2
+      min: 2
       max: 4
       unit: hour
