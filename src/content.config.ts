@@ -60,6 +60,8 @@ const guide = defineCollection({
           "transport",
           "walk",
           "women",
+          "history",
+          "questions-from-tours"
         ]),
       ),
       image: z.string(),
