@@ -20,7 +20,7 @@ export interface StoredBooking {
   token: string;
   createdAt: number;
   expiresAt: number;
-  status: "pending" | "confirmed" | "cancelled";
+  status: "pending" | "confirmed" | "cancelled" | "paid";
   used: boolean;
 }
 
@@ -174,6 +174,24 @@ export async function markBookingUsed(
   const booking: StoredBooking = JSON.parse(bookingJson);
   booking.used = true;
   booking.status = status;
+
+  await storage.set(bookingId, JSON.stringify(booking));
+}
+
+/**
+ * Mark booking as paid
+ */
+export async function markBookingPaid(bookingId: string): Promise<void> {
+  const storage = getStorage();
+
+  const bookingJson = await storage.get(bookingId);
+  if (!bookingJson) {
+    throw new Error("Booking not found");
+  }
+
+  const booking: StoredBooking = JSON.parse(bookingJson);
+  booking.status = "paid";
+  booking.used = true;
 
   await storage.set(bookingId, JSON.stringify(booking));
 }
