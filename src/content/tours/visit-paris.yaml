@@ -14,7 +14,7 @@ sections:
 
       This could be a walking tour of a specific area, a beginners guide on getting around the city with public transport or a tour to discover the best bakeries. It can also be a day trip from Paris.
 price:
-  base: 240
+  base: 200
   currency: EUR
   options:
     - title: Duration
@@ -29,7 +29,7 @@ price:
       name: guests
       description: Add more guests to the tour
       price: 20
-      included: 4
+      included: 2
       min: 1
       max: 10
       unit: guest
