@@ -23,6 +23,105 @@ const stripe = new Stripe(import.meta.env.STRIPE_SECRET_KEY);
 
 const adminEmail = "Abi Summers <bookings@abisummers.com>";
 
+function formatICalDate(date: Date): string {
+  return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+}
+
+interface IcalOptions {
+  uid: string;
+  summary: string;
+  description: string;
+  start: Date;
+  end: Date;
+  method: string;
+  status: string;
+  sequence: number;
+}
+
+/**
+ * Build a base64-encoded iCalendar attachment for a booking event.
+ */
+function buildIcalContent(options: IcalOptions): string {
+  const event = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Abi Summers//Booking//EN",
+    "CALSCALE:GREGORIAN",
+    `METHOD:${options.method}`,
+    "BEGIN:VEVENT",
+    `DTSTART:${formatICalDate(options.start)}`,
+    `DTEND:${formatICalDate(options.end)}`,
+    `DTSTAMP:${formatICalDate(new Date())}`,
+    `ORGANIZER:mailto:bookings@abisummers.com`,
+    `UID:${options.uid}`,
+    `SUMMARY:${options.summary}`,
+    `DESCRIPTION:${options.description}`,
+    "LOCATION:Paris, France",
+    `STATUS:${options.status}`,
+    `SEQUENCE:${options.sequence}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].join("\r\n");
+
+  return Buffer.from(event).toString("base64");
+}
+
+/**
+ * Compute the start and end Date for a booking from its date/time/duration.
+ */
+function bookingDateRange(date: string, time: string, duration: number) {
+  const start = new Date(`${date}T${time}:00`);
+  const end = new Date(start.getTime() + duration * 60 * 60 * 1000);
+  return { start, end };
+}
+
+interface CheckoutDetails {
+  origin: string;
+  tour: string;
+  description: string;
+  totalPrice: number;
+  email: string;
+  metadata: Record<string, string>;
+}
+
+/**
+ * Create a Stripe Checkout session for a confirmed booking and return its
+ * payment URL and id. Throws if Stripe rejects the request or omits the URL.
+ */
+async function createCheckoutSession(
+  details: CheckoutDetails,
+): Promise<{ paymentUrl: string; sessionId: string }> {
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items: [
+      {
+        price_data: {
+          currency: "eur",
+          product_data: {
+            name: details.tour,
+            description: details.description,
+          },
+          unit_amount: Math.round(details.totalPrice * 100),
+        },
+        quantity: 1,
+      },
+    ],
+    allow_promotion_codes: true,
+    mode: "payment",
+    success_url: `${details.origin}/book/paid/?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${details.origin}/book/`,
+    customer_email: details.email,
+    customer_creation: "always",
+    metadata: details.metadata,
+  });
+
+  if (!session.url) {
+    throw new Error("Stripe did not return a checkout URL");
+  }
+
+  return { paymentUrl: session.url, sessionId: session.id };
+}
+
 export const server = {
   submitBooking: defineAction({
     accept: "form",
@@ -51,35 +150,22 @@ export const server = {
 
       const confirmUrl = `${context.url.origin}/book/confirm/?token=${token}`;
 
-      const startDateTime = new Date(`${input.date}T${input.time}:00`);
-      const endDateTime = new Date(
-        startDateTime.getTime() + input.duration * 60 * 60 * 1000,
+      const { start, end } = bookingDateRange(
+        input.date,
+        input.time,
+        input.duration,
       );
 
-      const formatICalDate = (date: Date) => {
-        return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-      };
-
-      const icalEvent = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//Abi Summers//Booking//EN",
-        "CALSCALE:GREGORIAN",
-        "METHOD:REQUEST",
-        "BEGIN:VEVENT",
-        `DTSTART:${formatICalDate(startDateTime)}`,
-        `DTEND:${formatICalDate(endDateTime)}`,
-        `DTSTAMP:${formatICalDate(new Date())}`,
-        `ORGANIZER:mailto:bookings@abisummers.com`,
-        `UID:booking-${bookingId}@abisummers.com`,
-        `SUMMARY:${input.tour}`,
-        `DESCRIPTION:${bookingDetails.replace(/\n/g, "\\n")}`,
-        "LOCATION:Paris, France",
-        "STATUS:TENTATIVE",
-        "SEQUENCE:0",
-        "END:VEVENT",
-        "END:VCALENDAR",
-      ].join("\r\n");
+      const icalContent = buildIcalContent({
+        uid: `booking-${bookingId}@abisummers.com`,
+        summary: input.tour,
+        description: bookingDetails.replace(/\n/g, "\\n"),
+        start,
+        end,
+        method: "REQUEST",
+        status: "TENTATIVE",
+        sequence: 0,
+      });
 
       try {
         await resend.emails.send({
@@ -87,12 +173,7 @@ export const server = {
           to: adminEmail,
           subject: `New Booking Request: ${input.tour}`,
           text: `New booking request received:\n\n${bookingDetails}\n\nTo confirm this booking, click here:\n${confirmUrl}\n\nThis link expires in 48 hours and can only be used once.\n\n`,
-          attachments: [
-            {
-              filename: "booking.ics",
-              content: Buffer.from(icalEvent).toString("base64"),
-            },
-          ],
+          attachments: [{ filename: "booking.ics", content: icalContent }],
         });
 
         await resend.emails.send({
@@ -100,12 +181,7 @@ export const server = {
           to: input.email,
           subject: `Booking Request Received: ${input.tour}`,
           text: `Hello ${input.name},\n\nThank you for your booking request for ${input.tour} on ${input.date} at ${input.time}.\n\nWe'll confirm availability and send you payment details within 24 hours.\n\nBooking details:\n${bookingDetails}\n\nBest regards,\nAbi Summers\n\n`,
-          attachments: [
-            {
-              filename: "booking.ics",
-              content: Buffer.from(icalEvent).toString("base64"),
-            },
-          ],
+          attachments: [{ filename: "booking.ics", content: icalContent }],
         });
 
         return { success: true };
@@ -155,27 +231,12 @@ export const server = {
           )
           .join("\n");
 
-        const session = await stripe.checkout.sessions.create({
-          payment_method_types: ["card"],
-          line_items: [
-            {
-              price_data: {
-                currency: "eur",
-                product_data: {
-                  name: bookingData.tour,
-                  description: `Tour on ${bookingData.date} at ${bookingData.time}`,
-                },
-                unit_amount: Math.round(input.totalPrice * 100),
-              },
-              quantity: 1,
-            },
-          ],
-          allow_promotion_codes: true,
-          mode: "payment",
-          success_url: `${context.url.origin}/book/paid/?session_id={CHECKOUT_SESSION_ID}`,
-          cancel_url: `${context.url.origin}/book/`,
-          customer_email: bookingData.email,
-          customer_creation: "always",
+        const { paymentUrl } = await createCheckoutSession({
+          origin: context.url.origin,
+          tour: bookingData.tour,
+          description: `Tour on ${bookingData.date} at ${bookingData.time}`,
+          totalPrice: input.totalPrice,
+          email: bookingData.email,
           metadata: {
             bookingToken: input.token,
             customerName: bookingData.name,
@@ -185,48 +246,30 @@ export const server = {
           },
         });
 
-        const startDateTime = new Date(
-          `${bookingData.date}T${bookingData.time}:00`,
-        );
-        const endDateTime = new Date(
-          startDateTime.getTime() + bookingData.duration * 60 * 60 * 1000,
+        const { start, end } = bookingDateRange(
+          bookingData.date,
+          bookingData.time,
+          bookingData.duration,
         );
 
-        const formatICalDate = (date: Date) => {
-          return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-        };
-
-        const icalEvent = [
-          "BEGIN:VCALENDAR",
-          "VERSION:2.0",
-          "PRODID:-//Abi Summers//Booking//EN",
-          "CALSCALE:GREGORIAN",
-          "METHOD:PUBLISH",
-          "BEGIN:VEVENT",
-          `DTSTART:${formatICalDate(startDateTime)}`,
-          `DTEND:${formatICalDate(endDateTime)}`,
-          `DTSTAMP:${formatICalDate(new Date())}`,
-          `ORGANIZER:mailto:bookings@abisummers.com`,
-          `UID:booking-${input.token}@abisummers.com`,
-          `SUMMARY:${bookingData.tour} - CONFIRMED`,
-          `DESCRIPTION:Booking confirmed`,
-          "LOCATION:Paris, France",
-          "STATUS:CONFIRMED",
-          "SEQUENCE:1",
-          "END:VEVENT",
-          "END:VCALENDAR",
-        ].join("\r\n");
+        const icalContent = buildIcalContent({
+          uid: `booking-${input.token}@abisummers.com`,
+          summary: `${bookingData.tour} - CONFIRMED`,
+          description: "Booking confirmed",
+          start,
+          end,
+          method: "PUBLISH",
+          status: "CONFIRMED",
+          sequence: 1,
+        });
 
         await resend.emails.send({
           from: adminEmail,
           to: bookingData.email,
           subject: `Booking Confirmed: ${bookingData.tour}`,
-          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\n${bookingDetails}\n\nTotal price: €${input.totalPrice}\n\nPlease complete your payment here:\n${session.url}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
+          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\n${bookingDetails}\n\nTotal price: €${input.totalPrice}\n\nPlease complete your payment here:\n${paymentUrl}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
           attachments: [
-            {
-              filename: "booking-confirmed.ics",
-              content: Buffer.from(icalEvent).toString("base64"),
-            },
+            { filename: "booking-confirmed.ics", content: icalContent },
           ],
         });
 
@@ -236,10 +279,7 @@ export const server = {
           subject: `Booking Confirmed: ${bookingData.tour}`,
           text: `You confirmed the booking for:\n\nCustomer: ${bookingData.name} (${bookingData.email})\nTour: ${bookingData.tour}\nDate: ${bookingData.date} at ${bookingData.time}\n\n`,
           attachments: [
-            {
-              filename: "booking-confirmed.ics",
-              content: Buffer.from(icalEvent).toString("base64"),
-            },
+            { filename: "booking-confirmed.ics", content: icalContent },
           ],
         });
 
@@ -249,6 +289,98 @@ export const server = {
       } catch (error) {
         console.error("Error confirming booking:", error);
         throw new Error("Failed to confirm booking");
+      }
+    },
+  }),
+
+  createManualBooking: defineAction({
+    accept: "form",
+    input: z.object({
+      secret: z.string(),
+      name: z.string(),
+      email: z.string().email(),
+      phone: z.string().optional(),
+      date: z.string(),
+      time: z.string(),
+      duration: z.number(),
+      guests: z.number(),
+      tour: z.string(),
+      description: z.string().optional(),
+      message: z.string().optional(),
+      totalPrice: z.number().positive(),
+    }),
+    handler: async (input, context) => {
+      if (
+        !import.meta.env.ADMIN_PASSWORD ||
+        input.secret !== import.meta.env.ADMIN_PASSWORD
+      ) {
+        throw new Error("Unauthorized");
+      }
+
+      const { secret, totalPrice, description, ...bookingData } = input;
+
+      const bookingDetails = Object.entries(bookingData)
+        .map(([key, value]) => `${key}: ${value == undefined ? "N/A" : value}`)
+        .join("\n");
+
+      try {
+        const { paymentUrl, sessionId } = await createCheckoutSession({
+          origin: context.url.origin,
+          tour: bookingData.tour,
+          description:
+            description || `Tour on ${bookingData.date} at ${bookingData.time}`,
+          totalPrice,
+          email: bookingData.email,
+          metadata: {
+            manual: "true",
+            customerName: bookingData.name,
+            tourName: bookingData.tour,
+            tourDate: bookingData.date,
+            tourTime: bookingData.time,
+          },
+        });
+
+        const { start, end } = bookingDateRange(
+          bookingData.date,
+          bookingData.time,
+          bookingData.duration,
+        );
+
+        const icalContent = buildIcalContent({
+          uid: `booking-${sessionId}@abisummers.com`,
+          summary: `${bookingData.tour} - CONFIRMED`,
+          description: "Booking confirmed",
+          start,
+          end,
+          method: "PUBLISH",
+          status: "CONFIRMED",
+          sequence: 1,
+        });
+
+        await resend.emails.send({
+          from: adminEmail,
+          to: bookingData.email,
+          subject: `Booking Confirmed: ${bookingData.tour}`,
+          text: `Hello ${bookingData.name},\n\nGreat news! Your booking for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been confirmed.\n\n${bookingDetails}\n\nTotal price: €${totalPrice}\n\nPlease complete your payment here:\n${paymentUrl}\n\nWe look forward to seeing you!\n\nBest regards,\nAbi Summers\n\n`,
+          attachments: [
+            { filename: "booking-confirmed.ics", content: icalContent },
+          ],
+        });
+
+        await resend.emails.send({
+          from: adminEmail,
+          to: adminEmail,
+          subject: `Manual Booking Created: ${bookingData.tour}`,
+          text: `You created a manual booking for:\n\nCustomer: ${bookingData.name} (${bookingData.email})\nTour: ${bookingData.tour}\nDate: ${bookingData.date} at ${bookingData.time}\nTotal price: €${totalPrice}\n\n${bookingDetails}\n\n`,
+          attachments: [
+            { filename: "booking-confirmed.ics", content: icalContent },
+          ],
+        });
+
+        return { success: true, paymentUrl };
+      } catch (error) {
+        console.error("Error creating manual booking:", error);
+        throw new Error("Failed to create manual booking");
       }
     },
   }),
@@ -268,37 +400,22 @@ export const server = {
 
         const bookingData = validation.booking.bookingData;
 
-        const startDateTime = new Date(
-          `${bookingData.date}T${bookingData.time}:00`,
-        );
-        const endDateTime = new Date(
-          startDateTime.getTime() + bookingData.duration * 60 * 60 * 1000,
+        const { start, end } = bookingDateRange(
+          bookingData.date,
+          bookingData.time,
+          bookingData.duration,
         );
 
-        const formatICalDate = (date: Date) => {
-          return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-        };
-
-        const icalEvent = [
-          "BEGIN:VCALENDAR",
-          "VERSION:2.0",
-          "PRODID:-//Abi Summers//Booking//EN",
-          "CALSCALE:GREGORIAN",
-          "METHOD:CANCEL",
-          "BEGIN:VEVENT",
-          `DTSTART:${formatICalDate(startDateTime)}`,
-          `DTEND:${formatICalDate(endDateTime)}`,
-          `DTSTAMP:${formatICalDate(new Date())}`,
-          `ORGANIZER:mailto:bookings@abisummers.com`,
-          `UID:booking-${input.token}@abisummers.com`,
-          `SUMMARY:${bookingData.tour} - CANCELLED`,
-          `DESCRIPTION:Booking cancelled`,
-          "LOCATION:Paris, France",
-          "STATUS:CANCELLED",
-          "SEQUENCE:2",
-          "END:VEVENT",
-          "END:VCALENDAR",
-        ].join("\r\n");
+        const icalContent = buildIcalContent({
+          uid: `booking-${input.token}@abisummers.com`,
+          summary: `${bookingData.tour} - CANCELLED`,
+          description: "Booking cancelled",
+          start,
+          end,
+          method: "CANCEL",
+          status: "CANCELLED",
+          sequence: 2,
+        });
 
         await resend.emails.send({
           from: adminEmail,
@@ -306,10 +423,7 @@ export const server = {
           subject: `Booking Cancelled: ${bookingData.tour}`,
           text: `Hello ${bookingData.name},\n\nUnfortunately, your booking request for ${bookingData.tour} on ${bookingData.date} at ${bookingData.time} has been cancelled.\n\nIf you have any questions, please contact us.\n\nBest regards,\nAbi Summers\n\n`,
           attachments: [
-            {
-              filename: "booking-cancelled.ics",
-              content: Buffer.from(icalEvent).toString("base64"),
-            },
+            { filename: "booking-cancelled.ics", content: icalContent },
           ],
         });
 
@@ -319,10 +433,7 @@ export const server = {
           subject: `Booking Cancelled: ${bookingData.tour}`,
           text: `You cancelled the booking for:\n\nCustomer: ${bookingData.name} (${bookingData.email})\nTour: ${bookingData.tour}\nDate: ${bookingData.date} at ${bookingData.time}\n\n`,
           attachments: [
-            {
-              filename: "booking-cancelled.ics",
-              content: Buffer.from(icalEvent).toString("base64"),
-            },
+            { filename: "booking-cancelled.ics", content: icalContent },
           ],
         });
 

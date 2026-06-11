@@ -1,0 +1,283 @@
+---
+import Article from "../../layouts/article.astro";
+import { getCollection } from "astro:content";
+
+// On-demand rendered (not prerendered) so the Basic Auth middleware applies.
+const secret = import.meta.env.ADMIN_PASSWORD ?? "";
+
+const tours = await getCollection("tours");
+
+// Prefill data: selecting a tour fills the freeform fields but leaves them editable.
+const prefill = tours.map((tour) => {
+  const guests = tour.data.price.options.find((o) => o.name === "guests");
+  const duration = tour.data.price.options.find((o) => o.name === "duration");
+  return {
+    name: tour.data.name,
+    base: tour.data.price.base,
+    guests: guests?.included ?? 1,
+    duration: duration?.included ?? 2,
+  };
+});
+---
+
+<Article showLanguageSwitcher={false} title="Manual Booking">
+  <h1>Create a Manual Booking</h1>
+  <p>
+    Fill in every detail yourself and send the confirmation / payment email
+    directly. There is no review step — the email is sent as soon as you submit.
+  </p>
+
+  <form id="manual-form" class="booking-details">
+    <div class="detail-grid">
+      <div class="detail-item">
+        <label for="prefill">Prefill from tour (optional):</label>
+        <select id="prefill">
+          <option value="">— none —</option>
+          {prefill.map((t, i) => <option value={i}>{t.name}</option>)}
+        </select>
+      </div>
+
+      <div class="detail-item">
+        <label for="tour">Tour / product name:</label>
+        <input type="text" id="tour" name="tour" required />
+      </div>
+
+      <div class="detail-item">
+        <label for="description">Description (shown at checkout):</label>
+        <input type="text" id="description" name="description" />
+      </div>
+
+      <div class="detail-item">
+        <label for="name">Customer name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="detail-item">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="detail-item">
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+
+      <div class="detail-item">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+      </div>
+
+      <div class="detail-item">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" value="10:00" required />
+      </div>
+
+      <div class="detail-item">
+        <label for="duration">Duration (hours):</label>
+        <input
+          type="number"
+          id="duration"
+          name="duration"
+          step="0.5"
+          min="0"
+          value="2.5"
+          required
+        />
+      </div>
+
+      <div class="detail-item">
+        <label for="guests">Guests:</label>
+        <input
+          type="number"
+          id="guests"
+          name="guests"
+          min="1"
+          value="1"
+          required
+        />
+      </div>
+
+      <div class="detail-item">
+        <label for="message">Additional information:</label>
+        <textarea id="message" name="message" rows="3"></textarea>
+      </div>
+
+      <div class="detail-item total-price">
+        <label for="totalPrice">Total price (EUR):</label>
+        <input
+          type="number"
+          id="totalPrice"
+          name="totalPrice"
+          step="0.01"
+          min="0"
+          required
+        />
+      </div>
+    </div>
+
+    <input type="hidden" name="secret" value={secret} />
+  </form>
+
+  <div class="action-buttons">
+    <button type="button" class="confirm-button" id="submit-button"
+      >Send confirmation email</button
+    >
+  </div>
+
+  <div id="result" class="result"></div>
+
+  <script
+    id="prefill-data"
+    type="application/json"
+    is:inline
+    set:html={JSON.stringify(prefill)}
+  />
+
+  <style>
+    .booking-details {
+      background: var(--contrast);
+      padding: 2em;
+      margin: 2em 0;
+    }
+
+    .detail-grid {
+      display: grid;
+      gap: 1em;
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25em;
+    }
+
+    .detail-item label {
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+
+    .detail-item input,
+    .detail-item select,
+    .detail-item textarea {
+      font: inherit;
+      font-size: inherit;
+      padding: 0.5em;
+      border: 0.1em solid var(--text);
+      background-color: var(--background);
+      color: var(--text);
+      resize: vertical;
+    }
+
+    .detail-item.total-price {
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: 0.1em solid var(--text);
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 1em;
+      margin-top: 2em;
+      flex-wrap: wrap;
+    }
+
+    .confirm-button {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      font-size: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 1em 2em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      background-color: var(--contrast);
+    }
+
+    .confirm-button:hover {
+      background-color: var(--text);
+      color: var(--background);
+    }
+
+    .result {
+      margin-top: 1em;
+      padding: 1em;
+      border: 0.1em solid var(--text);
+      display: none;
+      word-break: break-all;
+    }
+
+    .result.shown {
+      display: block;
+      background: var(--contrast);
+    }
+  </style>
+
+  <script>
+    import { actions } from "astro:actions";
+
+    interface Prefill {
+      name: string;
+      base: number;
+      guests: number;
+      duration: number;
+    }
+
+    const form = document.getElementById("manual-form") as HTMLFormElement;
+    const submitButton = document.getElementById(
+      "submit-button",
+    ) as HTMLButtonElement;
+    const result = document.getElementById("result") as HTMLElement;
+    const prefillSelect = document.getElementById(
+      "prefill",
+    ) as HTMLSelectElement;
+
+    const prefill: Prefill[] = JSON.parse(
+      document.getElementById("prefill-data")?.textContent || "[]",
+    );
+
+    prefillSelect.addEventListener("change", () => {
+      const value = prefillSelect.value;
+      if (value === "") return;
+      const t = prefill[Number(value)];
+      if (!t) return;
+      (form.elements.namedItem("tour") as HTMLInputElement).value = t.name;
+      (form.elements.namedItem("duration") as HTMLInputElement).value = String(
+        t.duration,
+      );
+      (form.elements.namedItem("guests") as HTMLInputElement).value = String(
+        t.guests,
+      );
+      (form.elements.namedItem("totalPrice") as HTMLInputElement).value =
+        String(t.base);
+    });
+
+    submitButton.addEventListener("click", async () => {
+      if (!form.reportValidity()) return;
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Sending...";
+
+      const { data, error } = await actions.createManualBooking(
+        new FormData(form),
+      );
+
+      if (error) {
+        result.className = "result shown";
+        result.textContent = "Failed: " + error.message;
+        submitButton.disabled = false;
+        submitButton.textContent = "Send confirmation email";
+        return;
+      }
+
+      result.className = "result shown";
+      result.innerHTML =
+        'Confirmation email sent. Payment link:<br><a href="' +
+        data.paymentUrl +
+        '">' +
+        data.paymentUrl +
+        "</a>";
+      submitButton.textContent = "Sent ✓";
+    });
+  </script>
+</Article>

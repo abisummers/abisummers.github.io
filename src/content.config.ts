@@ -61,7 +61,7 @@ const guide = defineCollection({
           "walk",
           "women",
           "history",
-          "questions-from-tours"
+          "questions-from-tours",
         ]),
       ),
       image: z.string(),
