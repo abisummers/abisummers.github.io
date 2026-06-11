@@ -23,9 +23,47 @@ const stripe = new Stripe(import.meta.env.STRIPE_SECRET_KEY);
 
 const adminEmail = "Abi Summers <bookings@abisummers.com>";
 
+/**
+ * Format a UTC timestamp (e.g. DTSTAMP) as YYYYMMDDTHHMMSSZ.
+ */
 function formatICalDate(date: Date): string {
   return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
 }
+
+/**
+ * Format the wall-clock components of a date as YYYYMMDDTHHMMSS (no zone
+ * suffix). The Date is expected to carry the Paris wall-clock time in its UTC
+ * fields (see bookingDateRange), so this is paired with TZID=Europe/Paris.
+ */
+function formatLocalICalDate(date: Date): string {
+  const p = (n: number) => String(n).padStart(2, "0");
+  return (
+    `${date.getUTCFullYear()}${p(date.getUTCMonth() + 1)}${p(date.getUTCDate())}` +
+    `T${p(date.getUTCHours())}${p(date.getUTCMinutes())}${p(date.getUTCSeconds())}`
+  );
+}
+
+// VTIMEZONE for Europe/Paris (CET/CEST) so calendar clients resolve the
+// TZID=Europe/Paris wall-clock times to the correct instant, DST included.
+const parisVTimezone = [
+  "BEGIN:VTIMEZONE",
+  "TZID:Europe/Paris",
+  "BEGIN:DAYLIGHT",
+  "TZOFFSETFROM:+0100",
+  "TZOFFSETTO:+0200",
+  "TZNAME:CEST",
+  "DTSTART:19700329T020000",
+  "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU",
+  "END:DAYLIGHT",
+  "BEGIN:STANDARD",
+  "TZOFFSETFROM:+0200",
+  "TZOFFSETTO:+0100",
+  "TZNAME:CET",
+  "DTSTART:19701025T030000",
+  "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU",
+  "END:STANDARD",
+  "END:VTIMEZONE",
+];
 
 interface IcalOptions {
   uid: string;
@@ -48,9 +86,10 @@ function buildIcalContent(options: IcalOptions): string {
     "PRODID:-//Abi Summers//Booking//EN",
     "CALSCALE:GREGORIAN",
     `METHOD:${options.method}`,
+    ...parisVTimezone,
     "BEGIN:VEVENT",
-    `DTSTART:${formatICalDate(options.start)}`,
-    `DTEND:${formatICalDate(options.end)}`,
+    `DTSTART;TZID=Europe/Paris:${formatLocalICalDate(options.start)}`,
+    `DTEND;TZID=Europe/Paris:${formatLocalICalDate(options.end)}`,
     `DTSTAMP:${formatICalDate(new Date())}`,
     `ORGANIZER:mailto:bookings@abisummers.com`,
     `UID:${options.uid}`,
@@ -67,10 +106,16 @@ function buildIcalContent(options: IcalOptions): string {
 }
 
 /**
- * Compute the start and end Date for a booking from its date/time/duration.
+ * Compute the start and end of a booking from its date/time/duration.
+ *
+ * The entered time is treated as a Paris wall-clock time. We parse it as UTC so
+ * the wall-clock components are preserved verbatim regardless of the server's
+ * timezone; formatLocalICalDate reads them back and they are tagged
+ * TZID=Europe/Paris in the iCal output. The duration is added as elapsed
+ * wall-clock hours.
  */
 function bookingDateRange(date: string, time: string, duration: number) {
-  const start = new Date(`${date}T${time}:00`);
+  const start = new Date(`${date}T${time}:00Z`);
   const end = new Date(start.getTime() + duration * 60 * 60 * 1000);
   return { start, end };
 }
