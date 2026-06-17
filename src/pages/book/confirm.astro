@@ -30,12 +30,12 @@ const totalPrice = tour.data.price.options.reduce((total, option) => {
   return total + Math.max(quantity - option.included, 0) * option.price;
 }, tour.data.price.base);
 
-const formatter = new Intl.DateTimeFormat("en-UK", {
+const formatter = new Intl.DateTimeFormat("en-GB", {
   dateStyle: "full",
   timeStyle: "short",
 });
 
-const priceFormatter = new Intl.NumberFormat("en-UK", {
+const priceFormatter = new Intl.NumberFormat("en-GB", {
   style: "currency",
   currency: "EUR",
   minimumFractionDigits: 0,

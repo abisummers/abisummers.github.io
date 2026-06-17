@@ -169,6 +169,22 @@ const tours = defineCollection({
   }),
 });
 
+const reviews = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./src/content/reviews" }),
+  schema: z.object({
+    tourName: z.string().optional(),
+    customerName: z.string(),
+    email: z.string().email().optional(),
+    rating: z.number().min(1).max(5),
+    title: z.string(),
+    comment: z.string(),
+    tourDate: z.coerce.date(),
+    submittedDate: z.coerce.date(),
+    verified: z.boolean().default(false),
+    featured: z.boolean().default(false),
+  }),
+});
+
 export const collections = {
   "alphabet-ile-de-france": alphabet,
   articles,
@@ -178,4 +194,5 @@ export const collections = {
   travel,
   images,
   tours,
+  reviews,
 };

@@ -2,6 +2,7 @@
 import Schema from "../../components/schema.astro";
 import Article from "../../layouts/article.astro";
 import NumberInput from "../../components/number-input.astro";
+import ReviewCard from "../../components/review-card.astro";
 import type { Service, TouristAttraction } from "schema-dts";
 import type { MultiThing, WithMultiContext } from "../../lib/jsonld";
 import { getCollection } from "astro:content";
@@ -13,6 +14,11 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const tours = await getCollection("tours");
+  const reviews = (await getCollection("reviews")).sort(
+    (a, b) =>
+      new Date(b.data.submittedDate).getTime() -
+      new Date(a.data.submittedDate).getTime(),
+  );
 
   return Promise.all(
     tours.map(async (tour) => {
@@ -32,6 +38,8 @@ export async function getStaticPaths() {
             description: description,
             sections: sections,
           },
+          tourId: tour.id,
+          reviews: reviews.map((r) => r.data),
         },
       };
     }),
@@ -81,9 +89,21 @@ interface Props {
     }>;
     price: Pricing;
   };
+  tourId: string;
+  reviews: Array<{
+    tourName?: string;
+    customerName: string;
+    rating: number;
+    title: string;
+    comment: string;
+    tourDate: Date;
+    submittedDate: Date;
+    verified: boolean;
+    featured: boolean;
+  }>;
 }
 
-const { tour } = Astro.props;
+const { tour, reviews } = Astro.props;
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/tours/images/*.{jpeg,jpg}",
@@ -247,6 +267,37 @@ const slug = Astro.params.slug!;
     <div id="form-status" class="form-status"></div>
   </div>
 
+  {
+    reviews.length > 0 && (
+      <div class="reviews-section">
+        <div class="reviews-header">
+          <h2>Customer Reviews</h2>
+          <a href="/review/" class="write-review-link">
+            Write a Review
+          </a>
+        </div>
+
+        <div class="reviews-list">
+          {reviews.slice(0, 5).map((review) => (
+            <ReviewCard
+              review={review}
+              showTourName={true}
+              tourName={review.tourName}
+            />
+          ))}
+        </div>
+
+        {reviews.length > 5 && (
+          <div class="view-all-reviews">
+            <p>
+              Showing {Math.min(5, reviews.length)} of {reviews.length} reviews
+            </p>
+          </div>
+        )}
+      </div>
+    )
+  }
+
   <style>
     .tour-header {
       margin-bottom: 2em;
@@ -293,14 +344,8 @@ const slug = Astro.params.slug!;
       background: var(--contrast);
       padding: 1em;
       margin-bottom: 2em;
-    }
-
-    .info-item {
-      margin-bottom: 0.5em;
-    }
-
-    .info-item:last-child {
-      margin-bottom: 0;
+      display: grid;
+      gap: 0.5em;
     }
 
     .booking-form-container {
@@ -389,6 +434,99 @@ const slug = Astro.params.slug!;
       background: var(--background);
       border-color: var(--text);
     }
+
+    .rating-summary {
+      border-top: 0.05em solid var(--text);
+      padding-top: 0.5em;
+      margin-top: 0.5em;
+    }
+
+    .rating-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      margin-top: 0.25em;
+    }
+
+    .review-count {
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    .reviews-section {
+      margin-top: 3em;
+      padding-top: 2em;
+      border-top: 0.1em solid var(--text);
+    }
+
+    .reviews-header {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+    }
+
+    .write-review-link {
+      appearance: none;
+      -webkit-appearance: none;
+      font: inherit;
+      color: var(--text);
+      border-radius: 0;
+      padding: 0.75em 1.5em;
+      border: 0.1em solid var(--text);
+      cursor: pointer;
+      background-color: var(--background);
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .write-review-link:hover {
+      background-color: var(--text);
+      color: var(--background);
+    }
+
+    .reviews-list {
+      margin-top: 2em;
+    }
+
+    .view-all-reviews {
+      text-align: center;
+      margin-top: 2em;
+      padding-top: 1em;
+      border-top: 0.05em solid var(--text);
+      opacity: 0.8;
+    }
+
+    .no-reviews {
+      margin-top: 3em;
+      padding: 2em;
+      text-align: center;
+      border: 0.1em solid var(--text);
+      background: var(--contrast);
+    }
+
+    .no-reviews h2 {
+      margin-top: 0;
+    }
+
+    .no-reviews p {
+      margin-bottom: 1.5em;
+    }
+
+    @media (max-width: 600px) {
+      .reviews-summary {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .write-review-link {
+        width: 100%;
+      }
+
+      .rating-number-large {
+        font-size: 2.5em;
+      }
+    }
   </style>
 
   <style is:global>
@@ -475,19 +613,15 @@ const slug = Astro.params.slug!;
         const { error } = await actions.submitBooking(formData);
 
         if (error) {
-          formStatus.className = "form-status error";
-          formStatus.textContent =
-            "Sorry, there was an error submitting your booking request. Please try again or contact us directly at hello@abisummers.com";
-          submitButton.disabled = false;
-          submitButton.textContent = originalText;
-        } else {
-          form.reset();
-          formStatus.className = "form-status success";
-          formStatus.textContent =
-            "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
-          submitButton.disabled = false;
-          submitButton.textContent = originalText;
+          throw error;
         }
+
+        form.reset();
+        formStatus.className = "form-status success";
+        formStatus.textContent =
+          "Thank you! Your booking request has been submitted. We'll contact you within 24 hours to confirm availability and provide payment details.";
+        submitButton.disabled = false;
+        submitButton.textContent = originalText;
 
         formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
       } catch (error) {

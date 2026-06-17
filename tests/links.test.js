@@ -42,9 +42,7 @@ function isLinkValid(link) {
   }
 
   if (link.startsWith("/") || link.startsWith(".")) {
-    // remove query string and hash
     link = link.split("?")[0].split("#")[0];
-    // local link
     return link.endsWith("/");
   }
 
@@ -59,7 +57,6 @@ async function getLinks(file) {
   const links = [];
   let m;
   while ((m = regex.exec(contents)) !== null) {
-    // This is necessary to avoid infinite loops with zero-width matches
     if (m.index === regex.lastIndex) {
       regex.lastIndex++;
     }

@@ -491,4 +491,92 @@ export const server = {
       }
     },
   }),
+
+  submitReview: defineAction({
+    accept: "form",
+    input: z.object({
+      tourName: z.string().optional(),
+      customerName: z.string().min(2),
+      email: z.string().email(),
+      rating: z.coerce.number().min(1).max(5),
+      title: z.string().min(5).max(100),
+      comment: z.string().min(20).max(1000),
+      tourDate: z.string(),
+      bookingToken: z.string().optional(),
+    }),
+    handler: async (input) => {
+      try {
+        let isVerified = false;
+        if (input.bookingToken) {
+          const validation = await validateToken(input.bookingToken);
+          if (validation.valid && validation.booking) {
+            isVerified = true;
+          }
+        }
+
+        const reviewData = {
+          tourName: input.tourName || undefined,
+          customerName: input.customerName,
+          email: input.email,
+          rating: input.rating,
+          title: input.title,
+          comment: input.comment,
+          tourDate: input.tourDate,
+          submittedDate: new Date().toISOString(),
+          verified: isVerified,
+        };
+
+        await resend.emails.send({
+          from: adminEmail,
+          to: adminEmail,
+          subject: `New Review Submission`,
+          text: `New review submitted for approval:
+
+${input.tourName ? `Tour: ${input.tourName}\n` : ""}Customer: ${input.customerName} (${input.email})
+Rating: ${"⭐".repeat(input.rating)} (${input.rating}/5)
+Verified: ${isVerified ? "Yes" : "No"}
+
+Title: ${input.title}
+
+Review:
+${input.comment}
+
+Tour Date: ${input.tourDate}
+
+To publish this review, create a JSON file in src/content/reviews/ with the following content:
+
+${JSON.stringify(reviewData, null, 2)}
+
+`,
+        });
+
+        await resend.emails.send({
+          from: adminEmail,
+          to: input.email,
+          subject: "Thank you for your review!",
+          text: `Hello ${input.customerName},
+
+Thank you for taking the time to share your experience${input.tourName ? ` on the ${input.tourName} tour` : " with us"}!
+
+Your review has been submitted and will be published after a quick review.
+
+Your feedback:
+Rating: ${"⭐".repeat(input.rating)} (${input.rating}/5)
+${input.title}
+
+${input.comment}
+
+Best regards,
+Abi Summers
+
+`,
+        });
+
+        return { success: true };
+      } catch (error) {
+        console.error("Error submitting review:", error);
+        throw new Error("Failed to submit review");
+      }
+    },
+  }),
 };
