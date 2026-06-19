@@ -31,7 +31,7 @@ Honestly, it's ok. I was expecting something... better? I'm not sure exactly wha
 
 ![the inside of La Caverne. On the ground you can see the road markings. There are people walking ahead and one member of staff standing on the right. The walls have a purpleish tone to them.](./images/pont-neuf-wrapped-inside.jpeg)
 
-I was also surprised to see the QR codes for the virtual reality - that take you to Snapchat. I did scan the QR code, so cannot say if the virtual reality adds something to the experience.
+I was also surprised to see the QR codes for the virtual reality - that take you to Snapchat. I didn't scan the QR code, so cannot say if the virtual reality adds something to the experience.
 
 I find the print to be a little pixelated which takes away from the illusion especially when up close. I actually prefer La Caverne from a distance. It is cool getting to see it take it's form, the bright white really catches your eye and change depending on the angle you look at it from. You get a great view while walking along the banks of the river. And I do like that it's a conversation starter.
 
@@ -46,3 +46,5 @@ I really wanted to like it, but overall I found it... underwhelming. I think par
 ### Share your thoughts
 
 I'm sure there are some people who loved La Caverne du Pont-Neuf. I'd love to know what you think over on instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**
+
+---
