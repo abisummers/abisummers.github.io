@@ -11,7 +11,7 @@ title: JR | La Caverne du Pont-Neuf
 image: /src/content/museums/images/pont-neuf-wrapped-installation.jpeg
 ---
 
-If you've been in Paris in the second half of May or June 2026, you may have came across this art installation over Pont Neuf. Parisians and tourists alike all have something to say about it - some people like it, others don't. The artist JR has interviewed some people passing by to ask them what they think and has been sharing it on his social media. Art is subjective and not everyone needs to like every piece. La Caverne du Pont-Neuf is inspired by _Pont-Neuf wrapped_ by Christo and Jeanne-Claude in 1985.
+If you've been in Paris in the second half of May or June 2026, you may have came across this art installation over [Pont Neuf](/articles/guide/pont-neuf/). Parisians and tourists alike all have something to say about it - some people like it, others don't. The artist JR has interviewed some people passing by to ask them what they think and has been sharing it on his social media. Art is subjective and not everyone needs to like every piece. La Caverne du Pont-Neuf is inspired by _Pont-Neuf wrapped_ by Christo and Jeanne-Claude in 1985.
 
 Since the start of the construction, I've had people on my tours asking questions about it. I've had quite a few people ask what they're doing, thinking it's just a cover for some construction. Even some people who live in Paris thought that (see the advertisement to the right on the second photo). I mean, you can see why considering some surrounding buildings have giant advertisements up to cover the scaffolding. This is something you see quite often in Paris.
 
