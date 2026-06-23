@@ -34,6 +34,10 @@ if (images[entry.data.image!]) {
   ogImage = "https://abisummers.com" + src;
 }
 
+const df = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "medium",
+});
+
 const { Content } = await render(entry);
 ---
 
@@ -44,6 +48,11 @@ const { Content } = await render(entry);
   ogImage={ogImage}
 >
   <h2>{entry.data.title}</h2>
+  <small>
+    {df.format(new Date(entry.data.startDate))} until {
+      df.format(new Date(entry.data.endDate))
+    } - {entry.data.museumName}
+  </small>
 
   <style is:global>
     img {

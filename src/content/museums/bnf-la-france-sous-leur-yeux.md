@@ -8,6 +8,7 @@ dateVisited: 2024-05-15
 ticketCost: 0
 country: FR
 title: La France sous leur yeux at the BNF François-Mitterrand
+image: /src/content/museums/images/la-france-sours-leurs-yeux.jpg
 ---
 
 I recently when to see this photography exhibition which displays the work of 200 different photographers in more than 400 photos who all captured moments during 2020s. It was my first time attending an exhibition here - and until recently I didn't even know the library had exhibitions. All of the photographers here have a tie with France - either through being French or living in France.
@@ -42,7 +43,7 @@ At the end of the exhibition, I was left with lots to think about. 2020 was a cr
 
 As for many people, 2020 didn't go the way I expected it to go. The first two months of the year were normal, I had a lot of different things on like I went to Amsterdam to meet some friends and I watch my first live rugby game - my mum and her partner flew out to Paris to watch the France vs England game. But then March rolled around, I heard the first rumours of lockdowns, thought that it wouldn't _actually_ happen until it actually did. It doesn't actually feel like it happened.
 
-Until this first lockdown, I was working in an office five days a week and was rarely in my 23m2 studio apartment that I shared with my partner. The lockdown hit, we both went to working remotely from the apartment and I was put on _chomage partiel_ because the car rental company I worked at has been hit by the lockdowns - people were not allowed to travel so there was no need to hire a car. We stayed in this apartment until December 2020 where we moved to the suburbs to have more space.
+Until this first lockdown, I was working in an office five days a week and was rarely in my 23m² studio apartment that I shared with my partner. The lockdown hit, we both went to working remotely from the apartment and I was put on _chomage partiel_ because the car rental company I worked at has been hit by the lockdowns - people were not allowed to travel so there was no need to hire a car. We stayed in this apartment until December 2020 where we moved to the suburbs to have more space.
 
 Since then, the world of tech has changed massively - I cannot imagine going back to an office 5 days a week, and personally I like the hybrid mix of remote and office based work.
 

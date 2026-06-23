@@ -9,6 +9,7 @@ ticketCost: 0
 country: FR
 title: À nous les stades! Une histoire du sport au féminin
 publishedDate: 2024-09-11
+image: /src/content/museums/images/a-nous-les-stades.jpeg
 ---
 
 With Paris hosting the 2024 Olympics & Paralympic games, there have been a lot of exhibitions around the city related to the event. I've loved the vibe of the city during the games, and it will be interesting to see how long the traces last. This exhibition is open until mid October.

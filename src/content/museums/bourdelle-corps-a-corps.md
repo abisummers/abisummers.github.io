@@ -8,7 +8,7 @@ dateVisited: 2024-12-17
 ticketCost: 0
 country: FR
 title: Rodin / Bourdelle - corps à corps
-image: /src/content/museums/images
+image: /src/content/museums/images/bourdelle-face-sculptures.jpeg
 ---
 
 I recently went to see the exhibition _Rodin / Bourdelle. Corps à corps_ at the Bourdelle museum. This is my first time visiting this museum in the 8 years that I've lived here (I'm sure I'll never run out of things to do in the city). It's a museum that I've never seen on a top 1O list, but it's still worth seeing especially if you like sculptures. The museum is located in the studio of Bourdelle.

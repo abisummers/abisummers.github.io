@@ -7,7 +7,7 @@ themes: ["architecture"]
 image: /src/content/guide/images/pont-neuf.jpeg
 ---
 
-If you're familiar with French, you might be able to guess how _Pont Neuf_ translated into English. _Pont_ is bridge, and _neuf_ can mean different   things depending on the context - it can mean _nine_ or _new_. In this case it refers to new. Despite the name _new bridge_, pont neuf is the oldest bridge in Paris. It's one of the 37 bridges in Paris which makes crossing the river seine easy.
+If you're familiar with French, you might be able to guess how _Pont Neuf_ translated into English. _Pont_ is bridge, and _neuf_ can mean different things depending on the context - it can mean _nine_ or _new_. In this case it refers to new. Despite the name _new bridge_, pont neuf is the oldest bridge in Paris. It's one of the 37 bridges in Paris which makes crossing the river seine easy.
 
 The bridge is made up of smaller arch bridges, made in the same was as the Romans made their bridges. On the south side there are five arches connecting the bridge to left bank (rive gauche), and on the north there are seven arches connect the bridge to the right bank (rive droite). The bridge is 232 metres long and 22 metres wide.
 

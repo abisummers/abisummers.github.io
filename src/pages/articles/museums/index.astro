@@ -1,24 +1,35 @@
 ---
 import { getCollection } from "astro:content";
 import Main from "../../../layouts/article.astro";
+import { Image } from "astro:assets";
 
-const museumCollection = await getCollection("museums");
+const museumCollection = (await getCollection("museums")).sort(
+  (a, b) => b.data.endDate.getTime() - a.data.endDate.getTime(),
+);
 
-function currentExhibitions() {
-  return (
-    museumCollection.filter((museum) => {
-      return new Date(museum.data.endDate) >= new Date();
-    }) || []
-  );
-}
+const placeholder = "/favicon.ico";
+const museumImages = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/museums/images/*.{jpeg,jpg}",
+  { eager: true },
+);
 
-function pastExhibitions() {
-  return (
-    museumCollection.filter((museum) => {
-      return new Date(museum.data.endDate) <= new Date();
-    }) || []
-  );
-}
+const currentExhibitions = museumCollection.filter(
+  (exhibition) =>
+    exhibition.data.country === "FR" && exhibition.data.endDate >= new Date(),
+);
+
+const pastExhibitions = museumCollection.filter(
+  (exhibition) =>
+    exhibition.data.country === "FR" && exhibition.data.endDate <= new Date(),
+);
+
+const otherExhibitions = museumCollection.filter(
+  (exhibition) => exhibition.data.country !== "FR",
+);
+
+const df = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "short",
+});
 ---
 
 <Main
@@ -30,6 +41,56 @@ function pastExhibitions() {
     .date {
       font-style: italic;
       font-size: 0.8em;
+    }
+
+    .cards {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .cards li {
+      border: 0.1em solid currentColor;
+      text-align: center;
+    }
+
+    .cards li.unknown {
+      color: gray;
+    }
+
+    .cards li * {
+      display: block;
+    }
+
+    .cards li > * {
+      padding: 0.5em;
+    }
+
+    .cards li a {
+      display: block;
+      height: 100%;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .cards li a:hover {
+      background-color: var(--contrast);
+    }
+
+    .cards li h3 {
+      text-decoration: underline;
+    }
+
+    .cards li img {
+      display: block;
+      width: calc(100% + 1em);
+      max-width: calc(100% + 1em);
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      padding: 0;
+      margin: -0.5em;
     }
   </style>
   <h2>Museums in Paris</h2>
@@ -72,120 +133,115 @@ function pastExhibitions() {
       >here</a
     >
   </p>
-  <div>
-    <h3>Exhibitions that are currently active</h3>
-    {
-      currentExhibitions()
-        .filter((exhibition) => exhibition.data.country === "FR")
-        .map((article) => {
-          if (article) {
+  {
+    currentExhibitions.length > 0 && (
+      <div>
+        <h3>Exhibitions that are currently active</h3>
+        <ul class="cards">
+          {currentExhibitions.map((article, _i, articles) => {
             return (
-              <li value={article.data.museumName}>
-                {article.data.museumName}:
+              <li value={article.data.title}>
                 <a href={`/articles/museums/${article.id}/`}>
-                  {article.data.exhibitionName}
+                  {(articles.every((art) => art.data.image) ||
+                    import.meta.env.MODE === "development") && (
+                    <Image
+                      src={
+                        museumImages[article.data.image!]?.default ||
+                        placeholder
+                      }
+                      width={448}
+                      height={252}
+                      alt=""
+                    />
+                  )}
+                  <h3>{article.data.title}</h3>
+                  <p>{article.data.intro}</p>
+                  <small>{article.data.museumName}</small>
+                  <small>
+                    {df.format(article.data.startDate)} to{" "}
+                    {df.format(article.data.endDate)}
+                  </small>
                 </a>
-                <p class="date">
-                  Exhibition date:{" "}
-                  {article.data.startDate.toLocaleDateString("en-uk", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}{" "}
-                  to{" "}
-                  {article.data.endDate.toLocaleDateString("en-uk", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </p>
               </li>
             );
-          }
+          })}
+        </ul>
+      </div>
+    )
+  }
+
+  <div>
+    <h3>Exhibitions that have passed</h3>
+    <ul class="cards">
+      {
+        pastExhibitions.map((article, _i, articles) => {
+          return (
+            <li value={article.data.title}>
+              <a href={`/articles/museums/${article.id}/`}>
+                {(articles.every((art) => art.data.image) ||
+                  import.meta.env.MODE === "development") && (
+                  <Image
+                    src={
+                      museumImages[article.data.image!]?.default || placeholder
+                    }
+                    width={448}
+                    height={252}
+                    alt=""
+                  />
+                )}
+                <h3>{article.data.title}</h3>
+                <p>{article.data.intro}</p>
+                <small>{article.data.museumName}</small>
+                <small>
+                  {df.format(article.data.startDate)} to{" "}
+                  {df.format(article.data.endDate)}
+                </small>
+              </a>
+            </li>
+          );
         })
-    }
+      }
+    </ul>
   </div>
-  {
-    pastExhibitions().length ? (
-      <div>
-        <h3>Exhibitions that have passed</h3>
-        {pastExhibitions()
-          .filter((exhibition) => exhibition.data.country === "FR")
-          .map((article) => {
-            if (article) {
-              return (
-                <li value={article.data.museumName}>
-                  {article.data.museumName}:
-                  <a href={`/articles/museums/${article.id}/`}>
-                    {article.data.exhibitionName}
-                  </a>
-                  <p class="date">
-                    Exhibition date:{" "}
-                    {article.data.startDate.toLocaleDateString("en-uk", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}{" "}
-                    to{" "}
-                    {article.data.endDate.toLocaleDateString("en-uk", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}{" "}
-                  </p>
-                </li>
-              );
-            }
-          })}
-      </div>
-    ) : (
-      ""
-    )
-  }
-  <br />
-  <br />
-  <br />
-  {
-    (
-      <div>
-        <h3>Exhibitions outside of France</h3>
-        <p>
-          This blog collection is mostly about thoughts on Paris museums
-          (because that's where I live), but I also want to write about museums
-          that I visit when travelling. Since this is still a new collection, it
-          makes sense for me to keep it all on one page with a small break
-          between the two different types - this will probably change as my blog
-          evolves
-        </p>
-        {museumCollection
-          .filter((exhibition) => exhibition.data.country !== "FR")
-          .map((article) => {
-            if (article) {
-              return (
-                <li value={article.data.museumName}>
-                  {article.data.museumName}:
-                  <a href={`/articles/museums/${article.id}/`}>
-                    {article.data.exhibitionName}
-                  </a>
-                  <p class="date">
-                    Exhibition date:{" "}
-                    {article.data.startDate.toLocaleDateString("en-uk", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}{" "}
-                    to{" "}
-                    {article.data.endDate.toLocaleDateString("en-uk", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}{" "}
-                  </p>
-                </li>
-              );
-            }
-          })}
-      </div>
-    )
-  }
+
+  <div>
+    <h3>Exhibitions outside of France</h3>
+    <p>
+      This blog collection is mostly about thoughts on Paris museums (because
+      that's where I live), but I also want to write about museums that I visit
+      when travelling. Since this is still a new collection, it makes sense for
+      me to keep it all on one page with a small break between the two different
+      types - this will probably change as my blog evolves
+    </p>
+    <ul class="cards">
+      {
+        otherExhibitions.map((article, _i, articles) => {
+          return (
+            <li value={article.data.title}>
+              <a href={`/articles/museums/${article.id}/`}>
+                {(articles.every((art) => art.data.image) ||
+                  import.meta.env.MODE === "development") && (
+                  <Image
+                    src={
+                      museumImages[article.data.image!]?.default || placeholder
+                    }
+                    width={448}
+                    height={252}
+                    alt=""
+                  />
+                )}
+                <h3>{article.data.title}</h3>
+                <p>{article.data.intro}</p>
+                <small>{article.data.museumName}</small>
+                <small>
+                  {df.format(article.data.startDate)} to{" "}
+                  {df.format(article.data.endDate)}
+                </small>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
 </Main>

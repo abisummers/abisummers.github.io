@@ -14,7 +14,7 @@ image: /src/content/museums/images/fog-sculpture.jpeg
 
 You've probably seen photos and videos of this exhibition online, which is not uncommon for the Bourse de Commerce - their exhibitions often look great on photos like with [Céleste Boursier-Mougenot](/articles/museums/bourse-de-commerce-celeste-boursier-mougenot/). And I almost always love what they have on, especially in the Rotunda. This is no exception. It's a unique experience, that is fun for all ages.
 
-But I did leave with a lot of questions about art, how we engage with art and the role of social media. I'm going to prefix this article by saying there is no right or wrong way to enjoy art. Art is subjective. What I take away from this experience, could be very different to what you take away from it. Art is for everyone and is everywhere in our day to day lives and I’m trying to be more mindful with how I engage with it.  Music, poetry, books, museums it all counts. 
+But I did leave with a lot of questions about art, how we engage with art and the role of social media. I'm going to prefix this article by saying there is no right or wrong way to enjoy art. Art is subjective. What I take away from this experience, could be very different to what you take away from it. Art is for everyone and is everywhere in our day to day lives and I’m trying to be more mindful with how I engage with it. Music, poetry, books, museums it all counts.
 
 ### The exhibition
 
@@ -33,7 +33,6 @@ You can also walk to the upper floor and observe the fog sculpture from there. I
 While the fog sculpture is the main event, I highly recommend stopping, and observing the room when the fog is not on. I love this room. I love the way the light falls, the shadows that are cast from the roof, and the quite space for reflection.
 
 ![a circular room. There is no fog. There are a few people sitting around the edge of the room. There is one person standing in the centre taking a photo  of the roof. The roof leaves a shadow on the floor](./images/bourse-de-commerce.jpeg)
-
 
 ### Reflection
 

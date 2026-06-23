@@ -9,6 +9,7 @@ ticketCost: 0
 country: FR
 title: Ernesto Neto, Our Boat Drum Earth
 publishedDate: 2025-06-19
+image: /src/content/museums/images/le-grand-palais-ernesto-neto.jpeg
 ---
 
 This exhibition has been on my to-visit list since I first saw an ad for it in the metro, so I took myself on a solo date. I've been to Le Grand Palais a few times since it reopened, once to see the [wheelchair fencing](/articles/paralympics/#wheelchair-fencing) at the Paralympics, and once to go [ice skating](/articles/guide/ice-skating-grand-palais/). I love love love this building. The architecture is just so impressive.

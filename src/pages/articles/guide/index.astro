@@ -20,6 +20,10 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/content/museums/images/*.{jpeg,jpg}",
   { eager: true },
 );
+
+const df = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "short",
+});
 ---
 
 <Main
@@ -45,8 +49,11 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
     }
 
     .cards li * {
-      padding: 0.5em;
       display: block;
+    }
+
+    .cards li > * {
+      padding: 0.5em;
     }
 
     .cards li a {
@@ -561,7 +568,7 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
   <be></be>
 
   {
-    museumCollection.length ? (
+    museumCollection.length > 0 && (
       <>
         <div>
           <h3 id="museums">Current exhibitions</h3>
@@ -577,36 +584,35 @@ const museumImages = import.meta.glob<{ default: ImageMetadata }>(
           </p>
 
           <ul class="cards">
-            {museumCollection.map((article, _i, articles) => {
-              if (article) {
-                return (
-                  <li value={article.data.title}>
-                    <a href={`/articles/museums/${article.id}/`}>
-                      {(articles.every((art) => art.data.image) ||
-                        import.meta.env.MODE === "development") && (
-                        <Image
-                          src={
-                            museumImages[article.data.image!]?.default ||
-                            placeholder
-                          }
-                          width={448}
-                          height={252}
-                          alt=""
-                        />
-                      )}
-                      <h3>{article.data.title}</h3>
-                      <p>{article.data.intro}</p>
-                    </a>
-                  </li>
-                );
-              }
-            })}
+            {museumCollection.map((article, _i, articles) => (
+              <li value={article.data.title}>
+                <a href={`/articles/museums/${article.id}/`}>
+                  {(articles.every((art) => art.data.image) ||
+                    import.meta.env.MODE === "development") && (
+                    <Image
+                      src={
+                        museumImages[article.data.image!]?.default ||
+                        placeholder
+                      }
+                      width={448}
+                      height={252}
+                      alt=""
+                    />
+                  )}
+                  <h3>{article.data.title}</h3>
+                  <p>{article.data.intro}</p>
+                  <small>{article.data.museumName}</small>
+                  <small>
+                    {df.format(article.data.startDate)} to{" "}
+                    {df.format(article.data.endDate)}
+                  </small>
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
         <br />
       </>
-    ) : (
-      ""
     )
   }
   <hr />
