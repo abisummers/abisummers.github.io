@@ -8,7 +8,7 @@ dateVisited: 2024-05-15
 ticketCost: 0
 country: FR
 title: La France sous leur yeux at the BNF François-Mitterrand
-image: /src/content/museums/images/la-france-sours-leurs-yeux.jpg
+image: /src/content/museums/images/la-france-sous-leurs-yeux.jpg
 ---
 
 I recently when to see this photography exhibition which displays the work of 200 different photographers in more than 400 photos who all captured moments during 2020s. It was my first time attending an exhibition here - and until recently I didn't even know the library had exhibitions. All of the photographers here have a tie with France - either through being French or living in France.
