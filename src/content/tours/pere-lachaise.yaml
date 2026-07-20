@@ -20,7 +20,7 @@ sections:
 
       **Meeting location**: Metro station Alexandre Dumas.
 price:
-  base: 150
+  base: 180
   currency: EUR
   options:
     - title: Guests
