@@ -1,0 +1,43 @@
+order: 1
+name: Le Marais
+description: |-
+ Le Marais is one of the most historic neighbourhoods of Paris. As we walk through the streets, you'll discover some of the history that is in plain sight from the medieval houses to the _hôtel particulier_. Today, it is one of the most popular places to stay in while visiting Paris and you'll understand why! There are some great places to eat and drink, and there are a lot of great museums within walking distance of each other.
+images:
+  - src: "/src/content/tours/images/le-marais-1.jpeg"
+    alt: "taken from inside the park, there is a fountain with water coming out of it. Behind there are some trees with no leaves. outside of the park, there is a row of buildings"
+  - src: "/src/content/tours/images/le-marais-2.jpeg"
+    alt: "two medieval houses. The wooden structure is visible"
+sections:
+  - title: Itinerary
+    content: |-
+      Along the route, I'll give some historical context to why the neighbourhood is like this today. I'll share with you why I love this neighbourhood and how to get the best out of your time here. We'll visit the highlights of the neighbourhood, along with some of the lesser known places.
+      
+      Some of the stops are:
+      - medieval houses
+      - remains of an old city wall
+      - the Saint Paul village
+      - Place des Vosges
+
+      ...and more!
+
+      **Meeting location**: St-Gervais-et-St-Protais Church of Paris
+price:
+  base: 180
+  currency: EUR
+  options:
+    - title: Duration
+      name: duration
+      description: Extend the duration (in hours) of the tour
+      price: 50
+      min: 1
+      max: 9
+      included: 2.5
+      unit: hour
+    - title: Guests
+      name: guests
+      description: Add more guests to the tour
+      price: 20
+      included: 4
+      min: 1
+      max: 10
+      unit: guest
