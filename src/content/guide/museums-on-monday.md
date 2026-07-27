@@ -2,6 +2,7 @@
 title: Museums open on a Monday in Paris
 description: Lots of museums are closed on Monday, so where should you go?
 publishedDate: 2025-11-04
+updatedDate: 2026-07-27
 themes: ["how-to"]
 image: /src/content/guide/images/national-archives.jpeg
 ---
@@ -74,9 +75,11 @@ Free, skip the line access with the National Monument card.
 
 This is another museum that is great for kids. -->
 
-### La Poste
+### The post museum
 
-I haven't been here _yet_ but I'm adding this to the list because I want to visit and because it's indeed open on a monday.
+Musée de La Poste is a very niche museum, which is right up my street. This museum talks about the history of the post, all the way up to present day. It's fascinating to see how much has changed (the innovation!), some of the reasons why things changed and the people involved in this process. There's a small shop where you can buy some stamps to add to your next postcard. I love writing postcards, and this just shows how much work is involved in getting a letter from one place to another over large distances.
+
+practical info: the text is only available in French. Tickets cost 11€.
 
 <!-- ### Architecture museum
 
