@@ -1,9 +1,9 @@
 ---
 languages: ["en"]
 language: "en"
-title: Getting the french high school diploma
-intro: Getting the BAC (french high school diploma) as a non-french citizen
-description: Getting the BAC (french high school diploma) as a non-french citizen
+title: Getting the French high school diploma
+intro: Getting the bac (French high school diploma) as a non-French citizen
+description: Getting the bac (French high school diploma) as a non-French citizen
 publishedDate: 2026-08-26
 updatedDate: 2026-08-26
 ---
@@ -14,37 +14,37 @@ Before becoming a tour guide, I was a backend developer. I had spent three years
 
 ### Why I got the DAEU
 
-In France there are two types of tour guides, licenced guides and unlicensed guides. There's an entire process to getting the license, with a few different ways to achieve it. The first step for me was getting the baccalauréat, also known as the BAC. This is the qualification that you get when you pass _lycée_ (high school). Note, I'm using the word high school because most people are familiar with this term, but in the UK (where I'm from), we call it college or sixth form.
+In France there are two types of tour guides, licenced guides and unlicensed guides. There's an entire process to getting the license, with a few different ways to achieve it. The first step for me was getting the baccalauréat, also known as the bac. This is the qualification that you get when you pass _lycée_ (high school). Note, I'm using the word high school because most people are familiar with this term, but in the UK (where I'm from), we call it college or sixth form.
 
-While I did go to college aged 16-18 (high school) in the UK, the subjects I picked were not enough to convert it to the BAC. I didn't study any languages or humanities. I studied, maths, psychology, biology and chemistry.
+While I did go to college aged 16-18 (high school) in the UK, the subjects I picked were not enough to convert it to the bac. I didn't study any languages or humanities. I studied, maths, psychology, biology and chemistry.
 
 ### What is the DAEU?
 
-The DAEU is the _diplôme d’accès aux études universitaires_, or the diploma that gives you access to superior studies. This qualification gives you the same rights as the BAC. This means, you can use this diploma to get into university, or follow various courses. It's an important piece of paperwork.
+The DAEU is the _diplôme d’accès aux études universitaires_, or the diploma that gives you access to superior studies. This qualification gives you the same rights as the bac. This means, you can use this diploma to get into university, or follow various courses. It's an important piece of paperwork.
 
 ### Why I picked the DAEU
 
 When researching my options, I came across a few different options:
 
-- BAC with lessons at a school
-- BAC as an independent candidate (no classes, just the exams)
+- bac with lessons at a school
+- bac as an independent candidate (no classes, just the exams)
 - DAEU (option pre-DAEU, A (littéraire), B (scientifique), CNED (Centre national d'enseignement à distance) or _remote_)
 
-While I liked the idea of being an independent candidate for the BAC, so that I could study around work, I knew that wasn't the best option for me. Partially because I wasn't sure if my French was good enough, and partially because I know the structure of a class helps me a lot. It was also a good opportunity to meet people which helps keep me motivated. It's the same reason why I did not do the DAEU with the option CNED. I looked at the option of going to school to get the BAC, but the hours would have made it complicated for me to continue working.
+While I liked the idea of being an independent candidate for the bac, so that I could study around work, I knew that wasn't the best option for me. Partially because I wasn't sure if my French was good enough, and partially because I know the structure of a class helps me a lot. It was also a good opportunity to meet people which helps keep me motivated. It's the same reason why I did not do the DAEU with the option CNED. I looked at the option of going to school to get the bac, but the hours would have made it complicated for me to continue working.
 
-So, I applied for the DAEU at Université Paris-Est Créteil (UPEC). The hours were less intense than the hours for the BAC, classes were in the afternoons (and I mostly work mornings) and I hadn't missed the deadline for applying. The littéraire option was the best option for me, because it gets me closer to getting my guiding licence.
+So, I applied for the DAEU at Université Paris-Est Créteil (UPEC). The hours were less intense than the hours for the school that offered bac classes, classes were in the afternoons (and I mostly work mornings) and I hadn't missed the deadline for applying. The littéraire option was the best option for me, because it gets me closer to getting my guiding licence.
 
 ### The entrance exam
 
-In order to get onto the course, you have to sit an exam. There are two parts to this, the French exam and the foreign language exam (in my case English). I was not worried about the English exam with it being my native language, but I was nervous for the French exam. A french exam, for native french speakers! The exams are entirely written, and my written french was _not good_. For both the English and French exams, there are two parts. The first part is reading comprehension, the second part is writing.
+In order to get onto the course, you have to sit an exam. There are two parts to this, the French exam and the foreign language exam (in my case English). I was not worried about the English exam with it being my native language, but I was nervous for the French exam. A French exam, for native French speakers! The exams are entirely written, and my written French was _not good_. For both the English and French exams, there are two parts. The first part is reading comprehension, the second part is writing.
 
-A few days after the exam, you get to pick a time to go into the uni to talk with them about your options. Based on my French exam, they wanted me to do the _pre-DAEU_ (see, I told you my French writing was not good). This is a year dedicated to getting your reading and writing level up to a level that gives you the highest chance of passing the DAEU the following year. I did not want this course to take two years. I was motivated, I knew I could find the time to work on my French outside of school, with the exams being that extra bit of motivation needed. Because my reading comprehension and oral french were good enough, I was able to convince them that I could do the DAEU A in one year. We came up with an agreement that after the mid-year exams, if I was struggling, I'd drop history and geography to focus on the french.
+A few days after the exam, you get to pick a time to go into the uni to talk with them about your options. Based on my French exam, they wanted me to do the _pre-DAEU_ (see, I told you my French writing was not good). This is a year dedicated to getting your reading and writing level up to a level that gives you the highest chance of passing the DAEU the following year. I did not want this course to take two years. I was motivated, I knew I could find the time to work on my French outside of school, with the exams being that extra bit of motivation needed. Because my reading comprehension and oral French were good enough, I was able to convince them that I could do the DAEU A in one year. We came up with an agreement that after the mid-year exams, if I was struggling, I'd drop history and geography to focus on the French.
 
 I had passed the B1 DELF exam in December 2022, but I did not need to provide this, or any other language certificate outside of French entrance exam.
 
 spoiler: I did the DAEU in one year!
 
-After the exams january exams, I got a lovely email, saying that I was progressing well so could continue with all four subjects.
+After the exams January exams, I got a lovely email, saying that I was progressing well so could continue with all four subjects.
 
 ![a screenshot from an email that reads "Quand je vous avais reçue en début d'année, nous avions convenu de nous revoir pour faire un point si nécessaire. Je ne vous ai pas oubliée mais finalement je ne vous ai pas fixé de rendez-vous car vous réussissez bien. Toutefois, n'hésitez pas à revenir vers moi pour toute difficulté. Alors bravo et bonne continuation."](./images/DAEU-mid-year.png)
 
@@ -90,7 +90,7 @@ A 40/80 is what you need to pass. You can get 7 points in one subject and still 
 
 > grades between 40 and 47 (included) give no mention. Grades between 48 and 55 (included) give the mention assez bien. Grades between 56 and 63 (included) give the mention bien, and grades of 64 and higher give you très bien.
 
-I scrapped by with the mention bien by getting 56 points! I'm super proud of this achievement - my exams were graded as if French was my native language. I did not get any sympathy points. I worked hard, I attended almost every class and spent time outside of class working on my french.
+I scraped by with the mention bien by getting 56 points! I'm super proud of this achievement - my exams were graded as if French was my native language. I did not get any sympathy points. I worked hard, I attended almost every class and spent time outside of class working on my french.
 
 ### Get in contact
 
