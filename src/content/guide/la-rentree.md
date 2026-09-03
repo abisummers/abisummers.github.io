@@ -1,5 +1,5 @@
 ---
-title: La rentréé
+title: La rentrée
 description: You may have hear people talking about la rentrée, but what is it? And why is it important?
 publishedDate: 2026-09-03
 themes: ["questions-from-tours"]
@@ -25,6 +25,6 @@ If you live in France, you’ll know about the _associations_, these are essenti
 
 It’s also the time of year when a lot of the museums have new exhibitions starting. Museums often need a few weeks to change the exhibitions. There's a lot of work and care that goes into moving pieces of art around the world. From mid September, we'll see a lot of new openings in Paris. How exciting!
 
-So the start of September, there’s a buzz in the air. The excitement, the start of something new. There’s also a little but of panic of picking up the things you didn’t finish before _les vaccances_, the last minute school supplies and the getting back into routine. In a week or so, everyone will settle back down into their routines. But while the buzz is here, I’m going to be enjoying it.
+So the start of September, there’s a buzz in the air. The excitement, the start of something new. There’s also a little but of panic of picking up the things you didn’t finish before _les vacances_, the last minute school supplies and the getting back into routine. In a week or so, everyone will settle back down into their routines. But while the buzz is here, I’m going to be enjoying it.
 
 I personally think the start of September is a great time to visit Paris. It's a lot quieter because the schools are back (in many places around the world) and the weather is still great. A lot of the monuments that have had long lines over summer are incredibly quiet now. 
