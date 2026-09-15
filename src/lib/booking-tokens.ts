@@ -22,6 +22,7 @@ export interface StoredBooking {
   expiresAt: number;
   status: "pending" | "confirmed" | "cancelled";
   used: boolean;
+  reminderSent?: boolean;
 }
 
 const TOKEN_EXPIRY_HOURS = 48;
@@ -176,4 +177,74 @@ export async function markBookingUsed(
   booking.status = status;
 
   await storage.set(bookingId, JSON.stringify(booking));
+}
+
+/**
+ * Mark reminder as sent for a booking
+ */
+export async function markReminderSent(bookingId: string): Promise<void> {
+  const storage = getStorage();
+
+  const bookingJson = await storage.get(bookingId);
+  if (!bookingJson) {
+    throw new Error("Booking not found");
+  }
+
+  const booking: StoredBooking = JSON.parse(bookingJson);
+  booking.reminderSent = true;
+
+  await storage.set(bookingId, JSON.stringify(booking));
+}
+
+/**
+ * Get all bookings (for admin/scheduled tasks)
+ * Note: In production with Netlify Blobs, you'll need to implement pagination
+ * or maintain a separate index. For MVP, we'll list all.
+ */
+export async function getAllBookings(): Promise<
+  Array<{ bookingId: string; booking: StoredBooking }>
+> {
+  const storage = getStorage();
+
+  if (!isProduction) {
+    // In development, iterate through memory store
+    const bookings: Array<{ bookingId: string; booking: StoredBooking }> = [];
+    for (const [key, value] of memoryStore.entries()) {
+      // Skip token mappings, only process booking IDs
+      if (!key.startsWith("token:")) {
+        try {
+          const booking: StoredBooking = JSON.parse(value);
+          bookings.push({ bookingId: key, booking });
+        } catch (e) {
+          // Skip invalid entries
+        }
+      }
+    }
+    return bookings;
+  } else {
+    // In production with Netlify Blobs
+    const store = getStore("bookings");
+    const { blobs } = await store.list();
+
+    const bookings: Array<{ bookingId: string; booking: StoredBooking }> = [];
+
+    for (const blob of blobs) {
+      // Skip token mappings
+      if (blob.key.startsWith("token:")) {
+        continue;
+      }
+
+      const bookingJson = await store.get(blob.key, { type: "text" });
+      if (bookingJson) {
+        try {
+          const booking: StoredBooking = JSON.parse(bookingJson);
+          bookings.push({ bookingId: blob.key, booking });
+        } catch (e) {
+          // Skip invalid entries
+        }
+      }
+    }
+
+    return bookings;
+  }
 }
