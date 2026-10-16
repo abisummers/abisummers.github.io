@@ -46,7 +46,7 @@ I did question if dropping out was a sign of anxiety, or imposter syndrome. I sp
 
 ### What's next?
 
-Despite the fact I was only a student for five weeks, I have learn a lot. I have really thought about where my priorities are and how I want to spend my time. I love being in a classroom. I love learning. The love of learning is something that is very important when you're a tour guide.
+Despite the fact I was only a student for five weeks, I have learnt a lot. I have really thought about where my priorities are and how I want to spend my time. I love being in a classroom. I love learning. The love of learning is something that is very important when you're a tour guide.
 
 So I want to keep that going - I want to find conferences around the city where I can learn something, deep dive into a topic or try something new. I want to participate in discussions related to the topic. If you know of any places that host regular or semi-regular events, i'd love to know! You can reach me via instagram at [@abi.in.france](https://www.instagram.com/abi.in.france/)! One of the things I really enjoyed in my classes, was learning about iconography. This is definitely something I'm going continue looking in to.
 
