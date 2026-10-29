@@ -4,7 +4,7 @@ description: A free self-guided wheelchair accessible tour of the latin quarter
 publishedDate: 2026-10-29
 themes: ["tour"]
 draft: false
-image: /src/content/guide/images/metre-standard.jpeg
+image: /src/content/guide/images/metre.jpeg
 mapConfig: { latitude: 48.848, longitude: 2.344, zoom: 13.6 }
 locations:
   [
@@ -102,7 +102,7 @@ We walked around the fountain, on the right side of the Sénat passed the _Medic
 
 To the north of Luxembourg gardens on _Rue de Vaugirard_, you'll can find one of the original meter sticks first installed during the French Revolution. Getting here, there are a few tight corners on slanted pavements, notably the corner of _Rue Garanciere_. Don't be alarmed when you see the stairs, directly in front of the meter stick, they have a ramp to enter under the arcade.
 
-![a standardised meter, with a plaque underneath that explains what it is - "ce mètre étalon de marbre fut commandé par la Convention nationale pour encourager l'usage du noveau système métrique. Sur les seize mètres réalisés, entre 1796 et 1799, par le marbrier Corbel sur les dessins de l'architecte Chaigrin et placés dans les lieux les plus fréquentés de Paris, deux seuls subsistent aujourd'hui dans la captiale"](./images/metre-standard.jpeg)
+![a standardised meter](./images/metre.jpeg)
 
 Going back the same way, we headed towards the _Pantheon_. We spoke about some of the famous people buried there and why it's an important monument. A banner of Marc Bloch was hanging up in front since he was the last person to enter the Pantheon. We were there at the end of October so also spoke about education system - the Sorbonne university just in front of the Pantheon was blocked by students for the fourth week in a row.
 
