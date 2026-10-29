@@ -96,7 +96,7 @@ I pointed out _Shakespeare and Company_. Directly in front of the store you have
 
 The next stop was _Luxembourg gardens_. We walked along _Boulevard Saint-Michel_, passing by _Cluny museum_ - we did not go inside but it is an accessible museum (details on their [website](https://www.musee-moyenage.fr/en/are-you/with-specific-needs/with-a-physical-disability)). Luxembourg gardens, also known as the _Sénat gardens_, is one of my favourite gardens in Paris - in the summer, it's a popular spot for a break so finding a place to sit can be hard.
 
-We entered via the entrance opposite _Rue Gay-Lussac_ (see on map below). Inside the garden, the terrain is mostly gravel but they do also have some paths - these paths are sometimes slopped. After entering, you can follow these paths around towards the left until you see the slopped entrance down onto the lower level (see on map below). Here, you get a great view of the Sénat, the flowers and the fountain where kids play with sail boats (they're a lot of fun).
+We entered via the entrance opposite _Rue Gay-Lussac_ (see on map below). Inside the garden, the terrain is mostly gravel but they do also have some paths - these paths are sometimes sloped. After entering, you can follow these paths around towards the left until you see the sloped entrance down onto the lower level (see on map below). Here, you get a great view of the Sénat, the flowers and the fountain where kids play with sail boats (they're a lot of fun).
 
 We walked around the fountain, on the right side of the Sénat passed the _Medici fountain_ and exited via the exit opposite _rue Rotrou_. There's a dropped curb right by the exit, so it is a bit of a tight corner.
 
@@ -117,7 +117,7 @@ We left through the entrance we came in, ending out tour back on the main street
 While this route is wheelchair accessible and is all doable, there are a few parts to pay extra attention too.
 
 - there are some cobble stones, but only for short periods (like crossing the road by Shakespeare and Company)
-- slopped paths in Luxembourg gardens
+- sloped paths in Luxembourg gardens
 - some of the dropped curbs are a little higher than they should be
 - a sharp corner between the arcades along Rue de Vaugirard
 - the corner between Rue Clovis and Rue du Cardinal Lemoine is a narrow and sharp corner on a downward section
