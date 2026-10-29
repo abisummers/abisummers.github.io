@@ -28,7 +28,7 @@ locations:
     },
     {
       title: "Luxembourg gardens",
-      location: "slop to access slower level",
+      location: "slope to access slower level",
       longitude: 2.3370,
       latitude: 48.8455,
     },
