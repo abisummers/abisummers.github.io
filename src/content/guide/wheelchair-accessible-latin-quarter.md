@@ -4,7 +4,7 @@ description: A free self-guided wheelchair accessible tour of the latin quarter
 publishedDate: 2026-10-29
 themes: ["tour"]
 draft: false
-image: /src/content/guide/images/ile-de-la-cite-flower-market.jpeg
+image: /src/content/guide/images/metre-standard.jpeg
 mapConfig: { latitude: 48.848, longitude: 2.344, zoom: 13.6 }
 locations:
   [
