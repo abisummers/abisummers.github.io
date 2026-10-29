@@ -28,7 +28,7 @@ At the centre of _Place Vendôme_ there is the _Colonne Vendôme_, a bronze colu
 
 The French revolution had a massive impact on France (stick with me), but also globally. It was during this period that France standardised certain measurements, including the metre, litre and kilo. Throughout Paris, they had placed 16 meters standards in busy areas to help with the transition into the new system. Only two of them remain today, and one of them is here at 13 Place Vendôme.
 
-![a standardised meter](./images/metre-standard.jpeg)
+![a standardised meter with a plaque underneath that explains what it is - "ce mètre étalon de marbre fut commandé par la Convention nationale pour encourager l'usage du noveau système métrique. Sur les seize mètres réalisés, entre 1796 et 1799, par le marbrier Corbel sur les dessins de l'architecte Chaigrin et placés dans les lieux les plus fréquentés de Paris, deux seuls subsistent aujourd'hui dans la captiale"](./images/metre-standard.jpeg)
 
 Another thing that is not obvious is at that the former Texas Embassy in Paris was here. It's marked by a small plaque that's easy to miss if you're not looking for it.
 
