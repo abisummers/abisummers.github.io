@@ -70,7 +70,7 @@ There's a lot of options for shopping in the area, the first thing I'm going to 
 
 A lot of people want to stock up on French skincare products while here. _Pharmacie du Forum Des Halles_ is a giant pharmacy located in the Westfield Forum des Halles shopping centre. It has everything you could think about, and more. A lot of the staff here speak English and are happy to help out. The prices here are good - not all pharmacies are equal. I will say, that it can get busy, so it's not for everyone.
 
-If you're wanting to buy an [English book](/articles/book-stores/) while here, I'd recommend _Smith & Son_. They have a large selection of books to choose from and a tea room upstairs. They also have a small selection of British snacks like Terry's chocolate orange. It's located just opposite the Tuileries gardens.
+If you're wanting to buy an [English book](/articles/guide/book-stores/) while here, I'd recommend _Smith & Son_. They have a large selection of books to choose from and a tea room upstairs. They also have a small selection of British snacks like Terry's chocolate orange. It's located just opposite the Tuileries gardens.
 
 Along Rue Saint-Honoré you'll find the luxury and designer stores.
 

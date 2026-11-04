@@ -22,7 +22,7 @@ I spent a morning walking along the _Coulée verte René-Dumont_. It's beautiful
 
 I went to the cinema with my partner, we went to watch _Golo et Richie_ which was a fun movie. We both really enjoy travelling by bike, so it was cool to see their adventure. We both didn't know anything about them before the movie, so I'm sure there were some things we missed. I rarely go to the cinema, so it's a nice activity to do from time to time. The last movie I watched in the cinema was Dune part one and part two, and I can't remember what I saw the time before.
 
-I went to the [book store](/articles/book-stores/) The Red Wheelbarrow for the first time! This English focused book store has been on my list for a while but I've never had time while i've been in the area. I read at 2-3 books a month on average, so I'm always looking for my next book.
+I went to the [book store](/articles/guide/book-stores/) The Red Wheelbarrow for the first time! This English focused book store has been on my list for a while but I've never had time while i've been in the area. I read at 2-3 books a month on average, so I'm always looking for my next book.
 
 ### All things blog
 
