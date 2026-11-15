@@ -59,7 +59,7 @@ Once you've finished at the main exhibition, I'd recommend heading into the next
 
 I had a great time! We spent around 1h30 in the exhibition, which involved discussing the maps (like where we'd been on holiday or how Paris has changed).
 
-With an exhibition like this, I think you get more from the exhibition when you slow down and look for the details. Try and find places that mean something to you, where you live, where you go on holiday, or even where you'd like to visit next. This is not always easy because the exhibition can get busy - maps interest a lot of people _and_ it's free to enter.
+With an exhibition like this, I think you get more from the exhibition when you slow down and look for the details. Try and find places that mean something to you, where you live, where you go on holiday, or even where you'd like to visit next. This is not always easy because the exhibition can get busy, especially on a weekend or public holiday - maps interest a lot of people _and_ it's free to enter.
 
 I will say, the layout of this exhibition is not fantastic. You end up needing to going backwards in the first two sections if you want to see everything. They also have some documents underneath the maps, meaning you can't get that close to the maps on the wall, and you have more people surrounding both documents.
 
@@ -67,6 +67,6 @@ If after visiting the main exhibition, you want to visit the other room you need
 
 I think it's also important to note that maps are _still_ political. There are many disputed borders throughout the world, and maps continue to change over time.
 
-## The exhibition can get quite busy, especially on a weekend or public holiday.
+### Share your thoughts
 
 Have you been to this exhibition? If so, I would love to exchange thoughts! You can reach me via instagram at **[@abi.in.france](https://www.instagram.com/abi.in.france/)**
