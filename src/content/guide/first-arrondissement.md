@@ -2,6 +2,7 @@
 title: Paris 1st arrondissement
 description: Museums, landmarks, restaurants and shopping in the first arrondissement
 publishedDate: 2025-01-27
+updatedDate: 2026-11-18
 themes: ["arrondissement"]
 image: /src/content/guide/images/metre-standard.jpeg
 ---
@@ -14,15 +15,15 @@ Depending on what you like to do while on a city holiday, you could spend a few 
 
 I have an entire article dedicated to the [museums of the first arrondissement](/articles/guide/first-arrondissement-museums/), so here are a few highlights:
 
-- at number one, it's obviously the **Louvre** since that's the name of the arrondissement and it's one of the locations that most tourists want to visit. You can easily spend hours here, so allow yourself to have the time to really experience it
-- **Musée de l'Orangerie** to experience 8 of the water lilies murals by Monet.
+- at number one, it's obviously the **Louvre** since that's the name of the arrondissement and it's one of the locations that most tourists want to visit. You can easily spend hours here, so allow yourself to have the time to really experience it. However, don't feel bad if you want to skip it - it can get very overwhelming
+- **Musée de l'Orangerie** to experience 8 large water lilies paintings by Monet in a room designed to display them
 - **59 Rivoli** is an art gallery close to the Louvre. It's a great place to buy small souvenirs and gifts from independent artists. Each artist has their own style, so there's something for everyone
 
 ### Landmarks
 
 While it's a small area, there's a lot to see. Here are some of the other notable places.
 
-The _Tuileries Garden_, at the west side of the Louvre is well worth a visit. I personally like to spend a bit of time outside after a museum, so the gardens are a perfect place for a stroll. They also have seats throughout where you can sit and pause. In winter, it hosts one of the biggest Christmas markets in Paris.
+The _Tuileries Garden_, at the west side of the Louvre is well worth a visit. I personally like to spend a bit of time outside after a museum, so the gardens are a perfect place for a stroll. They also have seats throughout where you can sit and pause - you're allowed to move these chairs so you can move between the sun and shade. In winter, it hosts one of the biggest Christmas markets in Paris.
 
 At the centre of _Place Vendôme_ there is the _Colonne Vendôme_, a bronze column topped by a statue of Napoleon. While this is the first thing you're likely to see, it's not the only thing worth looking at.
 
@@ -30,9 +31,9 @@ The French revolution had a massive impact on France (stick with me), but also g
 
 ![a standardised meter with a plaque underneath that explains what it is - "ce mètre étalon de marbre fut commandé par la Convention nationale pour encourager l'usage du noveau système métrique. Sur les seize mètres réalisés, entre 1796 et 1799, par le marbrier Corbel sur les dessins de l'architecte Chaigrin et placés dans les lieux les plus fréquentés de Paris, deux seuls subsistent aujourd'hui dans la captiale"](./images/metre-standard.jpeg)
 
-Another thing that is not obvious is at that the former Texas Embassy in Paris was here. It's marked by a small plaque that's easy to miss if you're not looking for it.
+Another thing that is not obvious is at that the former Texas Embassy in Paris was here. It's marked by a small plaque that's easy to miss if you're not looking for it. If I'm in this area and have some Texans on my [tour](/book/), I always make a point of showing it!
 
-_Domaine National du Palais-Royal_ is well worth a stop. It's a great place to take photos from and to admire the beautiful buildings. There's also _Jardin du Palais Royal_ which is nice to walk through. If you've seen the series Emily in Paris, you might recognise this place.
+_Domaine National du Palais-Royal_ is well worth a stop. It's a great place to take photos from and to admire the beautiful buildings. There's also _Jardin du Palais Royal_ which is nice to walk through. If you've seen the series Emily in Paris, you might recognise this place because some scenes were filmed here. The office where Emily works is close by too!
 
 ### Best restaurants in the first arrondissement
 
@@ -40,27 +41,27 @@ There are so many restaurants in this part of Paris, here are some of my favouri
 
 **Bistrot Victoires** is a restaurant where you'll find the classic French dishes at a reasonable price. If you've been to Paris before, you'll know that a lot of restaurants are only open for a lunch service and a dinner service. However this is one of the bistros that serves food all day _and_ that I would recommend.
 
-If you're looking for Italian food, I'd recommend **Presto Fresco**. It's possible to reserve a table online which I would suggest to do. I've been here a few times and tried something different each time and I've never been disappointed. This was the restaurant that I went to with my family after I got married and it was a massive success with everyone!
+If you're looking for Italian food, I'd recommend **Presto Fresco**. It's possible to [reserve a table](https://prestofresco.fr/en/) online which I would suggest to do. I've been here a few times and tried something different each time and I've never been disappointed. This was the restaurant that I went to with my family after I got married and it was a massive success with everyone!
 
-I've heard from a friend that **Maslow** is a good vegetarian restaurant. I haven't been (yet), but I trust the judgement of friends so it's going on the list. I know that finding good vegetarian food in Paris isn't always easy. They're also serve food all day.
+If you're looking for a vegetarian restaurant, **Maslow** is a great choice. Here, rather than ordering one dish per person, the idea is that you share a few plates. This can be fun because you get to try lots of different things and I enjoyed everything I tried! I know that finding good vegetarian food in Paris isn't always easy. They serve food all day and take reservations online. It can get quite loud inside, so if you're looking for a quite spot, this is probably not it _or_ you need to go between lunch and dinner time.
 
-**Hakata Choten** is one of my favourite ramen places in Paris. There are two in the 1st arrondissement of Paris, the one on 53 Rue des Petits Champs is my favourite but they're both good. I really like their gyoza with spicy miso sauce. Delicious.
+**Hakata Choten** is one of my favourite ramen places in Paris. There are two in the 1st arrondissement of Paris, the one on 53 Rue des Petits Champs is my favourite but they're both good. I really like their gyoza with spicy miso sauce.
 
-**Kodawari tsujuki** is ramen with a fish based broth. The decor mimics that of the old Tokyo fish market. This is a restaurant that I haven't personally tried because I'm not big fish fan, but I've heard from friends that it's worth it. There is often a queue to get in, and they don't accept reservations.
+**Kodawari tsujuki** is ramen with a fish based broth. The decor mimics that of the old Tokyo fish market. This is a restaurant that I haven't personally tried because I'm not big fan of things that taste like fish or the sea, but many of my friends love this place. There is often a queue to get in, and they don't accept reservations.
 
-**Bistro Ramen Ryukishin** is technically not the first arrondissement, but it's just across the road so I'm adding it here. It's more expensive than some of the other ramen restaurants in Paris but wow is it good. The vegetarian ramen is WOW (and the meat ones are also great, but finding good vegetarian ramen is _hard_).
+**Bistro Ramen Ryukishin** is technically not the first arrondissement, but it's just across the road so I'm adding it here. It's more expensive than some of the other ramen restaurants in Paris but wow is it good. The vegetarian ramen is WOW (and the meat ones are also great, but finding good vegetarian ramen is _hard_). I think about this vegetarian ramen often.
 
 ### Bars
 
-Depending on what you're wanting to drink, you can go into most French bistros and get a beer or glass of wine. You'll often see a lot of French people sitting on the terrace regardless of the weather.
+Depending on what you're wanting to drink, you can go into most French bistros and get a beer or glass of wine. You'll often see a lot of French people sitting on the terrace regardless of the weather. In summer, you'll see a lot of people drinking Aperol Spritz.
 
-**Le Dernier Bar avant la Fin du Monde** (The Last Bar Before the End of the World) is something a bit different. I love coming here, they have creative cocktails and selection of board games to play. The staff are all really friendly. They have multiple floors, which have different themes.
+**Le Dernier Bar avant la Fin du Monde** (The Last Bar Before the End of the World) is something a bit different. I love coming here, they have creative cocktails and selection of board games to play. They have multiple floors, which have different themes (the lower levels don't have signal which make make meeting up a little complicated).
 
 **Le Garde Robe** is a small wine bar, that has a lot of natural wines. It's small, so it's worth reserving if this is something you want to do.
 
 ### Transport
 
-This area is very well connected to the rest of Paris. There are multiple metro lines (1, 4, 7, 11 and 14), and multiple RER lines (A, B and D) that run through the station _Châtelet - Les Halles_ (it's really two stations that merged into one). Because of this, it can be a _nightmare_ to get out of the station. You can be walking for 15 minutes to get from one line to the other line. Google Maps will often tell you there's a walk, but it often underestimates it especially if you're not familiar with the station. A lot of locals joke about the _Châtelet - Les Halles escape game_. There's more than 20 exits, and you'll probably lose the exit number you're following.
+This area is very well connected to the rest of Paris. There are multiple metro lines (1, 4, 7, 11 and 14), and multiple RER lines (A, B and D) that run through the station _Châtelet - Les Halles_ (it's really two stations that merged into one). Because of this, it can be a _nightmare_ to get out of the station. You can be walking for 15 minutes to get from one line to the other line if you don't know _exactly_ where you're going. Google Maps will often tell you there's a walk, but it often underestimates it especially if you're not familiar with the station. A lot of locals joke about the _Châtelet - Les Halles escape game_. There's more than 20 exits, and you'll probably lose the exit number you're following.
 
 Account for extra time when passing through here, and if possible _avoid_ (seriously, a lot of locals avoid this station).
 
@@ -68,7 +69,7 @@ Account for extra time when passing through here, and if possible _avoid_ (serio
 
 There's a lot of options for shopping in the area, the first thing I'm going to suggest is somewhat niche.
 
-A lot of people want to stock up on French skincare products while here. _Pharmacie du Forum Des Halles_ is a giant pharmacy located in the Westfield Forum des Halles shopping centre. It has everything you could think about, and more. A lot of the staff here speak English and are happy to help out. The prices here are good - not all pharmacies are equal. I will say, that it can get busy, so it's not for everyone.
+A lot of people want to stock up on French skincare products while here. _Pharmacie du Forum Des Halles_ is a giant pharmacy located in the Westfield Forum des Halles shopping centre. It has everything you could think about, and more. A lot of the staff here speak English and are happy to help out. The prices here are good - not all pharmacies are equal. I will say, that it can get busy, so it's not for everyone. This is personally where I shop for things like sun cream.
 
 If you're wanting to buy an [English book](/articles/guide/book-stores/) while here, I'd recommend _Smith & Son_. They have a large selection of books to choose from and a tea room upstairs. They also have a small selection of British snacks like Terry's chocolate orange. It's located just opposite the Tuileries gardens.
 
